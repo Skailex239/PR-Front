@@ -1,0 +1,100 @@
+/**
+ * Dictionnaire français (langue par défaut).
+ * Toute chaîne affichée dans l'UI passe par ce dict — la version EN est prête
+ * dans ./en.ts pour une future bascule de langue.
+ */
+const fr = {
+  site: {
+    name: "PR-Front",
+    tagline: "Le Power Ranking compétitif d'OpenFront.io",
+    description:
+      "Classement officiel des joueurs de tournois OpenFront.io : points par phase, victoires, profils et stats en direct.",
+  },
+  nav: {
+    leaderboard: "Classement",
+    tournaments: "Tournois",
+  },
+  common: {
+    player: "Joueur",
+    players: "Joueurs",
+    tournament: "Tournoi",
+    tournaments: "Tournois",
+    points: "Points",
+    events: "Tournois joués",
+    wins: "Victoires",
+    top3: "Top 3",
+    bestPlace: "Meilleure place",
+    avgPlace: "Place moy. (finale)",
+    rank: "Rang",
+    date: "Date",
+    format: "Format",
+    tier: "Tier",
+    map: "Carte",
+    participants: "Participants",
+    phase: "Phase",
+    place: "Place",
+    participation: "Participation",
+    sampleBadge: "Données d'exemple",
+    discordId: "ID Discord",
+    search: "Rechercher un joueur…",
+    noResult: "Aucun joueur trouvé.",
+    viewProfile: "Voir le profil",
+    backToLeaderboard: "← Retour au classement",
+    backToTournaments: "← Retour aux tournois",
+    unknownPlayer: "Joueur inconnu",
+  },
+  formats: {
+    ffa: "FFA multi-manches",
+    bracket: "Bracket 1v1",
+  } as Record<string, string>,
+  leaderboard: {
+    title: "Power Ranking",
+    subtitle: "Classement des joueurs du circuit — points cumulés sur tous les tournois, sans décroissance.",
+    updated: "Mis à jour par l'organisateur",
+    colPlayer: "Joueur",
+    colPr: "PR",
+    colEvents: "Tournois",
+    colWins: "Victoires",
+    colTop3: "Top 3",
+    colAvgPlace: "Place moy.",
+    empty: "Le classement est vide pour l'instant — les premiers tournois arrivent bientôt.",
+    podiumPts: "pts",
+  },
+  player: {
+    prPoints: "Points PR",
+    globalRank: "Rang mondial",
+    breakdown: "Détail des points",
+    breakdownHint: "Comment ce joueur a gagné ses points, tournoi par tournoi.",
+    liveTitle: "Stats OpenFront en direct",
+    liveSubtitle: "Données publiques récupérées sur api.openfront.io (cache 5 min).",
+    liveWinrate: "Winrate récent",
+    liveRecent: "Dernières parties publiques",
+    liveUnavailable: "Stats en direct indisponibles pour le moment (API OpenFront injoignable ou joueur introuvable).",
+    liveNotLinked: "Aucun compte OpenFront n'est relié à ce joueur — pas de stats live.",
+    liveLoading: "Chargement des stats live…",
+    liveSample: "sur les {n} dernières parties",
+    noTournament: "Ce joueur n'a pas encore participé à un tournoi du circuit.",
+    victory: "Victoire",
+    defeat: "Défaite",
+    incomplete: "Incomplet",
+    openfrontId: "Public ID OpenFront",
+  },
+  tournaments: {
+    title: "Tournois du circuit",
+    subtitle: "Tous les tournois comptant pour le Power Ranking.",
+    results: "Résultats",
+    podium: "Podium",
+    perPhase: "Résultats par phase",
+    winner: "Vainqueur",
+    finalist: "Finaliste",
+    upcoming: "À venir",
+    count: "{n} tournoi(s)",
+  },
+  footer: {
+    byline: "Projet communautaire non affilié à OpenFront.io.",
+    data: "Données de tournois saisies par l'organisateur · Stats live via l'API publique OpenFront.",
+  },
+};
+
+export default fr;
+export type Dict = typeof fr;

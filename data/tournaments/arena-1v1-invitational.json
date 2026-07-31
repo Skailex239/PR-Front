@@ -1,0 +1,43 @@
+{
+  "slug": "arena-1v1-invitational",
+  "name": "Arena 1v1 Invitational",
+  "date": "2026-07-19",
+  "format": "bracket",
+  "tier": "minor",
+  "map": "World",
+  "participants": 16,
+  "sample": true,
+  "phases": [
+    {
+      "id": "t1",
+      "type": "premier-tour",
+      "placements": [
+        { "player": "205678901234567890" }, { "player": "294567890123456789" },
+        { "player": "227890123456789012" }, { "player": "288456789012345678" }
+      ]
+    },
+    {
+      "id": "qf",
+      "type": "quart-de-finale",
+      "placements": [
+        { "player": "198765432109876543" }, { "player": "259123456789012345" },
+        { "player": "233678901234567890" }, { "player": "216789012345678901" }
+      ]
+    },
+    {
+      "id": "sf",
+      "type": "demi-finale",
+      "placements": [
+        { "player": "245678901234567890" }, { "player": "321987654321098765" }
+      ]
+    },
+    {
+      "id": "f",
+      "type": "finale",
+      "placements": [
+        { "player": "274849916583788544", "place": 1 },
+        { "player": "302050872383242240", "place": 2 }
+      ]
+    }
+  ]
+}
