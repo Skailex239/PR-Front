@@ -52,3 +52,5 @@ export default function HomePage() {
     </div>
   );
 }
+import SearchPlayer from '../components/Search';
+export default function Home() { return <main className="p-8"><h1 className="text-3xl text-amber-900">Fortnite Tracker Style</h1><SearchPlayer /></main> }

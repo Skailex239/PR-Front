@@ -1,106 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #0a0e17;
-  --color-ink2: #0d1322;
-  --color-panel: #11182b;
-  --color-panel2: #17203a;
-  --color-line: #233050;
-  --color-text: #e9edf7;
-  --color-muted: #8b96b0;
-  --color-accent: #7c5cff;
-  --color-cyan2: #00d4ff;
-  --color-gold: #ffd24a;
-  --color-silver: #c9d4e6;
-  --color-bronze: #e0905a;
-  --color-win: #34d399;
-  --color-loss: #f87171;
+  --color-ink: #2D1B0E;
+  --color-panel: #F7F2E7;
+  --color-line: #DABFA3;
+  --color-text: #3A2E24;
+  --color-muted: #8C7A6B;
+  --color-accent: #E87722;
+  --color-beige: #F5EDD8;
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-html {
-  color-scheme: dark;
-}
-
-body {
-  background:
-    radial-gradient(1200px 500px at 70% -10%, rgba(124, 92, 255, 0.14), transparent 60%),
-    radial-gradient(900px 420px at 10% -10%, rgba(0, 212, 255, 0.10), transparent 55%),
-    var(--color-ink);
-  color: var(--color-text);
-  font-family: var(--font-sans);
-  min-height: 100vh;
-}
-
-.num {
-  font-variant-numeric: tabular-nums;
-}
-
-.card {
-  background: linear-gradient(180deg, var(--color-panel2), var(--color-panel));
-  border: 1px solid var(--color-line);
-  border-radius: 0.9rem;
-}
-
-.card-hover {
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
-}
-.card-hover:hover {
-  transform: translateY(-2px);
-  border-color: rgba(124, 92, 255, 0.55);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
-}
-
-.chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  border: 1px solid var(--color-line);
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 9999px;
-  padding: 0.15rem 0.6rem;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--color-muted);
-}
-
-.gradient-text {
-  background: linear-gradient(90deg, var(--color-accent), var(--color-cyan2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-.micro-label {
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: var(--color-muted);
-}
-
-.rank-1 { color: var(--color-gold); }
-.rank-2 { color: var(--color-silver); }
-.rank-3 { color: var(--color-bronze); }
-
-.podium-glow-1 { box-shadow: 0 0 60px -12px rgba(255, 210, 74, 0.35); border-color: rgba(255, 210, 74, 0.45) !important; }
-.podium-glow-2 { box-shadow: 0 0 40px -14px rgba(201, 212, 230, 0.35); border-color: rgba(201, 212, 230, 0.35) !important; }
-.podium-glow-3 { box-shadow: 0 0 40px -14px rgba(224, 144, 90, 0.35); border-color: rgba(224, 144, 90, 0.4) !important; }
-
-.result-win { color: var(--color-win); }
-.result-loss { color: var(--color-loss); }
-
-/* Lignes du tableau de classement */
-.lb-row {
-  border-bottom: 1px solid rgba(35, 48, 80, 0.6);
-  transition: background 0.12s ease;
-}
-.lb-row:hover {
-  background: rgba(124, 92, 255, 0.07);
-}
-
-/* Scrollbar discrète */
-::-webkit-scrollbar { width: 10px; height: 10px; }
-::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 8px; }
-::-webkit-scrollbar-track { background: transparent; }
+html { color-scheme: light; }
+body { background: var(--color-beige); color: var(--color-text); font-family: var(--font-sans); transition: background 0.4s ease, color 0.4s ease; }
+.card { background: var(--color-panel); border: 1px solid var(--color-line); border-radius: 1rem; transition: transform 0.3s ease, box-shadow 0.3s ease; }
