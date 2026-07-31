@@ -109,3 +109,87 @@ test("erreur explicite sur phase inconnue", () => {
   const bad: Tournament = { ...cup, phases: [{ id: "x", type: "quart-de-finale", placements: [{ player: "A" }] }] };
   assert.throws(() => computePlayerPRs([bad], scoring), /phase inconnue/);
 });
+
+// ---------- Barème "minor" par tranches de placement (1er → 100e+) ----------
+
+const minorScoring: ScoringConfig = {
+  tiers: { minor: 0.5, standard: 1 },
+  formats: {
+    minor: {
+      phaseOrder: ["classement"],
+      phases: {
+        classement: {
+          label: "Classement",
+          places: { "1": 1000, "2": 750, "3": 600 },
+          ranges: [
+            { min: 11, max: 15, points: 220 },
+            { min: 100, max: null, points: 3 },
+          ],
+          defaultPoints: 1,
+          ignoreTierMultiplier: true,
+        },
+      },
+    },
+  },
+};
+
+const minorCup: Tournament = {
+  slug: "minor-1",
+  name: "Minor #1",
+  date: "2026-07-20",
+  format: "minor",
+  tier: "minor",
+  participants: 150,
+  phases: [
+    {
+      id: "classement",
+      type: "classement",
+      placements: [
+        { player: "A", place: 1 },
+        { player: "B", place: 13 },
+        { player: "C", place: 150 },
+      ],
+    },
+  ],
+};
+
+test("barème par tranches : points corrects pour une place dans une tranche", () => {
+  const prs = computePlayerPRs([minorCup], minorScoring);
+  assert.equal(prs.get("B")?.points, 220); // tranche 11-15
+});
+
+test("barème par tranches : tranche ouverte (100e et au-delà)", () => {
+  const prs = computePlayerPRs([minorCup], minorScoring);
+  assert.equal(prs.get("C")?.points, 3); // tranche 100+
+});
+
+test("ignoreTierMultiplier : le multiplicateur du tier minor (×0.5) n'est pas appliqué", () => {
+  const prs = computePlayerPRs([minorCup], minorScoring);
+  assert.equal(prs.get("A")?.points, 1000); // pas 500
+});
+
+test("countsAsFinal implicite (type 'finale') vs explicite : la phase 'classement' compte comme finale par défaut si non précisé", () => {
+  // Par défaut (sans countsAsFinal), une phase qui ne s'appelle pas "finale" ne compte pas comme finale.
+  const prs = computePlayerPRs([minorCup], minorScoring);
+  assert.equal(prs.get("A")?.wins, 0);
+  assert.equal(prs.get("A")?.bestPlace, null);
+});
+
+const minorScoringWithFinalFlag: ScoringConfig = {
+  ...minorScoring,
+  formats: {
+    minor: {
+      ...minorScoring.formats.minor,
+      phases: {
+        classement: { ...minorScoring.formats.minor.phases.classement, countsAsFinal: true },
+      },
+    },
+  },
+};
+
+test("countsAsFinal: true fait compter la phase comme le classement final (victoires, meilleure place)", () => {
+  const prs = computePlayerPRs([minorCup], minorScoringWithFinalFlag);
+  assert.equal(prs.get("A")?.wins, 1);
+  assert.equal(prs.get("A")?.bestPlace, 1);
+  assert.equal(prs.get("B")?.bestPlace, 13);
+});

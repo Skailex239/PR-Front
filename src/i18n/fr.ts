@@ -46,6 +46,7 @@ const fr = {
   formats: {
     ffa: "FFA multi-manches",
     bracket: "Bracket 1v1",
+    minor: "Classement minor",
   } as Record<string, string>,
   search: {
     heroPlaceholder: "Rechercher un joueur, un clan, un ID Discord…",

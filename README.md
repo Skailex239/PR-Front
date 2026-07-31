@@ -40,7 +40,11 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
   demi-finale, finale…) attribue des points selon le placement.
 - **Multiplicateur de tier** : `major ×1.5`, `standard ×1.0`, `minor ×0.5`.
 - **Aucune décroissance** : tous les résultats comptent, cumul à vie.
-- **Deux formats gérés** : FFA multi-manches et bracket 1v1.
+- **Trois formats gérés** : FFA multi-manches, bracket 1v1, et `minor`
+  (classement battle royale géant par tranches de placement, ex. 1er = 1000 pts,
+  11e-15e = 220 pts, 100e et au-delà = 3 pts — voir `data/scoring.config.json`).
+  Le barème `minor` inclut déjà ses points finaux : le multiplicateur de tier
+  n'est **pas** réappliqué par-dessus.
 - Le barème complet est dans **[`data/scoring.config.json`](data/scoring.config.json)** —
   c'est le seul fichier à modifier pour changer la grille de points.
 
@@ -79,7 +83,7 @@ Les données vivent dans le dossier [`data/`](data/) — aucune base de données
   "slug": "openfront-cup-3",
   "name": "OpenFront Cup #3",
   "date": "2026-08-09",
-  "format": "ffa",            // "ffa" | "bracket"
+  "format": "ffa",            // "ffa" | "bracket" | "minor"
   "tier": "standard",         // "minor" | "standard" | "major"
   "map": "World",
   "participants": 32,
@@ -99,6 +103,39 @@ Les données vivent dans le dossier [`data/`](data/) — aucune base de données
 
 Les données actuelles sont **des exemples** (`"sample": true`, badge affiché sur le site) —
 à remplacer par les vrais joueurs/tournois.
+
+### Tournois `minor` (classement par tranches, gros effectif)
+
+Format dédié aux tournois à grand nombre de joueurs, notés directement de la 1ère
+à la dernière place (pas de qualifs/demi/finale séparées) :
+
+```json
+{
+  "slug": "openfront-minor-3",
+  "name": "OpenFront Minor #3",
+  "date": "2026-08-20",
+  "format": "minor",
+  "tier": "minor",
+  "participants": 120,
+  "phases": [
+    {
+      "id": "classement",
+      "type": "classement",   // clé "classement" du format "minor" dans scoring.config.json
+      "placements": [
+        { "player": "302050872383242240", "place": 1 },
+        { "player": "274849916583788544", "place": 47 },
+        { "player": "198765432109876543", "place": 113 }
+      ]
+    }
+  ]
+}
+```
+
+Le barème (`scoring.config.json` → `formats.minor.phases.classement`) définit des
+points exacts pour les 10 premières places puis des **tranches** (`ranges`, ex.
+`{ "min": 11, "max": 15, "points": 220 }` ou `{ "min": 100, "max": null, "points": 3 }`
+pour « 100e et au-delà »). Cette phase compte aussi comme le classement final du
+joueur pour ses stats (victoires, top 3, meilleure place).
 
 ## 🚀 Développement
 

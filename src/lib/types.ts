@@ -7,7 +7,7 @@
  *   - tournaments/*.json    → résultats des tournois
  */
 
-export type TournamentFormat = "ffa" | "bracket";
+export type TournamentFormat = "ffa" | "bracket" | "minor";
 
 export interface Player {
   /** ID Discord (18 chiffres) — identité principale du joueur dans le circuit. */
@@ -50,12 +50,37 @@ export interface Tournament {
   phases: TournamentPhase[];
 }
 
+export interface ScoringPlaceRange {
+  /** Première place (incluse) de la tranche. */
+  min: number;
+  /** Dernière place (incluse) de la tranche, ou `null` pour "et au-delà". */
+  max: number | null;
+  points: number;
+}
+
 export interface ScoringPhase {
   label: string;
-  /** Points par placement, ex. { "1": 100, "2": 80 }. */
+  /** Points par placement exact, ex. { "1": 100, "2": 80 }. */
   places: Record<string, number>;
+  /**
+   * Tranches de placements (utile pour les gros classements type battle
+   * royale : "11e-15e", "100e et au-delà"…). Vérifiées après `places`,
+   * avant `defaultPoints`.
+   */
+  ranges?: ScoringPlaceRange[];
   /** Points si aucun placement précis n'est défini pour ce rang. */
   defaultPoints: number;
+  /**
+   * Si vrai, cette phase ignore le multiplicateur de tier du tournoi
+   * (les points du barème sont déjà les points finaux).
+   */
+  ignoreTierMultiplier?: boolean;
+  /**
+   * Si vrai, cette phase compte comme le classement final du tournoi pour
+   * les stats (victoires, top3, meilleure place, place moyenne). Par
+   * défaut, seule la phase de type "finale" compte.
+   */
+  countsAsFinal?: boolean;
 }
 
 export interface ScoringFormat {

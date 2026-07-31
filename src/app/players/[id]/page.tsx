@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getLeaderboard, getPlayer, getPlayerPR, getPlayers } from "@/lib/data";
+import { getLeaderboard, getPlayer, getPlayerPR, getPlayers, getScoring, getTournament } from "@/lib/data";
+import { isFinalPhase } from "@/lib/pr";
 import LiveStats from "@/components/live-stats";
 import { Avatar } from "@/components/ui";
 import { formatDate, formatPoints, placeLabel } from "@/lib/format";
@@ -53,6 +54,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
   const name = player?.name ?? id;
 
   // Regroupe les attributions de points par tournoi (plus récent d'abord).
+  const scoring = getScoring();
   const groups: TournamentGroup[] = [];
   if (pr) {
     for (const a of [...pr.awards].reverse()) {
@@ -63,7 +65,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
       }
       g.awards.push(a);
       g.total += a.points;
-      if (a.phaseType === "finale" && a.place != null) {
+      const tn = getTournament(a.tournamentSlug);
+      if (tn && isFinalPhase(scoring, tn, a.phaseType) && a.place != null) {
         g.bestPlace = g.bestPlace == null ? a.place : Math.min(g.bestPlace, a.place);
       }
     }

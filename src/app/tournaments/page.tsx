@@ -1,18 +1,19 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getPlayer, getTournaments, getScoring } from "@/lib/data";
+import { isFinalPhase } from "@/lib/pr";
 import { SectionTitle, FormatBadge, TierBadge, SampleBadge } from "@/components/ui";
 import { formatDate } from "@/lib/format";
-import type { Tournament } from "@/lib/types";
+import type { ScoringConfig, Tournament } from "@/lib/types";
 import { getDict, tpl } from "@/i18n";
 
 const t = getDict();
 
 export const metadata: Metadata = { title: t.tournaments.title };
 
-function winnerOf(tn: Tournament) {
+function winnerOf(tn: Tournament, scoring: ScoringConfig) {
   for (const phase of tn.phases) {
-    if (phase.type !== "finale") continue;
+    if (!isFinalPhase(scoring, tn, phase.type)) continue;
     const win = phase.placements.find((p) => p.place === 1);
     if (win) return getPlayer(win.player)?.name ?? win.player;
   }
@@ -21,14 +22,14 @@ function winnerOf(tn: Tournament) {
 
 export default function TournamentsPage() {
   const tournaments = getTournaments();
-  getScoring(); // valide la config tôt
+  const scoring = getScoring();
 
   return (
     <div>
       <SectionTitle title={t.tournaments.title} subtitle={t.tournaments.subtitle} />
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {tournaments.map((tn) => {
-          const winner = winnerOf(tn);
+          const winner = winnerOf(tn, scoring);
           return (
             <Link key={tn.slug} href={`/tournaments/${tn.slug}`} className="card card-hover block p-5">
               <div className="flex items-start justify-between gap-2">

@@ -47,6 +47,7 @@ const en: Dict = {
   formats: {
     ffa: "Multi-round FFA",
     bracket: "1v1 bracket",
+    minor: "Minor ranking",
   } as Record<string, string>,
   search: {
     heroPlaceholder: "Search a player, a clan, a Discord ID…",

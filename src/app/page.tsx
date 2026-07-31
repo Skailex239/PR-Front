@@ -1,4 +1,5 @@
-import { getLeaderboard, getSearchIndex, getTournaments } from "@/lib/data";
+import { getLeaderboard, getScoring, getSearchIndex, getTournaments } from "@/lib/data";
+import { isFinalPhase } from "@/lib/pr";
 import LeaderboardView, { type LbRow } from "@/components/leaderboard-view";
 import Podium from "@/components/podium";
 import Spotlight from "@/components/spotlight";
@@ -11,6 +12,7 @@ const t = getDict();
 export default function HomePage() {
   const entries = getLeaderboard();
   const tournaments = getTournaments();
+  const scoring = getScoring();
   const searchIndex = getSearchIndex();
   const hasSample = tournaments.some((tn) => tn.sample);
 
@@ -32,7 +34,7 @@ export default function HomePage() {
   const latestWinnerName = (() => {
     if (!latestTournament) return null;
     for (const phase of latestTournament.phases) {
-      if (phase.type !== "finale") continue;
+      if (!isFinalPhase(scoring, latestTournament, phase.type)) continue;
       const win = phase.placements.find((p) => p.place === 1);
       if (win) return entries.find((e) => e.playerId === win.player)?.player?.name ?? win.player;
     }
