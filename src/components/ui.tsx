@@ -60,7 +60,7 @@ export function TierBadge({ tier }: { tier: string }) {
 
 export function FormatBadge({ format, label }: { format: string; label: string }) {
   return (
-    <span className="chip border-accent/40 bg-accent/10 text-violet-300">
+    <span className="chip border-accent/40 bg-accent/10 text-accent-strong">
       {format === "bracket" ? "⚔" : "🌐"} {label}
     </span>
   );

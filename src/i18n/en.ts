@@ -48,6 +48,21 @@ const en: Dict = {
     ffa: "Multi-round FFA",
     bracket: "1v1 bracket",
   } as Record<string, string>,
+  search: {
+    heroPlaceholder: "Search a player, a clan, a Discord ID…",
+    heroCta: "Search",
+    navPlaceholder: "Search…",
+    noResults: "No player matches.",
+    resultsHint: "Press Enter to open the first result",
+  },
+  spotlight: {
+    champion: "Current champion",
+    mostWins: "Most wins",
+    latestTournament: "Latest tournament",
+    viewAll: "View all",
+    noWinner: "No winner yet",
+    noData: "No data yet",
+  },
   leaderboard: {
     title: "Power Ranking",
     subtitle: "Circuit player rankings — cumulative points across all tournaments, no decay.",
@@ -64,6 +79,7 @@ const en: Dict = {
   player: {
     prPoints: "PR Points",
     globalRank: "Global rank",
+    lifetimeStats: "Lifetime stats",
     breakdown: "Points breakdown",
     breakdownHint: "How this player earned points, tournament by tournament.",
     liveTitle: "Live OpenFront stats",

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { getSearchIndex } from "@/lib/data";
 import { getDict } from "@/i18n";
 
 const t = getDict();
@@ -17,10 +18,11 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const searchIndex = getSearchIndex();
   return (
     <html lang="fr">
       <body className="flex min-h-screen flex-col antialiased">
-        <Navbar />
+        <Navbar searchIndex={searchIndex} />
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">{children}</main>
         <Footer />
       </body>

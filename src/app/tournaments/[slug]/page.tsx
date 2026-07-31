@@ -83,7 +83,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
                         <tr key={p.player} className="lb-row">
                           <td className="px-4 py-2.5"><PlaceNumber place={p.place ?? null} /></td>
                           <td className="px-4 py-2.5">
-                            <Link href={`/players/${p.player}`} className="flex items-center gap-3 hover:text-violet-300 hover:underline">
+                            <Link href={`/players/${p.player}`} className="flex items-center gap-3 hover:text-accent-strong hover:underline">
                               <Avatar name={pl?.name ?? p.player} size="sm" />
                               <span className="font-semibold">
                                 {pl?.clan ? <span className="mr-1.5 text-xs text-muted">[{pl.clan}]</span> : null}

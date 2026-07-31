@@ -1,6 +1,8 @@
-import { getLeaderboard, getTournaments } from "@/lib/data";
+import { getLeaderboard, getSearchIndex, getTournaments } from "@/lib/data";
 import LeaderboardView, { type LbRow } from "@/components/leaderboard-view";
 import Podium from "@/components/podium";
+import Spotlight from "@/components/spotlight";
+import SearchBox from "@/components/search-box";
 import { SampleBadge } from "@/components/ui";
 import { getDict } from "@/i18n";
 
@@ -9,6 +11,7 @@ const t = getDict();
 export default function HomePage() {
   const entries = getLeaderboard();
   const tournaments = getTournaments();
+  const searchIndex = getSearchIndex();
   const hasSample = tournaments.some((tn) => tn.sample);
 
   const rows: LbRow[] = entries.map((e) => ({
@@ -23,6 +26,19 @@ export default function HomePage() {
     avgPlace: e.avgPlace,
   }));
 
+  const champion = entries[0] ?? null;
+  const mostWins = [...entries].sort((a, b) => b.wins - a.wins)[0] ?? null;
+  const latestTournament = tournaments[0] ?? null;
+  const latestWinnerName = (() => {
+    if (!latestTournament) return null;
+    for (const phase of latestTournament.phases) {
+      if (phase.type !== "finale") continue;
+      const win = phase.placements.find((p) => p.place === 1);
+      if (win) return entries.find((e) => e.playerId === win.player)?.player?.name ?? win.player;
+    }
+    return null;
+  })();
+
   return (
     <div>
       {/* Hero */}
@@ -32,12 +48,29 @@ export default function HomePage() {
           POWER <span className="gradient-text">RANKING</span>
         </h1>
         <p className="mx-auto mt-3 max-w-2xl text-sm text-muted">{t.leaderboard.subtitle}</p>
+
+        <div className="mt-6">
+          <SearchBox items={searchIndex} variant="hero" />
+        </div>
+
         <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
           <span className="chip">🏆 {tournaments.length} {t.common.tournaments.toLowerCase()}</span>
           <span className="chip">👥 {rows.length} {t.common.players.toLowerCase()}</span>
           {hasSample ? <SampleBadge label={t.common.sampleBadge} /> : null}
         </div>
       </div>
+
+      {/* Spotlight — façon Fortnite Tracker */}
+      {entries.length > 0 ? (
+        <div className="mb-8">
+          <Spotlight
+            champion={champion}
+            mostWins={mostWins}
+            latestTournament={latestTournament}
+            latestWinnerName={latestWinnerName}
+          />
+        </div>
+      ) : null}
 
       {entries.length === 0 ? (
         <div className="card mx-auto max-w-lg p-10 text-center text-sm text-muted">{t.leaderboard.empty}</div>
