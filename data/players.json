@@ -1,0 +1,17 @@
+{
+  "_note": "Joueurs du circuit. La clé 'id' est le public ID OpenFront (visible sur le profil openfront.io du joueur). DONNÉES D'EXEMPLE — à remplacer par les vrais joueurs.",
+  "players": [
+    { "id": "Xk29FvQz", "name": "Skailex",   "clan": "PRF", "country": "FR" },
+    { "id": "HabCsQYR", "name": "NovaStrike", "clan": "NUB", "country": "FR" },
+    { "id": "Tm4Wd8Lx", "name": "Korrigan",   "clan": "UON", "country": "FR" },
+    { "id": "Pz71QaVe", "name": "VortexFR",   "clan": "LUX", "country": "BE" },
+    { "id": "Bc3Nh6Jk", "name": "Marechal",   "clan": null,  "country": "FR" },
+    { "id": "Qw9Tz2Rf", "name": "PixelReaper", "clan": "ROC", "country": "CA" },
+    { "id": "Gf5Mu1Xp", "name": "Atlantis",   "clan": "UN",  "country": "FR" },
+    { "id": "Lr8Kd4Sy", "name": "OmbreSolide", "clan": null,  "country": "CH" },
+    { "id": "Ne2Vb7Hc", "name": "FauconNord", "clan": "UON", "country": "FR" },
+    { "id": "Ys6Pc3Wm", "name": "DeltaWave",  "clan": "NUB", "country": "FR" },
+    { "id": "Ud1Jg9Tn", "name": "Croissant",  "clan": null,  "country": "FR" },
+    { "id": "Ix4Kl8Zo", "name": "BriseGlace", "clan": "LUX", "country": "FR" }
+  ]
+}

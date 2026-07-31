@@ -1,0 +1,50 @@
+{
+  "slug": "openfront-cup-2",
+  "name": "OpenFront Cup #2",
+  "date": "2026-07-05",
+  "format": "ffa",
+  "tier": "major",
+  "map": "Europe Classic",
+  "participants": 40,
+  "sample": true,
+  "phases": [
+    {
+      "id": "qualifs",
+      "type": "qualifications",
+      "placements": [
+        { "player": "Xk29FvQz" }, { "player": "HabCsQYR" }, { "player": "Tm4Wd8Lx" },
+        { "player": "Pz71QaVe" }, { "player": "Bc3Nh6Jk" }, { "player": "Qw9Tz2Rf" },
+        { "player": "Gf5Mu1Xp" }, { "player": "Lr8Kd4Sy" }, { "player": "Ne2Vb7Hc" },
+        { "player": "Ys6Pc3Wm" }, { "player": "Ud1Jg9Tn" }, { "player": "Ix4Kl8Zo" }
+      ]
+    },
+    {
+      "id": "demis",
+      "type": "demi-finale",
+      "placements": [
+        { "player": "HabCsQYR", "place": 1 },
+        { "player": "Bc3Nh6Jk", "place": 2 },
+        { "player": "Xk29FvQz", "place": 3 },
+        { "player": "Pz71QaVe", "place": 4 },
+        { "player": "Lr8Kd4Sy", "place": 5 },
+        { "player": "Ys6Pc3Wm", "place": 6 },
+        { "player": "Tm4Wd8Lx", "place": 7 },
+        { "player": "Ud1Jg9Tn", "place": 8 }
+      ]
+    },
+    {
+      "id": "finale",
+      "type": "finale",
+      "placements": [
+        { "player": "Bc3Nh6Jk", "place": 1 },
+        { "player": "Xk29FvQz", "place": 2 },
+        { "player": "HabCsQYR", "place": 3 },
+        { "player": "Pz71QaVe", "place": 4 },
+        { "player": "Lr8Kd4Sy", "place": 5 },
+        { "player": "Ys6Pc3Wm", "place": 6 },
+        { "player": "Tm4Wd8Lx", "place": 7 },
+        { "player": "Ud1Jg9Tn", "place": 8 }
+      ]
+    }
+  ]
+}

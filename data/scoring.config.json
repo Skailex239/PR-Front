@@ -1,0 +1,27 @@
+{
+  "_note": "BARÈME DU POWER RANKING. Points attribués par phase atteinte, multipliés par le tier du tournoi. 'places' = points par placement dans la phase ; 'defaultPoints' = points si le joueur est listé dans la phase sans placement précis (ex : éliminé en qualifications). Modifiez ce fichier (ou envoyez votre grille à l'agent) pour changer le barème. Aucune décroissance : les points se cumulent.",
+  "tiers": {
+    "major": 1.5,
+    "standard": 1.0,
+    "minor": 0.5
+  },
+  "formats": {
+    "ffa": {
+      "phaseOrder": ["qualifications", "demi-finale", "finale"],
+      "phases": {
+        "qualifications": { "label": "Qualifications", "places": {}, "defaultPoints": 2 },
+        "demi-finale":    { "label": "Demi-finale",    "places": { "1": 26, "2": 22, "3": 18, "4": 15, "5": 12, "6": 10, "7": 8, "8": 6 }, "defaultPoints": 4 },
+        "finale":         { "label": "Finale",         "places": { "1": 100, "2": 80, "3": 65, "4": 52, "5": 42, "6": 34, "7": 28, "8": 24 }, "defaultPoints": 16 }
+      }
+    },
+    "bracket": {
+      "phaseOrder": ["premier-tour", "quart-de-finale", "demi-finale", "finale"],
+      "phases": {
+        "premier-tour":    { "label": "Premier tour",    "places": {}, "defaultPoints": 3 },
+        "quart-de-finale": { "label": "Quart de finale", "places": {}, "defaultPoints": 8 },
+        "demi-finale":     { "label": "Demi-finale",     "places": {}, "defaultPoints": 16 },
+        "finale":          { "label": "Finale",          "places": { "1": 60, "2": 40 }, "defaultPoints": 24 }
+      }
+    }
+  }
+}

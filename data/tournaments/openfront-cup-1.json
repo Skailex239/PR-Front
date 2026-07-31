@@ -1,0 +1,50 @@
+{
+  "slug": "openfront-cup-1",
+  "name": "OpenFront Cup #1",
+  "date": "2026-06-14",
+  "format": "ffa",
+  "tier": "standard",
+  "map": "World",
+  "participants": 32,
+  "sample": true,
+  "phases": [
+    {
+      "id": "qualifs",
+      "type": "qualifications",
+      "placements": [
+        { "player": "Xk29FvQz" }, { "player": "HabCsQYR" }, { "player": "Tm4Wd8Lx" },
+        { "player": "Pz71QaVe" }, { "player": "Bc3Nh6Jk" }, { "player": "Qw9Tz2Rf" },
+        { "player": "Gf5Mu1Xp" }, { "player": "Lr8Kd4Sy" }, { "player": "Ne2Vb7Hc" },
+        { "player": "Ys6Pc3Wm" }, { "player": "Ud1Jg9Tn" }, { "player": "Ix4Kl8Zo" }
+      ]
+    },
+    {
+      "id": "demis",
+      "type": "demi-finale",
+      "placements": [
+        { "player": "Xk29FvQz", "place": 1 },
+        { "player": "HabCsQYR", "place": 2 },
+        { "player": "Gf5Mu1Xp", "place": 3 },
+        { "player": "Tm4Wd8Lx", "place": 4 },
+        { "player": "Qw9Tz2Rf", "place": 5 },
+        { "player": "Ne2Vb7Hc", "place": 6 },
+        { "player": "Pz71QaVe", "place": 7 },
+        { "player": "Lr8Kd4Sy", "place": 8 }
+      ]
+    },
+    {
+      "id": "finale",
+      "type": "finale",
+      "placements": [
+        { "player": "Xk29FvQz", "place": 1 },
+        { "player": "HabCsQYR", "place": 2 },
+        { "player": "Tm4Wd8Lx", "place": 3 },
+        { "player": "Gf5Mu1Xp", "place": 4 },
+        { "player": "Qw9Tz2Rf", "place": 5 },
+        { "player": "Pz71QaVe", "place": 6 },
+        { "player": "Ne2Vb7Hc", "place": 7 },
+        { "player": "Lr8Kd4Sy", "place": 8 }
+      ]
+    }
+  ]
+}
