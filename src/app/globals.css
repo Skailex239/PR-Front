@@ -158,3 +158,64 @@ tr:hover .num, a:hover .num { color: var(--color-accent-strong); }
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
 .lang-dialog { animation: dialog-in .28s cubic-bezier(.2,.8,.2,1) both; }
+
+/* ---------- Série 2026 Summer FFA ---------- */
+.summer-ffa-card {
+  position: relative;
+  overflow: hidden;
+  border-color: #d85e0e;
+  background:
+    radial-gradient(circle at 110% -12%, rgba(255, 223, 155, .7) 0 8%, transparent 30%),
+    radial-gradient(circle at -8% 115%, rgba(135, 39, 4, .52) 0 12%, transparent 41%),
+    linear-gradient(135deg, #f29327 0%, #e46b12 49%, #bd3c08 100%);
+  box-shadow: 0 8px 20px rgba(194, 72, 8, .24);
+}
+.summer-ffa-card:hover { border-color: #a93605; box-shadow: 0 17px 32px rgba(180, 58, 5, .32); }
+.summer-ffa-mark { position: absolute; right: -8px; bottom: -12px; color: rgba(255,255,255,.3); transform: rotate(-14deg); }
+
+/* ---------- Transitions enrichies ---------- */
+@keyframes summer-heat {
+  0%, 100% { background-position: 0% 50%, 100% 0%, 0% 100%, 0% 50%; }
+  50% { background-position: 14% 42%, 86% 13%, 11% 86%, 100% 50%; }
+}
+@keyframes radiation-float {
+  0%, 100% { opacity: .24; transform: rotate(-14deg) scale(1); }
+  50% { opacity: .42; transform: rotate(8deg) scale(1.1); }
+}
+@keyframes title-slide-in {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes icon-nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(3px); }
+}
+
+/* Les groupes de tournois arrivent légèrement en cascade et les cartes ont
+   une réponse visuelle plus nette au survol / au clavier. */
+main > div > .space-y-9 > section { animation: title-slide-in .5s cubic-bezier(.2,.75,.2,1) both; }
+main > div > .space-y-9 > section:nth-child(2) { animation-delay: .1s; }
+.card-hover:focus-visible { outline: 3px solid color-mix(in srgb, var(--color-accent) 55%, white); outline-offset: 3px; }
+.card-hover:hover .micro-label { color: var(--color-accent-strong); }
+.card-hover:hover svg { transition: transform .24s cubic-bezier(.2,1.4,.4,1); }
+.card-hover:hover .summer-ffa-mark { animation: radiation-float 1.5s ease-in-out infinite; }
+
+.summer-ffa-card {
+  background-size: 135% 135%, 135% 135%, 100% 100%;
+  animation: card-reveal .5s cubic-bezier(.2,.75,.2,1) backwards, summer-heat 7s ease-in-out infinite;
+}
+.summer-ffa-card:hover { background-size: 150% 150%, 150% 150%, 100% 100%; }
+.summer-ffa-mark { animation: radiation-float 4s ease-in-out infinite; transition: opacity .3s ease, transform .4s cubic-bezier(.2,1.2,.4,1); }
+
+/* Rendre les liens d'action immédiatement identifiables sans alourdir la page. */
+a[href^="https://openfront.io/game/"]:hover svg,
+a[href^="https://ofm.openfront.gg/"]:hover svg { animation: icon-nudge .45s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}

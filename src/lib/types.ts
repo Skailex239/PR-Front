@@ -34,6 +34,29 @@ export interface TournamentPhase {
   placements: PhasePlacement[];
 }
 
+export interface TournamentGame {
+  name: string;
+  gameId: string;
+  players: number;
+  gameUrl: string;
+  replayUrl: string;
+}
+
+export interface TournamentRound {
+  round: string;
+  entries: TournamentGame[];
+}
+
+export interface TournamentDetails {
+  /** Horaire ISO de début, quand il est connu. */
+  playedAt?: string;
+  registered?: number;
+  gameCount?: number;
+  rounds?: number;
+  settings?: string[];
+  games?: TournamentRound[];
+}
+
 export interface Tournament {
   slug: string;
   name: string;
@@ -45,6 +68,10 @@ export interface Tournament {
   map?: string | null;
   /** Nombre total de participants (indicatif). */
   participants: number;
+  /** Série ou saison à laquelle le tournoi appartient. */
+  series?: string;
+  /** Informations complémentaires et liens de parties, si disponibles. */
+  details?: TournamentDetails;
   /** Vrai tant que ce sont des données d'exemple. */
   sample?: boolean;
   phases: TournamentPhase[];

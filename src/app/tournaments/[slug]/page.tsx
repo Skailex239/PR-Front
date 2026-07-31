@@ -70,6 +70,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       sample={Boolean(tn.sample)}
       multiplier={mult}
       phases={phases}
+      details={tn.details}
     />
   );
 }
