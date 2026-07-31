@@ -4,6 +4,7 @@ import Link from "next/link";
 import { SectionTitle, FormatBadge, TierBadge, SampleBadge } from "@/components/ui";
 import { Icon } from "@/components/icons";
 import { formatDate } from "@/lib/format";
+import PageContainer from "@/components/page-container";
 import { useI18n } from "@/i18n/provider";
 
 export interface TournamentCard {
@@ -21,7 +22,7 @@ export default function TournamentsView({ tournaments }: { tournaments: Tourname
   const { t, locale, fmt } = useI18n();
 
   return (
-    <div>
+    <PageContainer>
       <SectionTitle title={t.tournaments.title} subtitle={t.tournaments.subtitle} />
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {tournaments.map((tn) => (
@@ -57,6 +58,6 @@ export default function TournamentsView({ tournaments }: { tournaments: Tourname
       <p className="mt-6 text-xs text-muted">
         {fmt(t.tournaments.count, { n: tournaments.length })}
       </p>
-    </div>
+    </PageContainer>
   );
 }

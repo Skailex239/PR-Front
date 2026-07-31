@@ -7,6 +7,7 @@ import PRChart, { type PRChartPoint } from "@/components/pr-chart";
 import LiveStats from "@/components/live-stats";
 import { formatDateShort, formatPoints } from "@/lib/format";
 import type { TournamentFormat } from "@/lib/types";
+import PageContainer from "@/components/page-container";
 import { useI18n } from "@/i18n/provider";
 
 export interface PlayerViewGroup {
@@ -70,7 +71,7 @@ export default function PlayerView({
   const { t, locale, fmt } = useI18n();
 
   return (
-    <div>
+    <PageContainer>
       <Link
         href="/"
         className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-accent-strong"
@@ -207,6 +208,6 @@ export default function PlayerView({
           (aucun ne l'est aujourd'hui : afficher un encart vide sur les 506
           profils n'apporterait rien). */}
       {openfrontId ? <LiveStats openfrontId={openfrontId} /> : null}
-    </div>
+    </PageContainer>
   );
 }

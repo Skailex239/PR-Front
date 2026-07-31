@@ -19,9 +19,29 @@ interface I18nValue {
   setLang: (lang: Lang) => void;
   /** Interpolation : `fmt(t.player.liveSample, { n: 20 })`. */
   fmt: (template: string, vars: Record<string, string | number>) => string;
+  /**
+   * `false` tant que la préférence stockée n'a pas été relue (premier rendu).
+   * Permet de ne rien afficher qui dépende du choix avant de le connaître.
+   */
+  langReady: boolean;
+  /** L'utilisateur a-t-il déjà choisi une langue ? */
+  hasLangPreference: boolean;
+  /** Langue déduite du navigateur, proposée par défaut dans la fenêtre de choix. */
+  suggestedLang: Lang;
 }
 
 const I18nContext = createContext<I18nValue | null>(null);
+
+/** Langue suggérée d'après les préférences du navigateur. */
+function detectBrowserLang(): Lang {
+  if (typeof navigator === "undefined") return DEFAULT_LANG;
+  const candidates = navigator.languages?.length ? navigator.languages : [navigator.language];
+  for (const raw of candidates) {
+    const base = raw?.toLowerCase().split("-")[0];
+    if (base === "fr" || base === "en") return base;
+  }
+  return DEFAULT_LANG;
+}
 
 /**
  * Fournit la langue courante à toute l'application.
@@ -34,18 +54,26 @@ const I18nContext = createContext<I18nValue | null>(null);
  */
 export function I18nProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Lang>(DEFAULT_LANG);
+  const [langReady, setLangReady] = useState(false);
+  const [hasLangPreference, setHasLangPreference] = useState(false);
+  const [suggestedLang, setSuggestedLang] = useState<Lang>(DEFAULT_LANG);
 
   // Relecture du choix persisté après l'hydratation (jamais pendant le rendu
   // initial, sinon le HTML serveur et client divergeraient).
   useEffect(() => {
+    let stored: string | null = null;
     try {
-      const stored = window.localStorage.getItem(LANG_STORAGE_KEY);
-      if (isLang(stored) && stored !== lang) setLangState(stored);
+      stored = window.localStorage.getItem(LANG_STORAGE_KEY);
     } catch {
       /* localStorage indisponible (mode privé strict) : on garde le défaut. */
     }
-    // Volontairement au montage uniquement.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (isLang(stored)) {
+      setHasLangPreference(true);
+      setLangState(stored);
+    } else {
+      setSuggestedLang(detectBrowserLang());
+    }
+    setLangReady(true);
   }, []);
 
   // Garde l'attribut lang du <html> synchronisé (accessibilité, moteurs, césure).
@@ -55,6 +83,7 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
 
   const setLang = useCallback((next: Lang) => {
     setLangState(next);
+    setHasLangPreference(true);
     try {
       window.localStorage.setItem(LANG_STORAGE_KEY, next);
     } catch {
@@ -69,8 +98,11 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
       locale: localeOf(lang),
       setLang,
       fmt: tpl,
+      langReady,
+      hasLangPreference,
+      suggestedLang,
     }),
-    [lang, setLang],
+    [lang, setLang, langReady, hasLangPreference, suggestedLang],
   );
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;

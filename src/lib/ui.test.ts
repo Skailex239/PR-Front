@@ -148,6 +148,23 @@ test("tpl interpole les variables", () => {
   assert.equal(tpl("{a} et {b}", { a: 1 }), "1 et {b}");
 });
 
+test("les clés du bandeau et de la fenêtre de langue sont présentes", () => {
+  for (const lang of LANGS) {
+    const d = getDict(lang);
+    assert.ok(d.hero.title.length > 0);
+    assert.ok(d.lang.dialogTitle.length > 0);
+    assert.ok(d.lang.dialogSubtitle.length > 0);
+    assert.ok(d.lang.dialogHint.length > 0);
+    assert.ok(d.lang.suggested.length > 0);
+  }
+});
+
+test("le titre du bandeau mentionne OpenFront dans les deux langues", () => {
+  for (const lang of LANGS) {
+    assert.match(getDict(lang).hero.title, /OpenFront/);
+  }
+});
+
 test("les chaînes à trous existent dans les deux langues", () => {
   for (const lang of LANGS) {
     const d = getDict(lang);

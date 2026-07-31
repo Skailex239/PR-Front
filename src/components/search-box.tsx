@@ -76,8 +76,14 @@ export default function SearchBox({
 
   return (
     <div ref={rootRef} className={`relative ${isHero ? "w-full" : "w-full"}`}>
-      <div className={isHero ? "flex items-center gap-3 rounded-lg border border-line bg-panel p-1.5 pl-4 shadow-sm" : "flex items-center gap-2 rounded-lg border border-line bg-panel px-3 py-2 shadow-sm"}>
-        <Icon name="search" size={isHero ? "md" : "sm"} className="text-muted" />
+      <div
+        className={
+          isHero
+            ? "flex items-center gap-3 rounded-md bg-white px-5 py-4 shadow-[0_10px_30px_rgba(8,10,16,.28)]"
+            : "flex items-center gap-2 rounded-lg border border-line bg-panel px-3 py-2 shadow-sm"
+        }
+      >
+        {isHero ? null : <Icon name="search" size="sm" className="text-muted" />}
         <input
           value={q}
           onChange={(e) => {
@@ -87,9 +93,19 @@ export default function SearchBox({
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
           placeholder={isHero ? t.search.heroPlaceholder : t.search.navPlaceholder}
-          className={`w-full bg-transparent text-text placeholder:text-muted focus:outline-none ${isHero ? "text-sm sm:text-base" : "text-xs"}`}
+          className={`w-full bg-transparent text-text placeholder:text-[#9aa2ae] focus:outline-none ${isHero ? "text-[15px]" : "text-xs"}`}
         />
-        {isHero ? <button type="button" onClick={() => results[active] && go(results[active].id)} className="hidden rounded-md bg-gradient-to-b from-[#ed8829] to-[#d96813] px-5 py-2 text-xs font-extrabold text-white shadow-sm sm:block">{t.search.heroCta}</button> : null}
+        {isHero ? (
+          <button
+            type="button"
+            onClick={() => results[active] && go(results[active].id)}
+            aria-label={t.search.heroCta}
+            title={t.search.heroCta}
+            className="shrink-0 rounded-md p-1 text-[#5b6472] transition-colors hover:text-accent-strong"
+          >
+            <Icon name="arrowRight" size="md" />
+          </button>
+        ) : null}
       </div>
 
       {open && needle ? (

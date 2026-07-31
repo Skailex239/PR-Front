@@ -32,6 +32,13 @@ const en: Dict = {
     en: "EN",
     frFull: "Français",
     enFull: "English",
+    dialogTitle: "Choose your language",
+    dialogSubtitle: "Which language would you like to browse the OpenFront Power Ranking in?",
+    dialogHint: "You can change it at any time from the top bar.",
+    suggested: "Suggested",
+  },
+  hero: {
+    title: "Find your OpenFront stats",
   },
   common: {
     player: "Player",

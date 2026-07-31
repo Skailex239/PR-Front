@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FormatBadge, PlaceNumber, SampleBadge, SectionTitle, TierBadge, Avatar } from "@/components/ui";
 import { Icon } from "@/components/icons";
 import { formatDate, formatPoints } from "@/lib/format";
+import PageContainer from "@/components/page-container";
 import { useI18n } from "@/i18n/provider";
 
 export interface DetailRow {
@@ -45,7 +46,7 @@ export default function TournamentDetailView({
   const { t, locale } = useI18n();
 
   return (
-    <div>
+    <PageContainer>
       <Link
         href="/tournaments"
         className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-cyan2"
@@ -117,6 +118,6 @@ export default function TournamentDetailView({
           </section>
         ))}
       </div>
-    </div>
+    </PageContainer>
   );
 }

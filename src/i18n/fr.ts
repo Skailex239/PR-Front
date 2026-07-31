@@ -32,6 +32,14 @@ const fr = {
     en: "EN",
     frFull: "Français",
     enFull: "English",
+    dialogTitle: "Choisissez votre langue",
+    dialogSubtitle:
+      "Dans quelle langue souhaitez-vous consulter le Power Ranking OpenFront ?",
+    dialogHint: "Vous pourrez en changer à tout moment depuis la barre du haut.",
+    suggested: "Suggéré",
+  },
+  hero: {
+    title: "Trouvez vos stats OpenFront",
   },
   common: {
     player: "Joueur",
