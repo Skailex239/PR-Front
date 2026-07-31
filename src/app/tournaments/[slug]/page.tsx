@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getPlayer, getScoring, getTournament, getTournaments } from "@/lib/data";
 import { basePoints, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
 import { FormatBadge, PlaceNumber, SampleBadge, SectionTitle, TierBadge, Avatar } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { formatDate, formatPoints } from "@/lib/format";
 import { getDict } from "@/i18n";
 
@@ -35,8 +36,8 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
 
   return (
     <div>
-      <Link href="/tournaments" className="text-xs font-semibold text-muted hover:text-cyan2">
-        {t.common.backToTournaments}
+      <Link href="/tournaments" className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-cyan2">
+        <Icon name="arrowLeft" size="xs" /> {t.common.backToTournaments}
       </Link>
 
       <div className="card mt-3 p-6">

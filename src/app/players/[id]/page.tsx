@@ -5,6 +5,7 @@ import { getLeaderboard, getPlayer, getPlayerPR, getPlayers, getScoring, getTour
 import { isFinalPhase } from "@/lib/pr";
 import LiveStats from "@/components/live-stats";
 import { Avatar, FormatBadge, TierBadge } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { formatDateShort, formatPoints } from "@/lib/format";
 import type { PhasePointsAward, TournamentFormat } from "@/lib/types";
 import { getDict } from "@/i18n";
@@ -92,7 +93,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
 
   return (
     <div>
-      <Link href="/" className="text-xs font-semibold text-muted hover:text-accent-strong">{t.common.backToLeaderboard}</Link>
+      <Link href="/" className="inline-flex items-center gap-1.5 text-xs font-semibold text-muted hover:text-accent-strong"><Icon name="arrowLeft" size="xs" /> {t.common.backToLeaderboard}</Link>
 
       <section className="mt-3 overflow-hidden rounded-lg border border-line bg-white shadow-sm">
         <div className="h-1.5 bg-gradient-to-r from-[#d76511] via-[#ee8b2e] to-[#f6c16e]" />
@@ -100,7 +101,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
           <div className="flex items-center gap-4 lg:border-r lg:border-line lg:pr-7">
             <div className="relative">
               <div className="rounded-xl border-4 border-orange-100 shadow-md"><Avatar name={name} size="xl" /></div>
-              <div className="absolute -bottom-1 -right-1 flex h-8 w-8 items-center justify-center bg-accent text-sm font-black text-white [clip-path:polygon(50%_0,93%_25%,93%_75%,50%_100%,7%_75%,7%_25%)]">⚡</div>
+              <div className="absolute -bottom-1 -right-1 flex h-8 w-8 items-center justify-center bg-accent text-sm font-black text-white [clip-path:polygon(50%_0,93%_25%,93%_75%,50%_100%,7%_75%,7%_25%)]"><Icon name="bolt" size="sm" /></div>
             </div>
             <div className="min-w-0">
               <div className="text-[11px] font-bold text-muted">Power Ranking</div>

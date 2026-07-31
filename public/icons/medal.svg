@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="medal">
+  <path d="M8.4 2.9 11 9.1M15.6 2.9 13 9.1" fill="none" stroke="#c95d0c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5.9 14.8a6.1 6.1 0 1 0 12.2 0a6.1 6.1 0 1 0 -12.2 0Z" fill="none" stroke="#c95d0c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 11.8L12.75 13.76L14.85 13.87L13.22 15.2L13.76 17.23L12 16.08L10.24 17.23L10.78 15.2L9.15 13.87L11.25 13.76Z" fill="#c95d0c"/>
+</svg>

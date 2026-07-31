@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Avatar } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { formatPoints } from "@/lib/format";
 import type { SearchIndexItem } from "@/lib/data";
 import { getDict } from "@/i18n";
@@ -78,7 +79,7 @@ export default function SearchBox({
   return (
     <div ref={rootRef} className={`relative ${isHero ? "w-full" : "w-full"}`}>
       <div className={isHero ? "flex items-center gap-3 rounded-lg border border-line bg-panel p-1.5 pl-4 shadow-sm" : "flex items-center gap-2 rounded-lg border border-line bg-panel px-3 py-2 shadow-sm"}>
-        <svg viewBox="0 0 24 24" className={isHero ? "h-5 w-5 shrink-0 text-muted" : "h-4 w-4 shrink-0 text-muted"} fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+        <Icon name="search" size={isHero ? "md" : "sm"} className="text-muted" />
         <input
           value={q}
           onChange={(e) => {

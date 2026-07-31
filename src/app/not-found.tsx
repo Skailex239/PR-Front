@@ -1,4 +1,8 @@
 import Link from "next/link";
+import { Icon } from "@/components/icons";
+import { getDict } from "@/i18n";
+
+const t = getDict();
 
 export default function NotFound() {
   return (
@@ -6,7 +10,7 @@ export default function NotFound() {
       <div className="text-6xl font-black gradient-text">404</div>
       <p className="mt-4 text-sm text-muted">Cette page n'existe pas (ou ce joueur n'est pas encore dans le circuit).</p>
       <Link href="/" className="chip mt-6 hover:border-accent/60 hover:text-accent-strong">
-        ← Retour au classement
+        <Icon name="arrowLeft" size="xs" /> {t.common.backToLeaderboard}
       </Link>
     </div>
   );

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getPlayer, getTournaments, getScoring } from "@/lib/data";
 import { isFinalPhase } from "@/lib/pr";
 import { SectionTitle, FormatBadge, TierBadge, SampleBadge } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { formatDate } from "@/lib/format";
 import type { ScoringConfig, Tournament } from "@/lib/types";
 import { getDict, tpl } from "@/i18n";
@@ -42,12 +43,13 @@ export default function TournamentsPage() {
                 <TierBadge tier={tn.tier} />
               </div>
               <div className="mt-4 flex items-center justify-between text-xs text-muted">
-                <span>
-                  👥 {tn.participants} {t.common.participants.toLowerCase()}
+                <span className="inline-flex items-center gap-1.5">
+                  <Icon name="users" size="xs" /> {tn.participants} {t.common.participants.toLowerCase()}
                 </span>
                 {winner ? (
-                  <span className="truncate">
-                    🥇 <span className="font-semibold text-gold">{winner}</span>
+                  <span className="inline-flex min-w-0 items-center gap-1.5 truncate">
+                    <Icon name="medal" size="xs" className="text-gold" />
+                    <span className="truncate font-semibold text-gold">{winner}</span>
                   </span>
                 ) : null}
               </div>

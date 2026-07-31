@@ -40,8 +40,8 @@ const en: Dict = {
     search: "Search a player…",
     noResult: "No player found.",
     viewProfile: "View profile",
-    backToLeaderboard: "← Back to leaderboard",
-    backToTournaments: "← Back to tournaments",
+    backToLeaderboard: "Back to leaderboard",
+    backToTournaments: "Back to tournaments",
     unknownPlayer: "Unknown player",
   },
   formats: {

@@ -3,14 +3,15 @@
 import { useEffect, useState } from "react";
 import { getLiveStats, type OfLiveStats } from "@/lib/openfront";
 import { SectionTitle, StatCard } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { formatDateTime, formatPct } from "@/lib/format";
 import { getDict, tpl } from "@/i18n";
 
 const t = getDict();
 
 function ResultBadge({ result }: { result: string }) {
-  if (result === "victory") return <span className="result-win font-bold">✔ {t.player.victory}</span>;
-  if (result === "defeat") return <span className="result-loss font-bold">✖ {t.player.defeat}</span>;
+  if (result === "victory") return <span className="result-win inline-flex items-center gap-1.5 font-bold"><Icon name="check" size="xs" /> {t.player.victory}</span>;
+  if (result === "defeat") return <span className="result-loss inline-flex items-center gap-1.5 font-bold"><Icon name="close" size="xs" /> {t.player.defeat}</span>;
   return <span className="text-muted">{t.player.incomplete}</span>;
 }
 
@@ -40,11 +41,11 @@ export default function LiveStats({ openfrontId }: { openfrontId: string | null 
       <SectionTitle title={t.player.liveTitle} subtitle={t.player.liveSubtitle} />
 
       {stats === "loading" ? (
-        <div className="card animate-pulse p-6 text-sm text-muted">⏳ {t.player.liveLoading}</div>
+        <div className="card flex animate-pulse items-center gap-2 p-6 text-sm text-muted"><Icon name="hourglass" /> {t.player.liveLoading}</div>
       ) : stats.error === "not_linked" ? (
-        <div className="card p-6 text-sm text-muted">🔗 {t.player.liveNotLinked}</div>
+        <div className="card flex items-center gap-2 p-6 text-sm text-muted"><Icon name="link" /> {t.player.liveNotLinked}</div>
       ) : !stats.ok ? (
-        <div className="card p-6 text-sm text-muted">📡 {t.player.liveUnavailable}</div>
+        <div className="card flex items-center gap-2 p-6 text-sm text-muted"><Icon name="broadcast" /> {t.player.liveUnavailable}</div>
       ) : (
         <>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="hourglass">
+  <path d="M6.6 3.2h10.8M6.6 20.8h10.8" fill="none" stroke="#c95d0c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7.8 3.2v2.6c0 2 1.6 3 2.9 4.2L12 11.4l1.3-1.4c1.3-1.2 2.9-2.2 2.9-4.2V3.2" fill="none" stroke="#c95d0c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7.8 20.8v-2.6c0-2 1.6-3 2.9-4.2L12 12.6l1.3 1.4c1.3 1.2 2.9 2.2 2.9 4.2v2.6" fill="none" stroke="#c95d0c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9.7 18.6h4.6L12 15.8l-2.3 2.8Z" fill="#c95d0c"/>
+</svg>

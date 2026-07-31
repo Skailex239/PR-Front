@@ -5,6 +5,7 @@ import Podium from "@/components/podium";
 import Spotlight from "@/components/spotlight";
 import SearchBox from "@/components/search-box";
 import { SampleBadge } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { getDict } from "@/i18n";
 
 const t = getDict();
@@ -55,8 +56,8 @@ export default function HomePage() {
         <div>
           <SearchBox items={searchIndex} variant="hero" />
           <div className="mt-4 flex flex-wrap items-center gap-2">
-            <span className="chip">🏆 {tournaments.length} {t.common.tournaments.toLowerCase()}</span>
-            <span className="chip">👥 {rows.length} {t.common.players.toLowerCase()}</span>
+            <span className="chip"><Icon name="trophy" size="xs" /> {tournaments.length} {t.common.tournaments.toLowerCase()}</span>
+            <span className="chip"><Icon name="users" size="xs" /> {rows.length} {t.common.players.toLowerCase()}</span>
             {hasSample ? <SampleBadge label={t.common.sampleBadge} /> : null}
           </div>
         </div>

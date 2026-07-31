@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Avatar, RankCircle } from "@/components/ui";
+import { Icon } from "@/components/icons";
 import { formatPoints } from "@/lib/format";
 import { getDict } from "@/i18n";
 
@@ -36,7 +37,7 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
       <div className="flex flex-col gap-3 border-b border-line/70 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
         <h2 className="text-xs font-black tracking-wide">CLASSEMENT GÉNÉRAL</h2>
         <div className="relative w-full sm:max-w-[240px]">
-          <svg viewBox="0 0 24 24" className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+          <Icon name="search" className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted" />
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}

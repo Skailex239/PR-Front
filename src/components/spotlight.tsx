@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Avatar } from "@/components/ui";
+import { Icon, type IconName } from "@/components/icons";
 import { formatDateShort, formatPoints } from "@/lib/format";
 import type { LeaderboardEntry, Tournament } from "@/lib/types";
 import { getDict } from "@/i18n";
@@ -7,17 +8,7 @@ import { getDict } from "@/i18n";
 const t = getDict();
 
 type Tone = "yellow" | "cyan" | "purple";
-type Mark = "crown" | "trophy" | "flag";
-
-function MarkIcon({ type, className = "" }: { type: Mark; className?: string }) {
-  if (type === "crown") {
-    return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="m3 7 4.5 4L12 4l4.5 7L21 7l-2 11H5L3 7Z"/><path d="M5 18h14"/></svg>;
-  }
-  if (type === "flag") {
-    return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 21V4m0 1h11l-2.5 3L17 11H6"/></svg>;
-  }
-  return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 4h8v4a4 4 0 0 1-8 0V4Z"/><path d="M8 6H5v1a3 3 0 0 0 3 3m8-4h3v1a3 3 0 0 1-3 3M12 12v5m-4 3h8"/></svg>;
-}
+type Mark = Extract<IconName, "crown" | "trophy" | "flag">;
 
 const tones: Record<Tone, { header: string; text: string; corner: string }> = {
   yellow: { header: "bg-[#f4ec55]", text: "text-[#17191d]", corner: "border-t-[#c9a819]" },
@@ -37,7 +28,7 @@ function SpotlightCard({ label, href, tone, mark, children }: { label: string; h
       </div>
       <div className="relative flex h-[76px] items-center overflow-hidden px-4">
         {children}
-        <MarkIcon type={mark} className="pointer-events-none absolute -bottom-3 right-3 h-[70px] w-[70px] rotate-[-7deg] text-slate-900/[0.055]" />
+        <Icon name={mark} className="pointer-events-none absolute -bottom-3 right-3 h-[70px] w-[70px] rotate-[-7deg] text-slate-900/[0.055]" strokeWidth={1.5} />
       </div>
     </div>
   );
@@ -73,7 +64,7 @@ export default function Spotlight({ champion, mostWins, latestTournament, latest
       <SpotlightCard label={t.spotlight.latestTournament} href={latestTournament ? `/tournaments/${latestTournament.slug}` : "/tournaments"} tone="purple" mark="flag">
         {latestTournament ? (
           <div className="relative z-10 flex min-w-0 items-center gap-3">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#f2eafa] text-[#7738b5] shadow-md"><MarkIcon type="flag" className="h-5 w-5" /></div>
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#f2eafa] text-[#7738b5] shadow-md"><Icon name="flag" size="md" /></div>
             <div className="min-w-0 leading-tight">
               <div className="truncate text-sm font-black text-slate-900">{latestTournament.name}</div>
               <div className="mt-1 truncate text-[11px] font-bold text-slate-400">{formatDateShort(latestTournament.date)}{latestWinnerName ? ` · ${latestWinnerName}` : ""}</div>

@@ -39,8 +39,8 @@ const fr = {
     search: "Rechercher un joueur…",
     noResult: "Aucun joueur trouvé.",
     viewProfile: "Voir le profil",
-    backToLeaderboard: "← Retour au classement",
-    backToTournaments: "← Retour aux tournois",
+    backToLeaderboard: "Retour au classement",
+    backToTournaments: "Retour aux tournois",
     unknownPlayer: "Joueur inconnu",
   },
   formats: {
