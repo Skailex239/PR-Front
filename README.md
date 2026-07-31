@@ -10,15 +10,17 @@ publique OpenFront.
 
 ### Option A — GitHub Pages (gratuit, zéro config serveur)
 
-Le site est prêt pour GitHub Pages : un workflow (`.github/workflows/pages.yml`) le
-rebuilde et le redéploie **automatiquement à chaque push sur `main`**.
+Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
 
-Mise en place (2 réglages, une seule fois) :
+1. **Merger la pull request sur `main`**.
+2. **Ajouter le workflow de déploiement** — GitHub n'autorise son ajout que via
+   l'interface web : sur le repo → **Add file → Create new file** → nommez-le
+   `.github/workflows/pages.yml` → collez le contenu de
+   [`docs/github-pages-workflow.yml`](docs/github-pages-workflow.yml) → *Commit* sur `main`.
+3. **Settings → Pages → Build and deployment → Source : « GitHub Actions »**.
 
-1. **Merger le code sur `main`** (via la pull request ouverte sur le repo).
-2. Sur GitHub : **Settings → Pages → Build and deployment → Source : « GitHub Actions »**.
-
-➡️ Le site sera sur **https://skailex239.github.io/PR-Front/**
+➡️ Le site sera sur **https://skailex239.github.io/PR-Front/** et se redéploiera
+**automatiquement à chaque push sur `main`**.
 
 > Les données se mettent à jour en poussant les fichiers de `data/` sur `main`
 > (l'agent le fait pour vous quand vous lui envoyez des résultats de tournoi).
