@@ -43,22 +43,22 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero */}
-      <div className="mb-8 text-center">
-        <div className="micro-label mb-2">{t.site.tagline}</div>
-        <h1 className="text-4xl font-black tracking-tight sm:text-5xl">
-          POWER <span className="gradient-text">RANKING</span>
-        </h1>
-        <p className="mx-auto mt-3 max-w-2xl text-sm text-muted">{t.leaderboard.subtitle}</p>
-
-        <div className="mt-6">
-          <SearchBox items={searchIndex} variant="hero" />
+      {/* En-tête du classement */}
+      <div className="mb-7 grid items-end gap-6 md:grid-cols-[1fr_1.05fr]">
+        <div>
+          <div className="micro-label mb-2 text-accent-strong">{t.site.tagline}</div>
+          <h1 className="text-[2.35rem] font-black leading-none tracking-[-0.045em] sm:text-[2.7rem]">
+            POWER RANKING
+          </h1>
+          <p className="mt-3 max-w-xl text-xs leading-relaxed text-muted">{t.leaderboard.subtitle}</p>
         </div>
-
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
-          <span className="chip">🏆 {tournaments.length} {t.common.tournaments.toLowerCase()}</span>
-          <span className="chip">👥 {rows.length} {t.common.players.toLowerCase()}</span>
-          {hasSample ? <SampleBadge label={t.common.sampleBadge} /> : null}
+        <div>
+          <SearchBox items={searchIndex} variant="hero" />
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <span className="chip">🏆 {tournaments.length} {t.common.tournaments.toLowerCase()}</span>
+            <span className="chip">👥 {rows.length} {t.common.players.toLowerCase()}</span>
+            {hasSample ? <SampleBadge label={t.common.sampleBadge} /> : null}
+          </div>
         </div>
       </div>
 

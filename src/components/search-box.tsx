@@ -76,11 +76,9 @@ export default function SearchBox({
   const isHero = variant === "hero";
 
   return (
-    <div ref={rootRef} className={`relative ${isHero ? "mx-auto w-full max-w-xl" : "w-full max-w-[220px] sm:max-w-[260px]"}`}>
-      <div className={isHero ? "flex items-center gap-2 rounded-2xl border border-line bg-panel px-4 py-3 shadow-sm" : "flex items-center gap-2 rounded-lg border border-line bg-ink2 px-3 py-1.5"}>
-        <span className={isHero ? "text-lg text-muted" : "text-sm text-muted"} aria-hidden>
-          🔍
-        </span>
+    <div ref={rootRef} className={`relative ${isHero ? "w-full" : "w-full"}`}>
+      <div className={isHero ? "flex items-center gap-3 rounded-lg border border-line bg-panel p-1.5 pl-4 shadow-sm" : "flex items-center gap-2 rounded-lg border border-line bg-panel px-3 py-2 shadow-sm"}>
+        <svg viewBox="0 0 24 24" className={isHero ? "h-5 w-5 shrink-0 text-muted" : "h-4 w-4 shrink-0 text-muted"} fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
         <input
           value={q}
           onChange={(e) => {
@@ -92,7 +90,7 @@ export default function SearchBox({
           placeholder={isHero ? t.search.heroPlaceholder : t.search.navPlaceholder}
           className={`w-full bg-transparent text-text placeholder:text-muted focus:outline-none ${isHero ? "text-sm sm:text-base" : "text-xs"}`}
         />
-        {isHero ? <span className="chip hidden sm:inline-flex">{t.search.heroCta}</span> : null}
+        {isHero ? <button type="button" onClick={() => results[active] && go(results[active].id)} className="hidden rounded-md bg-gradient-to-b from-[#ed8829] to-[#d96813] px-5 py-2 text-xs font-extrabold text-white shadow-sm sm:block">{t.search.heroCta}</button> : null}
       </div>
 
       {open && q.trim() ? (

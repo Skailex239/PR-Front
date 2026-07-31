@@ -9,6 +9,9 @@ import type { NextConfig } from "next";
 const ghPages = process.env.GH_PAGES === "true";
 
 const nextConfig: NextConfig = {
+  env: {
+    NEXT_PUBLIC_BASE_PATH: ghPages ? "/PR-Front" : "",
+  },
   eslint: {
     // Le lint n'est pas bloquant pour le build.
     ignoreDuringBuilds: true,
