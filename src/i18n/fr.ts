@@ -171,6 +171,7 @@ const fr = {
     finalist: "Finaliste",
     upcoming: "À venir",
     count: "{n} tournoi(s)",
+    otherSeries: "Autres tournois",
     details: "Détails du tournoi",
     registered: "inscrits",
     games: "parties",

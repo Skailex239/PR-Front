@@ -169,6 +169,7 @@ const en: Dict = {
     finalist: "Finalist",
     upcoming: "Upcoming",
     count: "{n} tournament(s)",
+    otherSeries: "Other tournaments",
     details: "Tournament details",
     registered: "registered",
     games: "games",

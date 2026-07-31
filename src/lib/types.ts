@@ -68,6 +68,8 @@ export interface Tournament {
   map?: string | null;
   /** Nombre total de participants (indicatif). */
   participants: number;
+  /** Série ou saison à laquelle le tournoi appartient. */
+  series?: string;
   /** Informations complémentaires et liens de parties, si disponibles. */
   details?: TournamentDetails;
   /** Vrai tant que ce sont des données d'exemple. */

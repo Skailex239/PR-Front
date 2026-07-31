@@ -27,6 +27,7 @@ export default function TournamentsPage() {
     format: tn.format,
     tier: tn.tier,
     participants: tn.participants,
+    series: tn.series ?? null,
     sample: Boolean(tn.sample),
     winner: winnerOf(tn, scoring),
   }));
