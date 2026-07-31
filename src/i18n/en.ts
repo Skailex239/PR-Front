@@ -169,6 +169,12 @@ const en: Dict = {
     finalist: "Finalist",
     upcoming: "Upcoming",
     count: "{n} tournament(s)",
+    details: "Tournament details",
+    registered: "registered",
+    games: "games",
+    rounds: "rounds",
+    replay: "Replay",
+    openGame: "Open game",
   },
   notFound: {
     message: "This page does not exist (or this player is not in the circuit yet).",

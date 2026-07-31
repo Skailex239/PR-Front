@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FormatBadge, PlaceNumber, SampleBadge, SectionTitle, TierBadge, Avatar } from "@/components/ui";
 import { Icon } from "@/components/icons";
 import { formatDate, formatPoints } from "@/lib/format";
+import type { TournamentDetails } from "@/lib/types";
 import PageContainer from "@/components/page-container";
 import { useI18n } from "@/i18n/provider";
 
@@ -32,6 +33,7 @@ export default function TournamentDetailView({
   sample,
   multiplier,
   phases,
+  details,
 }: {
   name: string;
   date: string;
@@ -42,6 +44,7 @@ export default function TournamentDetailView({
   sample: boolean;
   multiplier: number;
   phases: DetailPhase[];
+  details?: TournamentDetails;
 }) {
   const { t, locale } = useI18n();
 
@@ -70,6 +73,39 @@ export default function TournamentDetailView({
           </div>
         </div>
       </div>
+
+      {details ? (
+        <section className="mt-8">
+          <SectionTitle title={t.tournaments.details} />
+          <div className="card p-5">
+            <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted">
+              {details.registered ? <span><b className="text-ink">{details.registered}</b> {t.tournaments.registered}</span> : null}
+              {details.gameCount ? <span><b className="text-ink">{details.gameCount}</b> {t.tournaments.games}</span> : null}
+              {details.rounds ? <span><b className="text-ink">{details.rounds}</b> {t.tournaments.rounds}</span> : null}
+            </div>
+            {details.settings?.length ? <p className="mt-3 text-sm text-muted">{details.settings.join(" · ")}</p> : null}
+            {details.games?.length ? (
+              <div className="mt-5 space-y-4">
+                {details.games.map((round) => (
+                  <div key={round.round}>
+                    <h3 className="text-sm font-extrabold">{round.round}</h3>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {round.entries.map((game) => (
+                        <div key={game.gameId} className="rounded-md border border-line bg-slate-50 px-3 py-2 text-xs">
+                          <a href={game.gameUrl} target="_blank" rel="noreferrer" className="font-bold text-cyan2 hover:underline">{game.name}</a>
+                          <span className="mx-1.5 text-muted">·</span>{game.players} {t.common.participants.toLowerCase()}
+                          <span className="mx-1.5 text-muted">·</span>
+                          <a href={game.replayUrl} target="_blank" rel="noreferrer" className="font-semibold text-muted hover:text-cyan2 hover:underline">{t.tournaments.replay}</a>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
 
       <div className="mt-8 space-y-8">
         {phases.map((phase) => (

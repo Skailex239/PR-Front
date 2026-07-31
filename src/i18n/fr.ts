@@ -171,6 +171,12 @@ const fr = {
     finalist: "Finaliste",
     upcoming: "À venir",
     count: "{n} tournoi(s)",
+    details: "Détails du tournoi",
+    registered: "inscrits",
+    games: "parties",
+    rounds: "rounds",
+    replay: "Replay",
+    openGame: "Ouvrir la partie",
   },
   notFound: {
     message: "Cette page n'existe pas (ou ce joueur n'est pas encore dans le circuit).",
