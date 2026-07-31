@@ -1,7 +1,7 @@
 /**
  * Dictionnaire français (langue par défaut).
- * Toute chaîne affichée dans l'UI passe par ce dict — la version EN est prête
- * dans ./en.ts pour une future bascule de langue.
+ * Toute chaîne affichée dans l'UI passe par ce dict — `./en.ts` en est le
+ * miroir strictement typé (voir `Dict`).
  */
 const fr = {
   site: {
@@ -13,6 +13,25 @@ const fr = {
   nav: {
     leaderboard: "Classement",
     tournaments: "Tournois",
+    players: "Joueurs",
+    clans: "Clans",
+    matches: "Matchs",
+    stats: "Statistiques",
+    history: "Historique",
+    favorites: "Favoris",
+    play: "Jouer",
+    openMenu: "Ouvrir le menu",
+    home: "PR-Front — Accueil",
+    admin: "Admin",
+    soon: "Bientôt disponible",
+  },
+  lang: {
+    label: "Langue",
+    switchTo: "Passer en anglais",
+    fr: "FR",
+    en: "EN",
+    frFull: "Français",
+    enFull: "English",
   },
   common: {
     player: "Joueur",
@@ -43,6 +62,11 @@ const fr = {
     backToTournaments: "Retour aux tournois",
     unknownPlayer: "Joueur inconnu",
   },
+  tiers: {
+    major: "Major",
+    standard: "Standard",
+    minor: "Mineur",
+  } as Record<string, string>,
   formats: {
     ffa: "FFA multi-manches",
     bracket: "Bracket 1v1",
@@ -54,6 +78,7 @@ const fr = {
     navPlaceholder: "Rechercher…",
     noResults: "Aucun joueur ne correspond.",
     resultsHint: "Entrée pour ouvrir le premier résultat",
+    idHint: "Recherche par ID Discord",
   },
   spotlight: {
     champion: "Champion actuel",
@@ -65,8 +90,10 @@ const fr = {
   },
   leaderboard: {
     title: "Power Ranking",
-    subtitle: "Classement des joueurs du circuit — points cumulés sur tous les tournois, sans décroissance.",
+    subtitle:
+      "Classement des joueurs du circuit — points cumulés sur tous les tournois, sans décroissance.",
     updated: "Mis à jour par l'organisateur",
+    generalTitle: "Classement général",
     colPlayer: "Joueur",
     colPr: "PR",
     colEvents: "Tournois",
@@ -75,6 +102,14 @@ const fr = {
     colAvgPlace: "Place moy.",
     empty: "Le classement est vide pour l'instant — les premiers tournois arrivent bientôt.",
     podiumPts: "pts",
+    filterAll: "Tous",
+    filterRecurring: "Récurrents",
+    filterRecurringHint: "2 tournois et plus",
+    filterTop100: "Top 100",
+    filterWithClan: "Avec clan",
+    filterCount: "{shown} joueur(s) sur {total}",
+    newBadge: "Nouveau",
+    newBadgeHint: "Premier tournoi du circuit",
   },
   player: {
     prPoints: "Points PR",
@@ -86,7 +121,8 @@ const fr = {
     liveSubtitle: "Données publiques récupérées sur api.openfront.io (cache 5 min).",
     liveWinrate: "Winrate récent",
     liveRecent: "Dernières parties publiques",
-    liveUnavailable: "Stats en direct indisponibles pour le moment (API OpenFront injoignable ou joueur introuvable).",
+    liveUnavailable:
+      "Stats en direct indisponibles pour le moment (API OpenFront injoignable ou joueur introuvable).",
     liveNotLinked: "Aucun compte OpenFront n'est relié à ce joueur — pas de stats live.",
     liveLoading: "Chargement des stats live…",
     liveSample: "sur les {n} dernières parties",
@@ -95,6 +131,27 @@ const fr = {
     defeat: "Défaite",
     incomplete: "Incomplet",
     openfrontId: "Public ID OpenFront",
+    chartTitle: "Évolution du Power Ranking",
+    chartSubtitle: "Points cumulés après chaque tournoi",
+    chartBadge: "POWER RANKING",
+    chartEmpty: "Aucune donnée",
+    chartAria: "Évolution des points PR cumulés — survolez la courbe pour le détail",
+    chartHint: "Survolez la courbe (ou utilisez les flèches) pour voir le détail",
+    chartTotal: "Total PR",
+    chartGained: "Gagnés",
+    circuitTotals: "Totaux du circuit",
+    awardsLabel: "Attributions",
+    placementsTitle: "Placements",
+    avgPlaceShort: "Place moyenne",
+    resultsTitle: "Résultats des tournois",
+    playedCount: "{n} tournoi(s) joué(s)",
+    historyBadge: "Historique PR",
+    colTournament: "Tournoi",
+    colPhases: "Phases",
+    rankSuffix: "du classement",
+    idLabel: "ID",
+    copyId: "Copier l'ID Discord",
+    copied: "Copié !",
   },
   tournaments: {
     title: "Tournois du circuit",
@@ -106,6 +163,9 @@ const fr = {
     finalist: "Finaliste",
     upcoming: "À venir",
     count: "{n} tournoi(s)",
+  },
+  notFound: {
+    message: "Cette page n'existe pas (ou ce joueur n'est pas encore dans le circuit).",
   },
   footer: {
     byline: "Projet communautaire non affilié à OpenFront.io.",

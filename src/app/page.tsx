@@ -1,14 +1,7 @@
 import { getLeaderboard, getScoring, getSearchIndex, getTournaments } from "@/lib/data";
 import { isFinalPhase } from "@/lib/pr";
-import LeaderboardView, { type LbRow } from "@/components/leaderboard-view";
-import Podium from "@/components/podium";
-import Spotlight from "@/components/spotlight";
-import SearchBox from "@/components/search-box";
-import { SampleBadge } from "@/components/ui";
-import { Icon } from "@/components/icons";
-import { getDict } from "@/i18n";
-
-const t = getDict();
+import HomeView from "@/components/home-view";
+import type { LbRow } from "@/components/leaderboard-view";
 
 export default function HomePage() {
   const entries = getLeaderboard();
@@ -43,48 +36,16 @@ export default function HomePage() {
   })();
 
   return (
-    <div>
-      {/* En-tête du classement */}
-      <div className="mb-7 grid items-end gap-6 md:grid-cols-[1fr_1.05fr]">
-        <div>
-          <div className="micro-label mb-2 text-accent-strong">{t.site.tagline}</div>
-          <h1 className="text-[2.35rem] font-black leading-none tracking-[-0.045em] sm:text-[2.7rem]">
-            POWER RANKING
-          </h1>
-          <p className="mt-3 max-w-xl text-xs leading-relaxed text-muted">{t.leaderboard.subtitle}</p>
-        </div>
-        <div>
-          <SearchBox items={searchIndex} variant="hero" />
-          <div className="mt-4 flex flex-wrap items-center gap-2">
-            <span className="chip"><Icon name="trophy" size="xs" /> {tournaments.length} {t.common.tournaments.toLowerCase()}</span>
-            <span className="chip"><Icon name="users" size="xs" /> {rows.length} {t.common.players.toLowerCase()}</span>
-            {hasSample ? <SampleBadge label={t.common.sampleBadge} /> : null}
-          </div>
-        </div>
-      </div>
-
-      {/* Spotlight — façon Fortnite Tracker */}
-      {entries.length > 0 ? (
-        <div className="mb-8">
-          <Spotlight
-            champion={champion}
-            mostWins={mostWins}
-            latestTournament={latestTournament}
-            latestWinnerName={latestWinnerName}
-          />
-        </div>
-      ) : null}
-
-      {entries.length === 0 ? (
-        <div className="card mx-auto max-w-lg p-10 text-center text-sm text-muted">{t.leaderboard.empty}</div>
-      ) : (
-        <>
-          <Podium entries={entries.slice(0, 3)} />
-          <div className="mt-8">
-            <LeaderboardView rows={rows} />
-          </div>
-        </>
-      )}
-    </div>
+    <HomeView
+      rows={rows}
+      podium={entries.slice(0, 3)}
+      searchIndex={searchIndex}
+      tournamentCount={tournaments.length}
+      hasSample={hasSample}
+      champion={champion}
+      mostWins={mostWins}
+      latestTournament={latestTournament}
+      latestWinnerName={latestWinnerName}
+    />
   );
 }

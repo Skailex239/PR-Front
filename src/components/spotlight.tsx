@@ -1,11 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import { Avatar } from "@/components/ui";
 import { Icon, type IconName } from "@/components/icons";
 import { formatDateShort, formatPoints } from "@/lib/format";
 import type { LeaderboardEntry, Tournament } from "@/lib/types";
-import { getDict } from "@/i18n";
-
-const t = getDict();
+import { useI18n } from "@/i18n/provider";
 
 type Tone = "yellow" | "cyan" | "purple";
 type Mark = Extract<IconName, "crown" | "trophy" | "flag">;
@@ -17,6 +17,7 @@ const tones: Record<Tone, { header: string; text: string; corner: string }> = {
 };
 
 function SpotlightCard({ label, href, tone, mark, children }: { label: string; href?: string; tone: Tone; mark: Mark; children: React.ReactNode }) {
+  const { t } = useI18n();
   const style = tones[tone];
   const card = (
     <div className="spotlight-card group overflow-hidden rounded-[3px] border border-line bg-white shadow-[0_3px_10px_rgba(22,28,38,.08)]">
@@ -51,10 +52,11 @@ function PlayerIdentity({ entry, stat }: { entry: LeaderboardEntry; stat: React.
 }
 
 export default function Spotlight({ champion, mostWins, latestTournament, latestWinnerName }: { champion: LeaderboardEntry | null; mostWins: LeaderboardEntry | null; latestTournament: Tournament | null; latestWinnerName: string | null }) {
+  const { t, locale } = useI18n();
   return (
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
       <SpotlightCard label={t.spotlight.champion} href={champion ? `/players/${champion.playerId}` : undefined} tone="yellow" mark="crown">
-        {champion ? <PlayerIdentity entry={champion} stat={<>PR {formatPoints(champion.points)}</>} /> : <span className="text-xs text-muted">{t.spotlight.noData}</span>}
+        {champion ? <PlayerIdentity entry={champion} stat={<>PR {formatPoints(champion.points, locale)}</>} /> : <span className="text-xs text-muted">{t.spotlight.noData}</span>}
       </SpotlightCard>
 
       <SpotlightCard label={t.spotlight.mostWins} href={mostWins ? `/players/${mostWins.playerId}` : undefined} tone="cyan" mark="trophy">
@@ -67,7 +69,7 @@ export default function Spotlight({ champion, mostWins, latestTournament, latest
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#f2eafa] text-[#7738b5] shadow-md"><Icon name="flag" size="md" /></div>
             <div className="min-w-0 leading-tight">
               <div className="truncate text-sm font-black text-slate-900">{latestTournament.name}</div>
-              <div className="mt-1 truncate text-[11px] font-bold text-slate-400">{formatDateShort(latestTournament.date)}{latestWinnerName ? ` · ${latestWinnerName}` : ""}</div>
+              <div className="mt-1 truncate text-[11px] font-bold text-slate-400">{formatDateShort(latestTournament.date, locale)}{latestWinnerName ? ` · ${latestWinnerName}` : ""}</div>
             </div>
           </div>
         ) : <span className="text-xs text-muted">{t.spotlight.noData}</span>}

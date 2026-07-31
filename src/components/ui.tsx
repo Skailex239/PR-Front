@@ -1,5 +1,8 @@
+"use client";
+
 import type { ReactNode } from "react";
 import { Icon, type IconName } from "@/components/icons";
+import { useI18n } from "@/i18n/provider";
 
 const PLAYER_AVATAR = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/player-avatar.svg`;
 
@@ -49,16 +52,16 @@ export function SampleBadge({ label }: { label: string }) {
 }
 
 export function TierBadge({ tier }: { tier: string }) {
+  const { t } = useI18n();
   const styles: Record<string, string> = {
     major: "border-fuchsia-400/50 bg-fuchsia-400/10 text-fuchsia-300",
     standard: "border-cyan2/40 bg-cyan2/10 text-cyan2",
     minor: "border-line bg-white/5 text-muted",
   };
-  const text: Record<string, string> = { major: "Major", standard: "Standard", minor: "Mineur" };
   return (
     <span className={`chip ${styles[tier] ?? styles.minor}`}>
       {tier === "major" ? <Icon name="starFilled" size="xs" /> : null}
-      {text[tier] ?? tier}
+      {t.tiers[tier] ?? tier}
     </span>
   );
 }

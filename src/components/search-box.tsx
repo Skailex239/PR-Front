@@ -6,13 +6,8 @@ import { Avatar } from "@/components/ui";
 import { Icon } from "@/components/icons";
 import { formatPoints } from "@/lib/format";
 import type { SearchIndexItem } from "@/lib/data";
-import { getDict } from "@/i18n";
-
-const t = getDict();
-
-function matches(item: SearchIndexItem, needle: string): boolean {
-  return `${item.name} ${item.clan ?? ""} ${item.id}`.toLowerCase().includes(needle);
-}
+import { normalizeQuery, matchesQuery } from "@/lib/search";
+import { useI18n } from "@/i18n/provider";
 
 /**
  * Barre de recherche joueurs — façon Fortnite Tracker : saisie → dropdown de
@@ -28,17 +23,20 @@ export default function SearchBox({
   items: SearchIndexItem[];
   variant?: "hero" | "nav";
 }) {
+  const { t, locale } = useI18n();
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const rootRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
+  const query = useMemo(() => normalizeQuery(q), [q]);
+  const { needle, isId } = query;
+
   const results = useMemo(() => {
-    const needle = q.trim().toLowerCase();
     if (!needle) return [];
-    return items.filter((i) => matches(i, needle)).slice(0, variant === "hero" ? 8 : 6);
-  }, [items, q, variant]);
+    return items.filter((i) => matchesQuery(i, query)).slice(0, variant === "hero" ? 8 : 6);
+  }, [items, query, variant]);
 
   useEffect(() => {
     setActive(0);
@@ -94,7 +92,7 @@ export default function SearchBox({
         {isHero ? <button type="button" onClick={() => results[active] && go(results[active].id)} className="hidden rounded-md bg-gradient-to-b from-[#ed8829] to-[#d96813] px-5 py-2 text-xs font-extrabold text-white shadow-sm sm:block">{t.search.heroCta}</button> : null}
       </div>
 
-      {open && q.trim() ? (
+      {open && needle ? (
         <div className="card absolute left-0 right-0 top-full z-50 mt-2 max-h-80 overflow-y-auto p-1.5">
           {results.length === 0 ? (
             <div className="px-3 py-4 text-center text-xs text-muted">{t.search.noResults}</div>
@@ -117,11 +115,18 @@ export default function SearchBox({
                       {r.clan ? <span className="mr-1 text-xs font-semibold text-muted">[{r.clan}]</span> : null}
                       {r.name}
                     </span>
+                    {isId ? (
+                      <span className="num block truncate text-[10px] text-muted">{r.id}</span>
+                    ) : null}
                   </span>
-                  <span className="num shrink-0 text-xs font-extrabold gradient-text">{formatPoints(r.points)}</span>
+                  <span className="num shrink-0 text-xs font-extrabold gradient-text">{formatPoints(r.points, locale)}</span>
                 </button>
               ))}
-              {isHero ? <div className="px-2.5 pb-1 pt-2 text-[0.65rem] text-muted">{t.search.resultsHint}</div> : null}
+              {isId ? (
+                <div className="px-2.5 pb-1 pt-2 text-[0.65rem] text-muted">{t.search.idHint}</div>
+              ) : isHero ? (
+                <div className="px-2.5 pb-1 pt-2 text-[0.65rem] text-muted">{t.search.resultsHint}</div>
+              ) : null}
             </>
           )}
         </div>
