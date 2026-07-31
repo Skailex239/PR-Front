@@ -187,6 +187,7 @@ npm run icons
 
 - **Next.js 15 (App Router) + TypeScript strict + Tailwind CSS 4**
 - Moteur PR en fonctions pures et testées : [`src/lib/pr.ts`](src/lib/pr.ts)
-- i18n prête : FR par défaut, EN déjà traduit ([`src/i18n/`](src/i18n/))
+- i18n **active** : fenêtre de choix à la première visite + bascule FR/EN dans la
+  barre du haut, choix mémorisé ([`src/i18n/`](src/i18n/))
 - Architecture pensée pour ajouter facilement : saisons, bot Discord d'inscription,
   page clans, comparateur de joueurs…
