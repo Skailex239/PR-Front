@@ -46,7 +46,37 @@ export function basePoints(
   if (place != null && phaseConf.places[String(place)] != null) {
     return phaseConf.places[String(place)];
   }
+  if (place != null && phaseConf.ranges) {
+    const range = phaseConf.ranges.find(
+      (r) => place >= r.min && (r.max == null || place <= r.max),
+    );
+    if (range) return range.points;
+  }
   return phaseConf.defaultPoints;
+}
+
+/** Le multiplicateur de tier s'applique-t-il à cette phase du barème ? */
+export function phaseUsesTierMultiplier(
+  scoring: ScoringConfig,
+  tournament: Tournament,
+  phaseType: string,
+): boolean {
+  const phaseConf = scoring.formats[tournament.format]?.phases[phaseType];
+  return !phaseConf?.ignoreTierMultiplier;
+}
+
+/**
+ * Cette phase compte-t-elle comme le classement final du tournoi ?
+ * (utilisé pour les victoires, top3, meilleure place, place moyenne)
+ */
+export function isFinalPhase(
+  scoring: ScoringConfig,
+  tournament: Tournament,
+  phaseType: string,
+): boolean {
+  if (phaseType === FINAL_PHASE) return true;
+  const phaseConf = scoring.formats[tournament.format]?.phases[phaseType];
+  return phaseConf?.countsAsFinal === true;
 }
 
 export function tierMultiplier(scoring: ScoringConfig, tournament: Tournament): number {
@@ -81,6 +111,7 @@ export function computePlayerPRs(
         const pr = getOrCreate(p.player);
         const place = p.place ?? null;
         const base = basePoints(scoring, t, phase.type, place);
+        const phaseMult = phaseUsesTierMultiplier(scoring, t, phase.type) ? mult : 1;
         const award: PhasePointsAward = {
           tournamentSlug: t.slug,
           tournamentName: t.name,
@@ -91,13 +122,13 @@ export function computePlayerPRs(
           phaseLabel,
           place,
           basePoints: base,
-          points: Math.round(base * mult),
+          points: Math.round(base * phaseMult),
         };
         pr.awards.push(award);
         pr.points += award.points;
         seen.add(p.player);
 
-        if (phase.type === FINAL_PHASE && place != null) {
+        if (isFinalPhase(scoring, t, phase.type) && place != null) {
           if (place === 1) pr.wins += 1;
           if (place <= 3) pr.top3 += 1;
           pr.bestPlace = pr.bestPlace == null ? place : Math.min(pr.bestPlace, place);
@@ -110,9 +141,14 @@ export function computePlayerPRs(
     }
   }
 
-  // Placement moyen en finale.
+  // Placement moyen sur le classement final de chaque tournoi.
   for (const pr of prs.values()) {
-    const finalPlaces = pr.awards.filter((a) => a.phaseType === FINAL_PHASE && a.place != null).map((a) => a.place as number);
+    const finalPlaces = pr.awards
+      .filter((a) => {
+        const t = tournaments.find((x) => x.slug === a.tournamentSlug);
+        return t != null && isFinalPhase(scoring, t, a.phaseType) && a.place != null;
+      })
+      .map((a) => a.place as number);
     pr.avgPlace = finalPlaces.length > 0 ? finalPlaces.reduce((s, v) => s + v, 0) / finalPlaces.length : null;
   }
 

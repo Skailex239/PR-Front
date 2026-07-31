@@ -1,16 +1,134 @@
 @import "tailwindcss";
 
 @theme {
+  /* Palette de base — thème clair beige/orange */
   --color-ink: #2D1B0E;
-  --color-panel: #F7F2E7;
-  --color-line: #DABFA3;
+  --color-ink2: #FBF3E4;
+  --color-panel: #FFFCF5;
+  --color-line: #E7CBA6;
   --color-text: #3A2E24;
-  --color-muted: #8C7A6B;
+  --color-muted: #93816F;
   --color-accent: #E87722;
-  --color-beige: #F5EDD8;
+  --color-accent-strong: #C85F0E;
+  --color-beige: #F6ECD6;
+
+  /* Accents de classement / stats */
+  --color-cyan2: #0E8E86;
+  --color-gold: #C9932B;
+  --color-silver: #8E97A6;
+  --color-bronze: #B0672C;
+
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-html { color-scheme: light; }
-body { background: var(--color-beige); color: var(--color-text); font-family: var(--font-sans); transition: background 0.4s ease, color 0.4s ease; }
-.card { background: var(--color-panel); border: 1px solid var(--color-line); border-radius: 1rem; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-beige);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 35%, transparent);
+}
+
+/* ---------- Nombres tabulaires (scores, points, stats) ---------- */
+.num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* ---------- Cartes ---------- */
+.card {
+  background: var(--color-panel);
+  border: 1px solid var(--color-line);
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(58, 46, 36, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--color-accent) 45%, var(--color-line));
+  box-shadow: 0 10px 24px -12px rgba(232, 119, 34, 0.35);
+}
+
+/* Lueurs du podium (1er / 2e / 3e) */
+.podium-glow-1 {
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-gold) 55%, transparent), 0 16px 32px -16px color-mix(in srgb, var(--color-gold) 55%, transparent);
+}
+.podium-glow-2 {
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-silver) 55%, transparent), 0 12px 24px -14px color-mix(in srgb, var(--color-silver) 45%, transparent);
+}
+.podium-glow-3 {
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-bronze) 55%, transparent), 0 12px 24px -14px color-mix(in srgb, var(--color-bronze) 45%, transparent);
+}
+
+/* ---------- Étiquettes / badges ---------- */
+.micro-label {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-line);
+  background: color-mix(in srgb, var(--color-panel) 70%, white);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+/* ---------- Texte en dégradé (points, titres accentués) ---------- */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-accent-strong), var(--color-accent) 55%, var(--color-gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ---------- Rangs 1/2/3 ---------- */
+.rank-1 { color: var(--color-gold); }
+.rank-2 { color: var(--color-silver); }
+.rank-3 { color: var(--color-bronze); }
+
+/* ---------- Lignes de tableau (classement, historique) ---------- */
+.lb-row {
+  border-bottom: 1px solid color-mix(in srgb, var(--color-line) 60%, transparent);
+  transition: background 0.15s ease;
+}
+.lb-row:last-child { border-bottom: none; }
+.lb-row:hover {
+  background: color-mix(in srgb, var(--color-accent) 6%, transparent);
+}
+
+/* ---------- Résultats de match (stats live) ---------- */
+.result-win { color: #1E8E5A; }
+.result-loss { color: #C4432E; }
+
+/* ---------- Barre de progression style FT (winrate, etc.) ---------- */
+.meter {
+  position: relative;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-line) 70%, transparent);
+  overflow: hidden;
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-accent-strong), var(--color-accent));
+}

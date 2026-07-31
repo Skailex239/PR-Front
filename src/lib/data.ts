@@ -62,4 +62,23 @@ export const getPlayer = cache((discordId: string): Player | null => {
   return getPlayers().find((p) => p.discordId === discordId) ?? null;
 });
 
+export interface SearchIndexItem {
+  id: string;
+  name: string;
+  clan: string | null;
+  points: number;
+  rank: number;
+}
+
+/** Petit index client-side pour la recherche (nav + hero) — pas de données sensibles. */
+export const getSearchIndex = cache((): SearchIndexItem[] => {
+  return getLeaderboard().map((e) => ({
+    id: e.playerId,
+    name: e.player?.name ?? e.playerId,
+    clan: e.player?.clan ?? null,
+    points: e.points,
+    rank: e.rank,
+  }));
+});
+
 export type { DataError };

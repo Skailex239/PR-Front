@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getPlayer, getScoring, getTournament, getTournaments } from "@/lib/data";
-import { basePoints, tierMultiplier } from "@/lib/pr";
+import { basePoints, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
 import { FormatBadge, PlaceNumber, SampleBadge, SectionTitle, TierBadge, Avatar } from "@/components/ui";
 import { formatDate, formatPoints } from "@/lib/format";
 import { getDict } from "@/i18n";
@@ -72,18 +72,22 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
                     <tr className="border-b border-line/70 text-left">
                       <th className="micro-label w-20 px-4 py-3">{t.common.place}</th>
                       <th className="micro-label px-4 py-3">{t.common.player}</th>
-                      <th className="micro-label px-4 py-3 text-right">{t.common.points} (×{mult})</th>
+                      <th className="micro-label px-4 py-3 text-right">
+                        {t.common.points}
+                        {phaseUsesTierMultiplier(scoring, tn, phase.type) ? ` (×${mult})` : ""}
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     {rows.map((p) => {
                       const pl = getPlayer(p.player);
-                      const pts = Math.round(basePoints(scoring, tn, phase.type, p.place ?? null) * mult);
+                      const phaseMult = phaseUsesTierMultiplier(scoring, tn, phase.type) ? mult : 1;
+                      const pts = Math.round(basePoints(scoring, tn, phase.type, p.place ?? null) * phaseMult);
                       return (
                         <tr key={p.player} className="lb-row">
                           <td className="px-4 py-2.5"><PlaceNumber place={p.place ?? null} /></td>
                           <td className="px-4 py-2.5">
-                            <Link href={`/players/${p.player}`} className="flex items-center gap-3 hover:text-violet-300 hover:underline">
+                            <Link href={`/players/${p.player}`} className="flex items-center gap-3 hover:text-accent-strong hover:underline">
                               <Avatar name={pl?.name ?? p.player} size="sm" />
                               <span className="font-semibold">
                                 {pl?.clan ? <span className="mr-1.5 text-xs text-muted">[{pl.clan}]</span> : null}

@@ -46,7 +46,23 @@ const fr = {
   formats: {
     ffa: "FFA multi-manches",
     bracket: "Bracket 1v1",
+    minor: "Classement minor",
   } as Record<string, string>,
+  search: {
+    heroPlaceholder: "Rechercher un joueur, un clan, un ID Discord…",
+    heroCta: "Rechercher",
+    navPlaceholder: "Rechercher…",
+    noResults: "Aucun joueur ne correspond.",
+    resultsHint: "Entrée pour ouvrir le premier résultat",
+  },
+  spotlight: {
+    champion: "Champion actuel",
+    mostWins: "Plus de victoires",
+    latestTournament: "Dernier tournoi",
+    viewAll: "Tout voir",
+    noWinner: "Pas encore de vainqueur",
+    noData: "Pas encore de données",
+  },
   leaderboard: {
     title: "Power Ranking",
     subtitle: "Classement des joueurs du circuit — points cumulés sur tous les tournois, sans décroissance.",
@@ -63,6 +79,7 @@ const fr = {
   player: {
     prPoints: "Points PR",
     globalRank: "Rang mondial",
+    lifetimeStats: "Stats à vie",
     breakdown: "Détail des points",
     breakdownHint: "Comment ce joueur a gagné ses points, tournoi par tournoi.",
     liveTitle: "Stats OpenFront en direct",

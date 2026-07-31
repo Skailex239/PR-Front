@@ -66,7 +66,7 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
                   <Link href={`/players/${r.id}`} className="group flex items-center gap-3">
                     <Avatar name={r.name} size="sm" />
                     <div className="min-w-0">
-                      <div className="truncate font-bold group-hover:text-violet-300 group-hover:underline">
+                      <div className="truncate font-bold group-hover:text-accent-strong group-hover:underline">
                         {r.clan ? <span className="mr-1.5 text-xs font-semibold text-muted">[{r.clan}]</span> : null}
                         {r.name}
                       </div>
