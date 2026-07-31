@@ -1,14 +1,14 @@
 import { getDict } from "@/i18n";
 
 const t = getDict();
+const LOGO = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/pr-front-logo.svg`;
 
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-line/70 py-8">
-      <div className="mx-auto max-w-6xl px-4 text-center text-xs text-muted sm:px-6">
-        <div className="font-semibold">
-          PR-<span className="gradient-text">FRONT</span> — {t.footer.byline}
-        </div>
+      <div className="mx-auto flex max-w-[1080px] flex-col items-center px-4 text-center text-xs text-muted sm:px-6">
+        <img src={LOGO} alt="PR-Front" className="brand-logo mb-3 h-10 w-10 object-contain" />
+        <div className="font-semibold">{t.footer.byline}</div>
         <div className="mt-2">{t.footer.data}</div>
       </div>
     </footer>

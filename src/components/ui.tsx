@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
-import { initials } from "@/lib/format";
+
+const PLAYER_AVATAR = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/player-avatar.svg`;
 
 /** Petits composants UI partagés (server-safe). */
 
@@ -24,19 +25,17 @@ export function StatCard({ label, value, sub, accent }: { label: string; value: 
 
 export function Avatar({ name, size = "md" }: { name: string; size?: "sm" | "md" | "lg" | "xl" }) {
   const sizes = {
-    sm: "h-7 w-7 text-[0.6rem]",
-    md: "h-10 w-10 text-xs",
-    lg: "h-16 w-16 text-lg",
-    xl: "h-20 w-20 text-2xl",
+    sm: "h-7 w-7",
+    md: "h-10 w-10",
+    lg: "h-16 w-16",
+    xl: "h-20 w-20",
   } as const;
   return (
-    <div
-      className={`flex shrink-0 items-center justify-center rounded-xl border border-line font-extrabold tracking-wide text-text/90 ${sizes[size]}`}
-      style={{ background: "linear-gradient(135deg, rgba(124,92,255,.35), rgba(0,212,255,.25))" }}
-      aria-hidden
-    >
-      {initials(name)}
-    </div>
+    <img
+      src={PLAYER_AVATAR}
+      alt={`Avatar de ${name}`}
+      className={`player-avatar shrink-0 rounded-lg object-cover ${sizes[size]}`}
+    />
   );
 }
 

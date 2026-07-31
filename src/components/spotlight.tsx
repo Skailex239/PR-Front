@@ -6,100 +6,80 @@ import { getDict } from "@/i18n";
 
 const t = getDict();
 
-function SpotlightCard({
-  label,
-  href,
-  children,
-}: {
-  label: string;
-  href?: string;
-  children: React.ReactNode;
-}) {
-  const inner = (
-    <div className="card card-hover flex h-full flex-col gap-3 p-4">
-      <div className="flex items-center justify-between">
-        <span className="micro-label">{label}</span>
-        {href ? <span className="text-[0.65rem] font-bold text-accent-strong">{t.spotlight.viewAll} →</span> : null}
+type Tone = "yellow" | "cyan" | "purple";
+type Mark = "crown" | "trophy" | "flag";
+
+function MarkIcon({ type, className = "" }: { type: Mark; className?: string }) {
+  if (type === "crown") {
+    return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"><path d="m3 7 4.5 4L12 4l4.5 7L21 7l-2 11H5L3 7Z"/><path d="M5 18h14"/></svg>;
+  }
+  if (type === "flag") {
+    return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 21V4m0 1h11l-2.5 3L17 11H6"/></svg>;
+  }
+  return <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 4h8v4a4 4 0 0 1-8 0V4Z"/><path d="M8 6H5v1a3 3 0 0 0 3 3m8-4h3v1a3 3 0 0 1-3 3M12 12v5m-4 3h8"/></svg>;
+}
+
+const tones: Record<Tone, { header: string; text: string; corner: string }> = {
+  yellow: { header: "bg-[#f4ec55]", text: "text-[#17191d]", corner: "border-t-[#c9a819]" },
+  cyan: { header: "bg-[#21b9e8]", text: "text-[#063d55]", corner: "border-t-[#078bb8]" },
+  purple: { header: "bg-[#7738b5]", text: "text-white", corner: "border-t-[#55238c]" },
+};
+
+function SpotlightCard({ label, href, tone, mark, children }: { label: string; href?: string; tone: Tone; mark: Mark; children: React.ReactNode }) {
+  const style = tones[tone];
+  const card = (
+    <div className="spotlight-card group overflow-hidden rounded-[3px] border border-line bg-white shadow-[0_3px_10px_rgba(22,28,38,.08)]">
+      <div className={`relative flex h-9 items-center justify-between overflow-hidden px-4 ${style.header} ${style.text}`}>
+        <span className="text-[11px] font-black uppercase tracking-[-0.015em]">{label}</span>
+        <span className="relative z-10 text-[10px] font-extrabold">{t.spotlight.viewAll}</span>
+        <span className={`absolute right-[62px] top-0 h-0 w-0 border-l-[22px] border-t-[36px] border-l-transparent opacity-80 ${style.corner}`} aria-hidden />
+        <span className="absolute inset-y-0 right-0 w-[62px] bg-black/10" aria-hidden />
       </div>
-      {children}
+      <div className="relative flex h-[76px] items-center overflow-hidden px-4">
+        {children}
+        <MarkIcon type={mark} className="pointer-events-none absolute -bottom-3 right-3 h-[70px] w-[70px] rotate-[-7deg] text-slate-900/[0.055]" />
+      </div>
     </div>
   );
-  return href ? <Link href={href}>{inner}</Link> : inner;
+  return href ? <Link href={href}>{card}</Link> : card;
 }
 
-function EmptyRow({ text }: { text: string }) {
-  return <div className="flex flex-1 items-center text-sm text-muted">{text}</div>;
+function PlayerIdentity({ entry, stat }: { entry: LeaderboardEntry; stat: React.ReactNode }) {
+  const name = entry.player?.name ?? entry.playerId;
+  return (
+    <div className="relative z-10 flex min-w-0 items-center gap-3">
+      <div className="rounded-lg border-2 border-white shadow-md"><Avatar name={name} size="md" /></div>
+      <div className="min-w-0 leading-tight">
+        <div className="truncate text-sm font-black text-slate-900">
+          {entry.player?.clan ? <span className="mr-1 text-[10px] font-bold text-slate-400">[{entry.player.clan}]</span> : null}{name}
+        </div>
+        <div className="num mt-1 text-xs font-extrabold text-slate-400">{stat}</div>
+      </div>
+    </div>
+  );
 }
 
-export default function Spotlight({
-  champion,
-  mostWins,
-  latestTournament,
-  latestWinnerName,
-}: {
-  champion: LeaderboardEntry | null;
-  mostWins: LeaderboardEntry | null;
-  latestTournament: Tournament | null;
-  latestWinnerName: string | null;
-}) {
+export default function Spotlight({ champion, mostWins, latestTournament, latestWinnerName }: { champion: LeaderboardEntry | null; mostWins: LeaderboardEntry | null; latestTournament: Tournament | null; latestWinnerName: string | null }) {
   return (
     <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-      <SpotlightCard label={t.spotlight.champion} href={champion ? `/players/${champion.playerId}` : undefined}>
-        {champion ? (
-          <div className="flex items-center gap-3">
-            <Avatar name={champion.player?.name ?? champion.playerId} size="lg" />
-            <div className="min-w-0">
-              <div className="truncate text-base font-extrabold">
-                {champion.player?.clan ? <span className="mr-1 text-xs font-semibold text-muted">[{champion.player.clan}]</span> : null}
-                {champion.player?.name ?? champion.playerId}
-              </div>
-              <div className="num text-lg font-black gradient-text">
-                {formatPoints(champion.points)} <span className="text-xs font-bold text-muted">pts</span>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <EmptyRow text={t.spotlight.noData} />
-        )}
+      <SpotlightCard label={t.spotlight.champion} href={champion ? `/players/${champion.playerId}` : undefined} tone="yellow" mark="crown">
+        {champion ? <PlayerIdentity entry={champion} stat={<>PR {formatPoints(champion.points)}</>} /> : <span className="text-xs text-muted">{t.spotlight.noData}</span>}
       </SpotlightCard>
 
-      <SpotlightCard label={t.spotlight.mostWins} href={mostWins ? `/players/${mostWins.playerId}` : undefined}>
-        {mostWins && mostWins.wins > 0 ? (
-          <div className="flex items-center gap-3">
-            <Avatar name={mostWins.player?.name ?? mostWins.playerId} size="lg" />
-            <div className="min-w-0">
-              <div className="truncate text-base font-extrabold">
-                {mostWins.player?.clan ? <span className="mr-1 text-xs font-semibold text-muted">[{mostWins.player.clan}]</span> : null}
-                {mostWins.player?.name ?? mostWins.playerId}
-              </div>
-              <div className="num text-lg font-black rank-1">
-                🏆 {mostWins.wins} <span className="text-xs font-bold text-muted">{t.common.wins.toLowerCase()}</span>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <EmptyRow text={t.spotlight.noWinner} />
-        )}
+      <SpotlightCard label={t.spotlight.mostWins} href={mostWins ? `/players/${mostWins.playerId}` : undefined} tone="cyan" mark="trophy">
+        {mostWins ? <PlayerIdentity entry={mostWins} stat={<>{mostWins.wins} {t.common.wins.toLowerCase()}</>} /> : <span className="text-xs text-muted">{t.spotlight.noWinner}</span>}
       </SpotlightCard>
 
-      <SpotlightCard label={t.spotlight.latestTournament} href={latestTournament ? `/tournaments/${latestTournament.slug}` : "/tournaments"}>
+      <SpotlightCard label={t.spotlight.latestTournament} href={latestTournament ? `/tournaments/${latestTournament.slug}` : "/tournaments"} tone="purple" mark="flag">
         {latestTournament ? (
-          <div>
-            <div className="truncate text-base font-extrabold">{latestTournament.name}</div>
-            <div className="mt-1 text-xs text-muted">{formatDateShort(latestTournament.date)}</div>
-            <div className="mt-2 text-sm">
-              {latestWinnerName ? (
-                <>
-                  🥇 <span className="font-bold text-gold">{latestWinnerName}</span>
-                </>
-              ) : (
-                <span className="text-muted">{t.spotlight.noWinner}</span>
-              )}
+          <div className="relative z-10 flex min-w-0 items-center gap-3">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#f2eafa] text-[#7738b5] shadow-md"><MarkIcon type="flag" className="h-5 w-5" /></div>
+            <div className="min-w-0 leading-tight">
+              <div className="truncate text-sm font-black text-slate-900">{latestTournament.name}</div>
+              <div className="mt-1 truncate text-[11px] font-bold text-slate-400">{formatDateShort(latestTournament.date)}{latestWinnerName ? ` · ${latestWinnerName}` : ""}</div>
             </div>
           </div>
-        ) : (
-          <EmptyRow text={t.spotlight.noData} />
-        )}
+        ) : <span className="text-xs text-muted">{t.spotlight.noData}</span>}
       </SpotlightCard>
     </div>
   );

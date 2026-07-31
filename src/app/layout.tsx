@@ -21,10 +21,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const searchIndex = getSearchIndex();
   return (
     <html lang="fr">
-      <body className="flex min-h-screen flex-col antialiased">
+      <body className="min-h-screen antialiased">
         <Navbar searchIndex={searchIndex} />
-        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6">{children}</main>
-        <Footer />
+        <div className="min-h-screen pt-[60px] lg:pl-[246px]">
+          <main className="mx-auto w-full max-w-[1080px] px-5 py-10 sm:px-8 lg:py-10">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

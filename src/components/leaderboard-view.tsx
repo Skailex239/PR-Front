@@ -33,14 +33,17 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
 
   return (
     <div className="card overflow-hidden">
-      {/* Barre de recherche */}
-      <div className="border-b border-line/70 p-3">
-        <input
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-          placeholder={t.common.search}
-          className="w-full rounded-lg border border-line bg-ink2 px-4 py-2.5 text-sm text-text placeholder:text-muted focus:border-accent/60 focus:outline-none sm:max-w-sm"
-        />
+      <div className="flex flex-col gap-3 border-b border-line/70 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
+        <h2 className="text-xs font-black tracking-wide">CLASSEMENT GÉNÉRAL</h2>
+        <div className="relative w-full sm:max-w-[240px]">
+          <svg viewBox="0 0 24 24" className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted" fill="none" stroke="currentColor" strokeWidth="1.8"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+          <input
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder={t.common.search}
+            className="w-full rounded-md border border-line bg-panel py-2 pl-9 pr-3 text-xs text-text placeholder:text-muted focus:border-accent/60 focus:outline-none"
+          />
+        </div>
       </div>
 
       <div className="overflow-x-auto">
