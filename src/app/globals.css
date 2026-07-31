@@ -133,3 +133,28 @@ tr:hover .num, a:hover .num { color: var(--color-accent-strong); }
   .sidebar-link { padding-inline: 20px; }
   main > div { animation-duration: .4s; }
 }
+
+/* ---------- Bandeau d'accueil ---------- */
+.hero-band { background-color: var(--color-sidebar); }
+/* Voile : plus dense en bas pour ancrer la barre de recherche, et teinté
+   orange sur les bords pour raccorder l'image au thème du site. */
+.hero-veil {
+  background:
+    radial-gradient(115% 95% at 50% 8%, rgba(13,16,22,.14) 0%, rgba(13,16,22,.48) 58%, rgba(13,16,22,.76) 100%),
+    linear-gradient(180deg, rgba(23,26,32,.34) 0%, rgba(23,26,32,.3) 42%, rgba(23,26,32,.72) 100%);
+}
+.hero-title { text-shadow: 0 2px 18px rgba(0,0,0,.45); }
+.hero-kicker { text-shadow: 0 1px 10px rgba(0,0,0,.5); }
+.hero-band .hero-kicker { animation: page-reveal .5s cubic-bezier(.2,.7,.2,1) backwards; }
+.hero-band .hero-title { animation: page-reveal .55s cubic-bezier(.2,.7,.2,1) .06s backwards; }
+.hero-band .hero-search { animation: page-reveal .6s cubic-bezier(.2,.7,.2,1) .13s backwards; }
+/* La barre de recherche du bandeau ne doit pas hériter du léger décalage
+   appliqué aux inputs du reste du site (elle est déjà posée sur une ombre). */
+.hero-search input:focus { transform: none; box-shadow: none; }
+
+/* ---------- Fenêtre de choix de la langue ---------- */
+@keyframes dialog-in {
+  from { opacity: 0; transform: translateY(10px) scale(.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.lang-dialog { animation: dialog-in .28s cubic-bezier(.2,.8,.2,1) both; }

@@ -1,4 +1,8 @@
+"use client";
+
 import type { ReactNode } from "react";
+import { Icon, type IconName } from "@/components/icons";
+import { useI18n } from "@/i18n/provider";
 
 const PLAYER_AVATAR = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/player-avatar.svg`;
 
@@ -42,26 +46,37 @@ export function Avatar({ name, size = "md" }: { name: string; size?: "sm" | "md"
 export function SampleBadge({ label }: { label: string }) {
   return (
     <span className="chip border-amber-400/40 bg-amber-400/10 text-amber-300">
-      ⚠ {label}
+      <Icon name="warning" size="xs" /> {label}
     </span>
   );
 }
 
 export function TierBadge({ tier }: { tier: string }) {
+  const { t } = useI18n();
   const styles: Record<string, string> = {
     major: "border-fuchsia-400/50 bg-fuchsia-400/10 text-fuchsia-300",
     standard: "border-cyan2/40 bg-cyan2/10 text-cyan2",
     minor: "border-line bg-white/5 text-muted",
   };
-  const text: Record<string, string> = { major: "★ Major", standard: "Standard", minor: "Mineur" };
-  return <span className={`chip ${styles[tier] ?? styles.minor}`}>{text[tier] ?? tier}</span>;
+  return (
+    <span className={`chip ${styles[tier] ?? styles.minor}`}>
+      {tier === "major" ? <Icon name="starFilled" size="xs" /> : null}
+      {t.tiers[tier] ?? tier}
+    </span>
+  );
 }
 
+/** Icône associée à chaque format de tournoi. */
+const FORMAT_ICONS: Record<string, IconName> = {
+  bracket: "swords",
+  minor: "target",
+  ffa: "globe",
+};
+
 export function FormatBadge({ format, label }: { format: string; label: string }) {
-  const icon = format === "bracket" ? "⚔" : format === "minor" ? "🎯" : "🌐";
   return (
     <span className="chip border-accent/40 bg-accent/10 text-accent-strong">
-      {icon} {label}
+      <Icon name={FORMAT_ICONS[format] ?? "globe"} size="xs" /> {label}
     </span>
   );
 }

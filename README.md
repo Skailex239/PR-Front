@@ -1,4 +1,4 @@
-# PR-Front 🏆
+# PR-Front <img src="public/icons/trophy.svg" width="26" height="26" alt="" align="absmiddle">
 
 **Le Power Ranking compétitif des tournois [OpenFront.io](https://openfront.io), façon Fortnite Tracker.**
 
@@ -6,7 +6,7 @@ Classement des joueurs par points cumulés sur les tournois du circuit : podium,
 joueurs détaillés, décomposition des points phase par phase et stats live de l'API
 publique OpenFront.
 
-## 🌍 Voir le site en ligne
+## <img src="public/icons/globe.svg" width="20" height="20" alt="" align="absmiddle"> Voir le site en ligne
 
 ### Option A — GitHub Pages (gratuit, zéro config serveur)
 
@@ -19,7 +19,7 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
    [`docs/github-pages-workflow.yml`](docs/github-pages-workflow.yml) → *Commit* sur `main`.
 3. **Settings → Pages → Build and deployment → Source : « GitHub Actions »**.
 
-➡️ Le site sera sur **https://skailex239.github.io/PR-Front/** et se redéploiera
+<img src="public/icons/arrowRight.svg" width="18" height="18" alt="" align="absmiddle"> Le site sera sur **https://skailex239.github.io/PR-Front/** et se redéploiera
 **automatiquement à chaque push sur `main`**.
 
 > Les données se mettent à jour en poussant les fichiers de `data/` sur `main`
@@ -32,9 +32,9 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
 1. Créez un compte sur [vercel.com](https://vercel.com) avec GitHub.
 2. « Add New → Project » → importer **Skailex239/PR-Front** → Deploy (rien à configurer).
 
-➡️ URL type `pr-front.vercel.app`, redéploiement auto à chaque push, previews par branche.
+<img src="public/icons/arrowRight.svg" width="18" height="18" alt="" align="absmiddle"> URL type `pr-front.vercel.app`, redéploiement auto à chaque push, previews par branche.
 
-## ⚙️ Fonctionnement du Power Ranking
+## <img src="public/icons/settings.svg" width="20" height="20" alt="" align="absmiddle"> Fonctionnement du Power Ranking
 
 - **Points par phase atteinte** (style FNCS) : chaque phase d'un tournoi (qualifications,
   demi-finale, finale…) attribue des points selon le placement.
@@ -48,7 +48,7 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
 - Le barème complet est dans **[`data/scoring.config.json`](data/scoring.config.json)** —
   c'est le seul fichier à modifier pour changer la grille de points.
 
-## 📝 Ajouter / modifier des données
+## <img src="public/icons/note.svg" width="20" height="20" alt="" align="absmiddle"> Ajouter / modifier des données
 
 Les données vivent dans le dossier [`data/`](data/) — aucune base de données :
 
@@ -58,7 +58,7 @@ Les données vivent dans le dossier [`data/`](data/) — aucune base de données
 | `scoring.config.json` | Barème de points (phases, placements, tiers) |
 | `tournaments/*.json` | Un fichier par tournoi : format, tier, phases, résultats |
 
-> 💡 **Workflow prévu** : donnez simplement les résultats du tournoi à l'agent IA (session
+> <img src="public/icons/bulb.svg" width="18" height="18" alt="" align="absmiddle"> **Workflow prévu** : donnez simplement les résultats du tournoi à l'agent IA (session
 > Arena), il crée/édite les fichiers, vérifie le calcul et pousse sur le repo.
 
 ### Joueurs (`players.json`)
@@ -139,7 +139,7 @@ points exacts pour les 10 premières places puis des **tranches** (`ranges`, ex.
 pour « 100e et au-delà »). Cette phase compte aussi comme le classement final du
 joueur pour ses stats (victoires, top 3, meilleure place).
 
-## 🚀 Développement
+## <img src="public/icons/rocket.svg" width="20" height="20" alt="" align="absmiddle"> Développement
 
 ```bash
 npm install
@@ -149,17 +149,45 @@ npm run build                   # build classique (Vercel/Node)
 GH_PAGES=true npm run build     # export statique GitHub Pages → ./out
 ```
 
-## 🌐 Stats live OpenFront
+## <img src="public/icons/broadcast.svg" width="20" height="20" alt="" align="absmiddle"> Stats live OpenFront
 
 Les profils joueurs récupèrent l'historique récent via
 [`api.openfront.io/public/player/:id`](https://github.com/openfrontio/OpenFrontIO/blob/main/docs/API.md)
 (champ `openfrontId` du joueur). Si l'API est injoignable ou que le joueur n'a pas
 d'`openfrontId`, le bloc l'indique sans casser la page.
 
-## 🧩 Stack & évolutivité
+## <img src="public/icons/star.svg" width="20" height="20" alt="" align="absmiddle"> Icônes
+
+Le site n'utilise **aucun émoji** : tous les pictogrammes sont des icônes SVG
+maison, dessinées sur une grille 24×24 et tracées en `currentColor` (elles
+prennent donc la couleur du texte parent, restent nettes à toute taille et
+s'affichent de façon identique sur tous les OS — contrairement aux émojis, dont
+le rendu dépend de la police système).
+
+- **Géométrie** : [`src/lib/icon-paths.ts`](src/lib/icon-paths.ts) — source de vérité unique.
+- **Composant React** : [`src/components/icons.tsx`](src/components/icons.tsx).
+- **Fichiers SVG autonomes** : [`public/icons/`](public/icons/) — pour le README et les usages hors React.
+
+```tsx
+import { Icon } from "@/components/icons";
+
+<Icon name="trophy" />                        {/* décorative (aria-hidden) */}
+<Icon name="medal" size="lg" title="Vainqueur" /> {/* exposée aux lecteurs d'écran */}
+```
+
+Tailles : `xs` (14px), `sm` (16px, défaut), `md` (20px), `lg` (24px), `xl` (32px).
+
+Après avoir ajouté ou modifié une icône dans `icon-paths.ts`, régénérez les SVG :
+
+```bash
+npm run icons
+```
+
+## <img src="public/icons/puzzle.svg" width="20" height="20" alt="" align="absmiddle"> Stack & évolutivité
 
 - **Next.js 15 (App Router) + TypeScript strict + Tailwind CSS 4**
 - Moteur PR en fonctions pures et testées : [`src/lib/pr.ts`](src/lib/pr.ts)
-- i18n prête : FR par défaut, EN déjà traduit ([`src/i18n/`](src/i18n/))
+- i18n **active** : fenêtre de choix à la première visite + bascule FR/EN dans la
+  barre du haut, choix mémorisé ([`src/i18n/`](src/i18n/))
 - Architecture pensée pour ajouter facilement : saisons, bot Discord d'inscription,
   page clans, comparateur de joueurs…

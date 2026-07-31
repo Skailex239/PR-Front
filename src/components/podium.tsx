@@ -1,12 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import type { LeaderboardEntry } from "@/lib/types";
 import { formatPoints } from "@/lib/format";
 import { Avatar } from "@/components/ui";
-import { getDict } from "@/i18n";
-
-const t = getDict();
+import { useI18n } from "@/i18n/provider";
 
 function PodiumCard({ entry, big }: { entry: LeaderboardEntry; big?: boolean }) {
+  const { t, locale } = useI18n();
   const name = entry.player?.name ?? entry.playerId;
   const glow = entry.rank === 1 ? "podium-glow-1" : entry.rank === 2 ? "podium-glow-2" : "podium-glow-3";
   const medal = entry.rank === 1 ? "rank-1" : entry.rank === 2 ? "rank-2" : "rank-3";
@@ -20,7 +21,7 @@ function PodiumCard({ entry, big }: { entry: LeaderboardEntry; big?: boolean }) 
       <div className="mt-2 truncate text-sm font-extrabold tracking-tight">{name}</div>
       {entry.player?.clan ? <div className="mt-1 text-xs text-muted">[{entry.player.clan}]</div> : null}
       <div className="num mt-2 text-xl font-black gradient-text">
-        {formatPoints(entry.points)}
+        {formatPoints(entry.points, locale)}
         <span className="ml-1 text-xs font-bold text-muted">{t.leaderboard.podiumPts}</span>
       </div>
       <div className="mt-2 text-[0.7rem] text-muted">

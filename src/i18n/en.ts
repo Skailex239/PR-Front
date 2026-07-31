@@ -1,8 +1,7 @@
-import type { Dict } from "./fr";
+import type { Dict } from "./fr.ts";
 
 /**
- * Dictionnaire anglais — prêt pour la future bascule FR/EN.
- * La structure suit exactement `fr.ts` (typage strict).
+ * Dictionnaire anglais — miroir strict de `fr.ts` (typage `Dict`).
  */
 const en: Dict = {
   site: {
@@ -14,6 +13,32 @@ const en: Dict = {
   nav: {
     leaderboard: "Leaderboard",
     tournaments: "Tournaments",
+    players: "Players",
+    clans: "Clans",
+    matches: "Matches",
+    stats: "Statistics",
+    history: "History",
+    favorites: "Favorites",
+    play: "Play",
+    openMenu: "Open menu",
+    home: "PR-Front — Home",
+    admin: "Admin",
+    soon: "Coming soon",
+  },
+  lang: {
+    label: "Language",
+    switchTo: "Switch to French",
+    fr: "FR",
+    en: "EN",
+    frFull: "Français",
+    enFull: "English",
+    dialogTitle: "Choose your language",
+    dialogSubtitle: "Which language would you like to browse the OpenFront Power Ranking in?",
+    dialogHint: "You can change it at any time from the top bar.",
+    suggested: "Suggested",
+  },
+  hero: {
+    title: "Find your OpenFront stats",
   },
   common: {
     player: "Player",
@@ -40,10 +65,15 @@ const en: Dict = {
     search: "Search a player…",
     noResult: "No player found.",
     viewProfile: "View profile",
-    backToLeaderboard: "← Back to leaderboard",
-    backToTournaments: "← Back to tournaments",
+    backToLeaderboard: "Back to leaderboard",
+    backToTournaments: "Back to tournaments",
     unknownPlayer: "Unknown player",
   },
+  tiers: {
+    major: "Major",
+    standard: "Standard",
+    minor: "Minor",
+  } as Record<string, string>,
   formats: {
     ffa: "Multi-round FFA",
     bracket: "1v1 bracket",
@@ -55,6 +85,7 @@ const en: Dict = {
     navPlaceholder: "Search…",
     noResults: "No player matches.",
     resultsHint: "Press Enter to open the first result",
+    idHint: "Searching by Discord ID",
   },
   spotlight: {
     champion: "Current champion",
@@ -68,6 +99,7 @@ const en: Dict = {
     title: "Power Ranking",
     subtitle: "Circuit player rankings — cumulative points across all tournaments, no decay.",
     updated: "Updated by the organizer",
+    generalTitle: "Overall leaderboard",
     colPlayer: "Player",
     colPr: "PR",
     colEvents: "Events",
@@ -76,6 +108,14 @@ const en: Dict = {
     colAvgPlace: "Avg. place",
     empty: "The leaderboard is empty for now — first tournaments are coming soon.",
     podiumPts: "pts",
+    filterAll: "All",
+    filterRecurring: "Recurring",
+    filterRecurringHint: "2 tournaments and more",
+    filterTop100: "Top 100",
+    filterWithClan: "With clan",
+    filterCount: "{shown} of {total} players",
+    newBadge: "New",
+    newBadgeHint: "First circuit tournament",
   },
   player: {
     prPoints: "PR Points",
@@ -87,7 +127,8 @@ const en: Dict = {
     liveSubtitle: "Public data fetched from api.openfront.io (5 min cache).",
     liveWinrate: "Recent winrate",
     liveRecent: "Recent public games",
-    liveUnavailable: "Live stats unavailable right now (OpenFront API unreachable or player not found).",
+    liveUnavailable:
+      "Live stats unavailable right now (OpenFront API unreachable or player not found).",
     liveNotLinked: "No OpenFront account is linked to this player — no live stats.",
     liveLoading: "Loading live stats…",
     liveSample: "over the last {n} games",
@@ -96,6 +137,27 @@ const en: Dict = {
     defeat: "Defeat",
     incomplete: "Incomplete",
     openfrontId: "OpenFront public ID",
+    chartTitle: "Power Ranking progression",
+    chartSubtitle: "Cumulative points after each tournament",
+    chartBadge: "POWER RANKING",
+    chartEmpty: "No data",
+    chartAria: "Cumulative PR points progression — hover the line for details",
+    chartHint: "Hover the line (or use arrow keys) to see details",
+    chartTotal: "PR total",
+    chartGained: "Gained",
+    circuitTotals: "Circuit totals",
+    awardsLabel: "Awards",
+    placementsTitle: "Placements",
+    avgPlaceShort: "Average place",
+    resultsTitle: "Tournament results",
+    playedCount: "{n} tournament(s) played",
+    historyBadge: "PR history",
+    colTournament: "Tournament",
+    colPhases: "Phases",
+    rankSuffix: "in the leaderboard",
+    idLabel: "ID",
+    copyId: "Copy Discord ID",
+    copied: "Copied!",
   },
   tournaments: {
     title: "Circuit tournaments",
@@ -107,6 +169,9 @@ const en: Dict = {
     finalist: "Finalist",
     upcoming: "Upcoming",
     count: "{n} tournament(s)",
+  },
+  notFound: {
+    message: "This page does not exist (or this player is not in the circuit yet).",
   },
   footer: {
     byline: "Community project, not affiliated with OpenFront.io.",
