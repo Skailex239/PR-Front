@@ -125,7 +125,7 @@ export function computeLeaderboard(
   players: Player[],
   scoring: ScoringConfig,
 ): LeaderboardEntry[] {
-  const byId = new Map(players.map((p) => [p.id, p]));
+  const byId = new Map(players.map((p) => [p.discordId, p]));
   const prs = [...computePlayerPRs(tournaments, scoring).values()];
 
   prs.sort((a, b) => {

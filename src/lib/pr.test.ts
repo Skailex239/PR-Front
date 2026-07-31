@@ -92,7 +92,11 @@ test("stats de tournoi : victoires, top3, meilleure place, moyenne", () => {
 });
 
 test("classement trié et rangs corrects", () => {
-  const lb = computeLeaderboard([cup, bracket], [{ id: "A", name: "Alice" }, { id: "B", name: "Bob" }], scoring);
+  const lb = computeLeaderboard(
+    [cup, bracket],
+    [{ discordId: "A", name: "Alice" }, { discordId: "B", name: "Bob" }],
+    scoring,
+  );
   assert.equal(lb[0].playerId, "A"); // 192 pts
   assert.equal(lb[0].rank, 1);
   assert.equal(lb[1].playerId, "B"); // 142 pts

@@ -1,18 +1,23 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getPlayer, getPlayerPR } from "@/lib/data";
-import { getLiveStats } from "@/lib/openfront";
+import { getLeaderboard, getPlayer, getPlayerPR, getPlayers } from "@/lib/data";
 import LiveStats from "@/components/live-stats";
-import { Avatar, RankCircle, SectionTitle, StatCard } from "@/components/ui";
+import { Avatar, SectionTitle, StatCard } from "@/components/ui";
 import { formatDate, formatPoints, placeLabel } from "@/lib/format";
 import type { PhasePointsAward } from "@/lib/types";
 import { getDict } from "@/i18n";
 
-// Profils rendus à la demande (stats live), pas de pré-génération.
-export const dynamic = "force-dynamic";
-
 const t = getDict();
+
+/** Profils pré-générés en statique (compatible GitHub Pages). */
+export function generateStaticParams() {
+  const ids = new Set<string>([
+    ...getPlayers().map((p) => p.discordId),
+    ...getLeaderboard().map((e) => e.playerId),
+  ]);
+  return [...ids].map((id) => ({ id }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
@@ -55,8 +60,6 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
     }
   }
 
-  const stats = await getLiveStats(id);
-
   return (
     <div>
       <Link href="/" className="text-xs font-semibold text-muted hover:text-cyan2">
@@ -70,7 +73,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
           <div className="micro-label">{pr ? `${t.common.rank} #${pr.rank}` : t.common.unknownPlayer}</div>
           <h1 className="mt-1 truncate text-2xl font-black tracking-tight sm:text-3xl">{displayName}</h1>
           <div className="mt-2 flex flex-wrap gap-1.5">
-            <span className="chip">🆔 {id}</span>
+            <span className="chip" title={t.common.discordId}>💬 {id}</span>
+            {player?.openfrontId ? <span className="chip" title={t.player.openfrontId}>🎮 {player.openfrontId}</span> : null}
             {player?.country ? <span className="chip">📍 {player.country}</span> : null}
             {player?.clan ? <span className="chip">🛡 {player.clan}</span> : null}
           </div>
@@ -145,8 +149,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
         )}
       </section>
 
-      {/* Stats live OpenFront */}
-      <LiveStats stats={stats} />
+      {/* Stats live OpenFront (chargées côté navigateur via le public ID OpenFront) */}
+      <LiveStats openfrontId={player?.openfrontId ?? null} />
     </div>
   );
 }

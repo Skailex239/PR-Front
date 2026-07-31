@@ -22,7 +22,7 @@ function readJson<T>(file: string): T {
 
 export const getPlayers = cache((): Player[] => {
   const raw = readJson<{ players: Player[] }>("players.json");
-  return raw.players.filter((p) => p && typeof p.id === "string" && typeof p.name === "string");
+  return raw.players.filter((p) => p && typeof p.discordId === "string" && typeof p.name === "string");
 });
 
 export const getScoring = cache((): ScoringConfig => {
@@ -54,12 +54,12 @@ export const getLeaderboard = cache((): LeaderboardEntry[] => {
   return computeLeaderboard(getTournaments(), getPlayers(), getScoring());
 });
 
-export const getPlayerPR = cache((playerId: string): LeaderboardEntry | null => {
-  return getLeaderboard().find((e) => e.playerId === playerId) ?? null;
+export const getPlayerPR = cache((discordId: string): LeaderboardEntry | null => {
+  return getLeaderboard().find((e) => e.playerId === discordId) ?? null;
 });
 
-export const getPlayer = cache((playerId: string): Player | null => {
-  return getPlayers().find((p) => p.id === playerId) ?? null;
+export const getPlayer = cache((discordId: string): Player | null => {
+  return getPlayers().find((p) => p.discordId === discordId) ?? null;
 });
 
 export type { DataError };

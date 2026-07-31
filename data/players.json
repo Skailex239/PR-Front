@@ -1,17 +1,17 @@
 {
-  "_note": "Joueurs du circuit. La clé 'id' est le public ID OpenFront (visible sur le profil openfront.io du joueur). DONNÉES D'EXEMPLE — à remplacer par les vrais joueurs.",
+  "_note": "Joueurs du circuit. Identité principale = 'discordId' (ID Discord lié au pseudo, clic droit sur le profil Discord → Copier l'ID). 'openfrontId' (public ID OpenFront) est OPTIONNEL : il sert uniquement à afficher les stats live sur le profil. DONNÉES D'EXEMPLE — à remplacer par les vrais joueurs.",
   "players": [
-    { "id": "Xk29FvQz", "name": "Skailex",   "clan": "PRF", "country": "FR" },
-    { "id": "HabCsQYR", "name": "NovaStrike", "clan": "NUB", "country": "FR" },
-    { "id": "Tm4Wd8Lx", "name": "Korrigan",   "clan": "UON", "country": "FR" },
-    { "id": "Pz71QaVe", "name": "VortexFR",   "clan": "LUX", "country": "BE" },
-    { "id": "Bc3Nh6Jk", "name": "Marechal",   "clan": null,  "country": "FR" },
-    { "id": "Qw9Tz2Rf", "name": "PixelReaper", "clan": "ROC", "country": "CA" },
-    { "id": "Gf5Mu1Xp", "name": "Atlantis",   "clan": "UN",  "country": "FR" },
-    { "id": "Lr8Kd4Sy", "name": "OmbreSolide", "clan": null,  "country": "CH" },
-    { "id": "Ne2Vb7Hc", "name": "FauconNord", "clan": "UON", "country": "FR" },
-    { "id": "Ys6Pc3Wm", "name": "DeltaWave",  "clan": "NUB", "country": "FR" },
-    { "id": "Ud1Jg9Tn", "name": "Croissant",  "clan": null,  "country": "FR" },
-    { "id": "Ix4Kl8Zo", "name": "BriseGlace", "clan": "LUX", "country": "FR" }
+    { "discordId": "302050872383242240", "name": "Skailex",     "openfrontId": "Xk29FvQz", "clan": "PRF", "country": "FR" },
+    { "discordId": "274849916583788544", "name": "NovaStrike",  "openfrontId": "HabCsQYR", "clan": "NUB", "country": "FR" },
+    { "discordId": "198765432109876543", "name": "Korrigan",    "openfrontId": "Tm4Wd8Lx", "clan": "UON", "country": "FR" },
+    { "discordId": "245678901234567890", "name": "VortexFR",    "openfrontId": "Pz71QaVe", "clan": "LUX", "country": "BE" },
+    { "discordId": "321987654321098765", "name": "Marechal",    "openfrontId": "Bc3Nh6Jk", "clan": null,  "country": "FR" },
+    { "discordId": "288456789012345678", "name": "PixelReaper", "openfrontId": "Qw9Tz2Rf", "clan": "ROC", "country": "CA" },
+    { "discordId": "259123456789012345", "name": "Atlantis",    "openfrontId": "Gf5Mu1Xp", "clan": "UN",  "country": "FR" },
+    { "discordId": "233678901234567890", "name": "OmbreSolide", "openfrontId": "Lr8Kd4Sy", "clan": null,  "country": "CH" },
+    { "discordId": "227890123456789012", "name": "FauconNord",  "openfrontId": "Ne2Vb7Hc", "clan": "UON", "country": "FR" },
+    { "discordId": "216789012345678901", "name": "DeltaWave",   "openfrontId": "Ys6Pc3Wm", "clan": "NUB", "country": "FR" },
+    { "discordId": "205678901234567890", "name": "Croissant",   "openfrontId": "Ud1Jg9Tn", "clan": null,  "country": "FR" },
+    { "discordId": "294567890123456789", "name": "BriseGlace",  "openfrontId": "Ix4Kl8Zo", "clan": "LUX", "country": "FR" }
   ]
 }

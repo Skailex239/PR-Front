@@ -10,15 +10,18 @@
 export type TournamentFormat = "ffa" | "bracket";
 
 export interface Player {
-  /** Public ID OpenFront (8 caractères, ex. "HabCsQYR"). */
-  id: string;
+  /** ID Discord (18 chiffres) — identité principale du joueur dans le circuit. */
+  discordId: string;
+  /** Pseudo affiché, lié au compte Discord. */
   name: string;
+  /** Public ID OpenFront — optionnel, sert uniquement aux stats live du profil. */
+  openfrontId?: string | null;
   clan?: string | null;
   country?: string | null;
 }
 
 export interface PhasePlacement {
-  /** Public ID OpenFront du joueur. */
+  /** ID Discord du joueur. */
   player: string;
   /** Placement dans la phase (1 = vainqueur). Absent = simple participation. */
   place?: number | null;

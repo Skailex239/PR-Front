@@ -12,31 +12,31 @@
       "id": "t1",
       "type": "premier-tour",
       "placements": [
-        { "player": "Ud1Jg9Tn" }, { "player": "Ix4Kl8Zo" },
-        { "player": "Ne2Vb7Hc" }, { "player": "Qw9Tz2Rf" }
+        { "player": "205678901234567890" }, { "player": "294567890123456789" },
+        { "player": "227890123456789012" }, { "player": "288456789012345678" }
       ]
     },
     {
       "id": "qf",
       "type": "quart-de-finale",
       "placements": [
-        { "player": "Tm4Wd8Lx" }, { "player": "Gf5Mu1Xp" },
-        { "player": "Lr8Kd4Sy" }, { "player": "Ys6Pc3Wm" }
+        { "player": "198765432109876543" }, { "player": "259123456789012345" },
+        { "player": "233678901234567890" }, { "player": "216789012345678901" }
       ]
     },
     {
       "id": "sf",
       "type": "demi-finale",
       "placements": [
-        { "player": "Pz71QaVe" }, { "player": "Bc3Nh6Jk" }
+        { "player": "245678901234567890" }, { "player": "321987654321098765" }
       ]
     },
     {
       "id": "f",
       "type": "finale",
       "placements": [
-        { "player": "HabCsQYR", "place": 1 },
-        { "player": "Xk29FvQz", "place": 2 }
+        { "player": "274849916583788544", "place": 1 },
+        { "player": "302050872383242240", "place": 2 }
       ]
     }
   ]

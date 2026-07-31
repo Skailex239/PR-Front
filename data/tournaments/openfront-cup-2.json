@@ -12,38 +12,38 @@
       "id": "qualifs",
       "type": "qualifications",
       "placements": [
-        { "player": "Xk29FvQz" }, { "player": "HabCsQYR" }, { "player": "Tm4Wd8Lx" },
-        { "player": "Pz71QaVe" }, { "player": "Bc3Nh6Jk" }, { "player": "Qw9Tz2Rf" },
-        { "player": "Gf5Mu1Xp" }, { "player": "Lr8Kd4Sy" }, { "player": "Ne2Vb7Hc" },
-        { "player": "Ys6Pc3Wm" }, { "player": "Ud1Jg9Tn" }, { "player": "Ix4Kl8Zo" }
+        { "player": "302050872383242240" }, { "player": "274849916583788544" }, { "player": "198765432109876543" },
+        { "player": "245678901234567890" }, { "player": "321987654321098765" }, { "player": "288456789012345678" },
+        { "player": "259123456789012345" }, { "player": "233678901234567890" }, { "player": "227890123456789012" },
+        { "player": "216789012345678901" }, { "player": "205678901234567890" }, { "player": "294567890123456789" }
       ]
     },
     {
       "id": "demis",
       "type": "demi-finale",
       "placements": [
-        { "player": "HabCsQYR", "place": 1 },
-        { "player": "Bc3Nh6Jk", "place": 2 },
-        { "player": "Xk29FvQz", "place": 3 },
-        { "player": "Pz71QaVe", "place": 4 },
-        { "player": "Lr8Kd4Sy", "place": 5 },
-        { "player": "Ys6Pc3Wm", "place": 6 },
-        { "player": "Tm4Wd8Lx", "place": 7 },
-        { "player": "Ud1Jg9Tn", "place": 8 }
+        { "player": "274849916583788544", "place": 1 },
+        { "player": "321987654321098765", "place": 2 },
+        { "player": "302050872383242240", "place": 3 },
+        { "player": "245678901234567890", "place": 4 },
+        { "player": "233678901234567890", "place": 5 },
+        { "player": "216789012345678901", "place": 6 },
+        { "player": "198765432109876543", "place": 7 },
+        { "player": "205678901234567890", "place": 8 }
       ]
     },
     {
       "id": "finale",
       "type": "finale",
       "placements": [
-        { "player": "Bc3Nh6Jk", "place": 1 },
-        { "player": "Xk29FvQz", "place": 2 },
-        { "player": "HabCsQYR", "place": 3 },
-        { "player": "Pz71QaVe", "place": 4 },
-        { "player": "Lr8Kd4Sy", "place": 5 },
-        { "player": "Ys6Pc3Wm", "place": 6 },
-        { "player": "Tm4Wd8Lx", "place": 7 },
-        { "player": "Ud1Jg9Tn", "place": 8 }
+        { "player": "321987654321098765", "place": 1 },
+        { "player": "302050872383242240", "place": 2 },
+        { "player": "274849916583788544", "place": 3 },
+        { "player": "245678901234567890", "place": 4 },
+        { "player": "233678901234567890", "place": 5 },
+        { "player": "216789012345678901", "place": 6 },
+        { "player": "198765432109876543", "place": 7 },
+        { "player": "205678901234567890", "place": 8 }
       ]
     }
   ]
