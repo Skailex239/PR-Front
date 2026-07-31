@@ -101,8 +101,10 @@ Les données vivent dans le dossier [`data/`](data/) — aucune base de données
 }
 ```
 
-Les données actuelles sont **des exemples** (`"sample": true`, badge affiché sur le site) —
-à remplacer par les vrais joueurs/tournois.
+Les données actuelles sont les **vrais résultats des OpenFront Minors** (voir
+`data/tournaments/openfront-minor-*.json`). Le badge « Données d'exemple » ne
+s'affiche que si un tournoi a `"sample": true` — pratique pour tester de
+nouveaux tournois avant de les valider officiellement.
 
 ### Tournois `minor` (classement par tranches, gros effectif)
 
