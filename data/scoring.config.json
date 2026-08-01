@@ -1,7 +1,7 @@
 {
   "_note": "BARÈME DU POWER RANKING. Points attribués par phase atteinte, multipliés par le tier du tournoi. 'places' = points par placement dans la phase ; 'defaultPoints' = points si le joueur est listé dans la phase sans placement précis (ex : éliminé en qualifications). Modifiez ce fichier (ou envoyez votre grille à l'agent) pour changer le barème. Aucune décroissance : les points se cumulent.",
   "tiers": {
-    "major": 1.5,
+    "major": 2.5,
     "standard": 1.0,
     "minor": 0.5
   },
