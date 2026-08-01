@@ -19,21 +19,24 @@ const tones: Record<Tone, { header: string; text: string; corner: string }> = {
 function SpotlightCard({ label, href, tone, mark, children }: { label: string; href?: string; tone: Tone; mark: Mark; children: React.ReactNode }) {
   const { t } = useI18n();
   const style = tones[tone];
-  const card = (
+  return (
     <div className="spotlight-card group overflow-hidden rounded-[3px] border border-line bg-white shadow-[0_3px_10px_rgba(22,28,38,.08)]">
       <div className={`relative flex h-9 items-center justify-between overflow-hidden px-4 ${style.header} ${style.text}`}>
         <span className="text-[11px] font-black uppercase tracking-[-0.015em]">{label}</span>
-        <span className="relative z-10 text-[10px] font-extrabold">{t.spotlight.viewAll}</span>
+        <Link href="/ranking" className="relative z-10 text-[10px] font-extrabold hover:underline">{t.home.viewMore}</Link>
         <span className={`absolute right-[62px] top-0 h-0 w-0 border-l-[22px] border-t-[36px] border-l-transparent opacity-80 ${style.corner}`} aria-hidden />
         <span className="absolute inset-y-0 right-0 w-[62px] bg-black/10" aria-hidden />
       </div>
       <div className="relative flex h-[76px] items-center overflow-hidden px-4">
-        {children}
+        {href ? (
+          <Link href={href} className="flex min-w-0 flex-1 items-center">{children}</Link>
+        ) : (
+          <div className="flex min-w-0 flex-1 items-center">{children}</div>
+        )}
         <Icon name={mark} className="pointer-events-none absolute -bottom-3 right-3 h-[70px] w-[70px] rotate-[-7deg] text-slate-900/[0.055]" strokeWidth={1.5} />
       </div>
     </div>
   );
-  return href ? <Link href={href}>{card}</Link> : card;
 }
 
 function PlayerIdentity({ entry, stat }: { entry: LeaderboardEntry; stat: React.ReactNode }) {
