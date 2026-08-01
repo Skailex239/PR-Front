@@ -34,12 +34,26 @@ export interface TournamentPhase {
   placements: PhasePlacement[];
 }
 
+/** Résultat individuel d'un joueur dans une partie (lobby). */
+export interface TournamentGameResult {
+  /** ID Discord du joueur. */
+  player: string;
+  /** Placement dans la partie (1 = vainqueur). */
+  place: number;
+  /** Kills du joueur dans la partie (si renseignés). */
+  kills?: number;
+}
+
 export interface TournamentGame {
   name: string;
   gameId: string;
   players: number;
-  gameUrl: string;
-  replayUrl: string;
+  gameUrl?: string;
+  replayUrl?: string;
+  /** Pseudo du vainqueur de la partie (donné par l'organisateur). */
+  winner?: string;
+  /** Résultats individuels dans cette partie, si renseignés. */
+  results?: TournamentGameResult[];
 }
 
 export interface TournamentRound {

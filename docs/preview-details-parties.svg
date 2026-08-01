@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660" font-family="Inter, Arial, Helvetica, sans-serif">
+  <rect width="900" height="660" fill="#f7f8fa"/>
+
+  <text x="28" y="40" font-size="20" font-weight="800" fill="#20242b">Résultats des tournois — Space_Sheeep</text>
+  <text x="28" y="62" font-size="12" fill="#7d848e">3 tournoi(s) joué(s)</text>
+  <rect x="740" y="36" width="132" height="30" rx="6" fill="#fdf3ea"/>
+  <text x="750" y="56" font-size="12" font-weight="700" fill="#c95d0c">Historique PR</text>
+
+  <rect x="20" y="80" width="860" height="560" rx="10" fill="#ffffff" stroke="#e3e6ea"/>
+
+  <rect x="20" y="80" width="860" height="40" rx="10" fill="#f7f4ef"/>
+  <text x="36" y="105" font-size="10" font-weight="700" fill="#7d848e">TOURNOI</text>
+  <text x="330" y="105" font-size="10" font-weight="700" fill="#7d848e">FORMAT</text>
+  <text x="470" y="105" font-size="10" font-weight="700" fill="#7d848e">PLACE</text>
+  <text x="545" y="105" font-size="10" font-weight="700" fill="#7d848e">PHASES</text>
+  <text x="632" y="105" font-size="10" font-weight="700" fill="#7d848e" text-anchor="end">POINTS PR</text>
+  <text x="828" y="105" font-size="10" font-weight="700" fill="#7d848e" text-anchor="end">DÉTAILS</text>
+
+  <!-- Ligne 1 (dépliée) : 4th 2026 Summer FFA Minor -->
+  <rect x="20" y="120" width="860" height="66" fill="#fbf7f1"/>
+  <text x="36" y="147" font-size="14" font-weight="800" fill="#20242b">4th 2026 Summer FFA Minor</text>
+  <text x="36" y="168" font-size="11" fill="#7d848e">31 juil. 2026</text>
+  <rect x="330" y="134" width="46" height="22" rx="6" fill="none" stroke="#e8781d" stroke-opacity="0.4"/>
+  <text x="340" y="149" font-size="11" font-weight="700" fill="#c95d0c">FFA</text>
+  <rect x="382" y="134" width="50" height="22" rx="6" fill="none" stroke="#e3e6ea"/>
+  <text x="392" y="149" font-size="11" fill="#7d848e">Minor</text>
+  <text x="470" y="150" font-size="15" font-weight="800" fill="#c58b1c" text-anchor="middle">#1</text>
+  <text x="545" y="150" font-size="13" font-weight="700" fill="#7d848e" text-anchor="middle">1</text>
+  <text x="632" y="150" font-size="15" font-weight="800" fill="#c95d0c" text-anchor="end">+1 000</text>
+  <rect x="766" y="134" width="74" height="26" rx="6" fill="none" stroke="#e3e6ea"/>
+  <text x="778" y="151" font-size="11" font-weight="700" fill="#7d848e">Détails</text>
+  <g transform="translate(834 141)">
+    <path d="M0 0 L5 5 L10 0" fill="none" stroke="#7d848e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" transform="rotate(180 5 2.5)"/>
+  </g>
+
+  <!-- Panneau déplié : vraies données Space_Sheeep / 4th -->
+  <rect x="20" y="186" width="860" height="420" fill="#fbf9f5"/>
+  <line x1="20" y1="186" x2="880" y2="186" stroke="#e3e6ea"/>
+  <text x="36" y="212" font-size="11" font-weight="800" fill="#7d848e">⚔ PARTIES — 4TH 2026 SUMMER FFA MINOR</text>
+
+  <line x1="36" y1="228" x2="844" y2="228" stroke="#e3e6ea" stroke-opacity="0.7"/>
+  <text x="36" y="246" font-size="10" font-weight="700" fill="#7d848e">ROUND</text>
+  <text x="190" y="246" font-size="10" font-weight="700" fill="#7d848e">PARTIE</text>
+  <text x="330" y="246" font-size="10" font-weight="700" fill="#7d848e" text-anchor="middle">PLACE</text>
+  <text x="470" y="246" font-size="10" font-weight="700" fill="#7d848e">VAINQUEUR</text>
+  <text x="690" y="246" font-size="10" font-weight="700" fill="#7d848e" text-anchor="middle">JOUEURS</text>
+  <text x="820" y="246" font-size="10" font-weight="700" fill="#7d848e" text-anchor="end">REPLAY</text>
+
+  <g font-size="13">
+    <line x1="36" y1="276" x2="844" y2="276" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="266" font-size="11" font-weight="700" fill="#7d848e">R1 — Asia</text>
+    <text x="190" y="266" font-weight="800" fill="#20242b">C1</text>
+    <text x="330" y="266" font-weight="800" fill="#20242b" text-anchor="middle">#39</text>
+    <text x="470" y="266" fill="#7d848e">[CYN] imperium romanum</text>
+    <text x="690" y="266" fill="#7d848e" text-anchor="middle">49</text>
+    <text x="820" y="266" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="304" x2="844" y2="304" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="294" font-size="11" font-weight="700" fill="#7d848e">R2 — Europe</text>
+    <text x="190" y="294" font-weight="800" fill="#20242b">C3</text>
+    <text x="330" y="294" font-weight="800" fill="#20242b" text-anchor="middle">#26</text>
+    <text x="470" y="294" fill="#7d848e">[UN] Geographic Edits</text>
+    <text x="690" y="294" fill="#7d848e" text-anchor="middle">45</text>
+    <text x="820" y="294" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="332" x2="844" y2="332" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="322" font-size="11" font-weight="700" fill="#7d848e">R3 — Balkans</text>
+    <text x="190" y="322" font-weight="800" fill="#20242b">C4</text>
+    <text x="330" y="322" font-weight="800" fill="#20242b" text-anchor="middle">#57</text>
+    <text x="470" y="322" fill="#7d848e">[UN] ALPHA</text>
+    <text x="690" y="322" fill="#7d848e" text-anchor="middle">80</text>
+    <text x="820" y="322" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="360" x2="844" y2="360" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="350" font-size="11" font-weight="700" fill="#7d848e">R4 — South America</text>
+    <text x="190" y="350" font-weight="800" fill="#20242b">C5</text>
+    <text x="330" y="350" font-weight="800" fill="#a85d2c" text-anchor="middle">#3</text>
+    <text x="470" y="350" fill="#7d848e">[NRV] StanleyJJ</text>
+    <text x="690" y="350" fill="#7d848e" text-anchor="middle">50</text>
+    <text x="820" y="350" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="388" x2="844" y2="388" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="378" font-size="11" font-weight="700" fill="#7d848e">R5 — Africa</text>
+    <text x="190" y="378" font-weight="800" fill="#20242b">C6</text>
+    <text x="330" y="378" fill="#7d848e" text-anchor="middle">—</text>
+    <text x="470" y="378" fill="#7d848e">[LUX] TeNa</text>
+    <text x="690" y="378" fill="#7d848e" text-anchor="middle">31</text>
+    <text x="820" y="378" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="416" x2="844" y2="416" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="406" font-size="11" font-weight="700" fill="#7d848e">R6 — Indian Subcontinent</text>
+    <text x="190" y="406" font-weight="800" fill="#20242b">C8</text>
+    <text x="330" y="406" font-weight="800" fill="#c58b1c" text-anchor="middle">#1</text>
+    <text x="470" y="406" font-weight="700" fill="#c58b1c">[NRV] Space_Sheeep</text>
+    <text x="690" y="406" fill="#7d848e" text-anchor="middle">39</text>
+    <text x="820" y="406" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="444" x2="844" y2="444" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="434" font-size="11" font-weight="700" fill="#7d848e">B1 — Montreal</text>
+    <text x="190" y="434" font-weight="800" fill="#20242b">C9</text>
+    <text x="330" y="434" font-weight="800" fill="#20242b" text-anchor="middle">#56</text>
+    <text x="470" y="434" fill="#7d848e">[UN] ALPHA</text>
+    <text x="690" y="434" fill="#7d848e" text-anchor="middle">69</text>
+    <text x="820" y="434" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+
+    <line x1="36" y1="472" x2="844" y2="472" stroke="#e3e6ea" stroke-opacity="0.5"/>
+    <text x="36" y="462" font-size="11" font-weight="700" fill="#7d848e">A1 — Manicouagan</text>
+    <text x="190" y="462" font-weight="800" fill="#20242b">C10</text>
+    <text x="330" y="462" font-weight="800" fill="#c58b1c" text-anchor="middle">#1</text>
+    <text x="470" y="462" font-weight="700" fill="#c58b1c">[NRV] Space_Sheeep</text>
+    <text x="690" y="462" fill="#7d848e" text-anchor="middle">49</text>
+    <text x="820" y="462" font-size="11" font-weight="600" fill="#0e8e86" text-anchor="end">▶ Replay</text>
+  </g>
+
+  <line x1="20" y1="606" x2="880" y2="606" stroke="#e3e6ea"/>
+  <text x="36" y="634" font-size="14" font-weight="800" fill="#20242b">3rd 2026 Summer FFA Minor</text>
+  <text x="36" y="652" font-size="11" fill="#7d848e">25 juil. 2026</text>
+  <rect x="330" y="618" width="46" height="22" rx="6" fill="none" stroke="#e8781d" stroke-opacity="0.4"/>
+  <text x="340" y="633" font-size="11" font-weight="700" fill="#c95d0c">FFA</text>
+  <rect x="382" y="618" width="50" height="22" rx="6" fill="none" stroke="#e3e6ea"/>
+  <text x="392" y="633" font-size="11" fill="#7d848e">Minor</text>
+  <text x="470" y="634" font-size="15" font-weight="800" fill="#c58b1c" text-anchor="middle">#4</text>
+  <text x="545" y="634" font-size="13" font-weight="700" fill="#7d848e" text-anchor="middle">1</text>
+  <text x="632" y="634" font-size="15" font-weight="800" fill="#c95d0c" text-anchor="end">+900</text>
+  <rect x="766" y="618" width="74" height="26" rx="6" fill="none" stroke="#e3e6ea"/>
+  <text x="778" y="635" font-size="11" font-weight="700" fill="#7d848e">Détails</text>
+  <g transform="translate(834 625)">
+    <path d="M0 0 L5 5 L10 0" fill="none" stroke="#7d848e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="28" y="675" font-size="12" fill="#64748b">Aperçu réel : profil Space_Sheeep, données du 4th 2026 Summer FFA Minor (place du joueur par partie + gagnant).</text>
+</svg>

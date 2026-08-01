@@ -38,14 +38,14 @@ const defineIcons = <T extends Record<string, IconDef>>(icons: T): { [K in keyof
 
 export const ICONS = defineIcons({
   /* ---------------------------------------------------------------- Navigation */
-  menu: {
-    paths: [{ d: "M4 6.9h16M4 12h11M4 17.1h16" }],
-  },
   arrowLeft: {
     paths: [{ d: "M19.2 12H5.2m6.2-6.4L5 12l6.4 6.4" }],
   },
   arrowRight: {
     paths: [{ d: "M4.8 12h14m-6.2-6.4L18.8 12l-6.4 6.4" }],
+  },
+  chevronDown: {
+    paths: [{ d: "m6.5 9.5 5.5 5.5 5.5-5.5" }],
   },
   search: {
     paths: [
@@ -66,12 +66,14 @@ export const ICONS = defineIcons({
   },
 
   /* -------------------------------------------------------------- Compétition */
+  /* Symbole nucléaire classique (ISO 361) : point central + 3 pastilles qui
+     touchent le point central, séparées par des vides de 68°. */
   radiation: {
     paths: [
       { d: "M12 10.1a1.9 1.9 0 1 0 0 3.8a1.9 1.9 0 1 0 0-3.8Z", fill: true },
-      { d: "M11.1 3.1h1.8l3.2 5.5a4.9 4.9 0 0 0-8.2 0l3.2-5.5Z", fill: true },
-      { d: "m5.2 18.1-.9-1.5 3.2-5.5a4.9 4.9 0 0 0 4.1 7.1H5.2Z", fill: true },
-      { d: "m18.8 18.1.9-1.5-3.2-5.5a4.9 4.9 0 0 1-4.1 7.1h6.4Z", fill: true },
+      { d: "M12.83 10.29 L16.21 3.37 A9.6 9.6 0 0 0 7.79 3.37 L11.17 10.29 A1.9 1.9 0 0 1 12.83 10.29 Z", fill: true },
+      { d: "M13.9 12.13 L21.58 12.67 A9.6 9.6 0 0 1 17.37 19.96 L13.06 13.58 A1.9 1.9 0 0 0 13.9 12.13 Z", fill: true },
+      { d: "M10.1 12.13 L2.42 12.67 A9.6 9.6 0 0 0 6.63 19.96 L10.94 13.58 A1.9 1.9 0 0 1 10.1 12.13 Z", fill: true },
     ],
   },
   trophy: {

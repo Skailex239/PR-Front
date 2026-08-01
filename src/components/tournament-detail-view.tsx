@@ -92,10 +92,18 @@ export default function TournamentDetailView({
                     <div className="mt-2 flex flex-wrap gap-2">
                       {round.entries.map((game) => (
                         <div key={game.gameId} className="rounded-md border border-line bg-slate-50 px-3 py-2 text-xs">
-                          <a href={game.gameUrl} target="_blank" rel="noreferrer" className="font-bold text-cyan2 hover:underline">{game.name}</a>
+                          {game.gameUrl ? (
+                            <a href={game.gameUrl} target="_blank" rel="noreferrer" className="font-bold text-cyan2 hover:underline">{game.name}</a>
+                          ) : (
+                            <span className="font-bold">{game.name}</span>
+                          )}
                           <span className="mx-1.5 text-muted">·</span>{game.players} {t.common.participants.toLowerCase()}
-                          <span className="mx-1.5 text-muted">·</span>
-                          <a href={game.replayUrl} target="_blank" rel="noreferrer" className="font-semibold text-muted hover:text-cyan2 hover:underline">{t.tournaments.replay}</a>
+                          {game.replayUrl ? (
+                            <>
+                              <span className="mx-1.5 text-muted">·</span>
+                              <a href={game.replayUrl} target="_blank" rel="noreferrer" className="font-semibold text-muted hover:text-cyan2 hover:underline">{t.tournaments.replay}</a>
+                            </>
+                          ) : null}
                         </div>
                       ))}
                     </div>
