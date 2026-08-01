@@ -91,6 +91,29 @@ export interface Tournament {
   phases: TournamentPhase[];
 }
 
+/** Événement à venir affiché dans l'onglet Calendrier (source : data/calendar.json). */
+export interface CalendarEvent {
+  /** Slug stable, ex. "2026-summer-ffa-minor-5". */
+  slug: string;
+  /** Nom affiché, ex. "5th 2026 Summer FFA Minor". */
+  name: string;
+  /** Date ISO du jour de l'évènement, ex. "2026-08-08". */
+  date: string;
+  /** Début exact en heure française (ISO 8601 avec décalage), ex. "2026-08-08T19:00:00+02:00". */
+  startsAt?: string;
+  /** Clôture des inscriptions (ISO 8601 avec décalage), ex. "2026-08-08T18:45:00+02:00". */
+  registrationClosesAt?: string;
+  format: TournamentFormat;
+  /** Clé de `tiers` : "minor" | "standard" | "major". */
+  tier: string;
+  /** Série ou saison, ex. "2026 Summer FFA". */
+  series?: string;
+  /** Inscrits actuels (indicatif). */
+  participants?: number;
+  /** Lien d'inscription (optionnel). */
+  registrationUrl?: string;
+}
+
 export interface ScoringPlaceRange {
   /** Première place (incluse) de la tranche. */
   min: number;

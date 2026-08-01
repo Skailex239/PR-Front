@@ -11,12 +11,13 @@ import { useI18n } from "@/i18n/provider";
 
 const LOGO = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/pr-front-logo.svg`;
 
-type NavKey = "home" | "leaderboard" | "tournaments";
+type NavKey = "home" | "leaderboard" | "tournaments" | "calendar";
 
 const primary: { href: string; key: NavKey; icon: IconName; exact?: boolean }[] = [
   { href: "/", key: "home", icon: "home", exact: true },
   { href: "/ranking", key: "leaderboard", icon: "trophy" },
   { href: "/tournaments", key: "tournaments", icon: "shield" },
+  { href: "/calendar", key: "calendar", icon: "calendar" },
 ];
 
 /** Liste de liens partagée entre la sidebar desktop et le tiroir mobile. */

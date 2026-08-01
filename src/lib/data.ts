@@ -5,7 +5,7 @@
 import { cache } from "react";
 import fs from "node:fs";
 import path from "node:path";
-import type { Player, ScoringConfig, Tournament } from "./types";
+import type { Player, ScoringConfig, Tournament, CalendarEvent } from "./types";
 import { computeLeaderboard, type DataError } from "./pr";
 import type { LeaderboardEntry } from "./types";
 
@@ -47,6 +47,16 @@ export const getTournaments = cache((): Tournament[] => {
 
 export const getTournament = cache((slug: string): Tournament | null => {
   return getTournaments().find((t) => t.slug === slug) ?? null;
+});
+
+/** Événements à venir du calendrier, triés du plus proche au plus lointain. */
+export const getCalendar = cache((): CalendarEvent[] => {
+  const full = path.join(DATA_DIR, "calendar.json");
+  if (!fs.existsSync(full)) return [];
+  const raw = JSON.parse(fs.readFileSync(full, "utf8")) as CalendarEvent[];
+  return raw.sort((a, b) =>
+    (a.startsAt ?? a.date).localeCompare(b.startsAt ?? b.date),
+  );
 });
 
 /** Classement calculé. Lève une DataError si une donnée est incohérente. */

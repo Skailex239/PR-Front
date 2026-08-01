@@ -62,6 +62,14 @@ export const ICONS = defineIcons({
   play: {
     paths: [{ d: "M8.6 5.2 19 12 8.6 18.8V5.2Z", fill: true }],
   },
+  calendar: {
+    paths: [
+      { d: "M3 5.5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5.5Z" },
+      { d: "M3 9.5h18" },
+      { d: "M8 2.5v4" },
+      { d: "M16 2.5v4" },
+    ],
+  },
   home: {
     paths: [
       { d: "M3 10.5 12 3.5l9 7" },
