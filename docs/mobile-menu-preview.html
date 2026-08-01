@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PR-Front — Aperçu du menu mobile</title>
+<style>
+  :root{
+    --sidebar:#171a20; --accent:#e8781d; --accent-strong:#c95d0c; --line:#e3e6ea;
+    --text:#20242b; --muted:#7d848e; --beige:#f7f8fa; --panel:#ffffff;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  body{margin:0; font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif; background:#eef0f4;
+    color:var(--text); display:flex; flex-direction:column; align-items:center; padding:24px;}
+  h1{font-size:16px; letter-spacing:-.01em; margin:0 0 4px;}
+  .sub{font-size:12px; color:var(--muted); margin:0 0 16px; text-align:center; max-width:460px;}
+  .phone{width:390px; height:760px; border-radius:28px; background:var(--beige); overflow:hidden;
+    border:1px solid #d6d9de; box-shadow:0 24px 60px rgba(23,26,32,.28); position:relative;}
+
+  /* ------- header ------- */
+  .topbar{position:sticky; top:0; z-index:5; display:flex; align-items:center; gap:14px;
+    height:60px; padding:0 20px; background:rgba(255,255,255,.95); border-bottom:1px solid var(--line);}
+  .icon-btn{display:flex;align-items:center;justify-content:center;width:38px;height:38px;
+    border:none;background:transparent;border-radius:8px;cursor:pointer;color:var(--text);}
+  .icon-btn:hover{background:#f0f1f4;}
+  .topbar .logo{width:36px;height:36px;}
+  .topbar .spacer{flex:1;}
+  .lang{display:inline-flex;border:1px solid var(--line);border-radius:6px;background:var(--panel);padding:2px;}
+  .lang span{padding:5px 9px;border-radius:4px;font-size:11px;font-weight:800;color:var(--muted);}
+  .lang span.on{background:var(--accent);color:#fff;}
+  .play{display:inline-flex;align-items:center;gap:6px;border:none;border-radius:7px;padding:9px 15px;
+    background:linear-gradient(180deg,#ed8829,#d96713);color:#fff;font-size:12px;font-weight:800;
+    box-shadow:0 3px 8px rgba(204,93,12,.22);cursor:pointer;}
+  .play svg{width:12px;height:12px;}
+
+  /* ------- page ------- */
+  .page{position:relative;}
+  .hero{height:130px;background:#171a20;position:relative;}
+  .hero:before{content:"";position:absolute;left:14px;top:52px;width:8px;height:8px;border-radius:50%;
+    background:#f4ec55;box-shadow:52px 20px 0 #21b9e8, 300px 4px 0 #7738b5;}
+  .cards{padding:18px 16px;display:flex;flex-direction:column;gap:14px;}
+  .card{height:92px;border-radius:12px;background:#fff;border:1px solid var(--line);padding:16px;position:relative;}
+  .skeleton{height:11px;border-radius:6px;background:#e9ebef;margin-bottom:11px;width:70%;}
+  .skeleton.w90{width:90%;}.skeleton.w55{width:55%;}
+
+  /* ------- overlay & drawer ------- */
+  .overlay{position:absolute;inset:0;background:rgba(0,0,0,.5);z-index:20;transition:opacity .3s;pointer-events:none;opacity:0;}
+  .drawer{position:absolute;top:0;left:0;bottom:0;width:280px;background:var(--sidebar);color:#fff;z-index:30;
+    display:flex;flex-direction:column;transform:translateX(-100%);transition:transform .3s ease;}
+  .phone.open .overlay{opacity:1;pointer-events:auto;}
+  .phone.open .drawer{transform:translateX(0);}
+  .dhead{display:flex;align-items:center;justify-content:space-between;height:60px;padding:0 12px 0 22px;}
+  .dhead .logo{width:40px;height:40px;}
+  .dhead .x{color:rgba(255,255,255,.8);}
+  .search{margin:4px 16px 10px;display:flex;align-items:center;gap:8px;height:36px;padding:0 12px;
+    background:#fff;border:1px solid var(--line);border-radius:9px;color:var(--muted);font-size:12px;}
+  .search svg{width:16px;height:16px;}
+  nav{flex:1;padding:6px 0;}
+  .navlink{display:flex;align-items:center;gap:17px;height:48px;margin-right:12px;padding:0 26px;
+    border-radius:0 9px 9px 0;color:rgba(255,255,255,.79);font-size:13px;font-weight:600;cursor:pointer;}
+  .navlink svg{width:20px;height:20px;flex:none;}
+  .navlink.on{color:#f28a28;background:linear-gradient(90deg,rgba(232,120,29,.16),rgba(232,120,29,.07));position:relative;}
+  .navlink.on:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:#ef8122;}
+  .foot{border-top:1px solid rgba(255,255,255,.05);padding:18px;display:flex;align-items:center;gap:11px;}
+  .foot .logo{width:34px;height:34px;}
+  .foot .meta{flex:1;min-width:0;}
+  .foot .meta b{display:block;font-size:12px;}
+  .foot .meta small{display:block;font-size:10px;color:rgba(255,255,255,.45);}
+  .foot svg{width:20px;height:20px;color:rgba(255,255,255,.7);}
+</style>
+</head>
+<body>
+  <h1>PR-Front — Aperçu du menu mobile</h1>
+  <p class="sub">Reconstitution autonome du composant «&nbsp;navbar&nbsp;» en vue mobile (390&nbsp;px). Cliquez sur le hamburger ☰ pour ouvrir/fermer le tiroir, ou sur le fond pour le fermer.</p>
+
+  <div class="phone" id="phone">
+    <div class="topbar">
+      <button class="icon-btn" id="openBtn" aria-label="Ouvrir le menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></svg>
+      </button>
+      <svg class="logo" viewBox="0 0 100 100" aria-label="Logo PR-Front">
+        <defs><linearGradient id="og" x1="12" y1="8" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#ffe65b"/><stop offset=".48" stop-color="#ff9c12"/><stop offset="1" stop-color="#ff3512"/>
+        </linearGradient></defs>
+        <circle cx="50" cy="50" r="42" fill="none" stroke="url(#og)" stroke-width="7"/>
+        <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og)"/>
+        <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og)" transform="rotate(120 50 50)"/>
+        <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og)" transform="rotate(240 50 50)"/>
+        <circle cx="50" cy="50" r="9" fill="none" stroke="url(#og)" stroke-width="5"/>
+      </svg>
+      <span class="spacer"></span>
+      <span class="lang"><span class="on">FR</span><span>EN</span></span>
+      <button class="play">
+        <svg viewBox="0 0 24 24"><path d="M8.6 5.2 19 12 8.6 18.8V5.2Z" fill="#fff"/></svg>
+        Jouer
+      </button>
+    </div>
+
+    <div class="page">
+      <div class="hero"></div>
+      <div class="cards">
+        <div class="card"><div class="skeleton w90"></div><div class="skeleton w55"></div></div>
+        <div class="card"><div class="skeleton w90"></div><div class="skeleton w55"></div></div>
+        <div class="card"><div class="skeleton w90"></div><div class="skeleton w55"></div></div>
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="drawer" id="drawer">
+      <div class="dhead">
+        <svg class="logo" viewBox="0 0 100 100" aria-label="Logo PR-Front">
+          <defs><linearGradient id="og2" x1="12" y1="8" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffe65b"/><stop offset=".48" stop-color="#ff9c12"/><stop offset="1" stop-color="#ff3512"/>
+          </linearGradient></defs>
+          <circle cx="50" cy="50" r="42" fill="none" stroke="url(#og2)" stroke-width="7"/>
+          <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og2)"/>
+          <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og2)" transform="rotate(120 50 50)"/>
+          <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og2)" transform="rotate(240 50 50)"/>
+          <circle cx="50" cy="50" r="9" fill="none" stroke="url(#og2)" stroke-width="5"/>
+        </svg>
+        <button class="icon-btn x" id="closeBtn" aria-label="Fermer le menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6.4 6.4 17.6 17.6M17.6 6.4 6.4 17.6"/></svg>
+        </button>
+      </div>
+      <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4.4 11a6.6 6.6 0 1 0 13.2 0a6.6 6.6 0 1 0 -13.2 0Z"/><path d="m16.1 16.1 4.3 4.3"/></svg>Rechercher…</div>
+      <nav>
+        <div class="navlink on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3.5l9 7"/><path d="M5.5 9.2V20.5h13V9.2"/><path d="M10 20.5v-5.5h4v5.5"/></svg>Accueil</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7.6 3.4h8.8v5.1a4.4 4.4 0 0 1-8.8 0V3.4Z"/><path d="M7.6 5.3H4.4v1.3a3.7 3.7 0 0 0 3.4 3.6"/><path d="M16.4 5.3h3.2v1.3a3.7 3.7 0 0 1-3.4 3.6"/><path d="M12 12.9v3.6"/><path d="M9.7 16.5h4.6l1 4H8.7l1-4Z"/><path d="M7.6 20.5h8.8"/></svg>Classement</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5.5 6v5c0 4.2 2.7 7.7 6.5 9 3.8-1.3 6.5-4.8 6.5-9V6L12 3Z"/><path d="m9.1 11.7 2.1 2.2 3.7-4.2"/></svg>Tournois</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M15.6 19.8v-1.7a3.9 3.9 0 0 0-3.9-3.9H6.9A3.9 3.9 0 0 0 3 18.1v1.7"/><path d="M5.8 7.5a3.4 3.4 0 1 0 6.8 0a3.4 3.4 0 1 0 -6.8 0Z"/><path d="M16.4 4.5a3.5 3.5 0 0 1 0 6.5"/><path d="M17.9 14.4a3.9 3.9 0 0 1 3.1 3.7v1.7"/></svg>Joueurs</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V3.6m0 1.3h11.4l-2.6 3.6 2.6 3.6H6"/></svg>Clans</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.07 16.98L19.35 6.71L20.3 3.7L17.29 4.65L7.02 14.93Z"/><path d="M9.03 18.22 5.78 14.97"/><path d="M7.4 16.6 5 19"/><path d="M16.98 14.93L6.71 4.65L3.7 3.7L4.65 6.71L14.93 16.98Z"/><path d="M18.22 14.97 14.97 18.22"/><path d="M16.6 16.6 19 19"/></svg>Matchs</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20.2v-9.8h3.9v9.8M10.1 20.2V4.2H14v16M16.1 20.2v-6.9H20v6.9"/><path d="M2.6 20.2h18.8"/></svg>Statistiques</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.6 12a8.4 8.4 0 1 0 2.6-6.1L3.4 8.6"/><path d="M3.2 3.6v5.2h5.2"/><path d="M12 7.4v5l3.4 2"/></svg>Historique</div>
+        <div class="navlink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.3L14.26 9.19L20.56 9.52L15.66 13.49L17.29 19.58L12 16.15L6.71 19.58L8.34 13.49L3.44 9.52L9.74 9.19Z"/></svg>Favoris</div>
+      </nav>
+      <div class="foot">
+        <svg class="logo" viewBox="0 0 100 100">
+          <defs><linearGradient id="og3" x1="12" y1="8" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffe65b"/><stop offset=".48" stop-color="#ff9c12"/><stop offset="1" stop-color="#ff3512"/>
+          </linearGradient></defs>
+          <circle cx="50" cy="50" r="42" fill="none" stroke="url(#og3)" stroke-width="7"/>
+          <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og3)"/>
+          <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og3)" transform="rotate(120 50 50)"/>
+          <path d="M44.6 41.2 31.2 18.4A39 39 0 0 1 68.8 18.4L55.4 41.2A13 13 0 0 0 44.6 41.2Z" fill="url(#og3)" transform="rotate(240 50 50)"/>
+          <circle cx="50" cy="50" r="9" fill="none" stroke="url(#og3)" stroke-width="5"/>
+        </svg>
+        <div class="meta"><b>PR_Front</b><small>Admin</small></div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M10.55 2.81L13.45 2.81L13.08 5.18L16.06 6.42L17.47 4.48L19.52 6.53L17.58 7.94L18.82 10.92L21.19 10.55L21.19 13.45L18.82 13.08L17.58 16.06L19.52 17.47L17.47 19.52L16.06 17.58L13.08 18.82L13.45 21.19L10.55 21.19L10.92 18.82L7.94 17.58L6.53 19.52L4.48 17.47L6.42 16.06L5.18 13.08L2.81 13.45L2.81 10.55L5.18 10.92L6.42 7.94L4.48 6.53L6.53 4.48L7.94 6.42L10.92 5.18Z"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <p class="sub" style="margin-top:14px">États produits&nbsp;: fermé → <code>docs/mobile-menu-closed.png</code> · ouvert → <code>docs/mobile-menu-open.png</code></p>
+
+  <script>
+    const phone = document.getElementById('phone');
+    document.getElementById('openBtn').addEventListener('click', () => phone.classList.add('open'));
+    document.getElementById('closeBtn').addEventListener('click', () => phone.classList.remove('open'));
+    document.getElementById('overlay').addEventListener('click', () => phone.classList.remove('open'));
+  </script>
+</body>
+</html>

@@ -22,6 +22,8 @@ const en: Dict = {
     play: "Play",
     home: "Home",
     homeAria: "PR-Front — Home",
+    menu: "Open the navigation menu",
+    closeMenu: "Close the navigation menu",
     admin: "Admin",
     soon: "Coming soon",
   },

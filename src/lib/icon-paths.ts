@@ -53,6 +53,12 @@ export const ICONS = defineIcons({
       { d: "m16.1 16.1 4.3 4.3" },
     ],
   },
+  menu: {
+    stroke: 2.2,
+    paths: [
+      { d: "M4 6.5h16M4 12h16M4 17.5h16" },
+    ],
+  },
   play: {
     paths: [{ d: "M8.6 5.2 19 12 8.6 18.8V5.2Z", fill: true }],
   },

@@ -22,6 +22,8 @@ const fr = {
     play: "Jouer",
     home: "Accueil",
     homeAria: "PR-Front — Accueil",
+    menu: "Ouvrir le menu de navigation",
+    closeMenu: "Fermer le menu de navigation",
     admin: "Admin",
     soon: "Bientôt disponible",
   },
