@@ -12,20 +12,11 @@ import { useI18n } from "@/i18n/provider";
 const LOGO = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/pr-front-logo.svg`;
 
 type NavKey = "home" | "leaderboard" | "tournaments";
-type FutureKey = "players" | "clans" | "matches" | "stats" | "history" | "favorites";
 
 const primary: { href: string; key: NavKey; icon: IconName; exact?: boolean }[] = [
   { href: "/", key: "home", icon: "home", exact: true },
   { href: "/ranking", key: "leaderboard", icon: "trophy" },
   { href: "/tournaments", key: "tournaments", icon: "shield" },
-];
-const future: { key: FutureKey; icon: IconName }[] = [
-  { key: "players", icon: "users" },
-  { key: "clans", icon: "flag" },
-  { key: "matches", icon: "swords" },
-  { key: "stats", icon: "chart" },
-  { key: "history", icon: "history" },
-  { key: "favorites", icon: "star" },
 ];
 
 /** Liste de liens partagée entre la sidebar desktop et le tiroir mobile. */
@@ -48,28 +39,7 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
           </Link>
         );
       })}
-      {future.map((item) => (
-        <span key={item.key} title={t.nav.soon} className="sidebar-link cursor-default">
-          <Icon name={item.icon} size="md" />
-          <span>{t.nav[item.key]}</span>
-        </span>
-      ))}
     </>
-  );
-}
-
-/** Pied de sidebar partagé (avatar admin). */
-function SidebarFooter() {
-  const { t } = useI18n();
-  return (
-    <div className="flex items-center gap-3 rounded-xl px-1 py-2">
-      <img src={LOGO} alt="" className="brand-logo h-9 w-9 object-contain" />
-      <div className="min-w-0 flex-1">
-        <div className="text-xs font-bold">PR_Front</div>
-        <div className="text-[10px] text-white/45">{t.nav.admin}</div>
-      </div>
-      <Icon name="settings" size="md" />
-    </div>
   );
 }
 
@@ -107,10 +77,6 @@ export default function Navbar({ searchIndex }: { searchIndex: SearchIndexItem[]
         <nav className="mt-1 space-y-1">
           <NavLinks />
         </nav>
-
-        <div className="mt-auto border-t border-white/5 p-5">
-          <SidebarFooter />
-        </div>
       </aside>
 
       <header className="fixed left-0 right-0 top-0 z-40 h-[60px] border-b border-line bg-white/95 backdrop-blur lg:left-[246px]">
@@ -186,10 +152,6 @@ export default function Navbar({ searchIndex }: { searchIndex: SearchIndexItem[]
           <nav className="mt-1 space-y-1 pb-6">
             <NavLinks onNavigate={() => setOpen(false)} />
           </nav>
-
-          <div className="mt-auto border-t border-white/5 p-5">
-            <SidebarFooter />
-          </div>
         </div>
       </div>
     </>
