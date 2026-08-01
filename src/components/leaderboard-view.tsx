@@ -20,11 +20,74 @@ export interface LbRow {
 }
 
 type FilterId = "all" | "recurring" | "top100" | "clan";
+type SortKey = "rank" | "points" | "events" | "wins" | "top3" | "avgPlace";
+type SortDirection = "asc" | "desc";
+
+const DEFAULT_SORT: { key: SortKey; direction: SortDirection } = {
+  key: "points",
+  direction: "desc",
+};
+
+const SMART_FIRST_DIRECTION: Record<SortKey, SortDirection> = {
+  rank: "asc",
+  points: "desc",
+  events: "desc",
+  wins: "desc",
+  top3: "desc",
+  avgPlace: "asc",
+};
+
+function sortValue(row: LbRow, key: SortKey): number | null {
+  return row[key];
+}
+
+function SortHeader({
+  label,
+  column,
+  sort,
+  onSort,
+  className = "",
+}: {
+  label: string;
+  column: SortKey;
+  sort: { key: SortKey; direction: SortDirection };
+  onSort: (column: SortKey) => void;
+  className?: string;
+}) {
+  const active = sort.key === column;
+  return (
+    <button
+      type="button"
+      onClick={() => onSort(column)}
+      className={`group inline-flex items-center justify-end gap-1 rounded px-1 py-0.5 transition-colors hover:text-accent-strong ${className}`}
+    >
+      <span>{label}</span>
+      <span
+        aria-hidden="true"
+        className={`text-[10px] transition-opacity ${
+          active ? "text-accent-strong opacity-100" : "opacity-25 group-hover:opacity-70"
+        }`}
+      >
+        {active ? (sort.direction === "desc" ? "↓" : "↑") : "↕"}
+      </span>
+    </button>
+  );
+}
 
 export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
   const { t, locale, fmt } = useI18n();
   const [q, setQ] = useState("");
   const [filter, setFilter] = useState<FilterId>("all");
+  const [sort, setSort] = useState(DEFAULT_SORT);
+
+  function handleSort(column: SortKey) {
+    setSort((current) => {
+      if (current.key === column) {
+        return { key: column, direction: current.direction === "desc" ? "asc" : "desc" };
+      }
+      return { key: column, direction: SMART_FIRST_DIRECTION[column] };
+    });
+  }
 
   const filters: { id: FilterId; label: string; hint?: string; count: number }[] = useMemo(
     () => [
@@ -61,6 +124,21 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
     }
     return out;
   }, [rows, q, filter]);
+
+  const sorted = useMemo(() => {
+    return [...filtered].sort((a, b) => {
+      const av = sortValue(a, sort.key);
+      const bv = sortValue(b, sort.key);
+
+      // Les valeurs inconnues (ex: place moyenne absente) restent toujours à la fin.
+      if (av == null && bv == null) return a.rank - b.rank;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (av === bv) return a.rank - b.rank;
+
+      return sort.direction === "desc" ? bv - av : av - bv;
+    });
+  }, [filtered, sort]);
 
   return (
     <div className="card overflow-hidden">
@@ -105,7 +183,7 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
           );
         })}
         <span className="num ml-auto text-[11px] text-muted">
-          {fmt(t.leaderboard.filterCount, { shown: filtered.length, total: rows.length })}
+          {fmt(t.leaderboard.filterCount, { shown: sorted.length, total: rows.length })}
         </span>
       </div>
 
@@ -113,21 +191,78 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
         <table className="w-full min-w-[720px] text-sm">
           <thead>
             <tr className="border-b border-line/70 text-left">
-              <th className="micro-label w-14 px-4 py-3">#</th>
-              <th className="micro-label px-4 py-3">{t.leaderboard.colPlayer}</th>
-              <th className="micro-label px-4 py-3 text-right">{t.leaderboard.colPr}</th>
-              <th className="micro-label px-4 py-3 text-right">{t.leaderboard.colEvents}</th>
-              <th className="micro-label px-4 py-3 text-right">{t.leaderboard.colWins}</th>
-              <th className="micro-label hidden px-4 py-3 text-right md:table-cell">
-                {t.leaderboard.colTop3}
+              <th
+                className="micro-label w-14 px-4 py-3"
+                aria-sort={sort.key === "rank" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}
+              >
+                <SortHeader
+                  label="#"
+                  column="rank"
+                  sort={sort}
+                  onSort={handleSort}
+                  className="justify-start"
+                />
               </th>
-              <th className="micro-label hidden px-4 py-3 text-right md:table-cell">
-                {t.leaderboard.colAvgPlace}
+              <th className="micro-label px-4 py-3">{t.leaderboard.colPlayer}</th>
+              <th
+                className="micro-label px-4 py-3 text-right"
+                aria-sort={sort.key === "points" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}
+              >
+                <SortHeader
+                  label={t.leaderboard.colPr}
+                  column="points"
+                  sort={sort}
+                  onSort={handleSort}
+                />
+              </th>
+              <th
+                className="micro-label px-4 py-3 text-right"
+                aria-sort={sort.key === "events" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}
+              >
+                <SortHeader
+                  label={t.leaderboard.colEvents}
+                  column="events"
+                  sort={sort}
+                  onSort={handleSort}
+                />
+              </th>
+              <th
+                className="micro-label px-4 py-3 text-right"
+                aria-sort={sort.key === "wins" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}
+              >
+                <SortHeader
+                  label={t.leaderboard.colWins}
+                  column="wins"
+                  sort={sort}
+                  onSort={handleSort}
+                />
+              </th>
+              <th
+                className="micro-label hidden px-4 py-3 text-right md:table-cell"
+                aria-sort={sort.key === "top3" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}
+              >
+                <SortHeader
+                  label={t.leaderboard.colTop3}
+                  column="top3"
+                  sort={sort}
+                  onSort={handleSort}
+                />
+              </th>
+              <th
+                className="micro-label hidden px-4 py-3 text-right md:table-cell"
+                aria-sort={sort.key === "avgPlace" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}
+              >
+                <SortHeader
+                  label={t.leaderboard.colAvgPlace}
+                  column="avgPlace"
+                  sort={sort}
+                  onSort={handleSort}
+                />
               </th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((r) => (
+            {sorted.map((r) => (
               <tr key={r.id} className="lb-row">
                 <td className="px-4 py-3">
                   <RankCircle rank={r.rank} />
@@ -171,7 +306,7 @@ export default function LeaderboardView({ rows }: { rows: LbRow[] }) {
                 </td>
               </tr>
             ))}
-            {filtered.length === 0 ? (
+            {sorted.length === 0 ? (
               <tr>
                 <td colSpan={7} className="px-4 py-10 text-center text-sm text-muted">
                   {t.common.noResult}
