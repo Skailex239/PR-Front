@@ -99,10 +99,18 @@ export interface CalendarEvent {
   name: string;
   /** Date ISO du jour de l'évènement, ex. "2026-08-08". */
   date: string;
-  /** Début exact en heure française (ISO 8601 avec décalage), ex. "2026-08-08T19:00:00+02:00". */
+  /**
+   * Début exact de l'évènement.
+   * - Avec décalage ISO : "2026-08-08T19:00:00+02:00"
+   * - Ou en heure locale du fuseau `timeZone` : "2026-08-08T19:00:00"
+   */
   startsAt?: string;
-  /** Clôture des inscriptions (ISO 8601 avec décalage), ex. "2026-08-08T18:45:00+02:00". */
+  /**
+   * Clôture des inscriptions, mêmes règles que `startsAt`.
+   */
   registrationClosesAt?: string;
+  /** Fuseau IANA optionnel pour l'affichage et les dates sans décalage, ex. "Europe/Paris" ou "America/New_York". */
+  timeZone?: string;
   format: TournamentFormat;
   /** Clé de `tiers` : "minor" | "standard" | "major". */
   tier: string;
