@@ -20,7 +20,8 @@ const en: Dict = {
     history: "History",
     favorites: "Favorites",
     play: "Play",
-    home: "PR-Front — Home",
+    home: "Home",
+    homeAria: "PR-Front — Home",
     admin: "Admin",
     soon: "Coming soon",
   },
@@ -38,6 +39,9 @@ const en: Dict = {
   },
   hero: {
     title: "Find your OpenFront stats",
+  },
+  home: {
+    viewMore: "See more",
   },
   common: {
     player: "Player",

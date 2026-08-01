@@ -20,7 +20,8 @@ const fr = {
     history: "Historique",
     favorites: "Favoris",
     play: "Jouer",
-    home: "PR-Front — Accueil",
+    home: "Accueil",
+    homeAria: "PR-Front — Accueil",
     admin: "Admin",
     soon: "Bientôt disponible",
   },
@@ -39,6 +40,9 @@ const fr = {
   },
   hero: {
     title: "Trouvez vos stats OpenFront",
+  },
+  home: {
+    viewMore: "Voir plus",
   },
   common: {
     player: "Joueur",

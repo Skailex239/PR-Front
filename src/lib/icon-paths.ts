@@ -56,6 +56,13 @@ export const ICONS = defineIcons({
   play: {
     paths: [{ d: "M8.6 5.2 19 12 8.6 18.8V5.2Z", fill: true }],
   },
+  home: {
+    paths: [
+      { d: "M3 10.5 12 3.5l9 7" },
+      { d: "M5.5 9.2V20.5h13V9.2" },
+      { d: "M10 20.5v-5.5h4v5.5" },
+    ],
+  },
   settings: {
     paths: [
       {

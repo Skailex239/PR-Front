@@ -10,11 +10,12 @@ import { useI18n } from "@/i18n/provider";
 
 const LOGO = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/pr-front-logo.svg`;
 
-type NavKey = "leaderboard" | "tournaments";
+type NavKey = "home" | "leaderboard" | "tournaments";
 type FutureKey = "players" | "clans" | "matches" | "stats" | "history" | "favorites";
 
 const primary: { href: string; key: NavKey; icon: IconName; exact?: boolean }[] = [
-  { href: "/", key: "leaderboard", icon: "trophy", exact: true },
+  { href: "/", key: "home", icon: "home", exact: true },
+  { href: "/ranking", key: "leaderboard", icon: "trophy" },
   { href: "/tournaments", key: "tournaments", icon: "shield" },
 ];
 const future: { key: FutureKey; icon: IconName }[] = [
@@ -32,7 +33,7 @@ export default function Navbar({ searchIndex }: { searchIndex: SearchIndexItem[]
   return (
     <>
       <aside className="fixed inset-y-0 left-0 z-50 hidden w-[246px] flex-col bg-sidebar text-white lg:flex">
-        <Link href="/" className="flex h-[98px] items-center px-7" aria-label={t.nav.home}>
+        <Link href="/" className="flex h-[98px] items-center px-7" aria-label={t.nav.homeAria}>
           <img src={LOGO} alt="PR-Front" className="brand-logo h-16 w-16 object-contain" />
         </Link>
 
@@ -55,7 +56,7 @@ export default function Navbar({ searchIndex }: { searchIndex: SearchIndexItem[]
 
       <header className="fixed left-0 right-0 top-0 z-40 h-[60px] border-b border-line bg-white/95 backdrop-blur lg:left-[246px]">
         <div className="flex h-full items-center gap-4 px-5 lg:px-8">
-          <Link href="/" className="lg:hidden" aria-label={t.nav.home}><img src={LOGO} alt="PR-Front" className="brand-logo h-9 w-9 object-contain" /></Link>
+          <Link href="/" className="lg:hidden" aria-label={t.nav.homeAria}><img src={LOGO} alt="PR-Front" className="brand-logo h-9 w-9 object-contain" /></Link>
           <div className="ml-auto hidden w-[260px] sm:block"><SearchBox items={searchIndex} variant="nav" /></div>
           <LangSwitch className="ml-auto sm:ml-0" />
           <a href="https://openfront.io" target="_blank" rel="noreferrer" className="play-button"><Icon name="play" size="xs" /> {t.nav.play}</a>
