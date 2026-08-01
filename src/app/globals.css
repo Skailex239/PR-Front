@@ -163,14 +163,14 @@ tr:hover .num, a:hover .num { color: var(--color-accent-strong); }
 .summer-ffa-card {
   position: relative;
   overflow: hidden;
-  border-color: #d85e0e;
+  border-color: #1d4ed8;
   background:
-    radial-gradient(circle at 110% -12%, rgba(255, 223, 155, .7) 0 8%, transparent 30%),
-    radial-gradient(circle at -8% 115%, rgba(135, 39, 4, .52) 0 12%, transparent 41%),
-    linear-gradient(135deg, #f29327 0%, #e46b12 49%, #bd3c08 100%);
-  box-shadow: 0 8px 20px rgba(194, 72, 8, .24);
+    radial-gradient(circle at 110% -12%, rgba(254, 240, 138, .8) 0 8%, transparent 30%),
+    radial-gradient(circle at -8% 115%, rgba(23, 37, 84, .62) 0 12%, transparent 41%),
+    linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 42%, #3b82f6 64%, #fde047 100%);
+  box-shadow: 0 8px 20px rgba(29, 78, 216, .3);
 }
-.summer-ffa-card:hover { border-color: #a93605; box-shadow: 0 17px 32px rgba(180, 58, 5, .32); }
+.summer-ffa-card:hover { border-color: #1e3a8a; box-shadow: 0 17px 32px rgba(30, 64, 175, .4); }
 .summer-ffa-mark { position: absolute; right: -8px; bottom: -12px; color: rgba(255,255,255,.3); transform: rotate(-14deg); }
 
 /* ---------- Transitions enrichies ---------- */

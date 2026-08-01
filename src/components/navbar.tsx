@@ -55,7 +55,6 @@ export default function Navbar({ searchIndex }: { searchIndex: SearchIndexItem[]
 
       <header className="fixed left-0 right-0 top-0 z-40 h-[60px] border-b border-line bg-white/95 backdrop-blur lg:left-[246px]">
         <div className="flex h-full items-center gap-4 px-5 lg:px-8">
-          <button className="text-text" aria-label={t.nav.openMenu}><Icon name="menu" size="md" /></button>
           <Link href="/" className="lg:hidden" aria-label={t.nav.home}><img src={LOGO} alt="PR-Front" className="brand-logo h-9 w-9 object-contain" /></Link>
           <div className="ml-auto hidden w-[260px] sm:block"><SearchBox items={searchIndex} variant="nav" /></div>
           <LangSwitch className="ml-auto sm:ml-0" />
