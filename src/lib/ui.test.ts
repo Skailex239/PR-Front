@@ -10,6 +10,7 @@ import assert from "node:assert/strict";
 import { normalizeQuery, matchesQuery } from "./search.ts";
 import { formatPoints, formatDate, formatDateShort } from "./format.ts";
 import { getDict, localeOf, tpl, LANGS, isLang } from "../i18n/index.ts";
+import { ICONS, ICON_NAMES } from "./icon-paths.ts";
 
 // ---------- Recherche : ID Discord ----------
 
@@ -146,6 +147,26 @@ test("tpl interpole les variables", () => {
   assert.equal(tpl("{shown} joueur(s) sur {total}", { shown: 12, total: 506 }), "12 joueur(s) sur 506");
   // Variable absente : le trou reste visible plutôt que d'afficher "undefined".
   assert.equal(tpl("{a} et {b}", { a: 1 }), "1 et {b}");
+});
+
+test("les clés du menu mobile existent et sont renseignées", () => {
+  for (const lang of LANGS) {
+    const d = getDict(lang);
+    assert.equal(typeof d.nav.menu, "string");
+    assert.equal(typeof d.nav.closeMenu, "string");
+    assert.ok(d.nav.menu.trim().length > 0, `nav.menu vide (${lang})`);
+    assert.ok(d.nav.closeMenu.trim().length > 0, `nav.closeMenu vide (${lang})`);
+    // Libellés du menu différents du libellé "Accueil" (pas juste un doublon).
+    assert.notEqual(d.nav.menu, d.nav.home);
+    assert.notEqual(d.nav.closeMenu, d.nav.home);
+  }
+});
+
+test("l'icône 'menu' du tiroir mobile est déclarée dans la bibliothèque", () => {
+  assert.ok(ICON_NAMES.includes("menu"), "icône 'menu' manquante dans ICON_NAMES");
+  const def = ICONS.menu;
+  assert.ok(def.paths.length > 0, "icône 'menu' sans tracés");
+  assert.ok(def.stroke && def.stroke > 0, "icône 'menu' doit avoir une épaisseur de trait");
 });
 
 test("les clés du bandeau et de la fenêtre de langue sont présentes", () => {

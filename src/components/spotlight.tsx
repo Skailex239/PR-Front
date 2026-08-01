@@ -16,14 +16,14 @@ const tones: Record<Tone, { header: string; text: string; corner: string }> = {
   purple: { header: "bg-[#7738b5]", text: "text-white", corner: "border-t-[#55238c]" },
 };
 
-function SpotlightCard({ label, href, tone, mark, children }: { label: string; href?: string; tone: Tone; mark: Mark; children: React.ReactNode }) {
+function SpotlightCard({ label, href, viewMoreHref = "/ranking", tone, mark, children }: { label: string; href?: string; viewMoreHref?: string; tone: Tone; mark: Mark; children: React.ReactNode }) {
   const { t } = useI18n();
   const style = tones[tone];
   return (
     <div className="spotlight-card group overflow-hidden rounded-[3px] border border-line bg-white shadow-[0_3px_10px_rgba(22,28,38,.08)]">
       <div className={`relative flex h-9 items-center justify-between overflow-hidden px-4 ${style.header} ${style.text}`}>
         <span className="text-[11px] font-black uppercase tracking-[-0.015em]">{label}</span>
-        <Link href="/ranking" className="relative z-10 text-[10px] font-extrabold hover:underline">{t.home.viewMore}</Link>
+        <Link href={viewMoreHref} className="relative z-10 text-[10px] font-extrabold hover:underline">{t.home.viewMore}</Link>
         <span className={`absolute right-[62px] top-0 h-0 w-0 border-l-[22px] border-t-[36px] border-l-transparent opacity-80 ${style.corner}`} aria-hidden />
         <span className="absolute inset-y-0 right-0 w-[62px] bg-black/10" aria-hidden />
       </div>
@@ -66,7 +66,7 @@ export default function Spotlight({ champion, mostWins, latestTournament, latest
         {mostWins ? <PlayerIdentity entry={mostWins} stat={<>{mostWins.wins} {t.common.wins.toLowerCase()}</>} /> : <span className="text-xs text-muted">{t.spotlight.noWinner}</span>}
       </SpotlightCard>
 
-      <SpotlightCard label={t.spotlight.latestTournament} href={latestTournament ? `/tournaments/${latestTournament.slug}` : "/tournaments"} tone="purple" mark="flag">
+      <SpotlightCard label={t.spotlight.latestTournament} href={latestTournament ? `/tournaments/${latestTournament.slug}` : "/tournaments"} viewMoreHref="/tournaments" tone="purple" mark="flag">
         {latestTournament ? (
           <div className="relative z-10 flex min-w-0 items-center gap-3">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#f2eafa] text-[#7738b5] shadow-md"><Icon name="flag" size="md" /></div>
