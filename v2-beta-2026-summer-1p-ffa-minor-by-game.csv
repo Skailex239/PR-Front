@@ -1,0 +1,540 @@
+stage,round,lobby,map,game_id,player,discord_id,of_name,placement,points,placement_pts,top5_bonus,kill_pts,reach_bonus,kills,final_tiles,minutes,result,end_reason
+Qualifier,R1,C1,Australia,Y1zoWRRx,[NRV] Nagi,1422831611224916089,NRV paraNoid,1,155,100,25,30,0,5,432593,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,factory girl,1323051472870576181,drink the dolls,2,140,98,18,24,0,2,31936,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Pluto,1265955548956725251,Pluto,3,111,96,12,3,0,1,19791,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Lud0O,688008318911774743,Lud0O,4,105,94,8,3,0,1,15654,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,atreides,828321420555321355,Atreides,5,117,92,5,20,0,2,703,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[NRV] smsfun,1297199020191518812,NRV smsfun,6,100,90,0,10,0,1,576,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,miau miau cat island,177027997516169217,miau miau cat island,7,117,88,0,29,0,3,194,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Kpu,384023106886303744,Zoulou,8,115,85,0,30,0,6,169,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Yellowbiscuit,1498752330886283266,Yellowbiscuit,9,113,83,0,30,0,5,52,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,STUFF WUFF921,773247251770114059,Anon800,10,81,81,0,0,0,0,33,19.1,survived,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,FeetOnMySheep,1075043948910886982,King Baldwin IV,11,97,79,0,18,0,3,0,19.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Rimuru_Tempest,902157919360020543,Mister Trader,12,89,77,0,12,0,2,38,15.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,ThatOneHog,762888044973654036,Anon517,13,82,75,0,7,0,1,531,14.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,NIKAS,715983593574367242,NIKAS,14,96,73,0,23,0,3,324,14.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Ralphcat,551655629308035093,Ralphcat,15,79,71,0,8,0,1,0,12.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,YouBee,393943458181677056,YouBee,16,99,69,0,30,0,3,0,11.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Mr_rim,787373218854862868,BZH,17,74,67,0,7,0,1,0,11.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,aprilfools,854829762861465630,Wawa2048,18,66,65,0,1,0,1,0,11.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,bibizu,707016941256179783,bibizu,19,63,63,0,0,0,0,0,10.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Big_O,642818479505801226,Big_O 99,20,60,60,0,0,0,0,0,10.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,RuAWizard,1196126664338452612,Wizard County,21,60,58,0,2,0,1,0,9.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Deathwatch,229089937956274176,Deathwatch,22,56,56,0,0,0,0,0,8.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[BAGNO] Bembe,258985946756808704,Bembe,23,54,54,0,0,0,0,0,8.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,steffguimove,376432632046551047,Steff,24,52,52,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Noni_Wesh,1209138796336250921,NoniWesh,25,50,50,0,0,0,0,0,8.7,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,pulanjuri,614866545784389642,European Federation,26,48,48,0,0,0,0,0,8.6,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,sorrow,898314658941906975,Sorrow,27,46,46,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Lukasssss,394433432891031552,Lukass,28,46,44,0,2,0,1,0,8.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,twitch.R3RE5,320821689422315522,twitch.R3RE5,29,42,42,0,0,0,0,0,7.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Pyrrha,1433879692506693835,Pyrrha,30,40,40,0,0,0,0,0,7.7,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[LUX] TeNa,771775584584990771,TeNa,31,38,38,0,0,0,0,0,7.7,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,iampanda2320,481583188989444097,hi_,32,35,35,0,0,0,0,0,7.6,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[Xev]ラーメン,1251900133990465596,ramen,33,33,33,0,0,0,0,0,7.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[Xev]aki,1076777741548003480,aki,34,37,31,0,6,0,1,0,7.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Naeshonn,204722469284741120,Naeshiggle,35,29,29,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Naaga,263603891138985984,Naaga,36,27,27,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Barbosa,254674906963378177,Barbosa,37,25,25,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,MarioBro,1101117672843923589,evil island guy,38,23,23,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,tanuki,1314109860232564801,tanuki,39,21,21,0,0,0,1,0,5.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Elektrikas,708039117073547376,Elektrikas,40,19,19,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Ripples,1381575560748335205,Imbored,41,17,17,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[NRV] INGSOC,1245186835597103177,INGSOC,42,15,15,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Leon366,117103389103357953,STICK,43,13,13,0,0,0,0,0,4.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,SeafightWE,1517286914917666903,ELLHNIKO DHMOSIO,44,10,10,0,0,0,0,0,4.2,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Julians0,204233162555916288,Hentler,45,8,8,0,0,0,0,0,4.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,[LBU] Zwiper,1053390182398840902,Zwiper,46,6,6,0,0,0,0,0,3.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,Billy0706,1522733728680640639,billy0706,47,4,4,0,0,0,0,0,3.7,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,norinebera,324871613373874187,NoriNebera,48,2,2,0,0,0,0,0,3.7,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,Y1zoWRRx,ZeroAZ,1004423570497224744,Anuun,49,0,0,0,0,0,0,0,2.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[SPQR] Gix,257866880402849792,Gix,1,155,100,25,30,0,14,595906,20.2,survived,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[un] trueanon listener,352980512643612672,trueanon listener,2,116,98,18,0,0,0,87924,20.2,survived,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,keicaldera,977357589979471933,Empire of Kei,3,138,96,12,30,0,3,58836,20.2,survived,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[NRV] Space_Sheeep,742709922915024948,_0_Space_Sheeep,4,131,93,8,30,0,2,531,20.2,survived,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[JR] DougyJR,355158630221479937,DougyJr,5,126,91,5,30,0,4,493,20.2,survived,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[UN] ALPHA,1427766971583430766,ALPHA,6,119,89,0,30,0,3,0,20.2,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[LBU] Ziyad,1042867662692302878,Ziyad,7,97,87,0,10,0,2,0,19.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[LUX] eef,454775365907251210,Eef WANTS trade,8,111,85,0,26,0,2,0,16.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,make,723924699989409834,make14,9,113,83,0,30,0,6,0,15.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Puck,879943503575146536,Puck,10,80,80,0,0,0,0,0,13.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Tom,677191685180096525,CLAN,11,108,78,0,30,0,4,0,13.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Flatscheliho,1517209732576710918,Flatscheliho,12,76,76,0,0,0,0,0,12.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Slyxezz,1359635766665547877,slyxezz,13,77,74,0,3,0,1,0,11.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Captain Price,469856658915328005,Captain Price Jr,14,81,72,0,9,0,2,0,11.2,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[AST] SPoS,1031621249832591420,SPoS,15,70,70,0,0,0,0,0,11.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Fraty,332487228263628801,Fraty,16,97,67,0,30,0,5,0,10.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,yolk,891634237881610241,yolk,17,65,65,0,0,0,0,0,10.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[PENEK] Pentium 4,717364086874046584,Pentium 4,18,66,63,0,3,0,1,0,9.9,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Dmq,1277992429827653682,Dmq,19,78,61,0,17,0,2,0,9.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[EU] Chulee,156796420677042176,Chulee,20,59,59,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Konst,240124022438756352,Don_Konst,21,57,57,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[LBU] Globi,305082654250762240,Globi,22,55,54,0,1,0,1,0,8.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[CYN] Chuma,325671276465094656,Chuma,23,52,52,0,0,0,0,0,8.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Cheesemaxing,832286969278365706,Cheesemaxing,24,52,50,0,2,0,1,0,8.2,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[MOL]Le Roi des Glands,1188825589075951676,LE ROI DES GLANDS,25,48,48,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,uni,861894838109863936,uni,26,49,43,0,6,0,1,0,8.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,26,50,43,0,7,0,2,0,8.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Ignaszolo,1415314520926195875,Ignaszollo,28,50,41,0,9,0,1,0,7.2,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Farnam,931091619766210600,Farnam,29,39,39,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[CYN] imperium romanum,1432038068977930250,imperium romanum,30,37,37,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[LUX] W4lle,467446206608572416,W4lle,31,35,35,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Mousekey,1521722112535171143,MouseKey,32,33,33,0,0,0,0,0,6.9,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[LUX] Natsume,760182191421653003,Natsume,33,30,30,0,0,0,1,0,5.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Arvigge,611981942220521485,Arvigge,34,28,28,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,35,26,26,0,0,0,0,0,5.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Coz,193633671683506176,Coz,36,24,24,0,0,0,0,0,4.9,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Tchoupi,706644518631374889,Sorrynoob Will Kill All,37,22,22,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,daylyrustontt,716446301776117761,daylyrustontt,38,20,20,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Wicketman2,226869768165130240,wicketman2,39,17,17,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Alexx,658074449542774788,xMix,40,15,15,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,HopeSlayer1,314059437155287040,HopeSlayer1,41,13,13,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,thekidwithaplan,483383051225792552,Thekidwithaplan,42,11,11,0,0,0,0,0,3.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,frogs,490153103073738763,frogs,43,9,9,0,0,0,0,0,3.7,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,kozjar,281084444746579968,Always Retaliate,44,7,7,0,0,0,0,0,3.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,TheCopperBard | she/her,484170090980573185,TheCopperBard,45,4,4,0,0,0,0,0,3.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,[NRV] WHALEFall,618434469032099851,WHALEFall,46,2,2,0,0,0,0,0,3.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,hJskn41n,Zekromvoid,1417849694205378580,IronEmpire,47,0,0,0,0,0,0,0,3.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[Xev]ラーメン,1251900133990465596,ramen,1,155,100,25,30,0,16,1139954,17.6,survived,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[Xev]aki,1076777741548003480,aki,2,146,98,18,30,0,11,261960,17.6,survived,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[UN] Geographic Edits,1281977843210784832,Geographic Edits,3,139,97,12,30,0,11,19179,17.6,survived,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Cheesemaxing,832286969278365706,Cheesemaxing,4,133,95,8,30,0,8,1,17.6,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,pulanjuri,614866545784389642,European Federation,5,98,93,5,0,0,0,0,16.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[NRV] INGSOC,1245186835597103177,INGSOC,6,112,92,0,20,0,3,0,16.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[LUX] W4lle,467446206608572416,W4lle,7,90,90,0,0,0,0,0,15.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[CYN] imperium romanum,1432038068977930250,imperium romanum,8,118,88,0,30,0,7,0,15.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[AST] SPoS,1031621249832591420,SPoS,9,86,86,0,0,0,0,0,15.5,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[LBU] Globi,305082654250762240,Globi,10,99,85,0,14,0,1,0,15.4,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Elektrikas,708039117073547376,Elektrikas,11,102,83,0,19,0,2,201,15.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,frogs,490153103073738763,frogs,12,83,81,0,2,0,2,0,15.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,kozjar,281084444746579968,Always Retaliate,13,80,80,0,0,0,0,0,14.5,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Leon366,117103389103357953,STICK,14,108,78,0,30,0,3,0,14.4,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[MOL]Le Roi des Glands,1188825589075951676,LE ROI DES GLANDS,15,104,76,0,28,0,2,0,14.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Deathwatch,229089937956274176,Deathwatch,16,82,75,0,7,0,1,0,13.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,HopeSlayer1,314059437155287040,HopeSlayer1,17,79,73,0,6,0,1,0,13.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[LBU] Zwiper,1053390182398840902,Zwiper,18,76,71,0,5,0,1,0,12.9,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[NSF] Cori,1412963514775109642,Cori,19,69,69,0,0,0,0,0,12.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Mousekey,1521722112535171143,MouseKey,20,68,68,0,0,0,0,0,12.6,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,uni,861894838109863936,uni,21,79,66,0,13,0,2,0,12.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,yolk,891634237881610241,yolk,22,94,64,0,30,0,5,0,12.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[PENEK] Pentium 4,717364086874046584,Pentium 4,23,93,63,0,30,0,5,0,12.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Big_O,642818479505801226,Big_O 99,24,71,61,0,10,0,1,0,11.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Tchoupi,706644518631374889,Sorrynoob Will Kill All,25,74,59,0,15,0,2,0,11.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,SeafightWE,1517286914917666903,ELLHNIKO DHMOSIO,26,67,58,0,9,0,1,0,11.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Pyrrha,1433879692506693835,Pyrrha,27,56,56,0,0,0,0,0,10.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Julians0,204233162555916288,Hentler,28,54,54,0,0,0,0,0,9.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,aprilfools,854829762861465630,Wawa2048,29,53,53,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Dmq,1277992429827653682,Dmq,30,51,51,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[CYN] Chuma,325671276465094656,Chuma,31,49,49,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Konst,240124022438756352,Don_Konst,32,47,47,0,0,0,0,0,8.4,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,RuAWizard,1196126664338452612,Wizard County,33,47,46,0,1,0,1,0,8.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,bruhangela,1133341648898768956,AngelaWongEnQi,34,44,44,0,0,0,0,0,8.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[EU] Chulee,156796420677042176,Chulee,35,42,42,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,36,48,41,0,7,0,2,0,8.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Wicketman2,226869768165130240,wicketman2,37,39,39,0,0,0,0,0,7.9,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Naaga,263603891138985984,Naaga,38,37,37,0,0,0,0,0,7.9,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Ignaszolo,1415314520926195875,Ignaszollo,39,36,36,0,0,0,0,0,7.7,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[LUX] Natsume,760182191421653003,Natsume,40,34,34,0,0,0,0,0,7.5,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,norinebera,324871613373874187,NoriNebera,41,32,32,0,0,0,0,0,7.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,TheCopperBard | she/her,484170090980573185,TheCopperBard,42,31,31,0,0,0,0,0,7.1,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,tanuki,1314109860232564801,tanuki,43,29,29,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Billy0706,1522733728680640639,billy0706,44,27,27,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Naeshonn,204722469284741120,Naeshiggle,45,27,25,0,2,0,1,0,6.9,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,daylyrustontt,716446301776117761,daylyrustontt,46,24,24,0,0,0,0,0,6.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,thekidwithaplan,483383051225792552,Thekidwithaplan,47,22,22,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Kyledoesstuff?,1518319225704419349,Kyledoesstuff,48,20,20,0,0,0,0,0,5.7,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Farnam,931091619766210600,Farnam,49,19,19,0,0,0,0,0,5.6,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,50,17,17,0,0,0,0,0,5.5,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,sorrow,898314658941906975,Sorrow,51,15,15,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Fraty,332487228263628801,Fraty,52,14,14,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,iampanda2320,481583188989444097,hi_,53,12,12,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,steffguimove,376432632046551047,Steff,54,10,10,0,0,0,0,0,4.9,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Ripples,1381575560748335205,Imbored,55,8,8,0,0,0,0,0,4.4,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Zekromvoid,1417849694205378580,IronEmpire,56,7,7,0,0,0,0,0,4.1,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Geda,853344431281405972,GEDA,57,5,5,0,0,0,0,0,3.9,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,twitch.R3RE5,320821689422315522,twitch.R3RE5,58,3,3,0,0,0,0,0,3.5,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Alexx,658074449542774788,xMix,59,2,2,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R2,C3,Mare Nostrum,5evEaH9Z,Kabi,1144280814645940304,Kabi,60,0,0,0,0,0,0,0,3.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LBU] Zorbix,708624453579440218,Zorbix,1,155,100,25,30,0,10,387119,21.1,survived,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[BAGNO] Bembe,258985946756808704,Bembe,2,147,99,18,30,0,9,60342,21.1,survived,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[UN] ALPHA,1427766971583430766,ALPHA,3,140,98,12,30,0,15,28117,21.1,survived,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NRV] Space_Sheeep,742709922915024948,_0_Space_Sheeep,4,135,97,8,30,0,8,7716,21.1,survived,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LUX] eef,454775365907251210,Eef WANTS trade,5,114,95,5,14,0,1,22,21.1,survived,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Puck,879943503575146536,Puck,6,124,94,0,30,0,6,0,21.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Coz,193633671683506176,Coz,7,106,93,0,13,0,1,0,20.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,YouBee,393943458181677056,YouBee,8,122,92,0,30,0,4,69,17.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NRV] smsfun,1297199020191518812,NRV smsfun,9,121,91,0,30,0,6,0,15.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,steffguimove,376432632046551047,Steff,10,90,90,0,0,0,0,0,15.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LUX] TeNa,771775584584990771,TeNa,11,89,89,0,0,0,0,0,14.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NSF] Cori,1412963514775109642,Cori,12,87,87,0,0,0,0,0,13.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,factory girl,1323051472870576181,drink the dolls,13,100,86,0,14,0,2,0,13.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Geda,853344431281405972,GEDA,14,94,85,0,9,0,1,0,13.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LUX] Natsume,760182191421653003,Natsume,15,84,84,0,0,0,0,0,13.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,sorrow,898314658941906975,Sorrow,16,93,83,0,10,0,1,0,13.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Anglio,396794531938304000,Anglio,17,90,82,0,8,0,1,0,13.0,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,yolk,891634237881610241,yolk,18,110,80,0,30,0,4,0,12.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,NIKAS,715983593574367242,NIKAS,19,86,79,0,7,0,1,0,11.8,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NRV] WHALEFall,618434469032099851,WHALEFall,20,108,78,0,30,0,5,0,11.8,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[JR] DougyJR,355158630221479937,DougyJr,21,94,77,0,17,0,2,0,11.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,thekidwithaplan,483383051225792552,Thekidwithaplan,22,82,76,0,6,0,1,0,10.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,miau miau cat island,177027997516169217,miau miau cat island,23,103,75,0,28,0,4,0,10.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Pyrrha,1433879692506693835,Pyrrha,24,77,74,0,3,0,1,0,10.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Big_O,642818479505801226,Big_O 99,25,80,72,0,8,0,2,0,10.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Ignaszolo,1415314520926195875,Ignaszollo,26,76,71,0,5,0,1,0,10.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NRV] INGSOC,1245186835597103177,INGSOC,27,100,70,0,30,0,14,0,10.0,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,28,95,69,0,26,0,3,0,9.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,keicaldera,977357589979471933,Empire of Kei,29,75,68,0,7,0,1,0,9.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,make,723924699989409834,make14,30,81,67,0,14,0,2,0,9.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Lud0O,688008318911774743,Lud0O,31,80,66,0,14,0,2,0,9.0,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,FeetOnMySheep,1075043948910886982,King Baldwin IV,32,64,64,0,0,0,0,0,8.9,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Tom,677191685180096525,CLAN,33,63,63,0,0,0,0,0,8.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LBU] Globi,305082654250762240,Globi,34,62,62,0,0,0,0,0,8.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[un] trueanon listener,352980512643612672,trueanon listener,35,79,61,0,18,0,1,0,8.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,RuAWizard,1196126664338452612,Wizard County,36,60,60,0,0,0,0,0,8.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NRV] Nagi,1422831611224916089,NRV paraNoid,37,65,59,0,6,0,1,0,7.9,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,twitch.R3RE5,320821689422315522,twitch.R3RE5,38,57,57,0,0,0,0,0,7.9,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Kpu,384023106886303744,Zoulou,39,56,56,0,0,0,0,0,7.8,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[CYN] Chuma,325671276465094656,Chuma,40,66,55,0,11,0,2,0,7.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,uni,861894838109863936,uni,41,72,54,0,18,0,3,0,7.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[EU] Chulee,156796420677042176,Chulee,42,53,53,0,0,0,0,0,7.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Naeshonn,204722469284741120,Naeshiggle,43,52,52,0,0,0,0,0,7.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[AST] SPoS,1031621249832591420,SPoS,44,49,49,0,0,0,0,0,7.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,pulanjuri,614866545784389642,European Federation,44,50,49,0,1,0,1,0,7.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Captain Price,469856658915328005,Captain Price Jr,46,48,48,0,0,0,0,0,6.9,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Mousekey,1521722112535171143,MouseKey,47,63,47,0,16,0,2,0,6.8,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,atreides,828321420555321355,Atreides,48,46,46,0,0,0,0,0,6.8,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[SPQR] Gix,257866880402849792,Gix,49,44,44,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Rimuru_Tempest,902157919360020543,Mister Trader,49,47,44,0,3,0,1,0,6.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LBU] Ziyad,1042867662692302878,Ziyad,51,43,43,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Tchoupi,706644518631374889,Sorrynoob Will Kill All,52,41,41,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,STUFF WUFF921,773247251770114059,Anon800,53,40,40,0,0,0,0,0,6.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Lukasssss,394433432891031552,Lukass,54,48,39,0,9,0,1,0,6.5,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,HopeSlayer1,314059437155287040,HopeSlayer1,55,38,38,0,0,0,0,0,6.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[PENEK] Pentium 4,717364086874046584,Pentium 4,56,37,37,0,0,0,0,0,6.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Julians0,204233162555916288,Hentler,57,36,36,0,0,0,0,0,6.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Dmq,1277992429827653682,Dmq,58,36,34,0,2,0,1,0,5.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,SeafightWE,1517286914917666903,ELLHNIKO DHMOSIO,59,35,33,0,2,0,1,0,5.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,aprilfools,854829762861465630,Wawa2048,60,32,32,0,0,0,0,0,5.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Slyxezz,1359635766665547877,slyxezz,61,31,31,0,0,0,0,0,5.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,62,30,30,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Konst,240124022438756352,Don_Konst,63,29,29,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,ThatOneHog,762888044973654036,Anon517,64,28,28,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Fraty,332487228263628801,Fraty,65,26,26,0,0,0,0,0,5.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Pluto,1265955548956725251,Pluto,66,25,25,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Wicketman2,226869768165130240,wicketman2,67,24,24,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Lunace,186880198816432128,Lunace,68,25,23,0,2,0,1,0,4.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Ralphcat,551655629308035093,Ralphcat,69,22,22,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[MOL]Le Roi des Glands,1188825589075951676,LE ROI DES GLANDS,70,21,21,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Zekromvoid,1417849694205378580,IronEmpire,71,20,20,0,0,0,0,0,4.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[LUX] W4lle,467446206608572416,W4lle,72,18,18,0,0,0,0,0,4.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Naaga,263603891138985984,Naaga,73,17,17,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,TheCopperBard | she/her,484170090980573185,TheCopperBard,74,16,16,0,0,0,0,0,3.8,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,[CYN] imperium romanum,1432038068977930250,imperium romanum,75,15,15,0,0,0,0,0,3.6,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Billy0706,1522733728680640639,billy0706,76,14,14,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,norinebera,324871613373874187,NoriNebera,77,13,13,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Bacon,1075002993017094144,Black Beard,78,11,11,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Kyledoesstuff?,1518319225704419349,Kyledoesstuff,79,10,10,0,0,0,0,0,3.3,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,remiliod,833349121574305792,ADHD RD,80,9,9,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,frogs,490153103073738763,frogs,81,8,8,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,kozjar,281084444746579968,Always Retaliate,82,7,7,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Cheesemaxing,832286969278365706,Cheesemaxing,83,6,6,0,0,0,0,0,3.1,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,MarioBro,1101117672843923589,evil island guy,84,5,5,0,0,0,0,0,3.0,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Kabi,1144280814645940304,Kabi,85,3,3,0,0,0,0,0,2.5,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,Deathwatch,229089937956274176,Deathwatch,86,2,2,0,0,0,0,0,1.9,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,bibizu,707016941256179783,bibizu,87,1,1,0,0,0,0,0,1.5,eliminated,DOMINATION
+Qualifier,R3,C4,Lisbon,eG8Gi3h3,bruhangela,1133341648898768956,AngelaWongEnQi,88,0,0,0,0,0,0,0,1.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Ralphcat,551655629308035093,Ralphcat,1,155,100,25,30,0,6,2144072,18.1,survived,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[UN] Geographic Edits,1281977843210784832,Geographic Edits,2,147,99,18,30,0,9,432945,18.1,survived,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Fraty,332487228263628801,Fraty,3,139,97,12,30,0,14,29148,18.1,survived,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[CYN] imperium romanum,1432038068977930250,imperium romanum,4,134,96,8,30,0,9,19882,18.1,survived,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[AST] SPoS,1031621249832591420,SPoS,5,102,94,5,3,0,1,33,18.1,survived,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Rimuru_Tempest,902157919360020543,Mister Trader,6,123,93,0,30,0,6,1,18.1,survived,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,FeetOnMySheep,1075043948910886982,King Baldwin IV,7,106,91,0,15,0,1,0,18.1,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[LUX] W4lle,467446206608572416,W4lle,8,94,90,0,4,0,1,0,16.6,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,make,723924699989409834,make14,9,103,88,0,15,0,2,0,15.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Mr_rim,787373218854862868,BZH,10,87,87,0,0,0,0,0,15.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,uni,861894838109863936,uni,11,105,85,0,20,0,2,0,15.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[JR] DougyJR,355158630221479937,DougyJr,12,95,84,0,11,0,1,0,15.5,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[EU] Chulee,156796420677042176,Chulee,13,82,82,0,0,0,0,0,15.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[NRV] Nagi,1422831611224916089,NRV paraNoid,14,108,81,0,27,0,3,0,13.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[Xev]aki,1076777741548003480,aki,15,79,79,0,0,0,0,0,13.1,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,SeafightWE,1517286914917666903,ELLHNIKO DHMOSIO,16,108,78,0,30,0,7,0,12.9,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Mousekey,1521722112535171143,MouseKey,17,76,76,0,0,0,0,0,12.6,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[LBU] Globi,305082654250762240,Globi,18,77,75,0,2,0,1,0,12.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Big_O,642818479505801226,Big_O 99,19,74,74,0,0,0,0,0,12.1,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,bibizu,707016941256179783,bibizu,20,81,72,0,9,0,1,0,11.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Cheesemaxing,832286969278365706,Cheesemaxing,21,101,71,0,30,0,3,0,10.9,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,22,69,69,0,0,0,0,0,10.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[CYN] Chuma,325671276465094656,Chuma,23,98,68,0,30,0,4,0,10.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[LBU] Zwiper,1053390182398840902,Zwiper,24,66,66,0,0,0,0,0,10.5,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,RuAWizard,1196126664338452612,Wizard County,25,69,65,0,4,0,1,0,9.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,keicaldera,977357589979471933,Empire of Kei,26,63,63,0,0,0,0,0,9.6,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[Xev]ラーメン,1251900133990465596,ramen,27,67,62,0,5,0,1,0,9.5,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,28,60,60,0,0,0,0,0,9.4,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Tchoupi,706644518631374889,Sorrynoob Will Kill All,29,65,59,0,6,0,1,0,9.4,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Wicketman2,226869768165130240,wicketman2,30,57,57,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Deathwatch,229089937956274176,Deathwatch,31,61,54,0,7,0,1,0,8.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,NIKAS,715983593574367242,NIKAS,31,54,54,0,0,0,0,0,8.7,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,ThatOneHog,762888044973654036,Anon517,33,53,53,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Lud0O,688008318911774743,Lud0O,34,51,51,0,0,0,0,0,8.4,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Kpu,384023106886303744,Zoulou,35,51,50,0,1,0,1,0,8.3,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,pulanjuri,614866545784389642,European Federation,36,49,49,0,0,0,0,0,8.3,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Zekromvoid,1417849694205378580,IronEmpire,37,65,47,0,18,0,2,0,8.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,aprilfools,854829762861465630,Wawa2048,38,46,46,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[PENEK] Pentium 4,717364086874046584,Pentium 4,39,49,44,0,5,0,1,0,8.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,TheCopperBard | she/her,484170090980573185,TheCopperBard,40,43,43,0,0,0,0,0,8.1,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Ignaszolo,1415314520926195875,Ignaszollo,41,43,41,0,2,0,1,0,8.1,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Lunace,186880198816432128,Lunace,42,46,40,0,6,0,1,0,8.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[NRV] INGSOC,1245186835597103177,INGSOC,43,38,38,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,remiliod,833349121574305792,ADHD RD,44,37,37,0,0,0,1,0,7.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Naeshonn,204722469284741120,Naeshiggle,45,35,35,0,0,0,0,0,7.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Tom,677191685180096525,CLAN,46,34,34,0,0,0,0,0,7.5,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,kozjar,281084444746579968,Always Retaliate,47,32,32,0,0,0,0,0,7.3,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Lukasssss,394433432891031552,Lukass,48,31,31,0,0,0,0,0,7.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[LBU] Ziyad,1042867662692302878,Ziyad,49,29,29,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[DUCK] BBow,1106989734703669318,Bbow,50,28,28,0,0,0,0,0,6.9,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Naaga,263603891138985984,Naaga,51,26,26,0,0,0,0,0,6.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Konst,240124022438756352,Don_Konst,52,25,25,0,0,0,0,0,6.5,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,frogs,490153103073738763,frogs,53,24,24,0,0,0,0,0,6.4,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Dmq,1277992429827653682,Dmq,54,25,22,0,3,0,1,0,6.3,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[SPQR] Gix,257866880402849792,Gix,55,21,21,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,HopeSlayer1,314059437155287040,HopeSlayer1,56,19,19,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[MOL]Le Roi des Glands,1188825589075951676,LE ROI DES GLANDS,57,18,18,0,0,0,0,0,5.6,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Kyledoesstuff?,1518319225704419349,Kyledoesstuff,58,16,16,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Julians0,204233162555916288,Hentler,59,15,15,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,STUFF WUFF921,773247251770114059,Anon800,60,13,13,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,bruhangela,1133341648898768956,AngelaWongEnQi,61,12,12,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Pluto,1265955548956725251,Pluto,62,10,10,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Bacon,1075002993017094144,Black Beard,63,9,9,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Billy0706,1522733728680640639,billy0706,64,7,7,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,tanuki,1314109860232564801,tanuki,65,6,6,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,[un] trueanon listener,352980512643612672,trueanon listener,66,4,4,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,Penguin,1277658499911909428,Social Republic of Penguins,67,3,3,0,0,0,0,0,3.9,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,thekidwithaplan,483383051225792552,Thekidwithaplan,68,1,1,0,0,0,0,0,3.8,eliminated,DOMINATION
+Qualifier,R4,C5,Middle East,NDgw7uGt,miau miau cat island,177027997516169217,miau miau cat island,69,0,0,0,0,0,0,0,1.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,make,723924699989409834,make14,1,155,100,25,30,0,6,1035673,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[CYN] Chuma,325671276465094656,Chuma,2,147,99,18,30,0,9,253355,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LBU] Zwiper,1053390182398840902,Zwiper,3,139,97,12,30,0,6,3147,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NRV] Space_Sheeep,742709922915024948,_0_Space_Sheeep,4,134,96,8,30,0,5,1222,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Pyrrha,1433879692506693835,Pyrrha,5,130,95,5,30,0,7,172,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Lukasssss,394433432891031552,Lukass,6,115,94,0,21,0,2,117,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[JR] DougyJR,355158630221479937,DougyJr,7,122,92,0,30,0,4,66,15.5,survived,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,HopeSlayer1,314059437155287040,HopeSlayer1,8,102,91,0,11,0,2,0,15.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[BAGNO] Bembe,258985946756808704,Bembe,9,90,90,0,0,0,0,0,14.8,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LBU] Globi,305082654250762240,Globi,10,118,88,0,30,0,3,0,14.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[EU] Chulee,156796420677042176,Chulee,11,87,87,0,0,0,0,0,13.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,RuAWizard,1196126664338452612,Wizard County,12,110,86,0,24,0,2,0,13.0,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LUX] W4lle,467446206608572416,W4lle,13,98,85,0,13,0,2,0,12.8,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LBU] Ziyad,1042867662692302878,Ziyad,14,83,83,0,0,0,0,0,12.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Puck,879943503575146536,Puck,15,112,82,0,30,0,4,0,11.6,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[SPQR] Gix,257866880402849792,Gix,16,105,81,0,24,0,3,0,11.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Cheesemaxing,832286969278365706,Cheesemaxing,17,109,79,0,30,0,5,0,11.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Wicketman2,226869768165130240,wicketman2,18,108,78,0,30,0,6,0,11.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,factory girl,1323051472870576181,drink the dolls,19,78,77,0,1,0,1,0,10.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Konst,240124022438756352,Don_Konst,20,76,76,0,0,0,0,0,10.0,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Lunace,186880198816432128,Lunace,21,104,74,0,30,0,5,0,9.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,pulanjuri,614866545784389642,European Federation,22,73,73,0,0,0,0,0,9.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Pluto,1265955548956725251,Pluto,23,72,72,0,0,0,0,0,8.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Julians0,204233162555916288,Hentler,24,71,71,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,ThatOneHog,762888044973654036,Anon517,25,69,69,0,0,0,0,0,8.6,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Patanek,1443233459106746418,Patanek,26,72,68,0,4,0,2,0,8.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,bruhangela,1133341648898768956,AngelaWongEnQi,27,67,67,0,0,0,0,0,8.4,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Coz,193633671683506176,Coz,28,65,65,0,0,0,0,0,8.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,uni,861894838109863936,uni,29,64,64,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,sorrow,898314658941906975,Sorrow,30,63,63,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Ignaszolo,1415314520926195875,Ignaszollo,31,62,62,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NRV] smsfun,1297199020191518812,NRV smsfun,32,60,60,0,0,0,0,0,7.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,33,59,59,0,0,0,0,0,7.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[AST] SPoS,1031621249832591420,SPoS,34,80,58,0,22,0,3,0,7.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Mousekey,1521722112535171143,MouseKey,35,56,56,0,0,0,0,0,7.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,keicaldera,977357589979471933,Empire of Kei,36,55,55,0,0,0,0,0,7.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Kpu,384023106886303744,Zoulou,37,65,54,0,11,0,3,0,7.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Mr_rim,787373218854862868,BZH,38,53,53,0,0,0,0,0,7.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Lud0O,688008318911774743,Lud0O,39,55,51,0,4,0,1,0,7.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Billy0706,1522733728680640639,billy0706,40,50,50,0,0,0,0,0,7.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NRV] WHALEFall,618434469032099851,WHALEFall,41,49,49,0,0,0,0,0,7.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LBU] Zorbix,708624453579440218,Zorbix,42,50,47,0,3,0,1,0,7.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,kozjar,281084444746579968,Always Retaliate,43,46,46,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Naaga,263603891138985984,Naaga,44,45,45,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,aprilfools,854829762861465630,Wawa2048,45,44,44,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[Xev]ラーメン,1251900133990465596,ramen,46,56,42,0,14,0,1,0,6.6,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[UN] ALPHA,1427766971583430766,ALPHA,47,41,41,0,0,0,0,0,6.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Dmq,1277992429827653682,Dmq,48,42,40,0,2,0,1,0,6.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Deathwatch,229089937956274176,Deathwatch,49,38,38,0,0,0,0,0,6.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Big_O,642818479505801226,Big_O 99,50,37,37,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Rimuru_Tempest,902157919360020543,Mister Trader,51,36,36,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Geda,853344431281405972,GEDA,52,35,35,0,0,0,0,0,5.8,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Naeshonn,204722469284741120,Naeshiggle,53,33,33,0,0,0,0,0,5.6,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,STUFF WUFF921,773247251770114059,Anon800,54,32,32,0,0,0,0,0,5.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Anglio,396794531938304000,Anglio,55,31,31,0,0,0,0,0,5.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NRV] Nagi,1422831611224916089,NRV paraNoid,56,29,29,0,0,0,0,0,5.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NSF] Cori,1412963514775109642,Cori,57,28,28,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,TheCopperBard | she/her,484170090980573185,TheCopperBard,58,27,27,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Zekromvoid,1417849694205378580,IronEmpire,59,26,26,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,60,24,24,0,0,0,0,0,5.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LUX] eef,454775365907251210,Eef WANTS trade,61,23,23,0,0,0,0,0,5.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[un] trueanon listener,352980512643612672,trueanon listener,62,22,22,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[NRV] INGSOC,1245186835597103177,INGSOC,63,23,21,0,2,0,1,0,4.3,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,bibizu,707016941256179783,bibizu,64,19,19,0,0,0,0,0,4.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[DUCK] BBow,1106989734703669318,Bbow,65,18,18,0,0,0,0,0,4.2,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Tom,677191685180096525,CLAN,66,17,17,0,0,0,0,0,4.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,thekidwithaplan,483383051225792552,Thekidwithaplan,67,30,15,0,15,0,1,0,4.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Yellowbiscuit,1498752330886283266,Yellowbiscuit,68,14,14,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,remiliod,833349121574305792,ADHD RD,69,13,13,0,0,0,0,0,3.9,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LUX] TeNa,771775584584990771,TeNa,70,12,12,0,0,0,0,0,3.8,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,miau miau cat island,177027997516169217,miau miau cat island,71,10,10,0,0,0,1,0,3.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,YouBee,393943458181677056,YouBee,72,9,9,0,0,0,0,0,3.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,Kyledoesstuff?,1518319225704419349,Kyledoesstuff,73,8,8,0,0,0,0,0,3.5,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[Xev]aki,1076777741548003480,aki,74,6,6,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,NIKAS,715983593574367242,NIKAS,75,5,5,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[LUX] Natsume,760182191421653003,Natsume,76,4,4,0,0,0,0,0,3.1,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,[PENEK] Pentium 4,717364086874046584,Pentium 4,77,3,3,0,0,0,0,0,2.8,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,steffguimove,376432632046551047,Steff,78,1,1,0,0,0,0,0,2.7,eliminated,DOMINATION
+Qualifier,R5,C6,Strait of Gibraltar,PqV587wu,frogs,490153103073738763,frogs,79,0,0,0,0,0,0,0,2.5,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[LBU] Zorbix,708624453579440218,Zorbix,1,155,100,25,30,0,9,389755,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[UN] ALPHA,1427766971583430766,ALPHA,2,146,98,18,30,0,12,86606,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[NRV] WHALEFall,618434469032099851,WHALEFall,3,139,97,12,30,0,5,2502,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[NRV] Nagi,1422831611224916089,NRV paraNoid,4,133,95,8,30,0,13,1963,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,ThatOneHog,762888044973654036,Anon517,5,118,94,5,19,0,3,1030,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[AST] SPoS,1031621249832591420,SPoS,6,94,92,0,2,0,1,701,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[UN] Geographic Edits,1281977843210784832,Geographic Edits,7,121,91,0,30,0,8,327,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,8,119,89,0,30,0,3,322,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[PENEK] Pentium 4,717364086874046584,Pentium 4,9,118,88,0,30,0,5,293,16.6,survived,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Rimuru_Tempest,902157919360020543,Mister Trader,10,116,86,0,30,0,6,0,16.6,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Geda,853344431281405972,GEDA,11,102,84,0,18,0,2,0,16.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Yellowbiscuit,1498752330886283266,Yellowbiscuit,12,113,83,0,30,0,3,0,15.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,FeetOnMySheep,1075043948910886982,King Baldwin IV,13,81,81,0,0,0,0,0,15.5,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Puck,879943503575146536,Puck,14,109,80,0,29,0,3,0,14.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Pluto,1265955548956725251,Pluto,15,106,78,0,28,0,3,0,13.9,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,keicaldera,977357589979471933,Empire of Kei,16,77,77,0,0,0,0,0,11.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[Xev]aki,1076777741548003480,aki,17,75,75,0,0,0,0,0,11.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[DUCK] BBow,1106989734703669318,Bbow,18,73,73,0,0,0,0,0,10.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[NRV] INGSOC,1245186835597103177,INGSOC,19,72,72,0,0,0,0,0,10.4,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Lud0O,688008318911774743,Lud0O,20,74,70,0,4,0,1,0,10.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[CYN] imperium romanum,1432038068977930250,imperium romanum,21,79,69,0,10,0,1,0,10.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[LUX] eef,454775365907251210,Eef WANTS trade,22,73,67,0,6,0,1,0,9.7,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,remiliod,833349121574305792,ADHD RD,23,69,66,0,3,0,1,0,9.7,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,frogs,490153103073738763,frogs,24,64,64,0,0,0,0,0,9.4,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Cheesemaxing,832286969278365706,Cheesemaxing,25,67,63,0,4,0,2,0,9.4,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[un] trueanon listener,352980512643612672,trueanon listener,26,61,61,0,0,0,0,0,9.2,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,kozjar,281084444746579968,Always Retaliate,27,59,59,0,0,0,0,0,9.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Tom,677191685180096525,CLAN,28,72,58,0,14,0,2,0,9.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Patanek,1443233459106746418,Patanek,29,56,56,0,0,0,0,0,9.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Coz,193633671683506176,Coz,30,55,55,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,catman,821445573059149854,PillowPrincess,31,60,53,0,7,0,1,0,8.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,uni,861894838109863936,uni,32,52,52,0,0,0,0,0,8.3,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,sorrow,898314658941906975,Sorrow,33,50,50,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,miau miau cat island,177027997516169217,miau miau cat island,34,48,48,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,SeafightWE,1517286914917666903,ELLHNIKO DHMOSIO,35,51,47,0,4,0,1,0,8.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Kpu,384023106886303744,Zoulou,36,46,45,0,1,0,1,0,8.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Mr_rim,787373218854862868,BZH,37,44,44,0,0,0,0,0,7.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,STUFF WUFF921,773247251770114059,Anon800,38,42,42,0,0,0,0,0,6.9,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,TheCopperBard | she/her,484170090980573185,TheCopperBard,39,41,41,0,0,0,0,0,6.6,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Dmq,1277992429827653682,Dmq,40,39,39,0,0,0,1,0,6.5,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[NRV] smsfun,1297199020191518812,NRV smsfun,41,38,38,0,0,0,0,0,6.4,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,steffguimove,376432632046551047,Steff,42,36,36,0,0,0,0,0,6.2,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[Xev]ラーメン,1251900133990465596,ramen,43,34,34,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Ralphcat,551655629308035093,Ralphcat,44,33,33,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,bibizu,707016941256179783,bibizu,45,31,31,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Zekromvoid,1417849694205378580,IronEmpire,46,30,30,0,0,0,0,0,5.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Big_O,642818479505801226,Big_O 99,47,28,28,0,0,0,0,0,5.6,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,NIKAS,715983593574367242,NIKAS,48,27,27,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,thekidwithaplan,483383051225792552,Thekidwithaplan,49,25,25,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[NSF] Cori,1412963514775109642,Cori,50,23,23,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Julians0,204233162555916288,Hentler,51,22,22,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Anglio,396794531938304000,Anglio,52,20,20,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Konst,240124022438756352,Don_Konst,53,19,19,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Naeshonn,204722469284741120,Naeshiggle,54,17,17,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Penguin,1277658499911909428,Social Republic of Penguins,55,16,16,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Kabi,1144280814645940304,Kabi,56,14,14,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,pulanjuri,614866545784389642,European Federation,57,13,13,0,0,0,0,0,4.1,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Ignaszolo,1415314520926195875,Ignaszollo,58,11,11,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Deathwatch,229089937956274176,Deathwatch,59,9,9,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Billy0706,1522733728680640639,billy0706,60,8,8,0,0,0,0,0,3.6,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Fraty,332487228263628801,Fraty,61,6,6,0,0,0,0,0,3.5,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,aprilfools,854829762861465630,Wawa2048,62,5,5,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,Mousekey,1521722112535171143,MouseKey,63,3,3,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,64,2,2,0,0,0,0,0,2.6,eliminated,DOMINATION
+Qualifier,R6,C7,Between Two Seas,bWW3UvDp,YouBee,393943458181677056,YouBee,65,0,0,0,0,0,0,0,2.6,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[LBU] Zorbix,708624453579440218,Zorbix,1,355,100,25,30,200,8,2179704,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,make,723924699989409834,make14,2,346,98,18,30,200,17,470472,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Coz,193633671683506176,Coz,3,338,96,12,30,200,6,55690,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[BAGNO] Bembe,258985946756808704,Bembe,4,332,94,8,30,200,3,1388,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[LBU] Zwiper,1053390182398840902,Zwiper,5,322,92,5,25,200,3,677,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[UN] Geographic Edits,1281977843210784832,Geographic Edits,6,310,90,0,20,200,2,81,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[NRV] Space_Sheeep,742709922915024948,_0_Space_Sheeep,7,310,88,0,22,200,3,2,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[LUX] eef,454775365907251210,Eef WANTS trade,8,288,86,0,2,200,1,1,17.1,survived,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[NRV] smsfun,1297199020191518812,NRV smsfun,9,314,84,0,30,200,6,0,17.1,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[PENEK] Pentium 4,717364086874046584,Pentium 4,10,312,82,0,30,200,5,0,16.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[NRV] WHALEFall,618434469032099851,WHALEFall,11,280,80,0,0,200,0,0,16.2,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Rimuru_Tempest,902157919360020543,Mister Trader,12,307,78,0,29,200,3,0,16.1,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Dmq,1277992429827653682,Dmq,13,276,76,0,0,200,0,0,15.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[CYN] imperium romanum,1432038068977930250,imperium romanum,14,275,75,0,0,200,0,0,15.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Ignaszolo,1415314520926195875,Ignaszollo,15,273,73,0,0,200,0,0,14.6,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,factory girl,1323051472870576181,drink the dolls,16,300,71,0,29,200,3,0,14.3,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[UN] ALPHA,1427766971583430766,ALPHA,17,269,69,0,0,200,0,0,14.0,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,uni,861894838109863936,uni,18,270,67,0,3,200,1,0,14.0,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[Xev]ラーメン,1251900133990465596,ramen,19,265,65,0,0,200,0,0,14.0,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,20,263,63,0,0,200,0,0,13.9,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,RuAWizard,1196126664338452612,Wizard County,21,291,61,0,30,200,4,0,13.6,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,pulanjuri,614866545784389642,European Federation,22,263,59,0,4,200,1,0,13.6,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[SPQR] Gix,257866880402849792,Gix,23,263,57,0,6,200,1,0,12.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[JR] DougyJR,355158630221479937,DougyJr,24,262,55,0,7,200,1,0,10.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,ThatOneHog,762888044973654036,Anon517,25,253,53,0,0,200,0,0,10.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Cheesemaxing,832286969278365706,Cheesemaxing,26,253,51,0,2,200,1,0,10.7,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[NRV] Nagi,1422831611224916089,NRV paraNoid,27,250,49,0,1,200,1,0,10.5,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[CYN] Chuma,325671276465094656,Chuma,28,258,47,0,11,200,2,0,10.2,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,SeafightWE,1517286914917666903,ELLHNIKO DHMOSIO,29,245,45,0,0,200,0,0,9.9,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Mousekey,1521722112535171143,MouseKey,30,243,43,0,0,200,0,0,9.9,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[Xev]aki,1076777741548003480,aki,31,241,41,0,0,200,0,0,9.7,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[AST] SPoS,1031621249832591420,SPoS,32,239,39,0,0,200,0,0,9.7,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[EU] Chulee,156796420677042176,Chulee,33,237,37,0,0,200,0,0,9.6,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,sorrow,898314658941906975,Sorrow,34,235,35,0,0,200,0,0,9.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[NRV] INGSOC,1245186835597103177,INGSOC,35,233,33,0,0,200,0,0,9.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Lud0O,688008318911774743,Lud0O,36,231,31,0,0,200,0,0,9.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,HopeSlayer1,314059437155287040,HopeSlayer1,37,229,29,0,0,200,0,0,8.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[LBU] Ziyad,1042867662692302878,Ziyad,38,242,27,0,15,200,1,0,8.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,NIKAS,715983593574367242,NIKAS,39,225,25,0,0,200,0,0,8.6,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Ralphcat,551655629308035093,Ralphcat,40,224,24,0,0,200,0,0,8.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,41,222,22,0,0,200,0,0,8.2,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,FeetOnMySheep,1075043948910886982,King Baldwin IV,42,220,20,0,0,200,0,0,8.0,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Fraty,332487228263628801,Fraty,43,218,18,0,0,200,0,0,7.7,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Big_O,642818479505801226,Big_O 99,44,216,16,0,0,200,1,0,7.4,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[LBU] Globi,305082654250762240,Globi,45,214,14,0,0,200,0,0,7.0,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Puck,879943503575146536,Puck,46,212,12,0,0,200,0,0,6.9,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[LUX] W4lle,467446206608572416,W4lle,47,210,10,0,0,200,0,0,6.5,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,miau miau cat island,177027997516169217,miau miau cat island,48,208,8,0,0,200,0,0,6.2,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Kpu,384023106886303744,Zoulou,49,206,6,0,0,200,0,0,5.8,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Pyrrha,1433879692506693835,Pyrrha,50,204,4,0,0,200,0,0,5.5,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,Wicketman2,226869768165130240,wicketman2,51,202,2,0,0,200,0,0,5.2,eliminated,DOMINATION
+Semifinal,B1,C8,Middle East,8o457EAn,[un] trueanon listener,352980512643612672,trueanon listener,52,200,0,0,0,200,0,0,4.0,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[LBU] Zorbix,708624453579440218,Zorbix,1,355,100,25,30,200,5,356315,20.2,survived,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[NRV] smsfun,1297199020191518812,NRV smsfun,2,345,97,18,30,200,7,49759,20.2,survived,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[LBU] Zwiper,1053390182398840902,Zwiper,3,318,93,12,13,200,2,32819,20.2,survived,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[UN] Geographic Edits,1281977843210784832,Geographic Edits,4,328,90,8,30,200,9,5348,20.2,survived,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[UN] ALPHA,1427766971583430766,ALPHA,5,321,86,5,30,200,6,348,20.2,survived,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[NRV] StanleyJJ,1028415610423627877,NRV StanleyJJ,6,313,83,0,30,200,6,155,20.2,survived,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[LBU] Globi,305082654250762240,Globi,7,300,79,0,21,200,3,0,20.2,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[NRV] INGSOC,1245186835597103177,INGSOC,8,306,76,0,30,200,5,0,18.6,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,Puck,879943503575146536,Puck,9,272,72,0,0,200,0,0,15.7,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,RuAWizard,1196126664338452612,Wizard County,10,283,69,0,14,200,2,0,15.6,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,make,723924699989409834,make14,11,266,66,0,0,200,0,0,14.8,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[SPQR] Gix,257866880402849792,Gix,12,262,62,0,0,200,0,0,14.3,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,Cheesemaxing,832286969278365706,Cheesemaxing,13,270,59,0,11,200,1,0,13.6,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,Coz,193633671683506176,Coz,14,267,55,0,12,200,1,0,13.1,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,factory girl,1323051472870576181,drink the dolls,15,252,52,0,0,200,0,0,12.2,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[NRV] Space_Sheeep,742709922915024948,_0_Space_Sheeep,16,250,48,0,2,200,2,0,12.0,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[AST] SPoS,1031621249832591420,SPoS,17,255,45,0,10,200,1,0,11.3,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[Xev]ラーメン,1251900133990465596,ramen,18,241,41,0,0,200,0,0,10.9,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[PENEK] Pentium 4,717364086874046584,Pentium 4,19,238,38,0,0,200,0,0,10.8,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,uni,861894838109863936,uni,20,264,34,0,30,200,2,0,10.3,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[BAGNO] Bembe,258985946756808704,Bembe,21,232,31,0,1,200,1,0,10.1,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[CYN] Chuma,325671276465094656,Chuma,22,228,28,0,0,200,0,0,10.0,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,pulanjuri,614866545784389642,European Federation,23,224,24,0,0,200,0,0,8.1,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[NRV] Nagi,1422831611224916089,NRV paraNoid,24,221,21,0,0,200,0,0,7.9,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[LUX] eef,454775365907251210,Eef WANTS trade,25,217,17,0,0,200,0,0,7.8,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[JR] DougyJR,355158630221479937,DougyJr,26,231,14,0,17,200,1,0,7.5,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,[CYN] imperium romanum,1432038068977930250,imperium romanum,27,210,10,0,0,200,0,0,6.4,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,Rimuru_Tempest,902157919360020543,Mister Trader,28,207,7,0,0,200,0,0,6.3,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,Lud0O,688008318911774743,Lud0O,29,203,3,0,0,200,0,0,5.0,eliminated,DOMINATION
+Final,A1,C9,Lisbon,bAEb9tZE,ThatOneHog,762888044973654036,Anon517,30,200,0,0,0,200,0,0,3.3,eliminated,DOMINATION

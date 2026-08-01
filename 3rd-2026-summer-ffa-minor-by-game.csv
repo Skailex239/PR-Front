@@ -1,0 +1,428 @@
+stage,round,lobby,map,game_id,player,discord_id,of_name,placement,points,placement_pts,top5_bonus,kill_pts,reach_bonus,kills,final_tiles,minutes,result,end_reason
+Qualifier,R1,C1,Australia,mMygUf5N,[JR] DougyJR,355158630221479937,DougyJr,1,155,100,25,30,0,4,384232,17.9,survived,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Portatto,470769908414677003,Portatto,2,146,98,18,30,0,11,83317,17.9,survived,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[LUX] TeNa,771775584584990771,TeNa,3,138,96,12,30,0,10,11451,17.9,survived,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Vasile,702175550688591963,King of the Kings,4,132,94,8,30,0,4,898,17.9,survived,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[CZSK] Mole,297312182939418624,Mole,5,127,92,5,30,0,2,4,17.9,survived,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[NRV] pregnar,743505830019858462,glory to NRV,6,97,91,0,6,0,2,0,17.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,spartoneb,468540545048903692,Espanight,7,98,89,0,9,0,1,0,17.6,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Titan_Dog,792511967868092466,Latina Lover,8,117,87,0,30,0,4,0,17.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Physma,352603913691856899,Physma,9,109,85,0,24,0,2,0,16.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[NRV] Nagi,1422831611224916089,Nagi,10,94,83,0,11,0,1,0,16.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Vaylushax,1246093875190169623,AnonDuck1,11,87,81,0,6,0,1,0,16.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,moineau,373430911615762433,moineau loukoum,12,92,79,0,13,0,2,0,15.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Setsu_13,1265155457589186681,Setsu_13s Monarchy,13,89,77,0,12,0,2,0,15.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Mingoman,1272664506182406166,Lord,14,90,75,0,15,0,2,0,14.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[NRV] INGSOC,1245186835597103177,INGSOC,15,88,74,0,14,0,1,0,14.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Utah_Teapot,865314210484715530,Utah Teapot,16,72,72,0,0,0,0,0,13.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Daniel,205439893873229824,Daniel,17,100,70,0,30,0,3,0,13.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,18,68,68,0,0,0,0,0,13.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Broomsweep,1006901884537294858,Broomsweep,19,78,66,0,12,0,1,0,13.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[JUICE] TGD,507930282590994444,TGD,20,64,64,0,0,0,0,0,12.6,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Chicho,754675801139707916,BIG_BARCH,21,78,62,0,16,0,2,0,12.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,ALT,1270468159765217331,ALT,22,60,60,0,0,0,0,0,12.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,dandanua,351761707833753601,DandanUA,23,58,58,0,0,0,0,0,12.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,ct8onvu,1519664088148607117,Anon746,24,57,57,0,0,0,0,0,11.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Azure,245020637230268428,Azure,25,60,55,0,5,0,1,0,11.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Shoden,521272739076505600,Shoden,26,53,53,0,0,0,0,0,10.8,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Chris,211264191707742208,STRONG AF,27,59,51,0,8,0,1,0,10.7,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Lord Kakozu,1527790744364908625,Lord Kakozu,28,49,49,0,0,0,0,0,10.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,STUFF WUFF921,773247251770114059,STUFF WUFF921,29,53,47,0,6,0,1,0,9.6,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[NRV] WHALEFall,618434469032099851,WHALEFall,30,45,45,0,0,0,0,0,9.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,julica67,1250439959064608933,emperior trade,31,43,43,0,0,0,0,0,9.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[LUX]Rookiemstk,1271972714164523028,Rookiemstk,32,42,42,0,0,0,0,0,9.1,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Lud0O,688008318911774743,Lud0O_Callisthenics,33,40,40,0,0,0,0,0,9.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,alucard,447381550636597270,alucard,34,38,38,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,mrwn,409764647164706817,mrwn,35,36,36,0,0,0,1,0,8.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Sylphn0,409726110406934530,SerenissimaResPublicPolonia,36,34,34,0,0,0,0,0,7.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,YouBee,393943458181677056,YouBee,37,32,32,0,0,0,0,0,7.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,MangoPudding,1305124232564441088,MIRV Mango,38,33,30,0,3,0,1,0,7.2,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,*Wolfy*,1096739589026218124,PIERRECHARTIERX2007,39,28,28,0,0,0,0,0,6.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Fraty,332487228263628801,Fraty,40,28,26,0,2,0,1,0,6.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Plinko,496688935817314305,Man,41,25,25,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Blank,678621073193041940,blank,42,23,23,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,NoXOuT,186071411830292480,NoXOuT,43,21,21,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,ktg,786181970022367253,KTG,44,19,19,0,0,0,0,0,4.9,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[LUX] Jarques,252416011633033216,Jarques,45,17,17,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Animanofficialfr,1305526567690305539,QQAH,46,15,15,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,! w7dee,853049934881751061,w7dee,47,13,13,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,gangstergustav,1391743510637580288,AustrianSoldier,48,11,11,0,0,0,0,0,3.6,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,maxii,654116202066739200,WhiSky13ourBon,49,9,9,0,0,0,0,0,3.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,FR V0RTAK,233626052830822400,FR V0RTAK,50,8,8,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,darnell1337,512541080739119144,AnonWhale,51,6,6,0,0,0,0,0,2.3,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,Gabeshi,332623790007648258,Terrorist States,52,4,4,0,0,0,0,0,1.5,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,[NSF] Cori,1412963514775109642,Cori,53,2,2,0,0,0,0,0,1.4,eliminated,DOMINATION
+Qualifier,R1,C1,Australia,mMygUf5N,FFF,1474540905284243569,SJJXA,54,0,0,0,0,0,0,0,1.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Pyrrha,1433879692506693835,Pyrrha,1,155,100,25,30,0,7,653222,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[CYN] imperium romanum,1432038068977930250,imperium romanum,2,146,98,18,30,0,5,78085,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Lil dofy,459419959404134411,lil dofy,3,138,96,12,30,0,3,45877,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[LBU] Ziyad,1042867662692302878,Ziyad,4,132,94,8,30,0,5,28305,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,thunder,1378723372443238563,i love islands,5,114,92,5,17,0,2,6219,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Big_O,642818479505801226,Big_O 139,6,110,90,0,20,0,2,246,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Ignaszolo,1415314520926195875,Ignaszollo,7,118,88,0,30,0,3,68,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,𝑰𝒎𝑺𝒐𝑩𝒂𝒅,834424352690274344,ImSoBad,8,115,85,0,30,0,5,47,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,indrllz,838344220359393291,Indrllz,9,97,83,0,14,0,2,11,16.6,survived,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,lloydy269,292730970094829580,A Wet Sandwich,10,111,81,0,30,0,3,0,16.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[DUCK] BBow,1106989734703669318,BBow,11,84,79,0,5,0,1,0,14.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,12,89,77,0,12,0,1,0,14.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Colio,369623893436268554,Colio,13,75,75,0,0,0,0,0,12.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Purvik,1529537091346759748,AnonMonkey7,14,73,73,0,0,0,0,0,12.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[LBU] Anto,615190559543263242,Anto,15,71,71,0,0,0,0,0,12.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Cuey0h,1094540039783977070,Cuey,16,78,69,0,9,0,1,0,11.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Gullible Colluder,1043738641018667130,Gullible Colluder,17,67,67,0,0,0,0,0,11.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[CYN] Bane,827209418537959434,Bane,18,65,65,0,0,0,0,0,10.7,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Nonex,112618126637572096,Nonex,19,63,63,0,0,0,0,0,10.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Sparkles,1369055572032356494,CORN,20,65,60,0,5,0,1,0,10.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,AST Ducky,1168531105545211944,Ducky,21,58,58,0,0,0,0,0,9.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Daddy,760857024774406240,Big quack,22,56,56,0,0,0,0,0,9.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[LBU] VarXard,1469000391751630932,VarXard,23,54,54,0,0,0,0,0,9.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[LUX] eef,454775365907251210,eef WANTS trade,24,52,52,0,0,0,0,0,9.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,smeerkaas,313745254060916737,smeerkaas,25,50,50,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,cozz,980461563326627911,SirAnonTroopsalot,26,48,48,0,0,0,0,0,8.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,colmy,244261012042285056,Colmy,27,46,46,0,0,0,0,0,8.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[CZSK] Jindra,927625879700516875,Jindra,28,44,44,0,0,0,0,0,8.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[CZSK] [†]𝕯𝖊𝖓𝖓𝖉𝖆𝟑𝟗[†],639157449588211742,Dennda39,29,42,42,0,0,0,1,0,8.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,atronko,644977470310711308,atronko,30,45,40,0,5,0,2,0,7.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Mousekey,1521722112535171143,MouseKey,31,38,38,0,0,0,0,0,6.9,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Map Gamer,495653159663042571,Map Gamer,32,35,35,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Goku._.Blackk,1173726955779129344,imperial_spaghetti,33,33,33,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,[JR] HiImAcOoLgUySoYeAh,1411262697856696351,HiImAcOoLgUySoYeAh,34,31,31,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,wiski,1453051689488748648,wiski,35,29,29,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,iNET,1319653347107541095,iNET,36,27,27,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,SBKZ,371700614314328066,SBKZ,37,25,25,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,ITZDODO,474194857263497219,ITZDODO,38,23,23,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,1m2o,181356818507890698,1m2o,39,21,21,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Queqs,211681797606473736,Ulm,40,19,19,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Brishton,116383389879107588,Brishton,41,17,17,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,kevin,925348407135060019,Kevinn,42,15,15,0,0,0,0,0,3.8,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Doppelbemme,183935553291419649,Bemme,43,13,13,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,null,294092780953796608,KACHO attack n die,44,10,10,0,0,0,0,0,2.9,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,shosho111,772384634516406303,shosho111,45,8,8,0,0,0,0,0,2.3,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,gamingmausepad,377970554646298627,gamingmausepad,46,6,6,0,0,0,0,0,2.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,niiirawn,189047232593395712,niiirawn,47,4,4,0,0,0,0,0,2.0,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,MJarten,918934872209391626,MJarten,48,2,2,0,0,0,0,0,1.6,eliminated,DOMINATION
+Qualifier,R1,C2,Australia,Mt2rDfX2,Dmq,1277992429827653682,Dmq,49,0,0,0,0,0,0,0,1.0,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Fraty,332487228263628801,Fraty,1,146,100,25,21,0,2,741282,23.1,survived,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Kraken1as,1491805944227696711,Krakenias,2,123,94,18,11,0,1,265535,23.1,survived,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Map Gamer,495653159663042571,Map Gamer,3,131,89,12,30,0,7,19451,23.1,survived,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,[LUX] Jarques,252416011633033216,Jarques,4,121,83,8,30,0,4,15463,23.1,survived,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Sodium=),708644613002625094,Sodium,5,99,78,5,16,0,2,0,23.1,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Dmq,1277992429827653682,Dmq,6,72,72,0,0,0,0,0,17.4,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,[1v1] czeta,705931352431919127,ether,7,67,67,0,0,0,0,0,16.8,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,[JR] HiImAcOoLgUySoYeAh,1411262697856696351,HiImAcOoLgUySoYeAh,8,61,61,0,0,0,0,0,16.5,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,9,62,56,0,6,0,1,0,16.0,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,tITUS,237086769944854529,tITUS,10,80,50,0,30,0,5,2350,14.5,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,stamenkovic4,340637572575526912,i can be your trade partner,11,44,44,0,0,0,0,0,12.6,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Leszy,544277575850000414,PokerFace,12,39,39,0,0,0,0,0,11.6,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Animanofficialfr,1305526567690305539,QQAH,13,33,33,0,0,0,0,0,11.5,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,Gabeshi,332623790007648258,Terrorist States,14,28,28,0,0,0,0,0,11.0,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,niiirawn,189047232593395712,niiirawn,15,22,22,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,HopeSlayer1,314059437155287040,HopeSlayer1,16,17,17,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,[NSF] Cori,1412963514775109642,Cori,17,11,11,0,0,0,0,0,2.3,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,null,294092780953796608,KACHO attack n die,18,6,6,0,0,0,0,0,1.5,eliminated,DOMINATION
+Qualifier,R3,C3,Indian Subcontinent,hDod3MKN,gamingmausepad,377970554646298627,gamingmausepad,19,0,0,0,0,0,0,0,0.4,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[LBU] Ziyad,1042867662692302878,Ziyad,1,155,100,25,30,0,15,936412,17.7,survived,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,2,146,98,18,30,0,7,175124,17.7,survived,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Lunace,186880198816432128,Lunace,3,139,97,12,30,0,8,39587,17.7,survived,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,colmy,244261012042285056,Colmy,4,133,95,8,30,0,3,11983,17.7,survived,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,5,129,94,5,30,0,6,6046,17.7,survived,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,dandanua,351761707833753601,DandanUA,6,92,92,0,0,0,0,0,17.7,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[UN] Geographic Edits,1281977843210784832,Your mitocondria no kill,7,103,90,0,13,0,1,0,17.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Vaylushax,1246093875190169623,AnonDuck1,8,118,89,0,29,0,3,0,16.9,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,maxii,654116202066739200,WhiSky13ourBon,9,98,87,0,11,0,1,0,16.7,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[CYN] Bane,827209418537959434,Bane,10,108,86,0,22,0,2,0,16.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[LBU] Anto,615190559543263242,Anto,11,114,84,0,30,0,4,0,16.4,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NRV] Nagi,1422831611224916089,Nagi,12,96,83,0,13,0,2,0,15.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NRV] INGSOC,1245186835597103177,INGSOC,13,83,81,0,2,0,1,0,15.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[JUICE] TGD,507930282590994444,TGD,14,87,79,0,8,0,1,0,15.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Mingoman,1272664506182406166,Lord,15,108,78,0,30,0,4,0,14.9,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,1m2o,181356818507890698,1m2o,16,76,76,0,0,0,0,0,13.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,𝑰𝒎𝑺𝒐𝑩𝒂𝒅,834424352690274344,ImSoBad,17,104,75,0,29,0,3,0,13.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,ITZDODO,474194857263497219,ITZDODO,18,73,73,0,0,0,0,0,13.4,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,smeerkaas,313745254060916737,smeerkaas,19,71,71,0,0,0,0,0,13.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Mousekey,1521722112535171143,MouseKey,20,70,70,0,0,0,0,0,13.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,spartoneb,468540545048903692,Espanight,21,68,68,0,0,0,0,0,12.7,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,MangoPudding,1305124232564441088,MIRV Mango,22,93,67,0,26,0,3,0,12.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Colio,369623893436268554,Colio,23,65,65,0,0,0,0,0,11.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,lloydy269,292730970094829580,A Wet Sandwich,24,77,63,0,14,0,2,0,11.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,julica67,1250439959064608933,emperior trade,25,69,62,0,7,0,1,0,11.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Sylphn0,409726110406934530,SerenissimaResPublicPolonia,26,79,60,0,19,0,2,0,11.4,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,NoXOuT,186071411830292480,NoXOuT,27,63,59,0,4,0,1,0,11.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Queqs,211681797606473736,Ulm,28,57,57,0,0,0,0,0,11.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Setsu_13,1265155457589186681,Setsu_13s Monarchy,29,60,56,0,4,0,1,0,10.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,AST Ducky,1168531105545211944,Ducky,30,57,54,0,3,0,1,0,10.3,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,ALT,1270468159765217331,ALT,31,68,52,0,16,0,2,0,10.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Physma,352603913691856899,Physma,32,53,51,0,2,0,1,0,10.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[LUX] eef,454775365907251210,eef WANTS trade,33,49,49,0,0,0,0,0,9.3,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,iNET,1319653347107541095,iNET,34,51,48,0,3,0,1,0,8.9,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Broomsweep,1006901884537294858,Broomsweep,35,46,46,0,0,0,0,0,8.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Sören,1266887887161393224,bambi,36,44,44,0,0,0,0,0,8.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NSF] Cori,1412963514775109642,Cori,37,43,43,0,0,0,0,0,8.4,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[CZSK] [†]𝕯𝖊𝖓𝖓𝖉𝖆𝟑𝟗[†],639157449588211742,Dennda39,38,41,41,0,0,0,0,0,8.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Buzzy,953064908432482345,AnonBee7,39,40,40,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NRV] pregnar,743505830019858462,glory to NRV,40,42,38,0,4,0,2,0,7.8,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Titan_Dog,792511967868092466,Latina Lover,41,37,37,0,0,0,0,0,7.0,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,*Wolfy*,1096739589026218124,PIERRECHARTIERX2007,42,35,35,0,0,0,0,0,6.8,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Leszy,544277575850000414,PokerFace,43,39,33,0,6,0,2,0,6.8,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Daniel,205439893873229824,Daniel,44,32,32,0,0,0,0,0,6.7,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,STUFF WUFF921,773247251770114059,STUFF WUFF921,45,30,30,0,0,0,0,0,6.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[NRV] WHALEFall,618434469032099851,WHALEFall,46,29,29,0,0,0,0,0,6.4,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[CZSK] Jindra,927625879700516875,Jindra,47,27,27,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[EXL-GAL]Professor Sployer,1411816097572716648,ProfessorSployer,48,25,25,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Lud0O,688008318911774743,Lud0O_Callisthenics,49,24,24,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Shoden,521272739076505600,Shoden,50,22,22,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Doppelbemme,183935553291419649,Bemme,51,21,21,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,[LUX]Rookiemstk,1271972714164523028,Rookiemstk,52,19,19,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,SBKZ,371700614314328066,SBKZ,53,17,17,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Brishton,116383389879107588,Brishton,54,16,16,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Utah_Teapot,865314210484715530,Utah Teapot,55,14,14,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Azure,245020637230268428,Azure,56,13,13,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Cuey0h,1094540039783977070,Cuey,57,11,11,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Chicho,754675801139707916,BIG_BARCH,58,10,10,0,0,0,0,0,4.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Lord Kakozu,1527790744364908625,Lord Kakozu,59,8,8,0,0,0,0,0,4.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Animanofficialfr,1305526567690305539,QQAH,60,6,6,0,0,0,0,0,3.6,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Nonex,112618126637572096,Nonex,61,5,5,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,Big_O,642818479505801226,Big_O 139,62,3,3,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,ktg,786181970022367253,KTG,63,2,2,0,0,0,0,0,2.1,eliminated,DOMINATION
+Qualifier,R4,C4,Manicouagan,kiXQTGDS,atronko,644977470310711308,atronko,64,0,0,0,0,0,0,0,0.5,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Pyrrha,1433879692506693835,Pyrrha,1,155,100,25,30,0,8,39732,20.8,survived,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,indrllz,838344220359393291,Indrllz,2,145,97,18,30,0,7,37714,20.8,survived,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[CYN] imperium romanum,1432038068977930250,imperium romanum,3,128,95,12,21,0,2,28663,20.8,survived,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[LUX] TeNa,771775584584990771,TeNa,4,130,92,8,30,0,6,7216,20.8,survived,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Fraty,332487228263628801,Fraty,5,124,89,5,30,0,9,14331,20.8,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[JR] DougyJR,355158630221479937,DougyJr,6,116,86,0,30,0,3,0,18.9,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Portatto,470769908414677003,Portatto,7,114,84,0,30,0,6,0,16.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,kevin,925348407135060019,Kevinn,8,111,81,0,30,0,5,0,14.4,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,AST Ducky,1168531105545211944,Ducky,9,99,78,0,21,0,2,0,14.3,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,smeerkaas,313745254060916737,smeerkaas,10,106,76,0,30,0,4,0,13.4,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,1m2o,181356818507890698,1m2o,11,85,73,0,12,0,1,0,13.1,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,MangoPudding,1305124232564441088,MIRV Mango,12,71,70,0,1,0,1,0,12.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[NRV] WHALEFall,618434469032099851,WHALEFall,13,68,68,0,0,0,0,0,11.4,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[LBU] Anto,615190559543263242,Anto,14,73,65,0,8,0,1,0,11.4,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Daniel,205439893873229824,Daniel,15,62,62,0,0,0,0,0,11.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[CZSK] Jindra,927625879700516875,Jindra,16,59,59,0,0,0,0,0,10.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,lloydy269,292730970094829580,A Wet Sandwich,17,60,57,0,3,0,1,0,10.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,NoXOuT,186071411830292480,NoXOuT,18,56,54,0,2,0,1,0,9.7,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Sylphn0,409726110406934530,SerenissimaResPublicPolonia,19,51,51,0,0,0,0,0,9.6,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Arquitav,619203238004260864,Arquimax,20,49,49,0,0,0,0,0,9.6,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Vasile,702175550688591963,King of the Kings,21,46,46,0,0,0,0,0,9.6,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Buzzy,953064908432482345,AnonBee7,22,43,43,0,0,0,1,0,9.4,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,maxii,654116202066739200,WhiSky13ourBon,23,41,41,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,atronko,644977470310711308,atronko,24,38,38,0,0,0,0,0,8.1,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Colio,369623893436268554,Colio,25,43,35,0,8,0,2,0,7.8,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[NRV] INGSOC,1245186835597103177,INGSOC,26,37,32,0,5,0,1,0,7.3,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Cryysis,972400096052412426,Sans,27,30,30,0,0,0,0,0,6.5,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Animanofficialfr,1305526567690305539,QQAH,28,27,27,0,0,0,0,0,6.5,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Chicho,754675801139707916,BIG_BARCH,29,24,24,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Cuey0h,1094540039783977070,Cuey,30,22,22,0,0,0,0,0,5.7,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Ignaszolo,1415314520926195875,Ignaszollo,31,19,19,0,0,0,0,0,5.5,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Queqs,211681797606473736,Ulm,32,16,16,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Utah_Teapot,865314210484715530,Utah Teapot,33,14,14,0,0,0,0,0,5.3,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Plinko,496688935817314305,Man,34,11,11,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,Purvik,1529537091346759748,AnonMonkey7,35,8,8,0,0,0,0,0,5.1,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,[NSF] Cori,1412963514775109642,Cori,36,5,5,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,spartoneb,468540545048903692,Espanight,37,3,3,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R5,C5,North America,HY17rxf8,ktg,786181970022367253,KTG,38,0,0,0,0,0,0,0,3.6,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[EXL-GAL]Professor Sployer,1411816097572716648,ProfessorSployer,1,129,100,25,4,0,1,248031,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[LUX] Jarques,252416011633033216,Jarques,2,144,97,18,29,0,3,153444,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Mingoman,1272664506182406166,Lord,3,118,94,12,12,0,1,73032,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Sodium=),708644613002625094,Sodium,4,130,92,8,30,0,13,30389,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Lil dofy,459419959404134411,lil dofy,5,96,89,5,2,0,1,18673,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,moineau,373430911615762433,moineau loukoum,6,99,86,0,13,0,4,3567,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[FRA] Payfeh,451386192445964312,Payfeh,7,83,83,0,0,0,0,1081,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Vaylushax,1246093875190169623,AnonDuck1,8,111,81,0,30,0,7,894,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Mousekey,1521722112535171143,MouseKey,9,89,78,0,11,0,1,493,20.4,survived,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,10,90,75,0,15,0,2,139,20.4,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,*Wolfy*,1096739589026218124,PIERRECHARTIERX2007,11,84,72,0,12,0,1,0,17.6,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Nomongossesaround,1257427802097975366,poshdog,12,69,69,0,0,0,0,0,16.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Titan_Dog,792511967868092466,Latina Lover,13,67,67,0,0,0,0,0,15.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Dmq,1277992429827653682,Dmq,14,64,64,0,0,0,0,0,15.7,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Map Gamer,495653159663042571,Map Gamer,15,77,61,0,16,0,2,0,15.7,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Azure,245020637230268428,Azure,16,58,58,0,0,0,0,0,13.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Physma,352603913691856899,Physma,17,79,56,0,23,0,3,0,13.7,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Nonex,112618126637572096,Nonex,18,53,53,0,0,0,0,0,13.4,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[CYN] Bane,827209418537959434,Bane,19,56,50,0,6,0,1,0,11.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[LUX] eef,454775365907251210,eef WANTS trade,20,47,47,0,0,0,0,0,11.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Daniel-Moldova93,580480940879642663,Moldova,21,44,44,0,0,0,0,0,10.2,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[NRV] Nagi,1422831611224916089,Nagi,22,42,42,0,0,0,0,0,9.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Brishton,116383389879107588,Brishton,23,46,39,0,7,0,1,0,9.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Leszy,544277575850000414,PokerFace,24,36,36,0,0,0,0,0,9.4,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,HopeSlayer1,314059437155287040,HopeSlayer1,25,33,33,0,0,0,0,0,9.1,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Doppelbemme,183935553291419649,Bemme,26,31,31,0,0,0,0,0,9.0,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Lud0O,688008318911774743,Lud0O_Callisthenics,27,28,28,0,0,0,0,0,8.2,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[CZSK] Mole,297312182939418624,Mole,28,25,25,0,0,0,0,0,7.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[LUX]Rookiemstk,1271972714164523028,Rookiemstk,29,22,22,0,0,0,0,0,7.4,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,STUFF WUFF921,773247251770114059,STUFF WUFF921,30,19,19,0,0,0,0,0,6.1,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Setsu_13,1265155457589186681,Setsu_13s Monarchy,31,17,17,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,dandanua,351761707833753601,DandanUA,32,14,14,0,0,0,0,0,5.7,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[JUICE] TGD,507930282590994444,TGD,33,11,11,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,[CZSK] [†]𝕯𝖊𝖓𝖓𝖉𝖆𝟑𝟗[†],639157449588211742,Dennda39,34,8,8,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,Shoden,521272739076505600,Shoden,35,6,6,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,𝑰𝒎𝑺𝒐𝑩𝒂𝒅,834424352690274344,ImSoBad,36,3,3,0,0,0,0,0,4.0,eliminated,DOMINATION
+Qualifier,R5,C6,North America,DUCZy7U7,iNET,1319653347107541095,iNET,37,0,0,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[NRV] WHALEFall,618434469032099851,WHALEFall,1,155,100,25,30,0,6,160504,21.4,survived,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[NRV] Nagi,1422831611224916089,Nagi,2,146,98,18,30,0,9,35752,21.4,survived,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,3,138,96,12,30,0,4,3411,21.4,survived,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,4,132,94,8,30,0,7,478,21.4,survived,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Purvik,1529537091346759748,AnonMonkey7,5,121,92,5,24,0,3,0,21.4,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,𝑰𝒎𝑺𝒐𝑩𝒂𝒅,834424352690274344,ImSoBad,6,111,90,0,21,0,2,0,18.5,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,NoXOuT,186071411830292480,NoXOuT,7,118,88,0,30,0,3,0,17.7,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[JUICE] TGD,507930282590994444,TGD,8,97,85,0,12,0,2,0,16.5,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Ignaszolo,1415314520926195875,Ignaszollo,9,98,83,0,15,0,1,0,13.7,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Utah_Teapot,865314210484715530,Utah Teapot,10,81,81,0,0,0,0,0,12.4,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,dandanua,351761707833753601,DandanUA,11,80,79,0,1,0,1,0,12.3,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,iNET,1319653347107541095,iNET,12,95,77,0,18,0,2,0,11.9,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[LBU] Anto,615190559543263242,Anto,13,78,75,0,3,0,1,0,11.7,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Lunace,186880198816432128,Lunace,14,101,73,0,28,0,4,0,10.0,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,mrwn,409764647164706817,mrwn,15,71,71,0,0,0,0,0,8.9,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,lloydy269,292730970094829580,A Wet Sandwich,16,89,69,0,20,0,2,0,8.7,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[CZSK] Mole,297312182939418624,Mole,17,78,67,0,11,0,1,0,8.2,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Daniel-Moldova93,580480940879642663,Moldova,18,65,65,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[NRV] INGSOC,1245186835597103177,INGSOC,19,80,63,0,17,0,2,0,7.9,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,STUFF WUFF921,773247251770114059,STUFF WUFF921,20,60,60,0,0,0,0,0,7.1,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Doppelbemme,183935553291419649,Bemme,21,63,58,0,5,0,1,0,7.1,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,spartoneb,468540545048903692,Espanight,22,56,56,0,0,0,0,0,6.9,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Colio,369623893436268554,Colio,23,54,54,0,0,0,0,0,5.8,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Leszy,544277575850000414,PokerFace,24,52,52,0,0,0,0,0,5.5,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Queqs,211681797606473736,Ulm,25,50,50,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Sylphn0,409726110406934530,SerenissimaResPublicPolonia,26,48,48,0,0,0,0,0,5.4,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,colmy,244261012042285056,Colmy,27,46,46,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Setsu_13,1265155457589186681,Setsu_13s Monarchy,28,44,44,0,0,0,0,0,5.2,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Nomongossesaround,1257427802097975366,poshdog,29,42,42,0,0,0,0,0,5.0,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Cuey0h,1094540039783977070,Cuey,30,40,40,0,0,0,0,0,4.8,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Buzzy,953064908432482345,AnonBee7,31,38,38,0,0,0,0,0,4.5,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Cryysis,972400096052412426,Sans,32,35,35,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[CYN] Bane,827209418537959434,Bane,33,33,33,0,0,0,0,0,4.3,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Lud0O,688008318911774743,Lud0O_Callisthenics,34,32,31,0,1,0,1,0,4.1,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[CZSK] Jindra,927625879700516875,Jindra,35,29,29,0,0,0,0,0,3.9,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[CZSK] [†]𝕯𝖊𝖓𝖓𝖉𝖆𝟑𝟗[†],639157449588211742,Dennda39,36,27,27,0,0,0,0,0,3.9,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,ct8onvu,1519664088148607117,Anon746,37,25,25,0,0,0,0,0,3.8,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,atronko,644977470310711308,atronko,38,23,23,0,0,0,0,0,3.6,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Daniel,205439893873229824,Daniel,39,21,21,0,0,0,0,0,3.5,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,HopeSlayer1,314059437155287040,HopeSlayer1,40,19,19,0,0,0,0,0,3.3,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[LUX]Rookiemstk,1271972714164523028,Rookiemstk,41,17,17,0,0,0,0,0,3.3,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Animanofficialfr,1305526567690305539,QQAH,42,15,15,0,0,0,0,0,3.2,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,julica67,1250439959064608933,emperior trade,43,13,13,0,0,0,0,0,3.0,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,ktg,786181970022367253,KTG,44,10,10,0,0,0,0,0,2.8,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Shoden,521272739076505600,Shoden,45,8,8,0,0,0,0,0,2.4,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,ALT,1270468159765217331,ALT,46,6,6,0,0,0,0,0,2.1,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,[UN] Geographic Edits,1281977843210784832,Your mitocondria no kill,47,4,4,0,0,0,0,0,1.8,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,maxii,654116202066739200,WhiSky13ourBon,48,2,2,0,0,0,0,0,1.5,eliminated,DOMINATION
+Qualifier,R6,C7,Danish Straits,CnXP8bCF,Kraken1as,1491805944227696711,Krakenias,49,0,0,0,0,0,0,0,0.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[LUX] TeNa,771775584584990771,TeNa,1,355,100,25,30,200,3,1668137,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[LBU] Anto,615190559543263242,Anto,2,347,99,18,30,200,4,347377,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,3,339,97,12,30,200,7,25094,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Purvik,1529537091346759748,AnonMonkey7,4,304,96,8,0,200,0,9784,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,𝑰𝒎𝑺𝒐𝑩𝒂𝒅,834424352690274344,ImSoBad,5,314,94,5,15,200,2,2760,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[EXL-GAL]Professor Sployer,1411816097572716648,ProfessorSployer,6,318,93,0,25,200,3,2695,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Fraty,332487228263628801,Fraty,7,307,91,0,16,200,2,1550,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,dandanua,351761707833753601,DandanUA,8,299,90,0,9,200,1,1290,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Vaylushax,1246093875190169623,AnonDuck1,9,318,89,0,29,200,3,1130,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Vasile,702175550688591963,King of the Kings,10,317,87,0,30,200,3,755,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Sodium=),708644613002625094,Sodium,11,316,86,0,30,200,4,706,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[NRV] Nagi,1422831611224916089,Nagi,12,309,84,0,25,200,2,283,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[JR] DougyJR,355158630221479937,DougyJr,13,313,83,0,30,200,5,178,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Cuey0h,1094540039783977070,Cuey,14,281,81,0,0,200,0,80,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Titan_Dog,792511967868092466,Latina Lover,15,310,80,0,30,200,3,52,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Ignaszolo,1415314520926195875,Ignaszollo,16,279,79,0,0,200,0,3,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Sylphn0,409726110406934530,SerenissimaResPublicPolonia,17,279,76,0,3,200,2,1,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,mrwn,409764647164706817,mrwn,17,276,76,0,0,200,0,1,17.0,survived,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Daniel,205439893873229824,Daniel,19,274,74,0,0,200,0,0,17.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[CYN] Bane,827209418537959434,Bane,20,288,73,0,15,200,1,0,16.1,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Portatto,470769908414677003,Portatto,21,301,71,0,30,200,3,0,15.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[LUX] Jarques,252416011633033216,Jarques,22,287,70,0,17,200,2,0,14.8,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Mousekey,1521722112535171143,MouseKey,23,269,69,0,0,200,0,0,14.4,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,24,284,67,0,17,200,3,0,14.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,moineau,373430911615762433,moineau loukoum,25,278,66,0,12,200,2,0,13.6,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Gullible Colluder,1043738641018667130,Gullible Colluder,26,273,64,0,9,200,1,0,13.4,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Shoden,521272739076505600,Shoden,27,263,63,0,0,200,0,0,13.1,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[LUX] eef,454775365907251210,eef WANTS trade,28,264,61,0,3,200,1,0,12.4,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Dmq,1277992429827653682,Dmq,29,260,60,0,0,200,0,0,12.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Azure,245020637230268428,Azure,30,264,59,0,5,200,1,0,11.9,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Lud0O,688008318911774743,Lud0O_Callisthenics,31,264,57,0,7,200,1,0,11.7,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Physma,352603913691856899,Physma,32,263,56,0,7,200,1,0,10.9,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,AST Ducky,1168531105545211944,Ducky,33,262,54,0,8,200,1,0,10.9,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,NoXOuT,186071411830292480,NoXOuT,34,255,53,0,2,200,1,0,10.8,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,ALT,1270468159765217331,ALT,35,251,51,0,0,200,0,0,10.2,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,maxii,654116202066739200,WhiSky13ourBon,36,250,50,0,0,200,0,0,9.9,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,tITUS,237086769944854529,tITUS,37,257,49,0,8,200,2,0,9.6,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,spartoneb,468540545048903692,Espanight,38,247,47,0,0,200,0,0,9.4,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,39,254,46,0,8,200,1,0,9.4,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,colmy,244261012042285056,Colmy,40,254,44,0,10,200,2,0,9.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,lloydy269,292730970094829580,A Wet Sandwich,41,248,43,0,5,200,1,0,9.1,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Setsu_13,1265155457589186681,Setsu_13s Monarchy,42,241,41,0,0,200,0,0,8.4,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[UN] Geographic Edits,1281977843210784832,Your mitocondria no kill,43,240,40,0,0,200,0,0,8.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,indrllz,838344220359393291,Indrllz,44,239,39,0,0,200,0,0,8.2,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[NRV] INGSOC,1245186835597103177,INGSOC,45,237,37,0,0,200,0,0,8.2,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Map Gamer,495653159663042571,Map Gamer,46,236,36,0,0,200,0,0,8.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Chicho,754675801139707916,BIG_BARCH,47,234,34,0,0,200,0,0,7.9,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Nonex,112618126637572096,Nonex,48,233,33,0,0,200,0,0,7.5,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,smeerkaas,313745254060916737,smeerkaas,49,234,31,0,3,200,1,0,7.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[LBU] VarXard,1469000391751630932,VarXard,50,245,30,0,15,200,1,0,7.1,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[LUX]Rookiemstk,1271972714164523028,Rookiemstk,51,230,29,0,1,200,1,0,7.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Nomongossesaround,1257427802097975366,poshdog,52,227,27,0,0,200,0,0,6.7,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Leszy,544277575850000414,PokerFace,53,226,26,0,0,200,0,0,6.6,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[NRV] WHALEFall,618434469032099851,WHALEFall,54,225,24,0,1,200,1,0,6.5,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[CZSK] Mole,297312182939418624,Mole,55,223,23,0,0,200,0,0,6.5,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[CZSK] [†]𝕯𝖊𝖓𝖓𝖉𝖆𝟑𝟗[†],639157449588211742,Dennda39,56,221,21,0,0,200,0,0,6.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Mingoman,1272664506182406166,Lord,57,220,20,0,0,200,0,0,6.3,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Doppelbemme,183935553291419649,Bemme,58,219,19,0,0,200,0,0,6.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,iNET,1319653347107541095,iNET,59,217,17,0,0,200,0,0,5.6,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,HopeSlayer1,314059437155287040,HopeSlayer1,60,216,16,0,0,200,0,0,5.2,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[JUICE] TGD,507930282590994444,TGD,61,214,14,0,0,200,0,0,5.1,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Utah_Teapot,865314210484715530,Utah Teapot,62,213,13,0,0,200,0,0,5.1,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[FRA] Payfeh,451386192445964312,Payfeh,63,211,11,0,0,200,0,0,4.8,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[CZSK] Jindra,927625879700516875,Jindra,64,210,10,0,0,200,0,0,4.8,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,MangoPudding,1305124232564441088,MIRV Mango,65,209,9,0,0,200,0,0,4.6,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Colio,369623893436268554,Colio,66,207,7,0,0,200,0,0,4.6,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,1m2o,181356818507890698,1m2o,67,206,6,0,0,200,0,0,4.5,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,[CYN] imperium romanum,1432038068977930250,imperium romanum,68,203,3,0,0,200,0,0,4.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Kraken1as,1491805944227696711,Krakenias,68,203,3,0,0,200,0,0,4.0,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,Pyrrha,1433879692506693835,Pyrrha,70,201,1,0,0,200,0,0,3.9,eliminated,DOMINATION
+Semifinal,B1,C8,Mare Nostrum,8a8dv9Zp,atronko,644977470310711308,atronko,71,200,0,0,0,200,0,0,1.5,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[LUX] TeNa,771775584584990771,TeNa,1,355,100,25,30,200,5,197685,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,AST Ducky,1168531105545211944,Ducky,2,331,98,18,15,200,1,131709,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Vaylushax,1246093875190169623,AnonDuck1,3,338,96,12,30,200,9,86057,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Pyrrha,1433879692506693835,Pyrrha,4,301,93,8,0,200,0,5814,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,5,296,91,5,0,200,0,4737,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[LBU] Anto,615190559543263242,Anto,6,314,89,0,25,200,3,4023,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[LUX] Jarques,252416011633033216,Jarques,7,304,87,0,17,200,2,3689,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Fraty,332487228263628801,Fraty,8,314,84,0,30,200,8,3617,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Vasile,702175550688591963,King of the Kings,9,282,82,0,0,200,0,3338,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[NRV] Nagi,1422831611224916089,Nagi,10,306,80,0,26,200,3,2826,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Portatto,470769908414677003,Portatto,11,307,78,0,29,200,4,112,18.7,survived,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,lloydy269,292730970094829580,A Wet Sandwich,12,276,76,0,0,200,0,0,18.7,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[CYN] Bane,827209418537959434,Bane,13,283,73,0,10,200,2,0,16.3,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[EXL-GAL]Professor Sployer,1411816097572716648,ProfessorSployer,14,290,71,0,19,200,4,0,15.9,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Map Gamer,495653159663042571,Map Gamer,15,269,69,0,0,200,0,0,13.3,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[JUICE] TGD,507930282590994444,TGD,16,287,67,0,20,200,2,0,12.0,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,indrllz,838344220359393291,Indrllz,17,264,64,0,0,200,0,0,11.8,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Azure,245020637230268428,Azure,18,262,62,0,0,200,0,0,11.5,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,𝑰𝒎𝑺𝒐𝑩𝒂𝒅,834424352690274344,ImSoBad,19,260,60,0,0,200,0,0,10.9,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,20,266,58,0,8,200,1,0,10.9,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,dandanua,351761707833753601,DandanUA,21,256,56,0,0,200,0,0,10.8,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,colmy,244261012042285056,Colmy,22,260,53,0,7,200,1,0,10.7,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[CYN] imperium romanum,1432038068977930250,imperium romanum,23,251,51,0,0,200,0,0,10.1,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[JR] DougyJR,355158630221479937,DougyJr,24,249,49,0,0,200,0,0,8.4,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Ignaszolo,1415314520926195875,Ignaszollo,25,249,47,0,2,200,1,0,8.4,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Physma,352603913691856899,Physma,26,244,44,0,0,200,0,0,8.3,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,27,249,42,0,7,200,1,0,8.2,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Colio,369623893436268554,Colio,28,240,40,0,0,200,0,0,7.9,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[NRV] INGSOC,1245186835597103177,INGSOC,29,238,38,0,0,200,0,0,7.4,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Mingoman,1272664506182406166,Lord,30,236,36,0,0,200,0,0,7.2,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,smeerkaas,313745254060916737,smeerkaas,31,233,33,0,0,200,0,0,7.0,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[LUX] eef,454775365907251210,eef WANTS trade,32,231,31,0,0,200,0,0,6.9,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Mousekey,1521722112535171143,MouseKey,33,229,29,0,0,200,0,0,6.8,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Titan_Dog,792511967868092466,Latina Lover,34,231,27,0,4,200,3,0,6.6,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Leszy,544277575850000414,PokerFace,35,224,24,0,0,200,0,0,6.4,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,moineau,373430911615762433,moineau loukoum,36,222,22,0,0,200,0,0,6.3,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[CZSK] Mole,297312182939418624,Mole,37,220,20,0,0,200,0,0,6.0,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Sylphn0,409726110406934530,SerenissimaResPublicPolonia,38,218,18,0,0,200,0,0,5.4,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,NoXOuT,186071411830292480,NoXOuT,39,216,16,0,0,200,0,0,5.3,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Sodium=),708644613002625094,Sodium,40,213,13,0,0,200,0,0,5.2,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,spartoneb,468540545048903692,Espanight,41,211,11,0,0,200,0,0,4.8,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Daniel,205439893873229824,Daniel,42,209,9,0,0,200,0,0,4.6,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Cuey0h,1094540039783977070,Cuey,43,207,7,0,0,200,0,0,4.0,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Purvik,1529537091346759748,AnonMonkey7,44,204,4,0,0,200,0,0,3.9,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,Setsu_13,1265155457589186681,Setsu_13s Monarchy,45,202,2,0,0,200,0,0,3.6,eliminated,DOMINATION
+Final,A1,C9,South America,zuxkEnEg,[NRV] WHALEFall,618434469032099851,WHALEFall,46,200,0,0,0,200,0,0,3.5,eliminated,DOMINATION

@@ -1,0 +1,645 @@
+stage,round,lobby,map,game_id,player,discord_id,of_name,placement,points,placement_pts,top5_bonus,kill_pts,reach_bonus,kills,final_tiles,minutes,result,end_reason
+Qualifier,R1,C1,Montreal,utqMNrXQ,thunder,1378723372443238563,thunder,10,96,82,0,14,0,1,142,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,ATOS,1050021439962624050,ATOS,10,112,82,0,30,0,7,358935,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,DOOBYDOOBERDOO,755175993324470302,DOOBYDOOBERDOO,10,112,82,0,30,0,9,520567,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[Xev]aki,1076777741548003480,aki,10,82,82,0,0,0,0,19089,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Sparkles,1369055572032356494,EagleEye On YT,10,112,82,0,30,0,9,221601,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Maesi,935732591573741618,Maesi,10,89,82,0,7,0,1,1348,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[NRV] pregnar,743505830019858462,pregnar,10,82,82,0,0,0,0,35576,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[CYN] imperium romanum,1432038068977930250,IMPERIUM ROMANUM,10,112,82,0,30,0,5,289987,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,わさびようかん,1305911918950617119,loli,10,83,82,0,1,0,1,4,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[ATR] Royaume Du Rex,499347583752470528,Royaume Du Rex,10,112,82,0,30,0,4,3297,20.0,survived,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[LUX] Jarques,252416011633033216,Jarques,11,80,80,0,0,0,0,0,20.1,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Zuen,570271112987148288,Zuen,12,83,78,0,5,0,2,0,19.3,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,MarkomanTv,397447596588924939,I had to switch name or smt,13,76,76,0,0,0,0,0,19.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,maxii,654116202066739200,WhiSky13ourBon,14,73,73,0,0,0,0,0,17.7,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,make,723924699989409834,make14,15,71,71,0,0,0,0,0,16.9,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Ozhcar,374890803518111744,neuille,16,69,69,0,0,0,0,0,15.5,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Kustov,399017125911461909,Pupulated,17,67,67,0,0,0,0,0,14.5,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Bacon,1075002993017094144,Black Beard,18,65,65,0,0,0,0,0,13.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,chillguys,1231132235793694762,chillguys,19,86,63,0,23,0,5,0,13.1,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Tchoupi,706644518631374889,Sorrynoob,20,69,61,0,8,0,1,0,12.9,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,dandanua,351761707833753601,DandanUA,21,59,59,0,0,0,0,0,12.6,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,SMYLO,1507854528534282332,SMYLO YTB,22,57,57,0,0,0,0,0,12.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Patanek,1443233459106746418,Patanek,23,55,55,0,0,0,0,0,11.6,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[PENEK] Pentium 4,717364086874046584,Pentium 4,24,59,53,0,6,0,1,0,11.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Lunace,186880198816432128,Lunace,25,55,51,0,4,0,1,0,11.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,TudorM5200,623520177082073088,TudorM520,26,49,49,0,0,0,0,0,10.6,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,SS12142023,1208229956748836915,Anon12142023,27,47,47,0,0,0,0,0,10.1,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Pyrrha,1433879692506693835,Fuga,28,45,45,0,0,0,0,0,9.5,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,kozjar,281084444746579968,Always Retaliate,29,43,43,0,0,0,0,0,9.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[JP]nittei,1324036014548975696,nittei,30,41,41,0,0,0,0,0,8.9,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Sonuseam,1349453197860929546,Mamita,31,39,39,0,0,0,0,0,8.7,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,factory girl,1323051472870576181,tiniest cowboy,32,37,37,0,0,0,0,0,8.3,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Pug man,1079901799428935710,Royal Pug,33,35,35,0,0,0,0,0,7.9,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Farnam,931091619766210600,Farnam,34,33,33,0,0,0,0,0,7.7,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,fully,1072384518004166696,fully,35,31,31,0,0,0,1,0,7.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Mike,1263202450991616122,HolyGermanEmpire,36,29,29,0,0,0,0,0,7.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[AST] SPoS,1031621249832591420,SPoS,37,27,27,0,0,0,0,0,7.1,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Rimuru_Tempest,902157919360020543,Mister Trader,38,24,24,0,0,0,0,0,7.1,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,39,22,22,0,0,0,0,0,6.7,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[EU] Chulee,156796420677042176,Chulee,40,20,20,0,0,0,0,0,6.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Mitch,1202428608380018740,VERSTAPPEN,41,18,18,0,0,0,0,0,5.5,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Utah_Teapot,865314210484715530,Utah Teapot,42,16,16,0,0,0,0,0,5.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,krismanis,1249266644862111757,krismanis,43,14,14,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,SK,1499839372269322240,prankd,44,12,12,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,sunciy,455231267190079498,sunciy,45,10,10,0,0,0,0,0,5.0,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,guillulu,703939743746097163,guillulu,46,8,8,0,0,0,0,0,4.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,apr1l1s,842101022402412625,apr1l1s,47,6,6,0,0,0,0,0,4.4,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Leon366,117103389103357953,STICK,48,4,4,0,0,0,0,0,3.9,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,[GAL] Flooo,366147634744000512,Flooo,49,2,2,0,0,0,0,0,3.9,eliminated,TIME_CAP
+Qualifier,R1,C1,Montreal,utqMNrXQ,Ireleventt3413,1355941020293927134,Carthage tribe,50,0,0,0,0,0,0,0,3.9,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[LUX] W4lle,467446206608572416,NotW4lle,9,79,79,0,0,0,0,2,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,George,249547728730849281,George,9,79,79,0,0,0,0,4123,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Deluded,262543589278482433,Deluded,9,79,79,0,0,0,0,3,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[UN] ALPHA,1427766971583430766,ALPHA,9,79,79,0,0,0,0,1129,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,9,79,79,0,0,0,0,1598381,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,uni,861894838109863936,uni,9,79,79,0,0,0,0,25848,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[NRV] Raccoon,764730713718128690,fladnaG,9,79,79,0,0,0,0,3342,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[UN] Sharktopus,160123158895132672,Sharktopus,9,79,79,0,0,0,0,2325,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[UN] Planetary Realignment,293458502373081088,solo,9,79,79,0,0,0,0,17373,20.0,survived,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[NRV] smsfun,1297199020191518812,mudlicker,10,76,76,0,0,0,0,0,18.3,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Kirismarna,185334022920994816,Lakupipu,11,74,74,0,0,0,0,0,18.2,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Heimdall/Eren,370611110535102464,French troops,12,71,71,0,0,0,0,0,18.2,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,john_pn,1518011841891012648,john_pn,13,68,68,0,0,0,0,0,16.8,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[NRV] INGSOC,1245186835597103177,INGSOC,14,66,66,0,0,0,0,0,14.7,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,PsychoDucky,754702456021057536,LordO,15,63,63,0,0,0,0,0,14.6,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Bammrie,907094793602101299,Bammrie,16,61,61,0,0,0,0,0,13.9,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,☆ Lorw,943945287867707463,ciompi_sellone,17,58,58,0,0,0,0,0,13.4,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Theekan,158540124416638976,Theekan,18,55,55,0,0,0,0,0,12.7,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[NSF] Cori,1412963514775109642,Cori,19,53,53,0,0,0,0,0,12.3,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[JR] DougyJR,355158630221479937,RandomName,20,50,50,0,0,0,0,0,11.6,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,0p1,530347369137700875,0p1,21,47,47,0,0,0,0,0,11.3,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,miau miau cat island,177027997516169217,miau miau cat island,22,45,45,0,0,0,0,0,10.2,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Heliopolis,1463614831486566402,Heliopolis,23,42,42,0,0,0,0,0,9.5,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,борис,879460213210611722,SPQR,24,39,39,0,0,0,0,0,9.4,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Portatto,470769908414677003,Portatto,25,37,37,0,0,0,0,0,9.2,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,TENET,416676677561614338,onefifty,26,34,34,0,0,0,0,0,9.2,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Wurstgitarre,995444112478191668,Wurstgitarre,27,32,32,0,0,0,0,0,9.0,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Vlex,1296574316393271387,Anon 984,28,29,29,0,0,0,0,0,8.8,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,zhehank,739689282792587295,Hank_Zhe,29,26,26,0,0,0,0,0,8.5,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Penguin,1277658499911909428,Placeholder,30,24,24,0,0,0,0,0,8.5,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,sorrow,898314658941906975,Sorrow,31,21,21,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,Cursed,1077674864971890688,Cursed,32,18,18,0,0,0,0,0,7.9,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,glock,373864958246649867,glock,33,16,16,0,0,0,0,0,7.8,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,0vr3uC,337555230897995776,Libertad,34,13,13,0,0,0,0,0,6.8,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,AlienMan,893125156266999878,sdk,35,11,11,0,0,0,0,0,6.3,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[CYN] Chuma,325671276465094656,ANON67,36,8,8,0,0,0,0,0,6.0,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,[CZSK] Mole,297312182939418624,Mole,37,5,5,0,0,0,0,0,5.3,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,MangoPudding,1305124232564441088,MIRV Mango,38,3,3,0,0,0,0,0,5.1,eliminated,TIME_CAP
+Qualifier,R1,C2,Montreal,cFJdbHnx,flash,589535915563548702,flash6565,39,0,0,0,0,0,0,0,1.3,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Archimedes35,273429679095152651,archimedes35,14,75,75,0,0,0,0,2964,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,FeetOnMySheep,1075043948910886982,King Baldwin IV,14,105,75,0,30,0,7,151797,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,! 0 Katamaxis,1219679415768711296,Stasis,14,105,75,0,30,0,5,213590,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[UN] Ultimus_Rex,296454138877968385,AnonMan,14,105,75,0,30,0,6,114174,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[CYN] Gandalf,1388983883189584045,Gandy,14,105,75,0,30,0,3,1,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,ThatOneHog,762888044973654036,ThatOneHog,14,105,75,0,30,0,6,248678,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[AMX] CCloudsLimited,1144651646148804688,CCloudsLimited,14,77,75,0,2,0,1,105319,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[LBU] Anto,615190559543263242,Toan,14,105,75,0,30,0,4,154955,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[NRV] uxxtu,803976151688019968,Who is this,14,94,75,0,19,0,3,111830,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Trueanon,200453813579022337,MakeLoveNotWar,14,97,75,0,22,0,3,166089,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,unsullied,740151587275669584,xau,14,90,75,0,15,0,1,263057,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Lopsa,1410554673974218792,Lopsa,14,105,75,0,30,0,5,274823,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[NRV] Nagi,1422831611224916089,paragooner,14,75,75,0,0,0,0,1917,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Kvxlyn,1212178331802275881,Kvxlyn,14,79,75,0,4,0,1,2,20.0,survived,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,pulanjuri,614866545784389642,European Federation,15,73,73,0,0,0,0,0,19.6,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,stefsupercool,698951024462790736,frtf,16,71,71,0,0,0,0,0,19.4,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,kixgud,869183755548504105,kixgud,17,76,69,0,7,0,1,0,16.8,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Random,1224842820414738472,Random,18,80,67,0,13,0,1,0,16.8,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,еndubyu,887313238583304233,Reino de Asturias,19,65,65,0,0,0,0,0,16.5,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Rakan,393512218366443520,zeytooon,20,63,63,0,0,0,0,0,16.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Kyledoesstuff?,1518319225704419349,Anon799,21,70,61,0,9,0,1,0,15.6,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,DakinDrago,918318175022616647,DakinDrago,22,59,59,0,0,0,0,0,15.6,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,4llu,403264427404689409,4llu,23,80,57,0,23,0,3,0,15.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,benstiller96,245027933884776454,Blarmpfus,24,55,55,0,0,0,0,0,14.1,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,(420GF) SlouchedSlothTTV,980274182141132810,SlouchedslothTTV,25,53,53,0,0,0,0,0,13.1,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[LUX] LittleHat35,1111008782215028776,Mighty Eagle Empire,26,51,51,0,0,0,0,0,13.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Deventeex,310004411785019394,Deventeex,27,49,49,0,0,0,0,0,12.7,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Cheesemaxing,832286969278365706,Cheesemaxing,28,47,47,0,0,0,0,0,12.3,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Martini,411524462371012630,Butters,29,47,45,0,2,0,1,0,10.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[EU] Mjukpanda,1095766791587909734,Mjukpanda,30,49,43,0,6,0,1,0,9.7,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,31,41,41,0,0,0,0,0,9.7,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,blurblitz,718563763560644659,blurblitz,32,39,39,0,0,0,0,0,9.6,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Physma,352603913691856899,Funny guy 123,33,37,37,0,0,0,0,0,9.4,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,ecrms,1228764491940888667,ecrms,34,36,35,0,1,0,1,0,9.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Varza,1319715403773116490,iglu,35,33,33,0,0,0,0,0,9.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Michael,877818891886272553,Michael,36,31,31,0,0,0,0,0,8.6,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Ignaszolo,1415314520926195875,Ignaszollo,37,29,29,0,0,0,0,0,8.3,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[UN] Cerveza City (yoyo),187691423947161600,Cerveza City,38,27,27,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[GR] Wolf,685802404486053892,Wolf,39,25,25,0,0,0,0,0,7.9,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,frogs,490153103073738763,frogs,40,24,24,0,0,0,0,0,7.9,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,atreides,828321420555321355,Atreides,41,22,22,0,0,0,0,0,7.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Dopa MINE,659845843729383436,Dopa MINE,42,20,20,0,0,0,0,0,6.5,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[EBALO] Surmetia,881796778440151080,Surmetia,43,18,18,0,0,0,0,0,6.5,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,shower,514851538351685682,Shower,44,16,16,0,0,0,0,0,6.3,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,45,14,14,0,0,0,1,0,5.9,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,HopeSlayer1,314059437155287040,HopeSlayer1,46,12,12,0,0,0,0,0,5.9,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Naeshonn,204722469284741120,Naeshiggle,47,10,10,0,0,0,0,0,4.6,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,thekidwithaplan,483383051225792552,Thekidwithaplan,48,8,8,0,0,0,0,0,4.5,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,InsaneCaterpilla,379234430247632897,InsaneCaterpilla,49,6,6,0,0,0,0,0,4.4,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,Tulpan,972530436720967740,028,50,4,4,0,0,0,0,0,4.0,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,StrikingSpliff,708423113259483186,Striking,51,2,2,0,0,0,0,0,3.2,eliminated,TIME_CAP
+Qualifier,R1,C3,Montreal,4S8aRob5,MrDapperNoah,1425968841519005898,Chess Guy,52,0,0,0,0,0,0,0,1.8,eliminated,TIME_CAP
+Qualifier,R2,C4,Pluto,ShPdtcGp,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,1,155,100,25,30,0,9,1214153,16.7,survived,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,flash,589535915563548702,flash6565,2,137,97,18,22,0,2,85008,16.7,survived,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,guillulu,703939743746097163,guillulu,3,129,95,12,22,0,2,76330,16.7,survived,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Burt Pheonix,599568171501879316,Al3czYT_regele lui mini,4,130,92,8,30,0,7,7898,16.7,survived,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,sunciy,455231267190079498,sunciy,5,95,90,5,0,0,0,1292,16.7,survived,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,! blanko1337,1491519529388609786,Mini JAMAICA,6,87,87,0,0,0,0,133,16.7,survived,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,0vr3uC,337555230897995776,Libertad,7,85,85,0,0,0,0,0,16.7,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Mitch,1202428608380018740,VERSTAPPEN,8,97,82,0,15,0,1,0,16.7,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,SK,1499839372269322240,prankd,9,82,79,0,3,0,1,0,15.1,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Michael,877818891886272553,Michael,10,77,77,0,0,0,0,0,13.5,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Naeshonn,204722469284741120,Naeshiggle,11,74,74,0,0,0,0,0,13.3,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Farnam,931091619766210600,Farnam,12,75,72,0,3,0,1,0,12.8,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[GAL] Flooo,366147634744000512,Flooo,13,83,69,0,14,0,2,0,12.4,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[EBALO] Surmetia,881796778440151080,Surmetia,14,83,67,0,16,0,2,0,12.4,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[EU] Chulee,156796420677042176,Chulee,15,64,64,0,0,0,0,0,12.3,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Penguin,1277658499911909428,Placeholder,16,62,62,0,0,0,0,0,12.0,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Vlex,1296574316393271387,Anon 984,17,61,59,0,2,0,1,0,11.6,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[DOG] Gemi,706622355186647040,Gemi,18,56,56,0,0,0,0,0,10.7,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[CYN] Chuma,325671276465094656,ANON67,19,54,54,0,0,0,0,0,10.2,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[AST] SPoS,1031621249832591420,SPoS,20,51,51,0,0,0,0,0,9.2,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Dopa MINE,659845843729383436,Dopa MINE,21,49,49,0,0,0,0,0,9.2,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Saint Myco,293841189118148619,The Fempire,22,46,46,0,0,0,0,0,8.8,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,23,44,44,0,0,0,0,0,8.6,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Leon366,117103389103357953,STICK,24,41,41,0,0,0,0,0,8.3,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,summit,685602761118974011,argonaut997,25,38,38,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,MangoPudding,1305124232564441088,MIRV Mango,26,36,36,0,0,0,0,0,8.0,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[CZSK] Mole,297312182939418624,Mole,27,33,33,0,0,0,0,0,7.8,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,tanuki,1314109860232564801,tanuki,28,31,31,0,0,0,0,0,7.4,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,sorrow,898314658941906975,Sorrow,29,28,28,0,0,0,0,0,6.6,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,[Xev]ラーメン,1251900133990465596,ramen,30,26,26,0,0,0,0,0,6.5,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,AlienMan,893125156266999878,sdk,31,23,23,0,0,0,0,0,6.0,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,thekidwithaplan,483383051225792552,Thekidwithaplan,32,21,21,0,0,0,0,0,5.9,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Tulpan,972530436720967740,028,33,18,18,0,0,0,0,0,4.9,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,frogs,490153103073738763,frogs,34,15,15,0,0,0,0,0,4.9,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,shower,514851538351685682,Shower,35,13,13,0,0,0,0,0,4.7,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,gastbro,1178020992174534749,Gastbro,36,10,10,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,HopeSlayer1,314059437155287040,HopeSlayer1,37,8,8,0,0,0,0,0,4.6,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,Ireleventt3413,1355941020293927134,Carthage tribe,38,5,5,0,0,0,0,0,4.2,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,krismanis,1249266644862111757,krismanis,39,3,3,0,0,0,0,0,3.4,eliminated,DOMINATION
+Qualifier,R2,C4,Pluto,ShPdtcGp,zhehank,739689282792587295,Hank_Zhe,40,0,0,0,0,0,0,0,1.1,eliminated,DOMINATION
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Physma,352603913691856899,Funny guy 123,1,88,74,0,14,0,1,139856,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[LUX] Jarques,252416011633033216,Jarques,1,99,74,0,25,0,3,194274,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,kixgud,869183755548504105,kixgud,1,102,74,0,28,0,3,19005,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Heimdall/Eren,370611110535102464,French troops,1,79,74,0,5,0,1,107382,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[NRV] smsfun,1297199020191518812,mudlicker,1,104,74,0,30,0,5,110618,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[LUX] W4lle,467446206608572416,NotW4lle,1,82,74,0,8,0,2,312962,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Portatto,470769908414677003,Portatto,1,104,74,0,30,0,4,182411,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Wurstgitarre,995444112478191668,Wurstgitarre,1,83,74,0,9,0,1,3413,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[UN] Planetary Realignment,293458502373081088,solo,1,104,74,0,30,0,8,3189,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,1,88,74,0,14,0,1,3769,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[CYN] imperium romanum,1432038068977930250,IMPERIUM ROMANUM,1,104,74,0,30,0,8,226851,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,DJ Dislexia (Jordan),953731656471171143,DJ Dislexia,1,77,74,0,3,0,2,4793,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,ThatOneHog,762888044973654036,ThatOneHog,1,75,74,0,1,0,1,161839,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,わさびようかん,1305911918950617119,loli,1,89,74,0,15,0,3,391032,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,FeetOnMySheep,1075043948910886982,King Baldwin IV,1,74,74,0,0,0,0,5145,20.0,survived,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Vadym,273805542710050816,VA22,16,72,72,0,0,0,0,0,18.6,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[Xev]ラーメン,1251900133990465596,ramen,17,85,70,0,15,0,2,0,18.6,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[LBU] VarXard,1469000391751630932,VarXard,18,80,68,0,12,0,3,0,18.4,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,4llu,403264427404689409,4llu,19,70,66,0,4,0,1,0,18.1,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[AST] SPoS,1031621249832591420,SPoS,20,64,64,0,0,0,0,0,17.5,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,unsullied,740151587275669584,xau,21,73,62,0,11,0,4,0,17.3,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[PENEK] Pentium 4,717364086874046584,Pentium 4,22,60,60,0,0,0,0,0,16.8,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Ireleventt3413,1355941020293927134,Carthage tribe,23,58,58,0,0,0,0,0,15.9,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,sorrow,898314658941906975,Sorrow,24,57,57,0,0,0,0,0,15.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,ATOS,1050021439962624050,ATOS,25,55,55,0,0,0,0,1,14.0,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,shower,514851538351685682,Shower,26,57,53,0,4,0,1,0,12.8,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,pulanjuri,614866545784389642,European Federation,27,64,51,0,13,0,1,0,12.1,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,gastbro,1178020992174534749,Gastbro,28,49,49,0,0,0,0,0,11.9,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Bacon,1075002993017094144,Black Beard,29,47,47,0,0,0,0,0,11.9,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[NSF] Cori,1412963514775109642,Cori,30,45,45,0,0,0,0,0,11.7,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,TudorM5200,623520177082073088,TudorM520,31,43,43,0,0,0,0,0,11.5,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,HopeSlayer1,314059437155287040,HopeSlayer1,32,42,42,0,0,0,0,0,11.4,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,MarkomanTv,397447596588924939,I had to switch name or smt,33,41,40,0,1,0,1,0,11.3,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Leon366,117103389103357953,STICK,34,38,38,0,0,0,1,0,10.5,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Dopa MINE,659845843729383436,Dopa MINE,35,36,36,0,0,0,0,0,10.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[CYN] Chuma,325671276465094656,ANON67,36,34,34,0,0,0,0,0,10.0,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[NRV] WHALEFall,618434469032099851,WHALEFall,37,32,32,0,0,0,0,0,9.3,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Random,1224842820414738472,Random,38,30,30,0,0,0,0,0,9.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Kirismarna,185334022920994816,Lakupipu,39,28,28,0,0,0,0,0,8.8,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[FRA] Payfeh,451386192445964312,Payfeh,40,26,26,0,0,0,0,0,8.3,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,`Shoyo,1454249293396312075,Shoyo,41,25,25,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[CZSK] Mole,297312182939418624,Mole,42,21,21,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[CYN] Gandalf,1388983883189584045,Gandy,42,21,21,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Deluded,262543589278482433,Deluded,44,19,19,0,0,0,0,0,7.8,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,45,47,17,0,30,0,3,0,7.0,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Archimedes35,273429679095152651,archimedes35,46,15,15,0,0,0,0,0,6.7,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,krismanis,1249266644862111757,krismanis,47,13,13,0,0,0,0,0,6.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,chillguys,1231132235793694762,chillguys,48,11,11,0,0,0,0,0,6.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,dandanua,351761707833753601,DandanUA,49,9,9,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Deventeex,310004411785019394,Deventeex,50,6,6,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,make,723924699989409834,make14,50,6,6,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,john_pn,1518011841891012648,john_pn,52,4,4,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,Bammrie,907094793602101299,Bammrie,53,2,2,0,0,0,0,0,4.8,eliminated,TIME_CAP
+Qualifier,R3,C5,Indian Subcontinent,LvAmAUhN,thunder,1378723372443238563,thunder,54,0,0,0,0,0,0,0,2.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,uni,861894838109863936,uni,3,103,96,0,7,0,1,10595,20.0,survived,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Revenflok,1502333958455820349,Revenflok,3,115,96,0,19,0,1,395594,20.0,survived,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[NRV] Raccoon,764730713718128690,fladnaG,3,108,96,0,12,0,2,21888,20.0,survived,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[LBU] Zwiper,1053390182398840902,Zwiper,4,124,94,0,30,0,7,0,68.8,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[UN] ALPHA,1427766971583430766,ALPHA,5,111,93,0,18,0,2,0,61.9,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[NRV] pregnar,743505830019858462,pregnar,6,100,91,0,9,0,3,0,58.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[UN] Ultimus_Rex,296454138877968385,AnonMan,7,109,89,0,20,0,2,0,53.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Martini,411524462371012630,Butters,8,87,87,0,0,0,0,0,21.6,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,mastery,1498752330886283266,mastery,9,115,85,0,30,0,6,0,21.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,еndubyu,887313238583304233,Reino de Asturias,10,83,83,0,0,0,0,0,21.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,blurblitz,718563763560644659,blurblitz,11,81,81,0,0,0,0,0,21.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Cheesemaxing,832286969278365706,Cheesemaxing,12,87,80,0,7,0,1,0,21.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,TENET,416676677561614338,onefifty,14,79,76,0,3,0,1,0,21.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Trueanon,200453813579022337,MakeLoveNotWar,14,88,76,0,12,0,1,0,21.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Tchoupi,706644518631374889,Sorrynoob,15,85,74,0,11,0,1,0,21.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Rakan,393512218366443520,zeytooon,16,87,72,0,15,0,2,0,21.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,zhehank,739689282792587295,Hank_Zhe,17,70,70,0,0,0,0,0,21.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,George,249547728730849281,George,18,78,69,0,9,0,1,0,21.0,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Kustov,399017125911461909,Pupulated,19,74,67,0,7,0,1,0,21.0,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[AMX] CCloudsLimited,1144651646148804688,CCloudsLimited,20,69,65,0,4,0,1,0,19.5,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,iampanda2320,481583188989444097,hi_,21,63,63,0,0,0,0,0,19.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,SMYLO,1507854528534282332,SMYLO YTB,22,61,61,0,0,0,1,0,16.4,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,ErginPvP,1477327482431738041,Xeylo44_Tamazight,23,61,59,0,2,0,1,0,15.5,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Nihau,1120598988001914980,haflakongen,24,62,57,0,5,0,1,0,12.7,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[Xev]aki,1076777741548003480,aki,25,56,56,0,0,0,0,0,12.5,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,AlienMan,893125156266999878,sdk,26,54,54,0,0,0,0,0,12.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Theekan,158540124416638976,Theekan,27,56,52,0,4,0,1,0,12.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Varza,1319715403773116490,iglu,28,50,50,0,0,0,0,0,11.9,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,SS12142023,1208229956748836915,Anon12142023,29,76,48,0,28,0,2,0,11.4,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[JR] DougyJR,355158630221479937,RandomName,30,46,46,0,0,0,0,0,10.4,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,maxii,654116202066739200,WhiSky13ourBon,31,44,44,0,0,0,0,0,10.4,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,miau miau cat island,177027997516169217,miau miau cat island,32,50,43,0,7,0,1,0,9.8,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[JP]nittei,1324036014548975696,nittei,33,41,41,0,0,0,0,0,9.6,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,PsychoDucky,754702456021057536,LordO,34,39,39,0,0,0,0,0,8.4,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,ecrms,1228764491940888667,ecrms,35,40,37,0,3,0,1,0,8.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,kozjar,281084444746579968,Always Retaliate,36,35,35,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,DOOBYDOOBERDOO,755175993324470302,DOOBYDOOBERDOO,37,33,33,0,0,0,0,0,8.0,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Patanek,1443233459106746418,Patanek,38,31,31,0,0,0,0,0,7.7,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,☆ Lorw,943945287867707463,ciompi_sellone,39,30,30,0,0,0,0,0,7.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Rimuru_Tempest,902157919360020543,Mister Trader,40,28,28,0,0,0,0,0,7.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Vlex,1296574316393271387,Anon 984,41,26,26,0,0,0,0,0,7.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Maesi,935732591573741618,Maesi,42,24,24,0,0,0,0,0,6.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Zuen,570271112987148288,Zuen,43,22,22,0,0,0,0,0,6.2,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[NRV] INGSOC,1245186835597103177,INGSOC,44,20,20,0,0,0,0,0,5.8,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,LinxAdventura,616592067627319306,LinxAdventura,45,19,19,0,0,0,0,0,5.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Light,654349365686566934,Light,46,18,17,0,1,0,1,0,5.3,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,frogs,490153103073738763,frogs,47,15,15,0,0,0,0,0,5.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,stefsupercool,698951024462790736,frtf,48,13,13,0,0,0,0,0,5.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,summit,685602761118974011,argonaut997,49,11,11,0,0,0,0,0,4.9,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,[UN] Sharktopus,160123158895132672,Sharktopus,50,9,9,0,0,0,0,0,4.6,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,(420GF) SlouchedSlothTTV,980274182141132810,SlouchedslothTTV,51,7,7,0,0,0,0,0,4.4,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,thekidwithaplan,483383051225792552,Thekidwithaplan,52,6,6,0,0,0,1,0,4.0,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,HeyRey,1353085697606549738,HeyRey,53,4,4,0,0,0,0,0,3.1,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,Tulpan,972530436720967740,028,54,2,2,0,0,0,0,0,3.0,eliminated,TIME_CAP
+Qualifier,R3,C6,Indian Subcontinent,G8qgJurE,борис,879460213210611722,SPQR,55,0,0,0,0,0,0,0,3.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,dandanua,351761707833753601,DandanUA,10,87,87,0,0,0,0,130167,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,(420GF) SlouchedSlothTTV,980274182141132810,SlouchedslothTTV,10,92,87,0,5,0,1,13483,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,10,117,87,0,30,0,4,120803,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,make,723924699989409834,make14,10,117,87,0,30,0,26,1689260,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[EU] Mjukpanda,1095766791587909734,Mjukpanda,10,117,87,0,30,0,4,304322,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Deventeex,310004411785019394,Deventeex,10,99,87,0,12,0,1,57818,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[CYN] Gandalf,1388983883189584045,Gandy,10,117,87,0,30,0,3,388539,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,0vr3uC,337555230897995776,Libertad,10,87,87,0,0,0,0,620,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Kirismarna,185334022920994816,Lakupipu,10,99,87,0,12,0,2,267640,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[NRV] WHALEFall,618434469032099851,WHALEFall,10,117,87,0,30,0,12,451218,20.0,survived,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,summit,685602761118974011,argonaut997,11,111,85,0,26,0,2,0,19.7,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,PsychoDucky,754702456021057536,LordO,12,108,84,0,24,0,4,0,19.6,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,factory girl,1323051472870576181,tiniest cowboy,13,87,82,0,5,0,1,0,19.6,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,miau miau cat island,177027997516169217,miau miau cat island,14,90,81,0,9,0,1,0,19.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,☆ Lorw,943945287867707463,ciompi_sellone,15,103,79,0,24,0,2,0,18.5,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Farnam,931091619766210600,Farnam,16,78,78,0,0,0,0,0,18.5,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[GAL] Flooo,366147634744000512,Flooo,17,87,76,0,11,0,1,0,18.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[EU] Chulee,156796420677042176,Chulee,18,91,75,0,16,0,2,0,17.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Kvxlyn,1212178331802275881,Kvxlyn,19,75,74,0,1,0,1,0,16.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[LBU] Anto,615190559543263242,Toan,20,78,72,0,6,0,1,0,15.3,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Pug man,1079901799428935710,Royal Pug,21,71,71,0,0,0,0,0,15.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,LinxAdventura,616592067627319306,LinxAdventura,22,69,69,0,0,0,1,0,14.9,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,krismanis,1249266644862111757,krismanis,23,68,68,0,0,0,0,0,12.5,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,0p1,530347369137700875,0p1,24,66,66,0,0,0,0,0,12.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Vlex,1296574316393271387,Anon 984,25,65,65,0,0,0,0,0,12.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,tanuki,1314109860232564801,tanuki,26,73,63,0,10,0,2,0,11.5,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[DOG] Gemi,706622355186647040,Gemi,27,62,62,0,0,0,0,0,11.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Saint Myco,293841189118148619,The Fempire,28,60,60,0,0,0,0,0,11.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[NRV] uxxtu,803976151688019968,Who is this,29,59,59,0,0,0,0,0,10.7,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,kozjar,281084444746579968,Always Retaliate,30,57,57,0,0,0,0,0,10.3,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[JP]nittei,1324036014548975696,nittei,31,60,56,0,4,0,1,0,10.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Naeshonn,204722469284741120,Naeshiggle,32,54,54,0,0,0,0,0,10.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[GR] Wolf,685802404486053892,Wolf,33,58,53,0,5,0,2,0,10.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Pyrrha,1433879692506693835,Fuga,34,51,51,0,0,0,0,0,9.9,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,35,58,50,0,8,0,1,0,9.7,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Mitch,1202428608380018740,VERSTAPPEN,36,49,49,0,0,0,1,0,9.6,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,SeafightWE,1517286914917666903,SeafightWE,37,47,47,0,0,0,0,0,9.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Bammrie,907094793602101299,Bammrie,38,46,46,0,0,0,0,0,9.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Ozhcar,374890803518111744,neuille,39,44,44,0,0,0,0,0,9.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[UN] Cerveza City (yoyo),187691423947161600,Cerveza City,40,46,43,0,3,0,1,0,8.7,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Utah_Teapot,865314210484715530,Utah Teapot,41,45,41,0,4,0,1,0,8.7,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,guillulu,703939743746097163,guillulu,42,40,40,0,0,0,0,0,8.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,43,38,38,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[UN] Sharktopus,160123158895132672,Sharktopus,44,37,37,0,0,0,0,0,8.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[NRV] Nagi,1422831611224916089,paragooner,45,35,35,0,0,0,0,0,8.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,HeyRey,1353085697606549738,HeyRey,46,34,34,0,0,0,0,0,7.5,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Lopsa,1410554673974218792,Lopsa,47,32,32,0,0,0,0,0,7.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,MrBusinessGR,721125461807333486,MRBUSINESS,48,31,31,0,0,0,0,0,7.3,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,chillguys,1231132235793694762,chillguys,49,29,29,0,0,0,0,0,7.3,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Ignaszolo,1415314520926195875,Ignaszollo,50,28,28,0,0,0,0,0,7.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,thekidwithaplan,483383051225792552,Thekidwithaplan,51,26,26,0,0,0,0,0,7.0,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,sunciy,455231267190079498,sunciy,52,25,25,0,0,0,0,0,6.9,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Sonuseam,1349453197860929546,Mamita,54,22,22,0,0,0,0,0,6.8,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Maesi,935732591573741618,Maesi,54,22,22,0,0,0,0,0,6.8,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,flash,589535915563548702,flash6565,55,21,21,0,0,0,0,0,6.5,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Penguin,1277658499911909428,Placeholder,56,19,19,0,0,0,0,0,6.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Kyledoesstuff?,1518319225704419349,Anon799,57,18,18,0,0,0,0,0,6.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Patanek,1443233459106746418,Patanek,58,23,16,0,7,0,1,0,6.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,sGdd,1342875698473340969,Astra,59,15,15,0,0,0,0,0,5.3,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[LUX] LittleHat35,1111008782215028776,Mighty Eagle Empire,60,13,13,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,R3RE5,320821689422315522,R3RE5,61,12,12,0,0,0,0,0,5.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,StrikingSpliff,708423113259483186,Striking,62,10,10,0,0,0,0,0,4.9,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Martin Švanda,371748162521530368,KunDis,63,9,9,0,0,0,0,0,4.9,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,SK,1499839372269322240,prankd,64,7,7,0,0,0,0,0,4.8,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[EBALO] Surmetia,881796778440151080,Surmetia,65,6,6,0,0,0,0,0,4.4,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,Sparkles,1369055572032356494,EagleEye On YT,66,4,4,0,0,0,0,0,4.1,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,[CZSK] Mole,297312182939418624,Mole,67,3,3,0,0,0,0,0,3.8,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,frogs,490153103073738763,frogs,68,1,1,0,0,0,0,0,3.3,eliminated,TIME_CAP
+Qualifier,R4,C7,Two Lakes,P1Ggo8cc,InsaneCaterpilla,379234430247632897,InsaneCaterpilla,69,0,0,0,0,0,0,0,3.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,ATOS,1050021439962624050,ATOS,1,98,73,0,25,0,2,8300,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Sparkles,1369055572032356494,EagleEye On YT,1,73,73,0,0,0,0,60214,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[Xev]aki,1076777741548003480,aki,1,94,73,0,21,0,2,285997,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Penguin,1277658499911909428,Placeholder,1,78,73,0,5,0,1,180995,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,`Shoyo,1454249293396312075,Shoyo,1,73,73,0,0,0,0,461,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Tchoupi,706644518631374889,Sorrynoob,1,96,73,0,23,0,4,167379,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[AST] SPoS,1031621249832591420,SPoS,1,73,73,0,0,0,0,1,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[NRV] pregnar,743505830019858462,pregnar,1,103,73,0,30,0,8,132526,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[LBU] Zwiper,1053390182398840902,Zwiper,1,103,73,0,30,0,5,181752,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Martini,411524462371012630,Butters,1,103,73,0,30,0,6,1431,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[UN] ALPHA,1427766971583430766,ALPHA,1,96,73,0,23,0,4,152349,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Lopsa,1410554673974218792,Lopsa,1,93,73,0,20,0,2,290594,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Heimdall/Eren,370611110535102464,French troops,1,82,73,0,9,0,1,99458,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[PENEK] Pentium 4,717364086874046584,Pentium 4,1,103,73,0,30,0,13,93467,20.0,survived,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,zhehank,739689282792587295,Hank_Zhe,15,71,71,0,0,0,0,0,17.0,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[NRV] Nagi,1422831611224916089,paragooner,16,99,69,0,30,0,5,0,15.7,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Ireleventt3413,1355941020293927134,Carthage tribe,17,67,67,0,0,0,0,0,15.5,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[NRV] INGSOC,1245186835597103177,INGSOC,18,65,65,0,0,0,0,0,15.2,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Cheesemaxing,832286969278365706,Cheesemaxing,19,82,63,0,19,0,2,0,14.8,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Revenflok,1502333958455820349,Revenflok,20,61,61,0,0,0,0,0,13.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Martin Švanda,371748162521530368,KunDis,21,59,59,0,0,0,0,0,12.8,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Rakan,393512218366443520,zeytooon,22,59,57,0,2,0,1,0,12.6,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,guillulu,703939743746097163,guillulu,23,58,55,0,3,0,1,0,12.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,john_pn,1518011841891012648,john_pn,24,53,53,0,0,0,0,0,11.8,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,25,51,51,0,0,0,0,0,11.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,kozjar,281084444746579968,Always Retaliate,26,53,49,0,4,0,1,0,11.2,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[CYN] Chuma,325671276465094656,ANON67,27,50,47,0,3,0,1,0,10.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[NRV] Raccoon,764730713718128690,fladnaG,28,45,45,0,0,0,0,2,9.5,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,uni,861894838109863936,uni,29,43,43,0,0,0,0,0,9.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[UN] Sharktopus,160123158895132672,Sharktopus,30,41,41,0,0,0,0,0,9.2,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,StrikingSpliff,708423113259483186,Striking,31,39,39,0,0,0,0,0,8.7,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Theekan,158540124416638976,Theekan,32,38,37,0,1,0,2,0,8.7,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Naeshonn,204722469284741120,Naeshiggle,33,35,35,0,0,0,0,0,8.4,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Lunace,186880198816432128,Lunace,34,33,33,0,0,0,0,0,8.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[JP]nittei,1324036014548975696,nittei,35,31,31,0,0,0,0,0,8.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Kyledoesstuff?,1518319225704419349,Anon799,36,27,27,0,0,0,0,0,8.2,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,SeafightWE,1517286914917666903,SeafightWE,36,28,27,0,1,0,1,0,8.2,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,38,24,24,0,0,0,0,0,7.0,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Random,1224842820414738472,Random,39,22,22,0,0,0,0,0,6.8,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,chillguys,1231132235793694762,chillguys,40,20,20,0,0,0,0,0,6.7,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,InsaneCaterpilla,379234430247632897,InsaneCaterpilla,41,18,18,0,0,0,0,0,6.6,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,pulanjuri,614866545784389642,European Federation,42,16,16,0,0,0,0,0,6.4,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Mitch,1202428608380018740,VERSTAPPEN,43,14,14,0,0,0,0,0,6.0,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Sonuseam,1349453197860929546,Mamita,44,12,12,0,0,0,0,0,5.7,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,George,249547728730849281,George,45,10,10,0,0,0,0,0,4.9,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,! blanko1337,1491519529388609786,Mini JAMAICA,46,8,8,0,0,0,0,0,4.3,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,R3RE5,320821689422315522,R3RE5,47,6,6,0,0,0,0,0,4.1,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Bacon,1075002993017094144,Black Beard,48,4,4,0,0,0,0,0,3.4,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,Vadym,273805542710050816,VA22,49,2,2,0,0,0,0,0,3.0,eliminated,TIME_CAP
+Qualifier,R5,C8,Montreal,DXxx17Yi,thunder,1378723372443238563,thunder,50,0,0,0,0,0,0,0,2.8,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Rimuru_Tempest,902157919360020543,Mister Trader,12,104,78,0,26,0,2,4686,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Ozhcar,374890803518111744,neuille,12,92,78,0,14,0,2,444,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,HopeSlayer1,314059437155287040,HopeSlayer1,12,92,78,0,14,0,2,3358,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[UN] Cerveza City (yoyo),187691423947161600,Cerveza City,12,108,78,0,30,0,5,274453,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Pyrrha,1433879692506693835,Fuga,12,88,78,0,10,0,1,157457,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[AMX] CCloudsLimited,1144651646148804688,CCloudsLimited,12,108,78,0,30,0,4,217753,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[NRV] uxxtu,803976151688019968,Who is this,12,108,78,0,30,0,5,135945,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[LUX] Jarques,252416011633033216,Jarques,12,84,78,0,6,0,1,225840,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Wurstgitarre,995444112478191668,Wurstgitarre,12,108,78,0,30,0,3,109372,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[CYN] imperium romanum,1432038068977930250,IMPERIUM ROMANUM,12,97,78,0,19,0,3,58464,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[UN] Ultimus_Rex,296454138877968385,AnonMan,12,108,78,0,30,0,5,340577,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[NRV] smsfun,1297199020191518812,mudlicker,12,108,78,0,30,0,6,11,20.0,survived,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,kixgud,869183755548504105,kixgud,13,98,76,0,22,0,2,0,19.2,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,iampanda2320,481583188989444097,hi_,14,79,75,0,4,0,1,0,14.3,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,DOOBYDOOBERDOO,755175993324470302,DOOBYDOOBERDOO,15,86,73,0,13,0,1,0,14.2,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[CZSK] Mole,297312182939418624,Mole,16,85,71,0,14,0,3,0,13.8,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,わさびようかん,1305911918950617119,loli,17,69,69,0,0,0,0,0,13.4,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,FeetOnMySheep,1075043948910886982,King Baldwin IV,18,67,67,0,0,0,0,0,13.1,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,SMYLO,1507854528534282332,SMYLO YTB,19,65,65,0,0,0,0,0,12.9,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Physma,352603913691856899,Funny guy 123,20,63,63,0,0,0,0,0,12.8,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Portatto,470769908414677003,Portatto,21,67,61,0,6,0,1,0,11.5,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,TENET,416676677561614338,onefifty,22,68,59,0,9,0,2,0,11.0,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,DJ Dislexia (Jordan),953731656471171143,DJ Dislexia,23,57,57,0,0,0,0,0,10.9,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,еndubyu,887313238583304233,Reino de Asturias,24,55,55,0,0,0,0,0,10.9,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Kustov,399017125911461909,Pupulated,25,70,53,0,17,0,4,0,10.6,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[GR] Wolf,685802404486053892,Wolf,26,59,51,0,8,0,1,0,10.2,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Varza,1319715403773116490,iglu,27,49,49,0,0,0,0,0,9.7,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,mastery,1498752330886283266,mastery,28,49,47,0,2,0,1,0,9.7,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[JR] DougyJR,355158630221479937,RandomName,29,50,45,0,5,0,1,0,8.4,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,TudorM5200,623520177082073088,TudorM520,30,43,43,0,0,0,0,0,8.3,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,flash,589535915563548702,flash6565,31,41,41,0,0,0,0,0,7.9,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Trueanon,200453813579022337,MakeLoveNotWar,32,39,39,0,0,0,0,0,7.5,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,blurblitz,718563763560644659,blurblitz,33,42,37,0,5,0,1,0,7.5,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,RuAWizard,1196126664338452612,Wizard County,34,35,35,0,0,0,0,0,7.5,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,4llu,403264427404689409,4llu,35,33,33,0,0,0,0,0,7.2,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[NSF] Cori,1412963514775109642,Cori,36,31,31,0,0,0,0,0,7.2,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Leon366,117103389103357953,STICK,37,34,29,0,5,0,1,0,6.7,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Bammrie,907094793602101299,Bammrie,38,27,27,0,0,0,0,0,6.4,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,sunciy,455231267190079498,sunciy,39,25,25,0,0,0,0,0,6.3,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,maxii,654116202066739200,WhiSky13ourBon,40,24,24,0,0,0,0,0,6.3,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Dopa MINE,659845843729383436,Dopa MINE,41,22,22,0,0,0,0,0,5.9,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Burt Pheonix,599568171501879316,Al3czYT_regele lui mini,42,20,20,0,0,0,0,0,5.6,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,MarkomanTv,397447596588924939,I had to switch name or smt,43,18,18,0,0,0,0,0,5.2,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Patanek,1443233459106746418,Patanek,44,17,16,0,1,0,1,0,5.0,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,frogs,490153103073738763,frogs,45,14,14,0,0,0,0,0,4.7,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[Xev]ラーメン,1251900133990465596,ramen,46,12,12,0,0,0,0,0,4.7,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Saint Myco,293841189118148619,The Fempire,47,10,10,0,0,0,0,0,4.4,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,sGdd,1342875698473340969,Astra,48,8,8,0,0,0,0,0,4.3,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,[LUX] LittleHat35,1111008782215028776,Mighty Eagle Empire,49,6,6,0,0,0,0,0,3.7,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,thekidwithaplan,483383051225792552,Thekidwithaplan,50,4,4,0,0,0,0,0,3.4,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,MrBusinessGR,721125461807333486,MRBUSINESS,51,2,2,0,0,0,0,0,3.3,eliminated,TIME_CAP
+Qualifier,R5,C9,Montreal,8eoViwfi,Nihau,1120598988001914980,haflakongen,52,0,0,0,0,0,0,0,3.1,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,ThatOneHog,762888044973654036,ThatOneHog,10,98,78,0,20,0,3,21059,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Ignaszolo,1415314520926195875,Ignaszollo,10,78,78,0,0,0,0,325,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Nihau,1120598988001914980,haflakongen,10,78,78,0,0,0,0,89,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Trueanon,200453813579022337,MakeLoveNotWar,10,102,78,0,24,0,2,466,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,flash,589535915563548702,flash6565,10,108,78,0,30,0,4,505888,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[NSF] Cori,1412963514775109642,Cori,10,79,78,0,1,0,1,79457,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,ecrms,1228764491940888667,ecrms,10,78,78,0,0,0,0,103456,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,make,723924699989409834,make14,10,108,78,0,30,0,3,6699,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,factory girl,1323051472870576181,tiniest cowboy,10,86,78,0,8,0,2,428808,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[NRV] WHALEFall,618434469032099851,WHALEFall,10,108,78,0,30,0,6,287907,20.0,survived,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Varza,1319715403773116490,iglu,11,102,75,0,27,0,4,0,20.0,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,dandanua,351761707833753601,DandanUA,12,73,73,0,0,0,0,0,17.9,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,maxii,654116202066739200,WhiSky13ourBon,13,71,70,0,1,0,1,0,16.6,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Lunace,186880198816432128,Lunace,14,71,68,0,3,0,1,0,16.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[EU] Chulee,156796420677042176,Chulee,15,65,65,0,0,0,0,0,15.9,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Utah_Teapot,865314210484715530,Utah Teapot,16,66,63,0,3,0,1,0,15.9,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[LBU] Anto,615190559543263242,Toan,17,68,60,0,8,0,2,0,15.7,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,benstiller96,245027933884776454,Blarmpfus,18,58,58,0,0,0,0,0,14.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Mitch,1202428608380018740,VERSTAPPEN,19,66,55,0,11,0,1,0,14.0,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,MarkomanTv,397447596588924939,I had to switch name or smt,20,53,53,0,0,0,0,0,12.9,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,RuAWizard,1196126664338452612,Wizard County,21,57,50,0,7,0,2,0,11.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[EU] Mjukpanda,1095766791587909734,Mjukpanda,22,48,48,0,0,0,0,0,10.8,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,4llu,403264427404689409,4llu,23,45,45,0,0,0,0,0,10.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,thekidwithaplan,483383051225792552,Thekidwithaplan,24,43,43,0,0,0,0,0,10.0,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,StrikingSpliff,708423113259483186,Striking,25,40,40,0,0,0,0,0,9.6,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,PsychoDucky,754702456021057536,LordO,26,38,38,0,0,0,0,0,9.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Sonuseam,1349453197860929546,Mamita,27,35,35,0,0,0,0,0,9.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Pug man,1079901799428935710,Royal Pug,28,33,33,0,0,0,0,0,9.2,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,totto,748222692775428238,Totto,29,32,30,0,2,0,1,0,8.8,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,0p1,530347369137700875,0p1,30,28,28,0,0,0,0,0,8.5,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Vadym,273805542710050816,VA22,31,28,25,0,3,0,1,0,8.1,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,pulanjuri,614866545784389642,European Federation,32,23,23,0,0,0,0,0,7.7,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,blurblitz,718563763560644659,blurblitz,33,20,20,0,0,0,0,0,7.6,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Bammrie,907094793602101299,Bammrie,34,18,18,0,0,0,0,0,7.4,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[LUX] W4lle,467446206608572416,NotW4lle,35,15,15,0,0,0,0,0,7.1,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,0vr3uC,337555230897995776,Libertad,36,13,13,0,0,0,0,0,7.0,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,37,10,10,0,0,0,0,0,5.9,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Kyledoesstuff?,1518319225704419349,Anon799,38,8,8,0,0,0,0,0,5.7,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Kirismarna,185334022920994816,Lakupipu,39,5,5,0,0,0,0,0,4.8,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,LinxAdventura,616592067627319306,LinxAdventura,40,3,3,0,0,0,0,0,4.1,eliminated,TIME_CAP
+Qualifier,R6,C10,Pluto,qpxd9QfS,Aphra,1289889441011470431,French Mandate,41,0,0,0,0,0,0,0,4.0,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,SS12142023,1208229956748836915,Anon12142023,1,52,52,0,0,0,0,981,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,Patanek,1443233459106746418,Patanek,1,52,52,0,0,0,0,2279,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[LUX] LittleHat35,1111008782215028776,Mighty Eagle Empire,1,52,52,0,0,0,0,5058,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[Xev]ラーメン,1251900133990465596,ramen,1,52,52,0,0,0,0,63,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[GAL] Flooo,366147634744000512,Flooo,1,52,52,0,0,0,0,4053,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,miau miau cat island,177027997516169217,miau miau cat island,1,62,52,0,10,0,1,927,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[FRA] Payfeh,451386192445964312,Payfeh,1,52,52,0,0,0,0,16480,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[UN] Planetary Realignment,293458502373081088,solo,1,52,52,0,0,0,0,42414,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,1,62,52,0,10,0,2,359506,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[CYN] Gandalf,1388983883189584045,Gandy,1,80,52,0,28,0,4,51338,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,George,249547728730849281,George,1,62,52,0,10,0,1,158013,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[LBU] VarXard,1469000391751630932,VarXard,1,52,52,0,0,0,0,326629,20.0,survived,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,Farnam,931091619766210600,Farnam,13,51,48,0,3,0,1,0,19.8,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,14,43,43,0,0,0,0,156,18.3,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,summit,685602761118974011,argonaut997,15,53,39,0,14,0,4,0,17.6,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,борис,879460213210611722,SPQR,16,35,35,0,0,0,0,0,16.8,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,Leon366,117103389103357953,STICK,17,30,30,0,0,0,0,0,16.7,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,Deventeex,310004411785019394,Deventeex,18,26,26,0,0,0,0,0,15.7,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,sunciy,455231267190079498,sunciy,19,24,22,0,2,0,1,0,15.7,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,Random,1224842820414738472,Random,20,17,17,0,0,0,1,0,12.7,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,☆ Lorw,943945287867707463,ciompi_sellone,21,14,13,0,1,0,1,0,8.2,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,MrBusinessGR,721125461807333486,MRBUSINESS,22,9,9,0,0,0,0,0,6.4,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,ErginPvP,1477327482431738041,Xeylo44_Tamazight,23,4,4,0,0,0,0,0,5.3,eliminated,TIME_CAP
+Qualifier,R6,C11,Pluto,nzAfyehb,frogs,490153103073738763,frogs,24,0,0,0,0,0,0,0,3.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] uxxtu,803976151688019968,Who is this,24,298,68,0,30,200,13,206382,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] pregnar,743505830019858462,pregnar,24,298,68,0,30,200,6,253616,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[JR] DougyJR,355158630221479937,RandomName,24,285,68,0,17,200,2,132605,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[GR] Wolf,685802404486053892,Wolf,24,268,68,0,0,200,0,55161,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[UN] Planetary Realignment,293458502373081088,solo,24,293,68,0,25,200,3,48600,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,make,723924699989409834,make14,24,298,68,0,30,200,5,178755,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] WHALEFall,618434469032099851,WHALEFall,24,290,68,0,22,200,3,92365,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,FeetOnMySheep,1075043948910886982,King Baldwin IV,24,268,68,0,0,200,0,67856,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[Xev]ラーメン,1251900133990465596,ramen,24,268,68,0,0,200,0,25,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,24,281,68,0,13,200,2,164,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,factory girl,1323051472870576181,tiniest cowboy,24,276,68,0,8,200,1,133599,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Trueanon,200453813579022337,MakeLoveNotWar,24,268,68,0,0,200,0,153446,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[UN] ALPHA,1427766971583430766,ALPHA,24,298,68,0,30,200,5,57069,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Heimdall/Eren,370611110535102464,French troops,24,268,68,0,0,200,0,43193,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Pyrrha,1433879692506693835,Fuga,24,298,68,0,30,200,4,119695,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Penguin,1277658499911909428,Placeholder,24,278,68,0,10,200,1,5,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] Nagi,1422831611224916089,paragooner,24,297,68,0,29,200,4,137731,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,chillguys,1231132235793694762,chillguys,24,268,68,0,0,200,0,94,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,summit,685602761118974011,argonaut997,24,282,68,0,14,200,1,34809,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Vlex,1296574316393271387,Anon 984,24,268,68,0,0,200,0,222,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[LBU] Anto,615190559543263242,Toan,24,285,68,0,17,200,2,87353,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,DOOBYDOOBERDOO,755175993324470302,DOOBYDOOBERDOO,24,276,68,0,8,200,1,1,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,24,298,68,0,30,200,4,72321,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Theekan,158540124416638976,Theekan,24,298,68,0,30,200,4,5112,20.0,survived,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Pug man,1079901799428935710,Royal Pug,25,267,67,0,0,200,0,0,20.5,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[GAL] Flooo,366147634744000512,Flooo,26,266,66,0,0,200,0,0,20.1,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,わさびようかん,1305911918950617119,loli,27,282,64,0,18,200,2,0,18.3,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,0vr3uC,337555230897995776,Libertad,28,263,63,0,0,200,0,0,17.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[UN] Cerveza City (yoyo),187691423947161600,Cerveza City,29,262,62,0,0,200,0,0,16.6,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[AMX] CCloudsLimited,1144651646148804688,CCloudsLimited,30,270,60,0,10,200,2,0,16.2,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,TENET,416676677561614338,onefifty,31,259,59,0,0,200,0,0,15.9,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[UN] Ultimus_Rex,296454138877968385,AnonMan,32,263,58,0,5,200,1,0,15.5,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,33,256,56,0,0,200,0,0,15.1,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,flash,589535915563548702,flash6565,34,257,55,0,2,200,2,0,13.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,ATOS,1050021439962624050,ATOS,35,253,53,0,0,200,0,0,13.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] smsfun,1297199020191518812,mudlicker,36,252,52,0,0,200,1,0,12.9,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Martini,411524462371012630,Butters,37,251,51,0,0,200,0,0,12.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,kixgud,869183755548504105,kixgud,38,249,49,0,0,200,0,0,12.7,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,ThatOneHog,762888044973654036,ThatOneHog,39,251,48,0,3,200,1,0,12.5,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,SMYLO,1507854528534282332,SMYLO YTB,40,247,47,0,0,200,0,0,12.3,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,PsychoDucky,754702456021057536,LordO,41,245,45,0,0,200,0,0,12.0,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[JP]nittei,1324036014548975696,nittei,42,252,44,0,8,200,1,0,11.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,uni,861894838109863936,uni,43,242,42,0,0,200,0,0,11.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Revenflok,1502333958455820349,Revenflok,44,241,41,0,0,200,0,0,11.1,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Ozhcar,374890803518111744,neuille,45,240,40,0,0,200,0,0,10.5,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] Raccoon,764730713718128690,fladnaG,46,238,38,0,0,200,0,0,10.5,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[RLM] ⚒️ Soviet Romanum ⭐,271076896077381633,Soviet Romanum,47,244,37,0,7,200,1,0,10.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Cheesemaxing,832286969278365706,Cheesemaxing,48,236,36,0,0,200,0,0,10.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,TudorM5200,623520177082073088,TudorM520,49,245,34,0,11,200,1,0,10.3,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[Xev]aki,1076777741548003480,aki,50,233,33,0,0,200,0,0,10.0,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[CYN] imperium romanum,1432038068977930250,IMPERIUM ROMANUM,51,232,32,0,0,200,0,0,9.9,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Physma,352603913691856899,Funny guy 123,52,235,30,0,5,200,2,0,9.7,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,MarkomanTv,397447596588924939,I had to switch name or smt,53,229,29,0,0,200,0,0,9.5,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Sonuseam,1349453197860929546,Mamita,54,234,27,0,7,200,1,0,9.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[CYN] Gandalf,1388983883189584045,Gandy,55,226,26,0,0,200,0,0,9.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Sparkles,1369055572032356494,EagleEye On YT,56,225,25,0,0,200,0,0,9.3,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,maxii,654116202066739200,WhiSky13ourBon,57,228,23,0,5,200,1,0,8.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Lunace,186880198816432128,Lunace,58,222,22,0,0,200,0,0,8.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Utah_Teapot,865314210484715530,Utah Teapot,59,221,21,0,0,200,0,0,7.7,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Kvxlyn,1212178331802275881,Kvxlyn,60,219,19,0,0,200,0,0,7.7,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[UN] Sharktopus,160123158895132672,Sharktopus,61,220,18,0,2,200,1,0,7.4,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[AST] SPoS,1031621249832591420,SPoS,62,216,16,0,0,200,0,0,6.6,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Ireleventt3413,1355941020293927134,Carthage tribe,63,215,15,0,0,200,0,0,6.2,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,miau miau cat island,177027997516169217,miau miau cat island,64,216,14,0,2,200,1,0,6.1,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,kozjar,281084444746579968,Always Retaliate,65,212,12,0,0,200,0,0,5.9,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[NRV] INGSOC,1245186835597103177,INGSOC,66,211,11,0,0,200,0,0,5.7,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[LUX] Jarques,252416011633033216,Jarques,67,210,10,0,0,200,0,0,5.6,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Portatto,470769908414677003,Portatto,68,208,8,0,0,200,0,0,5.2,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Farnam,931091619766210600,Farnam,69,207,7,0,0,200,0,0,5.0,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[LUX] W4lle,467446206608572416,NotW4lle,70,205,5,0,0,200,0,0,5.0,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,[LBU] Zwiper,1053390182398840902,Zwiper,71,204,4,0,0,200,0,0,4.7,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Kirismarna,185334022920994816,Lakupipu,72,203,3,0,0,200,0,0,4.2,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,Naeshonn,204722469284741120,Naeshiggle,73,201,1,0,0,200,0,0,3.8,eliminated,TIME_CAP
+Semifinal,B1,C12,Indian Subcontinent,VbtAVHRu,iampanda2320,481583188989444097,hi_,74,200,0,0,0,200,0,0,3.7,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[CYN] imperium romanum,1432038068977930250,IMPERIUM ROMANUM,1,355,100,25,30,200,3,320971,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,make,723924699989409834,make14,2,346,98,18,30,200,12,294291,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,factory girl,1323051472870576181,tiniest cowboy,3,313,95,12,6,200,1,260567,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[UN] ALPHA,1427766971583430766,ALPHA,4,331,93,8,30,200,8,136163,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[JP]nittei,1324036014548975696,nittei,5,296,91,5,0,200,0,133434,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Pyrrha,1433879692506693835,Fuga,6,318,88,0,30,200,4,109194,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[EXL] Nvr_Kn,574550820306288641,Nvr_Kn,7,308,86,0,22,200,4,105017,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[UN] Planetary Realignment,293458502373081088,solo,8,314,84,0,30,200,8,97814,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] Space_Sheeep,742709922915024948,Space_Sheeep,9,281,81,0,0,200,0,86558,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,ATOS,1050021439962624050,ATOS,10,301,79,0,22,200,2,47598,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,わさびようかん,1305911918950617119,loli,11,277,77,0,0,200,0,37103,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[LBU] Anto,615190559543263242,Toan,12,281,74,0,7,200,1,32282,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Trueanon,200453813579022337,MakeLoveNotWar,13,277,72,0,5,200,1,2758,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,TudorM5200,623520177082073088,TudorM520,14,295,70,0,25,200,2,504,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[UN] Cerveza City (yoyo),187691423947161600,Cerveza City,15,279,67,0,12,200,1,148,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] StanleyJJ,1028415610423627877,StanleyJJ,16,265,65,0,0,200,0,12,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] Nagi,1422831611224916089,paragooner,17,263,63,0,0,200,0,4,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,DOOBYDOOBERDOO,755175993324470302,DOOBYDOOBERDOO,18,260,60,0,0,200,0,1,20.0,survived,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] uxxtu,803976151688019968,Who is this,19,258,58,0,0,200,1,0,20.4,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[AMX] CCloudsLimited,1144651646148804688,CCloudsLimited,20,258,56,0,2,200,1,0,19.8,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] WHALEFall,618434469032099851,WHALEFall,21,260,53,0,7,200,2,0,19.7,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[UN] Sharktopus,160123158895132672,Sharktopus,22,267,51,0,16,200,2,0,19.1,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,0vr3uC,337555230897995776,Libertad,23,254,49,0,5,200,2,0,18.9,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,dandanua,351761707833753601,DandanUA,24,254,47,0,7,200,1,0,18.9,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Kvxlyn,1212178331802275881,Kvxlyn,25,244,44,0,0,200,0,0,16.9,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[EU] Mjukpanda,1095766791587909734,Mjukpanda,26,242,42,0,0,200,0,0,16.1,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,uni,861894838109863936,uni,27,240,40,0,0,200,0,0,15.0,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[JR] DougyJR,355158630221479937,RandomName,28,237,37,0,0,200,0,0,14.1,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[Xev]aki,1076777741548003480,aki,29,235,35,0,0,200,0,0,14.1,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] pregnar,743505830019858462,pregnar,30,233,33,0,0,200,0,0,14.0,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[CYN] Gandalf,1388983883189584045,Gandy,31,230,30,0,0,200,0,0,13.8,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,PsychoDucky,754702456021057536,LordO,32,228,28,0,0,200,0,0,13.3,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Martini,411524462371012630,Butters,33,229,26,0,3,200,1,0,13.2,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[UN] Ultimus_Rex,296454138877968385,AnonMan,34,223,23,0,0,200,0,0,12.3,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Penguin,1277658499911909428,Placeholder,35,221,21,0,0,200,0,0,11.4,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,ThatOneHog,762888044973654036,ThatOneHog,36,219,19,0,0,200,0,0,11.3,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Vlex,1296574316393271387,Anon 984,37,216,16,0,0,200,0,0,11.1,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,kixgud,869183755548504105,kixgud,38,214,14,0,0,200,0,0,10.8,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,Ozhcar,374890803518111744,neuille,39,212,12,0,0,200,0,0,10.3,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,flash,589535915563548702,flash6565,40,209,9,0,0,200,0,0,8.8,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,FeetOnMySheep,1075043948910886982,King Baldwin IV,41,207,7,0,0,200,0,0,8.6,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,summit,685602761118974011,argonaut997,42,205,5,0,0,200,0,0,8.2,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] smsfun,1297199020191518812,mudlicker,43,202,2,0,0,200,0,0,7.2,eliminated,TIME_CAP
+Final,A1,C13,Indian Subcontinent,LB68pbPi,[NRV] Raccoon,764730713718128690,fladnaG,44,200,0,0,0,200,0,0,6.3,eliminated,TIME_CAP
