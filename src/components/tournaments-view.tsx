@@ -38,13 +38,13 @@ export default function TournamentsView({ tournaments }: { tournaments: Tourname
         {groups.map(([series, group]) => (
           <section key={series}>
             <div className="mb-4 flex items-center gap-2">
-              {series === "2026 Summer FFA" ? <Icon name="radiation" size="md" className="text-accent" /> : null}
+              {series.startsWith("2026 Summer FFA") ? <Icon name="radiation" size="md" className="text-accent" /> : null}
               <h3 className="text-lg font-extrabold tracking-tight">{series}</h3>
               <span className="text-xs text-muted">({group.length})</span>
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {group.map((tn) => {
-                const isSummerFfa = tn.series === "2026 Summer FFA";
+                const isSummerFfa = tn.series?.startsWith("2026 Summer FFA") ?? false;
                 return (
                   <Link
                     key={tn.slug}
