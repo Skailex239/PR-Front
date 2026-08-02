@@ -172,7 +172,7 @@ export default function PlayerView({
         {pr && plutonium > 0 ? (
           <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-line bg-[#fdf7ea] px-6 py-4 lg:px-8">
             <div className="flex items-center gap-2">
-              <Icon name="medal" size="sm" className="text-gold" />
+              <Icon name="plutonium" size="md" title="Plutonium" className="plutonium-spin plutonium-glow" />
               <span className="text-sm font-black">{t.common.rewards}</span>
               <InfoTip text={t.common.plutoniumHint} />
             </div>

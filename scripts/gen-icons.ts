@@ -19,15 +19,16 @@ const COLOR = "#c95d0c";
 function toSvg(name: IconName, color = COLOR): string {
   const def = ICONS[name];
   const stroke = def.stroke ?? DEFAULT_STROKE;
+  const fill = def.fillColor ?? color;
   const body = def.paths
     .map((p) =>
       p.fill
-        ? `  <path d="${p.d}" fill="${color}"/>`
+        ? `  <path d="${p.d}" fill="${fill}"/>`
         : `  <path d="${p.d}" fill="none" stroke="${color}" stroke-width="${p.width ?? stroke}" stroke-linecap="round" stroke-linejoin="round"/>`,
     )
     .join("\n");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="${name}">\n${body}\n</svg>\n`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${def.viewBox ?? "0 0 24 24"}" width="24" height="24" role="img" aria-label="${name}">\n${body}\n</svg>\n`;
 }
 
 mkdirSync(OUT_DIR, { recursive: true });

@@ -336,6 +336,7 @@ export default function TournamentDetailView({
                     {reward?.active ? (
                       <th className="micro-label px-4 py-3 text-right">
                         <span className="inline-flex items-center gap-1">
+                          <Icon name="plutonium" size="sm" title="Plutonium" />
                           {reward.currency} <InfoTip text={t.tournaments.rewardHint} />
                         </span>
                       </th>
@@ -412,6 +413,7 @@ export default function TournamentDetailView({
                     {reward?.active ? (
                       <th className="micro-label px-4 py-3 text-right">
                         <span className="inline-flex items-center gap-1">
+                          <Icon name="plutonium" size="sm" title="Plutonium" />
                           {reward.currency} <InfoTip text={t.tournaments.rewardHint} />
                         </span>
                       </th>
