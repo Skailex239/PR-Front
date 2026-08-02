@@ -128,7 +128,7 @@ export default function TournamentDetailView({
         <Icon name="arrowLeft" size="xs" /> {t.common.backToTournaments}
       </Link>
 
-      <div className="card mt-3 p-6">
+      <div className={`card mt-3 p-6 ${tier === "major" ? "major-card" : ""}`}>
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
             <div className="micro-label">

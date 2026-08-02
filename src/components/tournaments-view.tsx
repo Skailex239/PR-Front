@@ -49,7 +49,7 @@ export default function TournamentsView({ tournaments }: { tournaments: Tourname
                   <Link
                     key={tn.slug}
                     href={`/tournaments/${tn.slug}`}
-                    className={`card card-hover block p-5 ${isSummerFfa ? "summer-ffa-card" : ""}`}
+                    className={`card card-hover block p-5 ${isSummerFfa ? "summer-ffa-card" : ""} ${tn.tier === "major" ? "major-card" : ""}`}
                   >
                     {isSummerFfa ? <Icon name="radiation" className="summer-ffa-mark h-16 w-16" /> : null}
                     <div className="relative flex items-start justify-between gap-2">
