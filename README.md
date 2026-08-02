@@ -141,6 +141,14 @@ points exacts pour les 10 premières places puis des **tranches** (`ranges`, ex.
 pour « 100e et au-delà »). Cette phase compte aussi comme le classement final du
 joueur pour ses stats (victoires, top 3, meilleure place).
 
+### Majors FFA : même grille, multiplicateur appliqué
+
+Le **2026 Summer FFA Major** (format `ffa`, tier `major`) est noté sur la même
+grille « classement » (1er = 1000 pts, 100e+ = 3 pts — voir
+`scoring.config.json` → `formats.ffa.phases.classement`), mais **sans**
+`ignoreTierMultiplier` : le multiplicateur du tier s'applique, donc
+**major ×2.5** → 1er = 1000 × 2.5 = **+2500 PR**.
+
 ## <img src="public/icons/rocket.svg" width="20" height="20" alt="" align="absmiddle"> Développement
 
 ```bash

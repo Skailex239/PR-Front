@@ -194,19 +194,26 @@ test("countsAsFinal: true fait compter la phase comme le classement final (victo
   assert.equal(prs.get("B")?.bestPlace, 13);
 });
 
-// ---------- Structure d'un FFA Major (qualifications + finale, tier major ×2.5) ----------
+// ---------- Structure d'un FFA Major (grand classement final, tier major ×2.5) ----------
 
 const majorScoring: ScoringConfig = {
   tiers: { major: 2.5, standard: 1 },
   formats: {
     ffa: {
-      phaseOrder: ["qualifications", "finale"],
+      phaseOrder: ["classement"],
       phases: {
-        qualifications: { label: "Qualifications", places: {}, defaultPoints: 2 },
-        finale: {
-          label: "Finale",
-          places: { "1": 100, "2": 80, "3": 65, "4": 52, "5": 42, "6": 34, "7": 28, "8": 24 },
-          defaultPoints: 16,
+        classement: {
+          label: "Classement",
+          places: {
+            "1": 1000, "2": 750, "3": 600, "4": 500, "5": 430,
+            "6": 380, "7": 340, "8": 310, "9": 285, "10": 260,
+          },
+          ranges: [
+            { min: 11, max: 15, points: 220 },
+            { min: 100, max: null, points: 3 },
+          ],
+          defaultPoints: 1,
+          countsAsFinal: true,
         },
       },
     },
@@ -222,33 +229,31 @@ const majorCup: Tournament = {
   participants: 128,
   phases: [
     {
-      id: "qualifications",
-      type: "qualifications",
-      placements: Array.from({ length: 128 }, (_, i) => ({ player: `P${i + 1}`, place: 1 })),
-    },
-    {
-      id: "finale",
-      type: "finale",
+      id: "classement",
+      type: "classement",
       placements: Array.from({ length: 128 }, (_, i) => ({ player: `P${i + 1}`, place: i + 1 })),
     },
   ],
 };
 
-test("FFA Major : points finale (barème du site) × 2.5 + points de participation qualifications", () => {
+test("FFA Major : grille classement × 2.5 (1er = 1000 pts → +2500 PR)", () => {
   const prs = computePlayerPRs([majorCup], majorScoring);
-  assert.equal(prs.get("P1")?.points, 255); // 100 × 2.5 + 2 × 2.5
-  assert.equal(prs.get("P2")?.points, 205); // 80 × 2.5 + 5
-  assert.equal(prs.get("P9")?.points, 45); // 16 × 2.5 (hors top 8) + 5
-  assert.equal(prs.get("P128")?.points, 45);
+  assert.equal(prs.get("P1")?.points, 2500); // 1000 × 2.5
+  assert.equal(prs.get("P2")?.points, 1875); // 750 × 2.5
+  assert.equal(prs.get("P3")?.points, 1500); // 600 × 2.5
+  assert.equal(prs.get("P4")?.points, 1250); // 500 × 2.5
+  assert.equal(prs.get("P9")?.points, 713); // 285 × 2.5 (arrondi)
+  assert.equal(prs.get("P10")?.points, 650); // 260 × 2.5
+  assert.equal(prs.get("P11")?.points, 550); // tranche 11-15 : 220 × 2.5
+  assert.equal(prs.get("P128")?.points, 8); // tranche 100+ : 3 × 2.5 (arrondi)
 });
 
-test("FFA Major : la finale compte pour les stats (victoire, top 3, meilleure place)", () => {
+test("FFA Major : le classement compte comme finale (victoire, top 3, meilleure place)", () => {
   const prs = computePlayerPRs([majorCup], majorScoring);
   assert.equal(prs.get("P1")?.wins, 1);
   assert.equal(prs.get("P1")?.top3, 1);
   assert.equal(prs.get("P1")?.bestPlace, 1);
   assert.equal(prs.get("P3")?.top3, 1);
-  assert.equal(prs.get("P3")?.bestPlace, 3);
   assert.equal(prs.get("P4")?.top3, 0);
   assert.equal(prs.get("P128")?.bestPlace, 128);
   assert.equal(prs.get("P128")?.avgPlace, 128);
