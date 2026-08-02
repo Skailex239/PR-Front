@@ -50,6 +50,8 @@ export interface TournamentGame {
   players: number;
   gameUrl?: string;
   replayUrl?: string;
+  /** Carte jouée (si renseignée). */
+  map?: string;
   /** Pseudo du vainqueur de la partie (donné par l'organisateur). */
   winner?: string;
   /** Résultats individuels dans cette partie, si renseignés. */

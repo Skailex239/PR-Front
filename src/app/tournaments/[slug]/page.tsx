@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getPlayer, getScoring, getTournament, getTournaments } from "@/lib/data";
+import { getPlayer, getPlayers, getScoring, getTournament, getTournaments } from "@/lib/data";
 import { basePoints, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
-import TournamentDetailView, { type DetailPhase } from "@/components/tournament-detail-view";
+import TournamentDetailView, { type DetailPhase, type DetailPlayer } from "@/components/tournament-detail-view";
 import { getDict } from "@/i18n";
 
 const t = getDict();
@@ -29,6 +29,9 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
   const scoring = getScoring();
   const mult = tierMultiplier(scoring, tn);
   const order = scoring.formats[tn.format]?.phaseOrder ?? [];
+  const playerIndex: Record<string, DetailPlayer> = Object.fromEntries(
+    getPlayers().map((p) => [p.discordId, { name: p.name, clan: p.clan ?? null }]),
+  );
 
   const phases: DetailPhase[] = [...tn.phases]
     .sort((a, b) => {
@@ -71,6 +74,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       multiplier={mult}
       phases={phases}
       details={tn.details}
+      playerIndex={playerIndex}
     />
   );
 }

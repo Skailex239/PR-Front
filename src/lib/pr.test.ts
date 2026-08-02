@@ -8,7 +8,7 @@ import { computeLeaderboard, computePlayerPRs } from "./pr.ts";
 import type { ScoringConfig, Tournament } from "./types.ts";
 
 const scoring: ScoringConfig = {
-  tiers: { standard: 1, major: 1.5 },
+  tiers: { standard: 1, major: 2.5 },
   formats: {
     ffa: {
       phaseOrder: ["qualifications", "finale"],
@@ -74,8 +74,8 @@ test("cumul des points par phase + participation", () => {
 
 test("multiplicateur de tier appliqué et arrondi", () => {
   const prs = computePlayerPRs([bracket], scoring);
-  assert.equal(prs.get("A")?.points, 90); // 60 × 1.5
-  assert.equal(prs.get("C")?.points, 15); // 10 × 1.5 (participation demi)
+  assert.equal(prs.get("A")?.points, 150); // 60 × 2.5
+  assert.equal(prs.get("C")?.points, 25); // 10 × 2.5 (participation demi)
 });
 
 test("stats de tournoi : victoires, top3, meilleure place, moyenne", () => {
@@ -97,10 +97,10 @@ test("classement trié et rangs corrects", () => {
     [{ discordId: "A", name: "Alice" }, { discordId: "B", name: "Bob" }],
     scoring,
   );
-  assert.equal(lb[0].playerId, "A"); // 192 pts
+  assert.equal(lb[0].playerId, "A"); // 102 + 150 = 252 pts
   assert.equal(lb[0].rank, 1);
-  assert.equal(lb[1].playerId, "B"); // 142 pts
-  assert.equal(lb[2].playerId, "C"); // 33 pts
+  assert.equal(lb[1].playerId, "B"); // 82 + 100 = 182 pts
+  assert.equal(lb[2].playerId, "C"); // 18 + 25 = 43 pts
   assert.equal(lb[0].player?.name, "Alice");
   assert.equal(lb[2].player, null); // C inconnu dans players.json → null toléré
 });
@@ -192,4 +192,64 @@ test("countsAsFinal: true fait compter la phase comme le classement final (victo
   assert.equal(prs.get("A")?.wins, 1);
   assert.equal(prs.get("A")?.bestPlace, 1);
   assert.equal(prs.get("B")?.bestPlace, 13);
+});
+
+// ---------- Structure d'un FFA Major (qualifications + finale, tier major ×2.5) ----------
+
+const majorScoring: ScoringConfig = {
+  tiers: { major: 2.5, standard: 1 },
+  formats: {
+    ffa: {
+      phaseOrder: ["qualifications", "finale"],
+      phases: {
+        qualifications: { label: "Qualifications", places: {}, defaultPoints: 2 },
+        finale: {
+          label: "Finale",
+          places: { "1": 100, "2": 80, "3": 65, "4": 52, "5": 42, "6": 34, "7": 28, "8": 24 },
+          defaultPoints: 16,
+        },
+      },
+    },
+  },
+};
+
+const majorCup: Tournament = {
+  slug: "ffa-major",
+  name: "FFA Major",
+  date: "2026-08-02",
+  format: "ffa",
+  tier: "major",
+  participants: 128,
+  phases: [
+    {
+      id: "qualifications",
+      type: "qualifications",
+      placements: Array.from({ length: 128 }, (_, i) => ({ player: `P${i + 1}`, place: 1 })),
+    },
+    {
+      id: "finale",
+      type: "finale",
+      placements: Array.from({ length: 128 }, (_, i) => ({ player: `P${i + 1}`, place: i + 1 })),
+    },
+  ],
+};
+
+test("FFA Major : points finale (barème du site) × 2.5 + points de participation qualifications", () => {
+  const prs = computePlayerPRs([majorCup], majorScoring);
+  assert.equal(prs.get("P1")?.points, 255); // 100 × 2.5 + 2 × 2.5
+  assert.equal(prs.get("P2")?.points, 205); // 80 × 2.5 + 5
+  assert.equal(prs.get("P9")?.points, 45); // 16 × 2.5 (hors top 8) + 5
+  assert.equal(prs.get("P128")?.points, 45);
+});
+
+test("FFA Major : la finale compte pour les stats (victoire, top 3, meilleure place)", () => {
+  const prs = computePlayerPRs([majorCup], majorScoring);
+  assert.equal(prs.get("P1")?.wins, 1);
+  assert.equal(prs.get("P1")?.top3, 1);
+  assert.equal(prs.get("P1")?.bestPlace, 1);
+  assert.equal(prs.get("P3")?.top3, 1);
+  assert.equal(prs.get("P3")?.bestPlace, 3);
+  assert.equal(prs.get("P4")?.top3, 0);
+  assert.equal(prs.get("P128")?.bestPlace, 128);
+  assert.equal(prs.get("P128")?.avgPlace, 128);
 });

@@ -55,6 +55,7 @@ const en: Dict = {
     tier: "Tier",
     map: "Map",
     participants: "Participants",
+    kills: "Kills",
     phase: "Phase",
     place: "Place",
     participation: "Participation",

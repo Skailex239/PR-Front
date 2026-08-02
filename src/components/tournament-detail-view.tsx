@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { FormatBadge, PlaceNumber, SampleBadge, SectionTitle, TierBadge, Avatar } from "@/components/ui";
 import { Icon } from "@/components/icons";
@@ -23,6 +24,12 @@ export interface DetailPhase {
   rows: DetailRow[];
 }
 
+/** Identité affichable d'un joueur, résolue côté serveur (players.json). */
+export interface DetailPlayer {
+  name: string;
+  clan: string | null;
+}
+
 export default function TournamentDetailView({
   name,
   date,
@@ -34,6 +41,7 @@ export default function TournamentDetailView({
   multiplier,
   phases,
   details,
+  playerIndex,
 }: {
   name: string;
   date: string;
@@ -45,8 +53,18 @@ export default function TournamentDetailView({
   multiplier: number;
   phases: DetailPhase[];
   details?: TournamentDetails;
+  playerIndex: Record<string, DetailPlayer>;
 }) {
   const { t, locale } = useI18n();
+  const [openGames, setOpenGames] = useState<Set<string>>(new Set());
+
+  const toggleGame = (gameId: string) =>
+    setOpenGames((prev) => {
+      const next = new Set(prev);
+      if (next.has(gameId)) next.delete(gameId);
+      else next.add(gameId);
+      return next;
+    });
 
   return (
     <PageContainer>
@@ -84,28 +102,104 @@ export default function TournamentDetailView({
               {details.rounds ? <span><b className="text-ink">{details.rounds}</b> {t.tournaments.rounds}</span> : null}
             </div>
             {details.settings?.length ? <p className="mt-3 text-sm text-muted">{details.settings.join(" · ")}</p> : null}
+
             {details.games?.length ? (
-              <div className="mt-5 space-y-4">
+              <div className="mt-6 space-y-7">
                 {details.games.map((round) => (
                   <div key={round.round}>
-                    <h3 className="text-sm font-extrabold">{round.round}</h3>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      {round.entries.map((game) => (
-                        <div key={game.gameId} className="rounded-md border border-line bg-slate-50 px-3 py-2 text-xs">
-                          {game.gameUrl ? (
-                            <a href={game.gameUrl} target="_blank" rel="noreferrer" className="font-bold text-cyan2 hover:underline">{game.name}</a>
-                          ) : (
-                            <span className="font-bold">{game.name}</span>
-                          )}
-                          <span className="mx-1.5 text-muted">·</span>{game.players} {t.common.participants.toLowerCase()}
-                          {game.replayUrl ? (
-                            <>
-                              <span className="mx-1.5 text-muted">·</span>
-                              <a href={game.replayUrl} target="_blank" rel="noreferrer" className="font-semibold text-muted hover:text-cyan2 hover:underline">{t.tournaments.replay}</a>
-                            </>
-                          ) : null}
-                        </div>
-                      ))}
+                    <h3 className="flex items-center gap-2 text-sm font-extrabold uppercase tracking-wide text-muted">
+                      <Icon name="swords" size="xs" /> {round.round}
+                    </h3>
+                    <div className="mt-3 space-y-3">
+                      {round.entries.map((game) => {
+                        const open = openGames.has(game.gameId);
+                        return (
+                          <div key={game.gameId} className="overflow-hidden rounded-lg border border-line bg-slate-50">
+                            {/* En-tête de partie */}
+                            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-2.5 text-xs">
+                              {game.gameUrl ? (
+                                <a href={game.gameUrl} target="_blank" rel="noreferrer" className="font-extrabold text-cyan2 hover:underline">
+                                  {game.name}
+                                </a>
+                              ) : (
+                                <span className="font-extrabold">{game.name}</span>
+                              )}
+                              {game.map ? <span className="text-muted">{game.map}</span> : null}
+                              <span className="text-muted">
+                                {game.players} {t.common.participants.toLowerCase()}
+                              </span>
+                              {game.winner ? (
+                                <span className="inline-flex items-center gap-1.5 font-bold text-gold">
+                                  <Icon name="medal" size="xs" /> {game.winner}
+                                </span>
+                              ) : null}
+                              {game.replayUrl ? (
+                                <a href={game.replayUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 font-semibold text-muted hover:text-cyan2 hover:underline">
+                                  <Icon name="play" size="xs" /> {t.tournaments.replay}
+                                </a>
+                              ) : null}
+                              {game.results?.length ? (
+                                <button
+                                  type="button"
+                                  onClick={() => toggleGame(game.gameId)}
+                                  aria-expanded={open}
+                                  className="ml-auto inline-flex items-center gap-1 rounded-md border border-line bg-white px-2.5 py-1.5 font-bold text-muted transition-colors hover:border-accent/40 hover:text-accent-strong"
+                                >
+                                  {t.tournaments.results}
+                                  <Icon
+                                    name="chevronDown"
+                                    size="xs"
+                                    className={`transition-transform ${open ? "rotate-180" : ""}`}
+                                  />
+                                </button>
+                              ) : null}
+                            </div>
+
+                            {/* Résultats de la partie (dépliables) */}
+                            {open && game.results?.length ? (
+                              <div className="overflow-x-auto border-t border-line/70 bg-white">
+                                <table className="w-full min-w-[480px] text-sm">
+                                  <thead>
+                                    <tr className="border-b border-line/70 text-left">
+                                      <th className="micro-label w-20 px-4 py-2.5">{t.common.place}</th>
+                                      <th className="micro-label px-4 py-2.5">{t.common.player}</th>
+                                      <th className="micro-label px-4 py-2.5 text-right">{t.common.kills}</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {game.results.map((res) => {
+                                      const p = playerIndex[res.player];
+                                      const pName = p?.name ?? res.player;
+                                      return (
+                                        <tr key={res.player} className="lb-row">
+                                          <td className="px-4 py-2">
+                                            <PlaceNumber place={res.place} />
+                                          </td>
+                                          <td className="px-4 py-2">
+                                            <Link
+                                              href={`/players/${res.player}`}
+                                              className="flex items-center gap-2.5 hover:text-accent-strong hover:underline"
+                                            >
+                                              <Avatar name={pName} size="sm" />
+                                              <span className="font-semibold">
+                                                {p?.clan ? <span className="mr-1 text-xs text-muted">[{p.clan}]</span> : null}
+                                                {pName}
+                                              </span>
+                                            </Link>
+                                          </td>
+                                          <td className="num px-4 py-2 text-right font-bold text-muted">
+                                            {res.kills != null ? res.kills : "—"}
+                                          </td>
+                                        </tr>
+                                      );
+                                    })}
+                                  </tbody>
+                                </table>
+                              </div>
+                            ) : null}
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 ))}

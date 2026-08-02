@@ -56,6 +56,7 @@ const fr = {
     tier: "Tier",
     map: "Carte",
     participants: "Participants",
+    kills: "Kills",
     phase: "Phase",
     place: "Place",
     participation: "Participation",

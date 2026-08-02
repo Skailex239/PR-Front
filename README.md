@@ -38,7 +38,7 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
 
 - **Points par phase atteinte** (style FNCS) : chaque phase d'un tournoi (qualifications,
   demi-finale, finale…) attribue des points selon le placement.
-- **Multiplicateur de tier** : `major ×1.5`, `standard ×1.0`, `minor ×0.5`.
+- **Multiplicateur de tier** : `major ×2.5`, `standard ×1.0`, `minor ×0.5`.
 - **Aucune décroissance** : tous les résultats comptent, cumul à vie.
 - **Trois formats gérés** : FFA multi-manches, bracket 1v1, et `minor`
   (classement battle royale géant par tranches de placement, ex. 1er = 1000 pts,
@@ -101,10 +101,12 @@ Les données vivent dans le dossier [`data/`](data/) — aucune base de données
 }
 ```
 
-Les données actuelles sont les **vrais résultats des OpenFront Minors** (voir
-`data/tournaments/openfront-minor-*.json`). Le badge « Données d'exemple » ne
-s'affiche que si un tournoi a `"sample": true` — pratique pour tester de
-nouveaux tournois avant de les valider officiellement.
+Les données actuelles sont les **vrais résultats du circuit 2026 Summer FFA** :
+le **Major** (`data/tournaments/2026-summer-ffa-major.json`, tier major ×2.5) et
+les **Minors** (`data/tournaments/openfront-minor-*.json`,
+`2026-summer-ffa-minor-4.json`). Le badge « Données d'exemple » ne s'affiche que
+si un tournoi a `"sample": true` — pratique pour tester de nouveaux tournois
+avant de les valider officiellement.
 
 ### Tournois `minor` (classement par tranches, gros effectif)
 
