@@ -23,6 +23,8 @@ export interface PlayerGameRow {
   place: number | null;
   /** Kills du joueur consulté dans cette partie (null = non renseigné). */
   kills: number | null;
+  /** Score OpenFront de la partie (null = non renseigné). */
+  points: number | null;
   /** Pseudo du gagnant de la partie (null = pas de gagnant / ex-aequo). */
   winner: string | null;
 }
@@ -263,6 +265,9 @@ export default function PlayerView({
                                     <th className="micro-label px-3 py-2 text-center">
                                       {t.common.place}
                                     </th>
+                                    <th className="micro-label px-3 py-2 text-right">
+                                      {t.tournaments.score}
+                                    </th>
                                     <th className="micro-label px-3 py-2">{t.player.winner}</th>
                                     <th className="micro-label px-3 py-2 text-center">
                                       {t.common.players}
@@ -302,6 +307,9 @@ export default function PlayerView({
                                         ) : (
                                           <span className="text-muted">—</span>
                                         )}
+                                      </td>
+                                      <td className="num px-3 py-2 text-right font-bold text-muted">
+                                        {game.points != null ? formatPoints(game.points, locale) : <span className="text-muted">—</span>}
                                       </td>
                                       <td className="px-3 py-2 font-extrabold">
                                         {game.winner ?? <span className="text-muted">—</span>}

@@ -42,6 +42,22 @@ export interface TournamentGameResult {
   place: number;
   /** Kills du joueur dans la partie (si renseignés). */
   kills?: number;
+  /** Score OpenFront de la partie (points totaux). */
+  points?: number;
+  /** Points de placement dans la partie. */
+  placementPoints?: number;
+  /** Bonus top 5. */
+  top5Bonus?: number;
+  /** Points de kills. */
+  killPoints?: number;
+  /** Bonus d'atteinte de phase (ex. 200 pour rejoindre la finale). */
+  reachBonus?: number;
+  /** "survived" si le joueur a survécu jusqu'à la fin, "eliminated" sinon. */
+  result?: string;
+  /** Temps de jeu en minutes. */
+  minutes?: number;
+  /** Tuiles contrôlées en fin de partie. */
+  finalTiles?: number;
 }
 
 export interface TournamentGame {
@@ -61,6 +77,8 @@ export interface TournamentGame {
 export interface TournamentRound {
   round: string;
   entries: TournamentGame[];
+  /** Phase du tournoi : "qualifier" | "semifinal" | "final" (si connue). */
+  stage?: string;
 }
 
 export interface TournamentDetails {

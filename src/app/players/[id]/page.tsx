@@ -26,6 +26,7 @@ function extractTournamentGames(tournament: Tournament, playerId: string): Playe
         players: game.players,
         place: result?.place ?? null,
         kills: result?.kills ?? null,
+        points: result?.points ?? null,
         winner: game.winner ?? null,
       });
     }

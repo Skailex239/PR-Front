@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getPlayer, getPlayers, getScoring, getTournament, getTournaments } from "@/lib/data";
-import { basePoints, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
-import TournamentDetailView, { type DetailPhase, type DetailPlayer } from "@/components/tournament-detail-view";
+import { basePoints, isFinalPhase, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
+import TournamentDetailView, { type DetailPhase, type DetailPlayer, type TournamentStatsRow } from "@/components/tournament-detail-view";
+import { computeTournamentPlayerStats } from "@/lib/tournament-stats";
 import { getDict } from "@/i18n";
 
 const t = getDict();
@@ -32,6 +33,27 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
   const playerIndex: Record<string, DetailPlayer> = Object.fromEntries(
     getPlayers().map((p) => [p.discordId, { name: p.name, clan: p.clan ?? null }]),
   );
+
+  // Stats par joueur sur les parties, ordonnées par classement final.
+  const playerStats = computeTournamentPlayerStats(tn);
+  const finalPhase = tn.phases.find((p) => isFinalPhase(scoring, tn, p.type));
+  const finalOrder = new Map(
+    (finalPhase?.placements ?? []).map((p) => [p.player, p.place ?? Infinity] as const),
+  );
+  const statsRows: TournamentStatsRow[] = [...playerStats.entries()]
+    .map(([playerId, s]) => ({
+      playerId,
+      place: finalOrder.get(playerId) ?? null,
+      gamesPlayed: s.gamesPlayed,
+      wins: s.wins,
+      kills: s.kills,
+      survived: s.survived,
+      bestPlace: s.bestPlace,
+      furthestStage: s.furthestStage,
+      playtimeMin: s.playtimeMin,
+      avgGamePoints: s.avgGamePoints,
+    }))
+    .sort((a, b) => (a.place ?? Infinity) - (b.place ?? Infinity));
 
   const phases: DetailPhase[] = [...tn.phases]
     .sort((a, b) => {
@@ -75,6 +97,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       phases={phases}
       details={tn.details}
       playerIndex={playerIndex}
+      stats={statsRows}
     />
   );
 }

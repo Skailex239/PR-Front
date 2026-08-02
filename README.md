@@ -108,6 +108,14 @@ les **Minors** (`data/tournaments/openfront-minor-*.json`,
 si un tournoi a `"sample": true` — pratique pour tester de nouveaux tournois
 avant de les valider officiellement.
 
+Chaque partie (`details.games[].entries[].results[]`) peut porter le détail
+OpenFront complet : `points` (score de la partie), `placementPoints`,
+`killPoints`, `top5Bonus`, `reachBonus`, `result` (`survived`/`eliminated`),
+`minutes` et `finalTiles`. Les rounds portent aussi un `stage`
+(`qualifier`/`semifinal`/`final`) pour regrouper l'affichage par phase, et le
+site calcule un tableau « Stats du tournoi » (parties, kills, survécues,
+meilleure place, stage atteint, temps de jeu, points/partie).
+
 ### Tournois `minor` (classement par tranches, gros effectif)
 
 Format dédié aux tournois à grand nombre de joueurs, notés directement de la 1ère
