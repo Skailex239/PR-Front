@@ -45,6 +45,10 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
   11e-15e = 220 pts, 100e et au-delà = 3 pts — voir `data/scoring.config.json`).
   Le barème `minor` inclut déjà ses points finaux : le multiplicateur de tier
   n'est **pas** réappliqué par-dessus.
+- **Récompenses** (`rewards` dans le barème) : chaque tier peut avoir une grille
+  de récompenses affichée sur les tournois et les profils. Les **Majors**
+  distribuent du **Plutonium (P)** : 1er = 750 P, 2e = 400 P, 3e = 250 P,
+  4e-15e = 100 P (16e et plus = 0 P).
 - Le barème complet est dans **[`data/scoring.config.json`](data/scoring.config.json)** —
   c'est le seul fichier à modifier pour changer la grille de points.
 

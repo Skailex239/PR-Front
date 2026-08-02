@@ -5,6 +5,15 @@
     "standard": 1.0,
     "minor": 0.5
   },
+  "rewards": {
+    "major": {
+      "_note": "Récompenses des tournois tier major, en Plutonium (P). 1er = 750 P, 2e = 400 P, 3e = 250 P, 4e-15e = 100 P.",
+      "name": "Plutonium",
+      "currency": "P",
+      "places": { "1": 750, "2": 400, "3": 250 },
+      "ranges": [{ "min": 4, "max": 15, "points": 100 }]
+    }
+  },
   "formats": {
     "ffa": {
       "phaseOrder": ["qualifications", "demi-finale", "finale", "classement"],

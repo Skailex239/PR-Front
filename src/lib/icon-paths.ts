@@ -77,6 +77,13 @@ export const ICONS = defineIcons({
       { d: "M10 20.5v-5.5h4v5.5" },
     ],
   },
+  info: {
+    paths: [
+      { d: "M12 3.2a8.8 8.8 0 1 0 0 17.6a8.8 8.8 0 1 0 0-17.6Z" },
+      { d: "M12 10.9v5.3" },
+      { d: "M12 7.4v.9" },
+    ],
+  },
   settings: {
     paths: [
       {

@@ -68,6 +68,9 @@ const fr = {
     backToLeaderboard: "Retour au classement",
     backToTournaments: "Retour aux tournois",
     unknownPlayer: "Joueur inconnu",
+    rewards: "Récompenses",
+    plutonium: "Plutonium",
+    plutoniumHint: "Plutonium (P) — la monnaie de récompense gagnée sur les tournois Major",
   },
   tiers: {
     major: "Major",
@@ -182,6 +185,7 @@ const fr = {
     rounds: "rounds",
     replay: "Replay",
     openGame: "Ouvrir la partie",
+    rewardHint: "Plutonium — la monnaie de récompense des tournois Major",
     stages: {
       qualifier: "Qualifications",
       semifinal: "Demi-finale",

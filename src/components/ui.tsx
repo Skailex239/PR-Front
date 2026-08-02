@@ -81,6 +81,24 @@ export function FormatBadge({ format, label }: { format: string; label: string }
   );
 }
 
+/**
+ * Petit cercle « i » avec une bulle d'information au survol / focus.
+ * Utilisé pour expliquer une unité (ex. P = Plutonium).
+ */
+export function InfoTip({ text }: { text: string }) {
+  return (
+    <span className="group/tip relative inline-flex items-center" tabIndex={0} aria-label={text}>
+      <Icon name="info" size="xs" className="cursor-help text-muted transition-colors group-hover/tip:text-accent-strong" />
+      <span
+        role="tooltip"
+        className="pointer-events-none absolute left-1/2 top-full z-40 mt-1.5 hidden -translate-x-1/2 whitespace-nowrap rounded-md bg-[#171a20] px-2.5 py-1.5 text-[11px] font-bold text-white shadow-lg group-hover/tip:block group-focus/tip:block"
+      >
+        {text}
+      </span>
+    </span>
+  );
+}
+
 export function PlaceNumber({ place }: { place: number | null }) {
   if (place == null) return <span className="text-muted">—</span>;
   const cls = place === 1 ? "rank-1" : place === 2 ? "rank-2" : place === 3 ? "rank-3" : "text-text";

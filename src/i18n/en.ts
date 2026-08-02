@@ -67,6 +67,9 @@ const en: Dict = {
     backToLeaderboard: "Back to leaderboard",
     backToTournaments: "Back to tournaments",
     unknownPlayer: "Unknown player",
+    rewards: "Rewards",
+    plutonium: "Plutonium",
+    plutoniumHint: "Plutonium (P) — the reward currency earned in Major tournaments",
   },
   tiers: {
     major: "Major",
@@ -180,6 +183,7 @@ const en: Dict = {
     rounds: "rounds",
     replay: "Replay",
     openGame: "Open game",
+    rewardHint: "Plutonium — the reward currency of Major tournaments",
     stages: {
       qualifier: "Qualifiers",
       semifinal: "Semifinal",

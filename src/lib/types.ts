@@ -180,9 +180,23 @@ export interface ScoringFormat {
   phases: Record<string, ScoringPhase>;
 }
 
+/** Grille de récompenses d'un tier (ex. Plutonium pour les Majors). */
+export interface ScoringReward {
+  /** Nom de la monnaie, ex. "Plutonium". */
+  name: string;
+  /** Symbole affiché, ex. "P". */
+  currency: string;
+  /** Montant par placement exact, ex. { "1": 750, "2": 400, "3": 250 }. */
+  places: Record<string, number>;
+  /** Tranches de placements, ex. 4e-15e → 100. */
+  ranges?: ScoringPlaceRange[];
+}
+
 export interface ScoringConfig {
   tiers: Record<string, number>;
   formats: Record<string, ScoringFormat>;
+  /** Récompenses par tier (optionnel) — ex. rewards.major = Plutonium. */
+  rewards?: Record<string, ScoringReward>;
 }
 
 /** Attribution de points unitaire (une phase d'un tournoi pour un joueur). */

@@ -4,7 +4,7 @@
  */
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { computeLeaderboard, computePlayerPRs } from "./pr.ts";
+import { computeLeaderboard, computePlayerPRs, rewardPoints } from "./pr.ts";
 import type { ScoringConfig, Tournament } from "./types.ts";
 
 const scoring: ScoringConfig = {
@@ -257,4 +257,59 @@ test("FFA Major : le classement compte comme finale (victoire, top 3, meilleure 
   assert.equal(prs.get("P4")?.top3, 0);
   assert.equal(prs.get("P128")?.bestPlace, 128);
   assert.equal(prs.get("P128")?.avgPlace, 128);
+});
+
+// ---------- Récompenses Plutonium (grille des tournois tier major) ----------
+
+const rewardScoring: ScoringConfig = {
+  tiers: { major: 2.5, minor: 0.5 },
+  formats: {
+    ffa: {
+      phaseOrder: ["classement"],
+      phases: { classement: { label: "Classement", places: {}, defaultPoints: 1, countsAsFinal: true } },
+    },
+  },
+  rewards: {
+    major: {
+      name: "Plutonium",
+      currency: "P",
+      places: { "1": 750, "2": 400, "3": 250 },
+      ranges: [{ min: 4, max: 15, points: 100 }],
+    },
+  },
+};
+
+const rewardMajor: Tournament = {
+  slug: "major-rewards",
+  name: "Major Rewards",
+  date: "2026-08-02",
+  format: "ffa",
+  tier: "major",
+  participants: 16,
+  phases: [
+    {
+      id: "classement",
+      type: "classement",
+      placements: Array.from({ length: 16 }, (_, i) => ({ player: `P${i + 1}`, place: i + 1 })),
+    },
+  ],
+};
+
+test("rewardPoints : grille Plutonium du tier major (1er 750, 2e 400, 3e 250, 4e-15e 100)", () => {
+  const r = (place: number) => rewardPoints(rewardScoring, rewardMajor, place);
+  assert.equal(r(1), 750);
+  assert.equal(r(2), 400);
+  assert.equal(r(3), 250);
+  assert.equal(r(4), 100);
+  assert.equal(r(10), 100);
+  assert.equal(r(15), 100);
+  assert.equal(r(16), 0); // hors grille
+});
+
+test("rewardPoints : 0 sans grille (minor), sans place, ou tier sans rewards", () => {
+  const minor: Tournament = { ...rewardMajor, tier: "minor", slug: "minor-no-rewards" };
+  assert.equal(rewardPoints(rewardScoring, minor, 1), 0);
+  assert.equal(rewardPoints(rewardScoring, rewardMajor, null), 0);
+  const noRewards: ScoringConfig = { ...rewardScoring, rewards: undefined };
+  assert.equal(rewardPoints(noRewards, rewardMajor, 1), 0);
 });

@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getPlayer, getPlayers, getScoring, getTournament, getTournaments } from "@/lib/data";
-import { basePoints, isFinalPhase, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
-import TournamentDetailView, { type DetailPhase, type DetailPlayer, type TournamentStatsRow } from "@/components/tournament-detail-view";
+import { basePoints, isFinalPhase, phaseUsesTierMultiplier, rewardPoints, tierMultiplier } from "@/lib/pr";
+import TournamentDetailView, { type DetailPhase, type DetailPlayer, type RewardInfo, type TournamentStatsRow } from "@/components/tournament-detail-view";
 import { computeTournamentPlayerStats } from "@/lib/tournament-stats";
 import { getDict } from "@/i18n";
 
@@ -40,19 +40,28 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
   const finalOrder = new Map(
     (finalPhase?.placements ?? []).map((p) => [p.player, p.place ?? Infinity] as const),
   );
+  const rewardConf = scoring.rewards?.[tn.tier];
+  const reward: RewardInfo = rewardConf
+    ? { currency: rewardConf.currency, name: rewardConf.name, active: true }
+    : { currency: "P", name: "Plutonium", active: false };
+
   const statsRows: TournamentStatsRow[] = [...playerStats.entries()]
-    .map(([playerId, s]) => ({
-      playerId,
-      place: finalOrder.get(playerId) ?? null,
-      gamesPlayed: s.gamesPlayed,
-      wins: s.wins,
-      kills: s.kills,
-      survived: s.survived,
-      bestPlace: s.bestPlace,
-      furthestStage: s.furthestStage,
-      playtimeMin: s.playtimeMin,
-      avgGamePoints: s.avgGamePoints,
-    }))
+    .map(([playerId, s]) => {
+      const finalPlace = finalOrder.get(playerId) ?? null;
+      return {
+        playerId,
+        place: finalPlace,
+        gamesPlayed: s.gamesPlayed,
+        wins: s.wins,
+        kills: s.kills,
+        survived: s.survived,
+        bestPlace: s.bestPlace,
+        furthestStage: s.furthestStage,
+        playtimeMin: s.playtimeMin,
+        avgGamePoints: s.avgGamePoints,
+        reward: rewardConf ? rewardPoints(scoring, tn, finalPlace) : 0,
+      };
+    })
     .sort((a, b) => (a.place ?? Infinity) - (b.place ?? Infinity));
 
   const phases: DetailPhase[] = [...tn.phases]
@@ -73,12 +82,14 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
           .sort((a, b) => (a.place ?? Infinity) - (b.place ?? Infinity))
           .map((p) => {
             const pl = getPlayer(p.player);
+            const place = p.place ?? null;
             return {
               playerId: p.player,
               name: pl?.name ?? p.player,
               clan: pl?.clan ?? null,
-              place: p.place ?? null,
-              points: Math.round(basePoints(scoring, tn, phase.type, p.place ?? null) * phaseMult),
+              place,
+              points: Math.round(basePoints(scoring, tn, phase.type, place) * phaseMult),
+              reward: rewardConf ? rewardPoints(scoring, tn, place) : 0,
             };
           }),
       };
@@ -98,6 +109,7 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       details={tn.details}
       playerIndex={playerIndex}
       stats={statsRows}
+      reward={reward}
     />
   );
 }

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { FormatBadge, PlaceNumber, SampleBadge, SectionTitle, TierBadge, Avatar } from "@/components/ui";
+import { Avatar, FormatBadge, InfoTip, PlaceNumber, SampleBadge, SectionTitle, TierBadge } from "@/components/ui";
 import { Icon } from "@/components/icons";
 import { formatDate, formatPoints } from "@/lib/format";
 import type { TournamentDetails, TournamentRound } from "@/lib/types";
@@ -15,6 +15,8 @@ export interface DetailRow {
   clan: string | null;
   place: number | null;
   points: number;
+  /** Récompense (monnaie du tier, ex. Plutonium) — 0 si aucune. */
+  reward?: number;
 }
 
 export interface DetailPhase {
@@ -42,6 +44,16 @@ export interface TournamentStatsRow {
   furthestStage: string | null;
   playtimeMin: number;
   avgGamePoints: number | null;
+  /** Récompense (monnaie du tier, ex. Plutonium) — 0 si aucune. */
+  reward?: number;
+}
+
+/** Grille de récompenses affichée dans les en-têtes (monnaie + tooltip). */
+export interface RewardInfo {
+  currency: string;
+  name: string;
+  /** Si vrai, les montants sont affichés (grille du tier). */
+  active: boolean;
 }
 
 const STAGE_ORDER: Record<string, number> = { qualifier: 1, semifinal: 2, final: 3 };
@@ -91,6 +103,7 @@ export default function TournamentDetailView({
   details,
   playerIndex,
   stats = [],
+  reward,
 }: {
   name: string;
   date: string;
@@ -104,6 +117,7 @@ export default function TournamentDetailView({
   details?: TournamentDetails;
   playerIndex: Record<string, DetailPlayer>;
   stats?: TournamentStatsRow[];
+  reward?: RewardInfo;
 }) {
   const { t, locale } = useI18n();
   const [openGames, setOpenGames] = useState<Set<string>>(new Set());
@@ -319,6 +333,13 @@ export default function TournamentDetailView({
                     <th className="micro-label px-4 py-3">{t.tournaments.furthestStage}</th>
                     <th className="micro-label px-4 py-3 text-right">{t.tournaments.playtime}</th>
                     <th className="micro-label px-4 py-3 text-right">{t.tournaments.avgGamePoints}</th>
+                    {reward?.active ? (
+                      <th className="micro-label px-4 py-3 text-right">
+                        <span className="inline-flex items-center gap-1">
+                          {reward.currency} <InfoTip text={t.tournaments.rewardHint} />
+                        </span>
+                      </th>
+                    ) : null}
                   </tr>
                 </thead>
                 <tbody>
@@ -359,6 +380,11 @@ export default function TournamentDetailView({
                         <td className="num px-4 py-2.5 text-right font-bold">
                           {s.avgGamePoints != null ? s.avgGamePoints.toLocaleString(locale, { maximumFractionDigits: 1 }) : "—"}
                         </td>
+                        {reward?.active ? (
+                          <td className="num px-4 py-2.5 text-right font-extrabold text-gold">
+                            {formatPoints(s.reward ?? 0, locale)} {reward.currency}
+                          </td>
+                        ) : null}
                       </tr>
                     );
                   })}
@@ -383,6 +409,13 @@ export default function TournamentDetailView({
                       {t.common.points}
                       {phase.showsMultiplier ? ` (×${multiplier})` : ""}
                     </th>
+                    {reward?.active ? (
+                      <th className="micro-label px-4 py-3 text-right">
+                        <span className="inline-flex items-center gap-1">
+                          {reward.currency} <InfoTip text={t.tournaments.rewardHint} />
+                        </span>
+                      </th>
+                    ) : null}
                   </tr>
                 </thead>
                 <tbody>
@@ -408,6 +441,11 @@ export default function TournamentDetailView({
                       <td className="num px-4 py-2.5 text-right font-extrabold gradient-text">
                         +{formatPoints(r.points, locale)}
                       </td>
+                      {reward?.active ? (
+                        <td className="num px-4 py-2.5 text-right font-extrabold text-gold">
+                          {formatPoints(r.reward ?? 0, locale)} {reward.currency}
+                        </td>
+                      ) : null}
                     </tr>
                   ))}
                 </tbody>

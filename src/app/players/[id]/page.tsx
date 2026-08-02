@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getLeaderboard, getPlayer, getPlayerPR, getPlayers, getScoring, getTournament } from "@/lib/data";
-import { isFinalPhase } from "@/lib/pr";
+import { isFinalPhase, rewardPoints } from "@/lib/pr";
 import PlayerView, { type PlayerGameRow, type PlayerViewGroup } from "@/components/player-view";
 import type { PRChartPoint } from "@/components/pr-chart";
 import type { Tournament } from "@/lib/types";
@@ -89,6 +89,18 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
     }
   }
 
+  // Total Plutonium gagné par le joueur sur les tournois Major
+  // (récompenses de la grille rewards.<tier> pour chaque place finale).
+  let plutonium = 0;
+  if (pr) {
+    for (const a of pr.awards) {
+      const tournament = getTournament(a.tournamentSlug);
+      if (!tournament) continue;
+      if (!isFinalPhase(scoring, tournament, a.phaseType)) continue;
+      plutonium += rewardPoints(scoring, tournament, a.place ?? null);
+    }
+  }
+
   // Points de la courbe : chronologiques, avec cumul progressif.
   let running = 0;
   const chart: PRChartPoint[] = [...groups]
@@ -127,6 +139,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
       }
       groups={groups}
       chart={chart}
+      plutonium={plutonium}
     />
   );
 }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { Avatar, FormatBadge, PlaceNumber, TierBadge } from "@/components/ui";
+import { Avatar, FormatBadge, InfoTip, PlaceNumber, TierBadge } from "@/components/ui";
 import { Icon } from "@/components/icons";
 import PRChart, { type PRChartPoint } from "@/components/pr-chart";
 import LiveStats from "@/components/live-stats";
@@ -59,6 +59,8 @@ export interface PlayerViewProps {
   } | null;
   groups: PlayerViewGroup[];
   chart: PRChartPoint[];
+  /** Total Plutonium gagné sur les tournois Major (0 si aucun). */
+  plutonium: number;
 }
 
 function Metric({
@@ -88,6 +90,7 @@ export default function PlayerView({
   pr,
   groups,
   chart,
+  plutonium,
 }: PlayerViewProps) {
   const { t, locale, fmt } = useI18n();
   const [openSlugs, setOpenSlugs] = useState<Set<string>>(new Set());
@@ -162,6 +165,22 @@ export default function PlayerView({
                   value={pr.avgPlace == null ? "—" : `#${pr.avgPlace.toFixed(1)}`}
                 />
               </div>
+            </div>
+          </div>
+        ) : null}
+
+        {pr && plutonium > 0 ? (
+          <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-line bg-[#fdf7ea] px-6 py-4 lg:px-8">
+            <div className="flex items-center gap-2">
+              <Icon name="medal" size="sm" className="text-gold" />
+              <span className="text-sm font-black">{t.common.rewards}</span>
+              <InfoTip text={t.common.plutoniumHint} />
+            </div>
+            <div className="flex items-baseline gap-1.5">
+              <span className="num text-2xl font-black leading-none text-gold">
+                {formatPoints(plutonium, locale)}
+              </span>
+              <span className="text-xs font-bold text-muted">{t.common.plutonium} (P)</span>
             </div>
           </div>
         ) : null}
