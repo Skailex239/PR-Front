@@ -173,6 +173,32 @@ tr:hover .num, a:hover .num { color: var(--color-accent-strong); }
 .summer-ffa-card:hover { border-color: #1e3a8a; box-shadow: 0 17px 32px rgba(30, 64, 175, .4); }
 .summer-ffa-mark { position: absolute; right: -8px; bottom: -12px; color: rgba(255,255,255,.3); transform: rotate(-14deg); }
 
+/* ---------- Carte Major : liseré doré léger (même série, un cran au-dessus) ---------- */
+.major-card {
+  box-shadow:
+    0 0 0 2px rgba(201, 147, 43, .30),
+    0 0 0 5px rgba(201, 147, 43, .07),
+    0 8px 20px rgba(29, 78, 216, .3);
+}
+.major-card:hover {
+  box-shadow:
+    0 0 0 2px rgba(201, 147, 43, .50),
+    0 0 0 6px rgba(201, 147, 43, .12),
+    0 17px 32px rgba(30, 64, 175, .4);
+}
+
+/* ---------- Icône Plutonium (reprise officielle OpenFront, atome vert) ---------- */
+@keyframes plutonium-spin {
+  to { transform: rotate(360deg); }
+}
+.plutonium-spin {
+  animation: plutonium-spin 7s linear infinite;
+  transform-origin: 50% 50%;
+}
+.plutonium-glow {
+  filter: drop-shadow(0 0 4px rgba(34, 197, 94, .55));
+}
+
 /* ---------- Transitions enrichies ---------- */
 @keyframes summer-heat {
   0%, 100% { background-position: 0% 50%, 100% 0%, 0% 100%, 0% 50%; }

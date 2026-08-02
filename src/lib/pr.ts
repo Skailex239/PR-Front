@@ -83,6 +83,28 @@ export function tierMultiplier(scoring: ScoringConfig, tournament: Tournament): 
   return scoring.tiers[tournament.tier] ?? 1;
 }
 
+/**
+ * Récompense (monnaie du tier, ex. Plutonium) d'un joueur pour une place
+ * finale donnée. 0 si le tier n'a pas de grille de récompenses ou si la
+ * place est hors grille.
+ */
+export function rewardPoints(
+  scoring: ScoringConfig,
+  tournament: Tournament,
+  place: number | null,
+): number {
+  const conf = scoring.rewards?.[tournament.tier];
+  if (!conf || place == null) return 0;
+  if (conf.places[String(place)] != null) return conf.places[String(place)];
+  if (conf.ranges) {
+    const range = conf.ranges.find(
+      (r) => place >= r.min && (r.max == null || place <= r.max),
+    );
+    if (range) return range.points;
+  }
+  return 0;
+}
+
 /** Calcule le PR de tous les joueurs apparaissant dans les tournois donnés. */
 export function computePlayerPRs(
   tournaments: Tournament[],

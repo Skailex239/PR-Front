@@ -38,13 +38,17 @@ Le site est prêt pour GitHub Pages. Mise en place (3 étapes, une seule fois) :
 
 - **Points par phase atteinte** (style FNCS) : chaque phase d'un tournoi (qualifications,
   demi-finale, finale…) attribue des points selon le placement.
-- **Multiplicateur de tier** : `major ×1.5`, `standard ×1.0`, `minor ×0.5`.
+- **Multiplicateur de tier** : `major ×2.5`, `standard ×1.0`, `minor ×0.5`.
 - **Aucune décroissance** : tous les résultats comptent, cumul à vie.
 - **Trois formats gérés** : FFA multi-manches, bracket 1v1, et `minor`
   (classement battle royale géant par tranches de placement, ex. 1er = 1000 pts,
   11e-15e = 220 pts, 100e et au-delà = 3 pts — voir `data/scoring.config.json`).
   Le barème `minor` inclut déjà ses points finaux : le multiplicateur de tier
   n'est **pas** réappliqué par-dessus.
+- **Récompenses** (`rewards` dans le barème) : chaque tier peut avoir une grille
+  de récompenses affichée sur les tournois et les profils. Les **Majors**
+  distribuent du **Plutonium (P)** : 1er = 750 P, 2e = 400 P, 3e = 250 P,
+  4e-15e = 100 P (16e et plus = 0 P).
 - Le barème complet est dans **[`data/scoring.config.json`](data/scoring.config.json)** —
   c'est le seul fichier à modifier pour changer la grille de points.
 
@@ -101,10 +105,20 @@ Les données vivent dans le dossier [`data/`](data/) — aucune base de données
 }
 ```
 
-Les données actuelles sont les **vrais résultats des OpenFront Minors** (voir
-`data/tournaments/openfront-minor-*.json`). Le badge « Données d'exemple » ne
-s'affiche que si un tournoi a `"sample": true` — pratique pour tester de
-nouveaux tournois avant de les valider officiellement.
+Les données actuelles sont les **vrais résultats du circuit 2026 Summer FFA** :
+le **Major** (`data/tournaments/2026-summer-ffa-major.json`, tier major ×2.5) et
+les **Minors** (`data/tournaments/openfront-minor-*.json`,
+`2026-summer-ffa-minor-4.json`). Le badge « Données d'exemple » ne s'affiche que
+si un tournoi a `"sample": true` — pratique pour tester de nouveaux tournois
+avant de les valider officiellement.
+
+Chaque partie (`details.games[].entries[].results[]`) peut porter le détail
+OpenFront complet : `points` (score de la partie), `placementPoints`,
+`killPoints`, `top5Bonus`, `reachBonus`, `result` (`survived`/`eliminated`),
+`minutes` et `finalTiles`. Les rounds portent aussi un `stage`
+(`qualifier`/`semifinal`/`final`) pour regrouper l'affichage par phase, et le
+site calcule un tableau « Stats du tournoi » (parties, kills, survécues,
+meilleure place, stage atteint, temps de jeu, points/partie).
 
 ### Tournois `minor` (classement par tranches, gros effectif)
 
@@ -138,6 +152,14 @@ points exacts pour les 10 premières places puis des **tranches** (`ranges`, ex.
 `{ "min": 11, "max": 15, "points": 220 }` ou `{ "min": 100, "max": null, "points": 3 }`
 pour « 100e et au-delà »). Cette phase compte aussi comme le classement final du
 joueur pour ses stats (victoires, top 3, meilleure place).
+
+### Majors FFA : même grille, multiplicateur appliqué
+
+Le **2026 Summer FFA Major** (format `ffa`, tier `major`) est noté sur la même
+grille « classement » (1er = 1000 pts, 100e+ = 3 pts — voir
+`scoring.config.json` → `formats.ffa.phases.classement`), mais **sans**
+`ignoreTierMultiplier` : le multiplicateur du tier s'applique, donc
+**major ×2.5** → 1er = 1000 × 2.5 = **+2500 PR**.
 
 ## <img src="public/icons/rocket.svg" width="20" height="20" alt="" align="absmiddle"> Développement
 

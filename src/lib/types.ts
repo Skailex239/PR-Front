@@ -42,6 +42,22 @@ export interface TournamentGameResult {
   place: number;
   /** Kills du joueur dans la partie (si renseignés). */
   kills?: number;
+  /** Score OpenFront de la partie (points totaux). */
+  points?: number;
+  /** Points de placement dans la partie. */
+  placementPoints?: number;
+  /** Bonus top 5. */
+  top5Bonus?: number;
+  /** Points de kills. */
+  killPoints?: number;
+  /** Bonus d'atteinte de phase (ex. 200 pour rejoindre la finale). */
+  reachBonus?: number;
+  /** "survived" si le joueur a survécu jusqu'à la fin, "eliminated" sinon. */
+  result?: string;
+  /** Temps de jeu en minutes. */
+  minutes?: number;
+  /** Tuiles contrôlées en fin de partie. */
+  finalTiles?: number;
 }
 
 export interface TournamentGame {
@@ -50,6 +66,8 @@ export interface TournamentGame {
   players: number;
   gameUrl?: string;
   replayUrl?: string;
+  /** Carte jouée (si renseignée). */
+  map?: string;
   /** Pseudo du vainqueur de la partie (donné par l'organisateur). */
   winner?: string;
   /** Résultats individuels dans cette partie, si renseignés. */
@@ -59,6 +77,8 @@ export interface TournamentGame {
 export interface TournamentRound {
   round: string;
   entries: TournamentGame[];
+  /** Phase du tournoi : "qualifier" | "semifinal" | "final" (si connue). */
+  stage?: string;
 }
 
 export interface TournamentDetails {
@@ -160,9 +180,23 @@ export interface ScoringFormat {
   phases: Record<string, ScoringPhase>;
 }
 
+/** Grille de récompenses d'un tier (ex. Plutonium pour les Majors). */
+export interface ScoringReward {
+  /** Nom de la monnaie, ex. "Plutonium". */
+  name: string;
+  /** Symbole affiché, ex. "P". */
+  currency: string;
+  /** Montant par placement exact, ex. { "1": 750, "2": 400, "3": 250 }. */
+  places: Record<string, number>;
+  /** Tranches de placements, ex. 4e-15e → 100. */
+  ranges?: ScoringPlaceRange[];
+}
+
 export interface ScoringConfig {
   tiers: Record<string, number>;
   formats: Record<string, ScoringFormat>;
+  /** Récompenses par tier (optionnel) — ex. rewards.major = Plutonium. */
+  rewards?: Record<string, ScoringReward>;
 }
 
 /** Attribution de points unitaire (une phase d'un tournoi pour un joueur). */

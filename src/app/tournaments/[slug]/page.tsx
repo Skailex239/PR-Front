@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getPlayer, getScoring, getTournament, getTournaments } from "@/lib/data";
-import { basePoints, phaseUsesTierMultiplier, tierMultiplier } from "@/lib/pr";
-import TournamentDetailView, { type DetailPhase } from "@/components/tournament-detail-view";
+import { getPlayer, getPlayers, getScoring, getTournament, getTournaments } from "@/lib/data";
+import { basePoints, isFinalPhase, phaseUsesTierMultiplier, rewardPoints, tierMultiplier } from "@/lib/pr";
+import TournamentDetailView, { type DetailPhase, type DetailPlayer, type RewardInfo, type TournamentStatsRow } from "@/components/tournament-detail-view";
+import { computeTournamentPlayerStats } from "@/lib/tournament-stats";
 import { getDict } from "@/i18n";
 
 const t = getDict();
@@ -29,6 +30,39 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
   const scoring = getScoring();
   const mult = tierMultiplier(scoring, tn);
   const order = scoring.formats[tn.format]?.phaseOrder ?? [];
+  const playerIndex: Record<string, DetailPlayer> = Object.fromEntries(
+    getPlayers().map((p) => [p.discordId, { name: p.name, clan: p.clan ?? null }]),
+  );
+
+  // Stats par joueur sur les parties, ordonnées par classement final.
+  const playerStats = computeTournamentPlayerStats(tn);
+  const finalPhase = tn.phases.find((p) => isFinalPhase(scoring, tn, p.type));
+  const finalOrder = new Map(
+    (finalPhase?.placements ?? []).map((p) => [p.player, p.place ?? Infinity] as const),
+  );
+  const rewardConf = scoring.rewards?.[tn.tier];
+  const reward: RewardInfo = rewardConf
+    ? { currency: rewardConf.currency, name: rewardConf.name, active: true }
+    : { currency: "P", name: "Plutonium", active: false };
+
+  const statsRows: TournamentStatsRow[] = [...playerStats.entries()]
+    .map(([playerId, s]) => {
+      const finalPlace = finalOrder.get(playerId) ?? null;
+      return {
+        playerId,
+        place: finalPlace,
+        gamesPlayed: s.gamesPlayed,
+        wins: s.wins,
+        kills: s.kills,
+        survived: s.survived,
+        bestPlace: s.bestPlace,
+        furthestStage: s.furthestStage,
+        playtimeMin: s.playtimeMin,
+        avgGamePoints: s.avgGamePoints,
+        reward: rewardConf ? rewardPoints(scoring, tn, finalPlace) : 0,
+      };
+    })
+    .sort((a, b) => (a.place ?? Infinity) - (b.place ?? Infinity));
 
   const phases: DetailPhase[] = [...tn.phases]
     .sort((a, b) => {
@@ -48,12 +82,14 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
           .sort((a, b) => (a.place ?? Infinity) - (b.place ?? Infinity))
           .map((p) => {
             const pl = getPlayer(p.player);
+            const place = p.place ?? null;
             return {
               playerId: p.player,
               name: pl?.name ?? p.player,
               clan: pl?.clan ?? null,
-              place: p.place ?? null,
-              points: Math.round(basePoints(scoring, tn, phase.type, p.place ?? null) * phaseMult),
+              place,
+              points: Math.round(basePoints(scoring, tn, phase.type, place) * phaseMult),
+              reward: rewardConf ? rewardPoints(scoring, tn, place) : 0,
             };
           }),
       };
@@ -71,6 +107,9 @@ export default async function TournamentPage({ params }: { params: Promise<{ slu
       multiplier={mult}
       phases={phases}
       details={tn.details}
+      playerIndex={playerIndex}
+      stats={statsRows}
+      reward={reward}
     />
   );
 }

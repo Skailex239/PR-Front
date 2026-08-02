@@ -4,11 +4,11 @@
  */
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { computeLeaderboard, computePlayerPRs } from "./pr.ts";
+import { computeLeaderboard, computePlayerPRs, rewardPoints } from "./pr.ts";
 import type { ScoringConfig, Tournament } from "./types.ts";
 
 const scoring: ScoringConfig = {
-  tiers: { standard: 1, major: 1.5 },
+  tiers: { standard: 1, major: 2.5 },
   formats: {
     ffa: {
       phaseOrder: ["qualifications", "finale"],
@@ -74,8 +74,8 @@ test("cumul des points par phase + participation", () => {
 
 test("multiplicateur de tier appliqué et arrondi", () => {
   const prs = computePlayerPRs([bracket], scoring);
-  assert.equal(prs.get("A")?.points, 90); // 60 × 1.5
-  assert.equal(prs.get("C")?.points, 15); // 10 × 1.5 (participation demi)
+  assert.equal(prs.get("A")?.points, 150); // 60 × 2.5
+  assert.equal(prs.get("C")?.points, 25); // 10 × 2.5 (participation demi)
 });
 
 test("stats de tournoi : victoires, top3, meilleure place, moyenne", () => {
@@ -97,10 +97,10 @@ test("classement trié et rangs corrects", () => {
     [{ discordId: "A", name: "Alice" }, { discordId: "B", name: "Bob" }],
     scoring,
   );
-  assert.equal(lb[0].playerId, "A"); // 192 pts
+  assert.equal(lb[0].playerId, "A"); // 102 + 150 = 252 pts
   assert.equal(lb[0].rank, 1);
-  assert.equal(lb[1].playerId, "B"); // 142 pts
-  assert.equal(lb[2].playerId, "C"); // 33 pts
+  assert.equal(lb[1].playerId, "B"); // 82 + 100 = 182 pts
+  assert.equal(lb[2].playerId, "C"); // 18 + 25 = 43 pts
   assert.equal(lb[0].player?.name, "Alice");
   assert.equal(lb[2].player, null); // C inconnu dans players.json → null toléré
 });
@@ -192,4 +192,124 @@ test("countsAsFinal: true fait compter la phase comme le classement final (victo
   assert.equal(prs.get("A")?.wins, 1);
   assert.equal(prs.get("A")?.bestPlace, 1);
   assert.equal(prs.get("B")?.bestPlace, 13);
+});
+
+// ---------- Structure d'un FFA Major (grand classement final, tier major ×2.5) ----------
+
+const majorScoring: ScoringConfig = {
+  tiers: { major: 2.5, standard: 1 },
+  formats: {
+    ffa: {
+      phaseOrder: ["classement"],
+      phases: {
+        classement: {
+          label: "Classement",
+          places: {
+            "1": 1000, "2": 750, "3": 600, "4": 500, "5": 430,
+            "6": 380, "7": 340, "8": 310, "9": 285, "10": 260,
+          },
+          ranges: [
+            { min: 11, max: 15, points: 220 },
+            { min: 100, max: null, points: 3 },
+          ],
+          defaultPoints: 1,
+          countsAsFinal: true,
+        },
+      },
+    },
+  },
+};
+
+const majorCup: Tournament = {
+  slug: "ffa-major",
+  name: "FFA Major",
+  date: "2026-08-02",
+  format: "ffa",
+  tier: "major",
+  participants: 128,
+  phases: [
+    {
+      id: "classement",
+      type: "classement",
+      placements: Array.from({ length: 128 }, (_, i) => ({ player: `P${i + 1}`, place: i + 1 })),
+    },
+  ],
+};
+
+test("FFA Major : grille classement × 2.5 (1er = 1000 pts → +2500 PR)", () => {
+  const prs = computePlayerPRs([majorCup], majorScoring);
+  assert.equal(prs.get("P1")?.points, 2500); // 1000 × 2.5
+  assert.equal(prs.get("P2")?.points, 1875); // 750 × 2.5
+  assert.equal(prs.get("P3")?.points, 1500); // 600 × 2.5
+  assert.equal(prs.get("P4")?.points, 1250); // 500 × 2.5
+  assert.equal(prs.get("P9")?.points, 713); // 285 × 2.5 (arrondi)
+  assert.equal(prs.get("P10")?.points, 650); // 260 × 2.5
+  assert.equal(prs.get("P11")?.points, 550); // tranche 11-15 : 220 × 2.5
+  assert.equal(prs.get("P128")?.points, 8); // tranche 100+ : 3 × 2.5 (arrondi)
+});
+
+test("FFA Major : le classement compte comme finale (victoire, top 3, meilleure place)", () => {
+  const prs = computePlayerPRs([majorCup], majorScoring);
+  assert.equal(prs.get("P1")?.wins, 1);
+  assert.equal(prs.get("P1")?.top3, 1);
+  assert.equal(prs.get("P1")?.bestPlace, 1);
+  assert.equal(prs.get("P3")?.top3, 1);
+  assert.equal(prs.get("P4")?.top3, 0);
+  assert.equal(prs.get("P128")?.bestPlace, 128);
+  assert.equal(prs.get("P128")?.avgPlace, 128);
+});
+
+// ---------- Récompenses Plutonium (grille des tournois tier major) ----------
+
+const rewardScoring: ScoringConfig = {
+  tiers: { major: 2.5, minor: 0.5 },
+  formats: {
+    ffa: {
+      phaseOrder: ["classement"],
+      phases: { classement: { label: "Classement", places: {}, defaultPoints: 1, countsAsFinal: true } },
+    },
+  },
+  rewards: {
+    major: {
+      name: "Plutonium",
+      currency: "P",
+      places: { "1": 750, "2": 400, "3": 250 },
+      ranges: [{ min: 4, max: 15, points: 100 }],
+    },
+  },
+};
+
+const rewardMajor: Tournament = {
+  slug: "major-rewards",
+  name: "Major Rewards",
+  date: "2026-08-02",
+  format: "ffa",
+  tier: "major",
+  participants: 16,
+  phases: [
+    {
+      id: "classement",
+      type: "classement",
+      placements: Array.from({ length: 16 }, (_, i) => ({ player: `P${i + 1}`, place: i + 1 })),
+    },
+  ],
+};
+
+test("rewardPoints : grille Plutonium du tier major (1er 750, 2e 400, 3e 250, 4e-15e 100)", () => {
+  const r = (place: number) => rewardPoints(rewardScoring, rewardMajor, place);
+  assert.equal(r(1), 750);
+  assert.equal(r(2), 400);
+  assert.equal(r(3), 250);
+  assert.equal(r(4), 100);
+  assert.equal(r(10), 100);
+  assert.equal(r(15), 100);
+  assert.equal(r(16), 0); // hors grille
+});
+
+test("rewardPoints : 0 sans grille (minor), sans place, ou tier sans rewards", () => {
+  const minor: Tournament = { ...rewardMajor, tier: "minor", slug: "minor-no-rewards" };
+  assert.equal(rewardPoints(rewardScoring, minor, 1), 0);
+  assert.equal(rewardPoints(rewardScoring, rewardMajor, null), 0);
+  const noRewards: ScoringConfig = { ...rewardScoring, rewards: undefined };
+  assert.equal(rewardPoints(noRewards, rewardMajor, 1), 0);
 });

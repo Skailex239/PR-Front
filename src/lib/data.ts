@@ -27,7 +27,7 @@ export const getPlayers = cache((): Player[] => {
 
 export const getScoring = cache((): ScoringConfig => {
   const raw = readJson<ScoringConfig & { _note?: string }>("scoring.config.json");
-  return { tiers: raw.tiers ?? {}, formats: raw.formats ?? {} };
+  return { tiers: raw.tiers ?? {}, formats: raw.formats ?? {}, rewards: raw.rewards ?? {} };
 });
 
 export const getTournaments = cache((): Tournament[] => {

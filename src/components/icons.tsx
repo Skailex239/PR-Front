@@ -42,7 +42,7 @@ export function Icon({ name, size = "sm", className = "", title, strokeWidth }: 
 
   return (
     <svg
-      viewBox="0 0 24 24"
+      viewBox={def.viewBox ?? "0 0 24 24"}
       className={`inline-block shrink-0 ${hasSize ? "" : SIZES[size]} ${className}`.trim()}
       fill="none"
       stroke="currentColor"
@@ -57,7 +57,7 @@ export function Icon({ name, size = "sm", className = "", title, strokeWidth }: 
       {title ? <title>{title}</title> : null}
       {def.paths.map((p, i) =>
         p.fill ? (
-          <path key={i} d={p.d} fill="currentColor" stroke="none" />
+          <path key={i} d={p.d} fill={def.fillColor ?? "currentColor"} stroke="none" />
         ) : (
           <path key={i} d={p.d} strokeWidth={p.width ?? stroke} />
         ),
